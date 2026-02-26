@@ -1,0 +1,29 @@
+{
+  "name": "bengalbird",
+  "version": "0.1.0",
+  "description": "This is a simple language learning browser app to learn basic levels of Bengali. based on Japanese.",
+  "keywords": [
+    "language",
+    "learning",
+    "web",
+    "nodejs"
+  ],
+  "homepage": "https://github.com/tomoutsuki/BengalBird#readme",
+  "bugs": {
+    "url": "https://github.com/tomoutsuki/BengalBird/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomoutsuki/BengalBird.git"
+  },
+  "license": "MIT",
+  "author": "tomoutsuki",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

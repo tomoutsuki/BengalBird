@@ -1,0 +1,25 @@
+{
+    "chapters": [
+        {
+            "id": "ch1",
+            "title": {
+                "en": "Chapter 1: Greetings & Basics",
+                "ja": "第1章：挨拶と基本"
+            },
+            "description": {
+                "en": "Learn basic Bengali greetings, introductions, and simple phrases.",
+                "ja": "ベンガル語の基本的な挨拶、自己紹介、簡単なフレーズを学びましょう。"
+            },
+            "sections": [
+                {
+                    "id": "ch1_s1",
+                    "title": {
+                        "en": "Section 1: Hello & Goodbye",
+                        "ja": "セクション1：こんにちは＆さようなら"
+                    },
+                    "lessons": ["lesson1"]
+                }
+            ]
+        }
+    ]
+}

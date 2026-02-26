@@ -1,0 +1,239 @@
+{
+    "_schema_doc": {
+        "description": "Each lesson file contains lesson metadata and an array of exercises.",
+        "fields": {
+            "id": "Unique lesson identifier (string)",
+            "title": "Object with 'en' and 'ja' keys for localized title",
+            "description": "Object with 'en' and 'ja' keys for localized description",
+            "exercises": "Array of exercise objects",
+            "exercise.type": "One of: grammar-sort, grammar-select, grammar-write, reading, conversation, listening",
+            "exercise.question": "Localized question/prompt object {en, ja}",
+            "exercise.bengali": "Bengali text relevant to the exercise (optional)",
+            "exercise.romanized": "Romanized Bengali text (optional)",
+            "exercise.options": "Array of answer options (for select/conversation)",
+            "exercise.correctOrder": "Array of words in correct order (for sort)",
+            "exercise.correctAnswer": "The correct answer string or index",
+            "exercise.passage": "Localized reading passage object (for reading type)",
+            "exercise.audio": "Relative path to audio file (for listening type)",
+            "exercise.hint": "Localized hint object {en, ja} (optional)"
+        }
+    },
+    "id": "lesson1",
+    "title": {
+        "en": "Lesson 1: Basic Greetings",
+        "ja": "レッスン1：基本的な挨拶"
+    },
+    "description": {
+        "en": "Learn how to say hello, goodbye, and introduce yourself in Bengali.",
+        "ja": "ベンガル語で挨拶、別れの言葉、自己紹介を学びましょう。"
+    },
+    "exercises": [
+        {
+            "id": "ex1_grammar_sort",
+            "type": "grammar-sort",
+            "question": {
+                "en": "Arrange the words to form: \"Hello, how are you?\"",
+                "ja": "単語を並べ替えて「こんにちは、お元気ですか？」を作ってください。"
+            },
+            "words": ["আপনি", "কেমন", "নমস্কার,", "আছেন?"],
+            "correctOrder": ["নমস্কার,", "আপনি", "কেমন", "আছেন?"],
+            "hint": {
+                "en": "Start with the greeting word.",
+                "ja": "挨拶の言葉から始めてください。"
+            }
+        },
+        {
+            "id": "ex2_grammar_select",
+            "type": "grammar-select",
+            "question": {
+                "en": "What does \"নমস্কার\" mean?",
+                "ja": "「নমস্কার」はどういう意味ですか？"
+            },
+            "bengali": "নমস্কার",
+            "romanized": "Nomoshkar",
+            "options": [
+                {"text": {"en": "Hello", "ja": "こんにちは"}, "correct": true},
+                {"text": {"en": "Goodbye", "ja": "さようなら"}, "correct": false},
+                {"text": {"en": "Thank you", "ja": "ありがとう"}, "correct": false},
+                {"text": {"en": "Sorry", "ja": "ごめんなさい"}, "correct": false}
+            ],
+            "hint": {
+                "en": "This is the most common Bengali greeting.",
+                "ja": "これは最も一般的なベンガル語の挨拶です。"
+            }
+        },
+        {
+            "id": "ex3_grammar_write",
+            "type": "grammar-write",
+            "question": {
+                "en": "Write the Bengali word for \"Thank you\".",
+                "ja": "「ありがとう」をベンガル語で書いてください。"
+            },
+            "correctAnswer": "ধন্যবাদ",
+            "romanized": "Dhonnobad",
+            "acceptableAnswers": ["ধন্যবাদ", "ধন্যবাদ।"],
+            "hint": {
+                "en": "It starts with ধ (dho).",
+                "ja": "ধ（ドー）から始まります。"
+            }
+        },
+        {
+            "id": "ex4_reading",
+            "type": "reading",
+            "passage": {
+                "bengali": "রহিম বলল, \"নমস্কার! আমার নাম রহিম। আপনার নাম কী?\" করিম বলল, \"নমস্কার! আমার নাম করিম। আপনি কেমন আছেন?\" রহিম বলল, \"আমি ভালো আছি, ধন্যবাদ।\"",
+                "romanized": "Rohim bollo, \"Nomoshkar! Amar nam Rohim. Apnar nam ki?\" Korim bollo, \"Nomoshkar! Amar nam Korim. Apni kemon achhen?\" Rohim bollo, \"Ami bhalo achhi, dhonnobad.\"",
+                "en": "Rahim said, \"Hello! My name is Rahim. What is your name?\" Karim said, \"Hello! My name is Karim. How are you?\" Rahim said, \"I am fine, thank you.\"",
+                "ja": "ラヒムは言いました、「こんにちは！私の名前はラヒムです。あなたの名前は？」カリムは言いました、「こんにちは！私の名前はカリムです。お元気ですか？」ラヒムは言いました、「元気です、ありがとう。」"
+            },
+            "question": {
+                "en": "What is Rahim's response when asked how he is?",
+                "ja": "ラヒムは元気かと聞かれた時、何と答えましたか？"
+            },
+            "options": [
+                {"text": {"en": "I am fine, thank you", "ja": "元気です、ありがとう"}, "correct": true},
+                {"text": {"en": "My name is Rahim", "ja": "私の名前はラヒムです"}, "correct": false},
+                {"text": {"en": "What is your name?", "ja": "あなたの名前は？"}, "correct": false},
+                {"text": {"en": "Goodbye", "ja": "さようなら"}, "correct": false}
+            ],
+            "hint": {
+                "en": "Look at Rahim's last sentence.",
+                "ja": "ラヒムの最後の文を見てください。"
+            }
+        },
+        {
+            "id": "ex5_conversation",
+            "type": "conversation",
+            "scenario": {
+                "en": "You meet someone for the first time. They greet you:",
+                "ja": "初めて会った人が挨拶しています："
+            },
+            "dialogue": [
+                {
+                    "speaker": "Person",
+                    "text": {
+                        "bengali": "নমস্কার! আপনার নাম কী?",
+                        "romanized": "Nomoshkar! Apnar nam ki?",
+                        "en": "Hello! What is your name?",
+                        "ja": "こんにちは！あなたの名前は？"
+                    }
+                }
+            ],
+            "question": {
+                "en": "Choose the best response:",
+                "ja": "最も適切な返事を選んでください："
+            },
+            "options": [
+                {
+                    "text": {
+                        "bengali": "নমস্কার! আমার নাম সারা।",
+                        "en": "Hello! My name is Sara.",
+                        "ja": "こんにちは！私の名前はサラです。"
+                    },
+                    "correct": true
+                },
+                {
+                    "text": {
+                        "bengali": "আমি ভালো আছি।",
+                        "en": "I am fine.",
+                        "ja": "元気です。"
+                    },
+                    "correct": false
+                },
+                {
+                    "text": {
+                        "bengali": "ধন্যবাদ।",
+                        "en": "Thank you.",
+                        "ja": "ありがとう。"
+                    },
+                    "correct": false
+                }
+            ],
+            "hint": {
+                "en": "They asked for your name, so introduce yourself.",
+                "ja": "名前を聞かれたので、自己紹介しましょう。"
+            }
+        },
+        {
+            "id": "ex6_listening",
+            "type": "listening",
+            "audio": "assets/audio/listening/lesson1_listening1.m4a",
+            "question": {
+                "en": "Listen to the audio and select what was said.",
+                "ja": "音声を聞いて、何と言ったか選んでください。"
+            },
+            "options": [
+                {
+                    "text": {
+                        "bengali": "হ্যালো, আপনার সাথে পরিচিত হয়ে ভালো লাগলো",
+                        "en": "Hello, nice to meet you",
+                        "ja": "こんにちは、はじめまして"
+                    },
+                    "correct": true
+                },
+                {
+                    "text": {
+                        "bengali": "আমি ভালো আছি",
+                        "en": "I am fine",
+                        "ja": "元気です"
+                    },
+                    "correct": false
+                },
+                {
+                    "text": {
+                        "bengali": "আমার নাম রহিম",
+                        "en": "My name is Rahim",
+                        "ja": "私の名前はラヒムです"
+                    },
+                    "correct": false
+                },
+                {
+                    "text": {
+                        "bengali": "ধন্যবাদ",
+                        "en": "Thank you",
+                        "ja": "ありがとう"
+                    },
+                    "correct": false
+                }
+            ],
+            "hint": {
+                "en": "The speaker is greeting someone they just met.",
+                "ja": "話者は初めて会った人に挨拶しています。"
+            }
+        },
+        {
+            "id": "ex7_grammar_select2",
+            "type": "grammar-select",
+            "question": {
+                "en": "Which phrase means \"My name is...\"?",
+                "ja": "「私の名前は…」はどれですか？"
+            },
+            "bengali": "আমার নাম...",
+            "romanized": "Amar nam...",
+            "options": [
+                {"text": {"en": "আমার নাম", "ja": "আমার নাম"}, "correct": true},
+                {"text": {"en": "আপনার নাম", "ja": "আপনার নাম"}, "correct": false},
+                {"text": {"en": "তোমার নাম", "ja": "তোমার নাম"}, "correct": false},
+                {"text": {"en": "ওর নাম", "ja": "ওর নাম"}, "correct": false}
+            ],
+            "hint": {
+                "en": "\"আমার\" means \"my\".",
+                "ja": "「আমার」は「私の」という意味です。"
+            }
+        },
+        {
+            "id": "ex8_grammar_sort2",
+            "type": "grammar-sort",
+            "question": {
+                "en": "Arrange the words to say: \"My name is Karim.\"",
+                "ja": "単語を並べ替えて「私の名前はカリムです」を作ってください。"
+            },
+            "words": ["করিম।", "নাম", "আমার"],
+            "correctOrder": ["আমার", "নাম", "করিম।"],
+            "hint": {
+                "en": "Bengali follows Subject-Object-Verb order.",
+                "ja": "ベンガル語はSOV語順です。"
+            }
+        }
+    ]
+}

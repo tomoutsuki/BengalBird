@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BengalBird - Learn Bengali</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ===== Top Navigation Bar ===== -->
+    <header id="topbar">
+        <button id="menu-btn" class="icon-btn" aria-label="Menu">☰</button>
+        <h1 id="topbar-title">BengalBird</h1>
+        <div id="topbar-actions">
+            <button id="lang-toggle-btn" class="icon-btn" aria-label="Toggle Language">EN</button>
+            <button id="settings-btn" class="icon-btn" aria-label="Settings">⚙</button>
+        </div>
+    </header>
+
+    <!-- ===== Side Menu (Lesson Jump) ===== -->
+    <div id="menu-overlay" class="overlay hidden"></div>
+    <nav id="side-menu" class="hidden">
+        <div class="side-menu-header">
+            <h2 data-i18n="menu_title">Lessons</h2>
+            <button id="menu-close-btn" class="icon-btn" aria-label="Close Menu">✕</button>
+        </div>
+        <div id="menu-lesson-list"></div>
+    </nav>
+
+    <!-- ===== Settings Modal ===== -->
+    <div id="settings-overlay" class="overlay hidden"></div>
+    <div id="settings-modal" class="modal hidden">
+        <div class="modal-header">
+            <h2 data-i18n="settings_title">Settings</h2>
+            <button id="settings-close-btn" class="icon-btn" aria-label="Close">✕</button>
+        </div>
+        <div class="modal-body">
+            <div class="setting-row">
+                <label data-i18n="sfx_volume">Sound Effects Volume</label>
+                <input type="range" id="sfx-volume" min="0" max="100" value="70">
+                <span id="sfx-volume-label">70%</span>
+            </div>
+            <div class="setting-row">
+                <label data-i18n="audio_volume">Audio Volume</label>
+                <input type="range" id="audio-volume" min="0" max="100" value="80">
+                <span id="audio-volume-label">80%</span>
+            </div>
+            <div class="setting-row">
+                <label data-i18n="ui_language">Interface Language</label>
+                <select id="ui-language-select">
+                    <option value="en">English</option>
+                    <option value="ja">日本語</option>
+                </select>
+            </div>
+            <div class="setting-row">
+                <button id="reset-progress-btn" class="btn btn-danger" data-i18n="reset_progress">Reset All Progress</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== Main Content Area ===== -->
+    <main id="app">
+        <!-- Home Screen -->
+        <section id="screen-home" class="screen active">
+            <div class="home-hero">
+                <div class="hero-icon">🐦</div>
+                <h2>BengalBird</h2>
+                <p data-i18n="home_subtitle">Learn Bengali step by step</p>
+            </div>
+            <div id="chapter-list" class="chapter-list"></div>
+        </section>
+
+        <!-- Lesson Screen -->
+        <section id="screen-lesson" class="screen">
+            <div id="lesson-header">
+                <button id="back-btn" class="btn btn-secondary" data-i18n="back">← Back</button>
+                <div id="lesson-info">
+                    <h2 id="lesson-title"></h2>
+                    <p id="lesson-description"></p>
+                </div>
+            </div>
+            <div id="progress-bar-container">
+                <div id="progress-bar"></div>
+                <span id="progress-text">0 / 0</span>
+            </div>
+            <div id="exercise-container"></div>
+        </section>
+
+        <!-- Lesson Complete Screen -->
+        <section id="screen-complete" class="screen">
+            <div class="complete-content">
+                <div class="complete-icon">🎉</div>
+                <h2 data-i18n="lesson_complete">Lesson Complete!</h2>
+                <p id="complete-stats"></p>
+                <button id="complete-home-btn" class="btn btn-primary" data-i18n="back_to_home">Back to Home</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== Scripts ===== -->
+    <script src="js/i18n.js"></script>
+    <script src="js/progress.js"></script>
+    <script src="js/audio.js"></script>
+    <script src="js/exercises.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
