@@ -5,16 +5,19 @@
             "id": "Unique lesson identifier (string)",
             "title": "Object with 'en' and 'ja' keys for localized title",
             "description": "Object with 'en' and 'ja' keys for localized description",
+            "estimatedMinutes": "Estimated completion time in minutes (optional, calculated if absent)",
             "exercises": "Array of exercise objects",
-            "exercise.type": "One of: grammar-sort, grammar-select, grammar-write, reading, conversation, listening",
+            "exercise.type": "One of: grammar-sort, grammar-select, grammar-write, reading, conversation, listening, alphabet_listening, writing_keyboard, conversation_listening",
             "exercise.question": "Localized question/prompt object {en, ja}",
             "exercise.bengali": "Bengali text relevant to the exercise (optional)",
             "exercise.romanized": "Romanized Bengali text (optional)",
-            "exercise.options": "Array of answer options (for select/conversation)",
+            "exercise.options": "Array of answer options (for select/conversation/alphabet_listening)",
             "exercise.correctOrder": "Array of words in correct order (for sort)",
+            "exercise.wordsRomanized": "Romanized forms matching words array (for sort, optional)",
             "exercise.correctAnswer": "The correct answer string or index",
             "exercise.passage": "Localized reading passage object (for reading type)",
-            "exercise.audio": "Relative path to audio file (for listening type)",
+            "exercise.audio": "Relative path to audio file (for listening/alphabet_listening type)",
+            "exercise.keys": "Array of {letter} objects for on-screen keyboard (for writing_keyboard)",
             "exercise.hint": "Localized hint object {en, ja} (optional)"
         }
     },
@@ -36,6 +39,7 @@
                 "ja": "単語を並べ替えて「こんにちは、お元気ですか？」を作ってください。"
             },
             "words": ["আপনি", "কেমন", "নমস্কার,", "আছেন?"],
+            "wordsRomanized": ["Apni", "Kemon", "Nomoshkar,", "Achhen?"],
             "correctOrder": ["নমস্কার,", "আপনি", "কেমন", "আছেন?"],
             "hint": {
                 "en": "Start with the greeting word.",
@@ -229,10 +233,57 @@
                 "ja": "単語を並べ替えて「私の名前はカリムです」を作ってください。"
             },
             "words": ["করিম।", "নাম", "আমার"],
+            "wordsRomanized": ["Korim.", "Nam", "Amar"],
             "correctOrder": ["আমার", "নাম", "করিম।"],
             "hint": {
                 "en": "Bengali follows Subject-Object-Verb order.",
-                "ja": "ベンガル語はSOV語順です。"
+                "ja": "ベンガル語は主語-目的語-動詞（SOV語順）で表されます。"
+            }
+        },
+        {
+            "id": "ex9_alphabet_listening",
+            "type": "alphabet_listening",
+            "question": {
+                "en": "Listen and identify the Bengali letter.",
+                "ja": "音声を聞いてベンガル語の文字を選んでください。"
+            },
+            "audio": "assets/audio/alphabet/অ.mp3",
+            "options": [
+                {"letter": "অ", "romanized": "O", "correct": true},
+                {"letter": "ই", "romanized": "I", "correct": false},
+                {"letter": "উ", "romanized": "U", "correct": false},
+                {"letter": "ও", "romanized": "O (long)", "correct": false}
+            ],
+            "hint": {
+                "en": "This is the first vowel in the Bengali alphabet.",
+                "ja": "これはベンガル語のアルファベットの最初の母音です。"
+            }
+        },
+        {
+            "id": "ex10_writing_keyboard",
+            "type": "writing_keyboard",
+            "question": {
+                "en": "Type the Bengali word for \"Hello\" using the on-screen keyboard.",
+                "ja": "画面のキーボードを使って「こんにちは」をベンガル語で入力してください。"
+            },
+            "romanized": "Nomoshkar",
+            "correctAnswer": "নমস্কার",
+            "acceptableAnswers": ["নমস্কার"],
+            "keys": [
+                {"letter": "ন"},
+                {"letter": "ম"},
+                {"letter": "স"},
+                {"letter": "্"},
+                {"letter": "ক"},
+                {"letter": "া"},
+                {"letter": "র"},
+                {"letter": "ত"},
+                {"letter": "ো"},
+                {"letter": "প"}
+            ],
+            "hint": {
+                "en": "নমস্কার is spelled: ন + ম + স + ্ + ক + া + র",
+                "ja": "নমস্কার の綴り: ন + ম + স + ্ + ক + া + র"
             }
         }
     ]

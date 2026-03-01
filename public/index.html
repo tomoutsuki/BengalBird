@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BengalBird - Learn Bengali</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon//favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon//site.webmanifest">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -55,9 +61,39 @@
                     <option value="ja">日本語</option>
                 </select>
             </div>
-            <div class="setting-row">
-                <button id="reset-progress-btn" class="btn btn-danger" data-i18n="reset_progress">Reset All Progress</button>
+            <div class="setting-row setting-row-buttons">
+                <button id="credits-btn" class="btn btn-secondary btn-sm" data-i18n="credits">Credits</button>
+                <button id="license-btn" class="btn btn-secondary btn-sm" data-i18n="license">License</button>
             </div>
+            <div class="setting-row">
+                <button id="reset-progress-btn" class="btn btn-danger btn-sm" data-i18n="reset_progress">Reset All Progress</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== Lesson Detail Popup ===== -->
+    <div id="lesson-popup-overlay" class="overlay hidden"></div>
+    <div id="lesson-popup" class="modal hidden">
+        <div class="modal-header">
+            <h2 id="popup-lesson-title"></h2>
+            <button id="popup-close-btn" class="icon-btn" aria-label="Close">✕</button>
+        </div>
+        <div class="popup-body">
+            <p id="popup-lesson-desc"></p>
+            <p class="popup-time" id="popup-lesson-time"></p>
+            <button id="popup-begin-btn" class="btn btn-primary btn-lg" data-i18n="begin_lesson">BEGIN</button>
+        </div>
+    </div>
+
+    <!-- ===== Text Modal (Credits / License) ===== -->
+    <div id="text-modal-overlay" class="overlay hidden"></div>
+    <div id="text-modal" class="modal modal-scrollable hidden">
+        <div class="modal-header">
+            <h2 id="text-modal-title"></h2>
+            <button id="text-modal-close-btn" class="icon-btn" aria-label="Close">✕</button>
+        </div>
+        <div class="modal-body">
+            <div id="text-modal-body"></div>
         </div>
     </div>
 
@@ -76,7 +112,7 @@
         <!-- Lesson Screen -->
         <section id="screen-lesson" class="screen">
             <div id="lesson-header">
-                <button id="back-btn" class="btn btn-secondary" data-i18n="back">← Back</button>
+                <button id="back-btn" class="btn btn-secondary btn-sm" data-i18n="back">← Back</button>
                 <div id="lesson-info">
                     <h2 id="lesson-title"></h2>
                     <p id="lesson-description"></p>
@@ -86,7 +122,9 @@
                 <div id="progress-bar"></div>
                 <span id="progress-text">0 / 0</span>
             </div>
-            <div id="exercise-container"></div>
+            <div id="exercise-area">
+                <div id="exercise-container"></div>
+            </div>
         </section>
 
         <!-- Lesson Complete Screen -->

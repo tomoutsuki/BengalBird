@@ -1,6 +1,7 @@
 /**
  * BengalBird - Main Application Controller (app.js)
- * Orchestrates screens, lesson loading, navigation, and settings.
+ * Orchestrates screens, lesson loading, navigation, settings,
+ * lesson-detail popup, and credits/license display.
  * No external dependencies — uses I18n, Progress, AudioManager, Exercises modules.
  */
 const App = (() => {
@@ -13,6 +14,7 @@ const App = (() => {
     let correctCount = 0;
     let totalExercises = 0;
     let allLessonIds = []; // flat ordered list of lesson IDs across all chapters
+    let pendingLessonData = null; // lesson data waiting for BEGIN click
 
     // ---- DOM references ----
     const $ = (sel) => document.querySelector(sel);
@@ -21,7 +23,7 @@ const App = (() => {
     // ---- Screens ----
     function showScreen(id) {
         $$('.screen').forEach(s => s.classList.remove('active'));
-        const target = $(`#screen-${id}`);
+        const target = $('#screen-' + id);
         if (target) target.classList.add('active');
     }
 
@@ -29,10 +31,21 @@ const App = (() => {
     async function fetchJSON(url) {
         try {
             const resp = await fetch(url);
-            if (!resp.ok) throw new Error(`HTTP ${resp.status} for ${url}`);
+            if (!resp.ok) throw new Error('HTTP ' + resp.status + ' for ' + url);
             return await resp.json();
         } catch (e) {
             console.error('Failed to load JSON:', url, e);
+            return null;
+        }
+    }
+
+    async function fetchText(url) {
+        try {
+            const resp = await fetch(url);
+            if (!resp.ok) throw new Error('HTTP ' + resp.status + ' for ' + url);
+            return await resp.text();
+        } catch (e) {
+            console.error('Failed to load text:', url, e);
             return null;
         }
     }
@@ -58,12 +71,41 @@ const App = (() => {
         buildMenu();
     }
 
+    /**
+     * Load lesson JSON and show the lesson detail popup instead of
+     * immediately starting the lesson.
+     */
     async function loadLesson(lessonId) {
-        const data = await fetchJSON(`data/${lessonId}.json`);
+        const data = await fetchJSON('data/' + lessonId + '.json');
         if (!data || !data.exercises) {
             console.error('Invalid lesson data for:', lessonId);
             return;
         }
+        showLessonPopup(data);
+    }
+
+    // ---- Lesson Detail Popup ----
+
+    function showLessonPopup(lessonData) {
+        pendingLessonData = lessonData;
+        $('#popup-lesson-title').textContent = I18n.localize(lessonData.title);
+        $('#popup-lesson-desc').textContent = I18n.localize(lessonData.description);
+        const mins = lessonData.estimatedMinutes || Math.max(2, Math.ceil(lessonData.exercises.length * 1.5));
+        $('#popup-lesson-time').textContent = I18n.t('est_time', { mins: mins });
+        $('#lesson-popup').classList.remove('hidden');
+        $('#lesson-popup-overlay').classList.remove('hidden');
+    }
+
+    function closeLessonPopup() {
+        $('#lesson-popup').classList.add('hidden');
+        $('#lesson-popup-overlay').classList.add('hidden');
+        pendingLessonData = null;
+    }
+
+    function beginFromPopup() {
+        if (!pendingLessonData) return;
+        const data = pendingLessonData;
+        closeLessonPopup();
         startLesson(data);
     }
 
@@ -102,7 +144,6 @@ const App = (() => {
                     if (Progress.isLessonCompleted(lessonId)) {
                         btn.classList.add('completed');
                     } else {
-                        // Mark first incomplete as current
                         const prevDone = allLessonIds.slice(0, globalIdx).every(
                             id => Progress.isLessonCompleted(id)
                         );
@@ -148,8 +189,7 @@ const App = (() => {
 
                     const label = document.createElement('div');
                     label.className = 'lesson-label';
-                    // We'll set the label from lesson title once loaded, for now use ID
-                    label.textContent = `Lesson ${globalIdx + 1}`;
+                    label.textContent = 'Lesson ' + (globalIdx + 1);
 
                     item.appendChild(num);
                     item.appendChild(label);
@@ -179,7 +219,6 @@ const App = (() => {
     function openSettings() {
         $('#settings-modal').classList.remove('hidden');
         $('#settings-overlay').classList.remove('hidden');
-        // Sync sliders
         $('#sfx-volume').value = Math.round(AudioManager.getSfxVolume() * 100);
         $('#sfx-volume-label').textContent = Math.round(AudioManager.getSfxVolume() * 100) + '%';
         $('#audio-volume').value = Math.round(AudioManager.getAudioVolume() * 100);
@@ -192,6 +231,98 @@ const App = (() => {
         $('#settings-overlay').classList.add('hidden');
     }
 
+    // ---- Credits & License ----
+
+    /**
+     * Minimal markdown-to-HTML converter.
+     * Supports: # headings, **bold**, [links](url), paragraphs, blank-line breaks.
+     */
+    function renderMarkdown(md) {
+        if (!md) return '';
+        const lines = md.split('\n');
+        let html = '';
+        let inParagraph = false;
+
+        lines.forEach(line => {
+            const trimmed = line.trim();
+
+            // Blank line closes paragraph
+            if (trimmed === '') {
+                if (inParagraph) {
+                    html += '</p>';
+                    inParagraph = false;
+                }
+                return;
+            }
+
+            // Headings
+            const headingMatch = trimmed.match(/^(#{1,6})\s+(.*)$/);
+            if (headingMatch) {
+                if (inParagraph) { html += '</p>'; inParagraph = false; }
+                const level = headingMatch[1].length;
+                const text = inlineMarkdown(headingMatch[2]);
+                html += '<h' + level + '>' + text + '</h' + level + '>';
+                return;
+            }
+
+            // Normal text line
+            const processed = inlineMarkdown(trimmed);
+            if (!inParagraph) {
+                html += '<p>';
+                inParagraph = true;
+            } else {
+                html += '<br>';
+            }
+            html += processed;
+        });
+
+        if (inParagraph) html += '</p>';
+        return html;
+    }
+
+    function inlineMarkdown(text) {
+        // Bold **text**
+        text = text.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+        // Links [text](url)
+        text = text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+        return text;
+    }
+
+    async function showCredits() {
+        const body = $('#text-modal-body');
+        body.innerHTML = '<p>' + I18n.t('loading') + '</p>';
+        $('#text-modal-title').textContent = I18n.t('credits');
+        $('#text-modal').classList.remove('hidden');
+        $('#text-modal-overlay').classList.remove('hidden');
+
+        const md = await fetchText('CREDITS.md');
+        body.innerHTML = md ? renderMarkdown(md) : '<p>Could not load credits.</p>';
+    }
+
+    async function showLicense() {
+        const body = $('#text-modal-body');
+        body.innerHTML = '<p>' + I18n.t('loading') + '</p>';
+        $('#text-modal-title').textContent = I18n.t('license');
+        $('#text-modal').classList.remove('hidden');
+        $('#text-modal-overlay').classList.remove('hidden');
+
+        const text = await fetchText('LICENSE');
+        if (text) {
+            // LICENSE is plain text, wrap in <pre> for formatting
+            const pre = document.createElement('pre');
+            pre.textContent = text;
+            body.innerHTML = '';
+            body.appendChild(pre);
+        } else {
+            body.innerHTML = '<p>Could not load license.</p>';
+        }
+    }
+
+    function closeTextModal() {
+        $('#text-modal').classList.add('hidden');
+        $('#text-modal-overlay').classList.add('hidden');
+    }
+
     // ---- Lesson Flow ----
     function startLesson(lessonData) {
         currentLesson = lessonData;
@@ -199,7 +330,6 @@ const App = (() => {
         correctCount = 0;
         totalExercises = lessonData.exercises.length;
 
-        // Set header
         $('#lesson-title').textContent = I18n.localize(lessonData.title);
         $('#lesson-description').textContent = I18n.localize(lessonData.description);
 
@@ -216,6 +346,10 @@ const App = (() => {
         const exercise = currentLesson.exercises[currentExerciseIndex];
         Exercises.render(exercise);
         updateProgressBar();
+
+        // Scroll exercise area to top
+        const area = $('#exercise-area');
+        if (area) area.scrollTop = 0;
     }
 
     function handleAnswer(isCorrect) {
@@ -229,7 +363,7 @@ const App = (() => {
             ? Math.round((currentExerciseIndex / totalExercises) * 100)
             : 0;
         $('#progress-bar').style.width = pct + '%';
-        $('#progress-text').textContent = `${currentExerciseIndex} / ${totalExercises}`;
+        $('#progress-text').textContent = currentExerciseIndex + ' / ' + totalExercises;
     }
 
     function finishLesson() {
@@ -237,7 +371,6 @@ const App = (() => {
         AudioManager.playSfx('lessoncomplete');
         Progress.completeLesson(currentLesson.id, correctCount, totalExercises);
 
-        // Stats
         const statsText = I18n.t('stats_score', {
             correct: correctCount,
             total: totalExercises
@@ -282,14 +415,13 @@ const App = (() => {
         // Language
         $('#ui-language-select').addEventListener('change', (e) => {
             I18n.setLang(e.target.value);
-            // Re-render current screen
             if (chaptersData) {
                 renderHome();
                 buildMenu();
             }
         });
 
-        // Lang toggle button (quick switch)
+        // Lang toggle
         $('#lang-toggle-btn').addEventListener('click', () => {
             const next = I18n.getLang() === 'en' ? 'ja' : 'en';
             I18n.setLang(next);
@@ -312,24 +444,37 @@ const App = (() => {
         // Navigation
         $('#back-btn').addEventListener('click', goHome);
         $('#complete-home-btn').addEventListener('click', goHome);
+
+        // Lesson detail popup
+        $('#popup-close-btn').addEventListener('click', closeLessonPopup);
+        $('#lesson-popup-overlay').addEventListener('click', closeLessonPopup);
+        $('#popup-begin-btn').addEventListener('click', beginFromPopup);
+
+        // Credits & License
+        $('#credits-btn').addEventListener('click', () => {
+            closeSettings();
+            showCredits();
+        });
+        $('#license-btn').addEventListener('click', () => {
+            closeSettings();
+            showLicense();
+        });
+        $('#text-modal-close-btn').addEventListener('click', closeTextModal);
+        $('#text-modal-overlay').addEventListener('click', closeTextModal);
     }
 
     // ---- Init ----
     async function init() {
-        // Initialize modules
         I18n.init();
         Progress.init();
         AudioManager.init();
         Exercises.init($('#exercise-container'), handleAnswer);
 
-        // Bind UI events
         bindEvents();
 
-        // Load data
         await loadChapters();
     }
 
-    // Auto-init on DOM ready
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', init);
     } else {

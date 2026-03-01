@@ -1,0 +1,284 @@
+{
+    "id": "lesson2",
+    "title": {
+        "en": "Lesson 2: Morning Greetings Conversation",
+        "ja": "レッスン2：朝の挨拶の会話"
+    },
+    "description": {
+        "en": "Follow a full conversation between two people meeting in the morning.",
+        "ja": "朝に出会った二人の会話を聞いて、正しい応答を選びましょう。"
+    },
+    "estimatedMinutes": 5,
+    "exercises": [
+        {
+            "id": "ex1_conv_listen",
+            "type": "conversation_listening",
+            "scenario": {
+                "en": "Listen to a morning conversation between Nasrin and you. Choose the correct responses at key moments.",
+                "ja": "ナスリンとあなたの朝の会話を聞いてください。重要な場面で正しい応答を選んでください。"
+            },
+            "lines": [
+                {
+                    "type": "line",
+                    "speaker": "Nasrin",
+                    "bengali": "হ্যালো।",
+                    "romanized": "Hyalo.",
+                    "translation": {
+                        "en": "Hello.",
+                        "ja": "こんにちは。"
+                    },
+                    "audio": "assets/audio/listening/listening_c1_lesson2_1.mp3"
+                },
+                {
+                    "type": "line",
+                    "speaker": "Nasrin",
+                    "bengali": "শুভ সকাল।",
+                    "romanized": "Shubho shokal.",
+                    "translation": {
+                        "en": "Good morning.",
+                        "ja": "おはようございます。"
+                    },
+                    "audio": "assets/audio/listening/listening_c1_lesson2_2.mp3"
+                },
+                {
+                    "type": "choice",
+                    "question": {
+                        "en": "Nasrin greeted you. How do you respond?",
+                        "ja": "ナスリンが挨拶しました。どう応答しますか？"
+                    },
+                    "options": [
+                        {
+                            "text": {
+                                "bengali": "শুভ সকাল।",
+                                "romanized": "Shubho shokal.",
+                                "en": "Good morning.",
+                                "ja": "おはようございます。"
+                            },
+                            "correct": true
+                        },
+                        {
+                            "text": {
+                                "bengali": "ধন্যবাদ।",
+                                "romanized": "Dhonnobad.",
+                                "en": "Thank you.",
+                                "ja": "ありがとう。"
+                            },
+                            "correct": false
+                        },
+                        {
+                            "text": {
+                                "bengali": "বিদায়।",
+                                "romanized": "Biday.",
+                                "en": "Goodbye.",
+                                "ja": "さようなら。"
+                            },
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "type": "line",
+                    "speaker": "Nasrin",
+                    "bengali": "আমার নাম নাসরিন।",
+                    "romanized": "Amar nam Nasrin.",
+                    "translation": {
+                        "en": "My name is Nasrin.",
+                        "ja": "私の名前はナスリンです。"
+                    },
+                    "audio": "assets/audio/listening/listening_c1_lesson2_3.mp3"
+                },
+                {
+                    "type": "line",
+                    "speaker": "Nasrin",
+                    "bengali": "আপনার নাম কী?",
+                    "romanized": "Apnar nam ki?",
+                    "translation": {
+                        "en": "What is your name?",
+                        "ja": "あなたの名前は何ですか？"
+                    },
+                    "audio": "assets/audio/listening/listening_c1_lesson2_4.mp3"
+                },
+                {
+                    "type": "choice",
+                    "question": {
+                        "en": "Nasrin asked your name. How do you respond?",
+                        "ja": "ナスリンがあなたの名前を聞きました。どう応答しますか？"
+                    },
+                    "options": [
+                        {
+                            "text": {
+                                "bengali": "আমার নাম সারা।",
+                                "romanized": "Amar nam Sara.",
+                                "en": "My name is Sara.",
+                                "ja": "私の名前はサラです。"
+                            },
+                            "correct": true
+                        },
+                        {
+                            "text": {
+                                "bengali": "আমি ভালো আছি।",
+                                "romanized": "Ami bhalo achhi.",
+                                "en": "I am fine.",
+                                "ja": "元気です。"
+                            },
+                            "correct": false
+                        },
+                        {
+                            "text": {
+                                "bengali": "ধন্যবাদ।",
+                                "romanized": "Dhonnobad.",
+                                "en": "Thank you.",
+                                "ja": "ありがとう。"
+                            },
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "type": "line",
+                    "speaker": "Nasrin",
+                    "bengali": "আপনার সাথে পরিচিত হয়ে ভালো লাগলো।",
+                    "romanized": "Apnar shathe porichito hoye bhalo laglo.",
+                    "translation": {
+                        "en": "Nice to meet you.",
+                        "ja": "お会いできてうれしいです。"
+                    },
+                    "audio": "assets/audio/listening/listening_c1_lesson2_5.mp3"
+                }
+            ]
+        },
+        {
+            "id": "ex2_listening",
+            "type": "listening",
+            "audio": "assets/audio/listening/listening_c1_lesson2_2.mp3",
+            "question": {
+                "en": "Listen again. What did the speaker say?",
+                "ja": "もう一度聞いてください。話者は何と言いましたか？"
+            },
+            "options": [
+                {
+                    "text": {
+                        "bengali": "শুভ সকাল।",
+                        "romanized": "Shubho shokal.",
+                        "en": "Good morning.",
+                        "ja": "おはようございます。"
+                    },
+                    "correct": true
+                },
+                {
+                    "text": {
+                        "bengali": "হ্যালো।",
+                        "romanized": "Hyalo.",
+                        "en": "Hello.",
+                        "ja": "こんにちは。"
+                    },
+                    "correct": false
+                },
+                {
+                    "text": {
+                        "bengali": "আমার নাম নাসরিন।",
+                        "romanized": "Amar nam Nasrin.",
+                        "en": "My name is Nasrin.",
+                        "ja": "私の名前はナスリンです。"
+                    },
+                    "correct": false
+                },
+                {
+                    "text": {
+                        "bengali": "বিদায়।",
+                        "romanized": "Biday.",
+                        "en": "Goodbye.",
+                        "ja": "さようなら。"
+                    },
+                    "correct": false
+                }
+            ],
+            "hint": {
+                "en": "This is a morning greeting.",
+                "ja": "これは朝の挨拶です。"
+            }
+        },
+        {
+            "id": "ex3_select",
+            "type": "grammar-select",
+            "question": {
+                "en": "What does \"আপনার সাথে পরিচিত হয়ে ভালো লাগলো\" mean?",
+                "ja": "「আপনার সাথে পরিচিত হয়ে ভালো লাগলো」の意味は？"
+            },
+            "bengali": "আপনার সাথে পরিচিত হয়ে ভালো লাগলো",
+            "romanized": "Apnar shathe porichito hoye bhalo laglo",
+            "options": [
+                {"text": {"en": "Nice to meet you", "ja": "お会いできてうれしいです"}, "correct": true},
+                {"text": {"en": "Good morning", "ja": "おはようございます"}, "correct": false},
+                {"text": {"en": "How are you?", "ja": "お元気ですか？"}, "correct": false},
+                {"text": {"en": "What is your name?", "ja": "あなたの名前は何ですか？"}, "correct": false}
+            ]
+        },
+        {
+            "id": "ex4_sort",
+            "type": "grammar-sort",
+            "question": {
+                "en": "Arrange the words to say: \"My name is Nasrin.\"",
+                "ja": "単語を並べ替えて「私の名前はナスリンです」を作ってください。"
+            },
+            "words": ["নাসরিন।", "নাম", "আমার"],
+            "wordsRomanized": ["Nasrin.", "Nam", "Amar"],
+            "correctOrder": ["আমার", "নাম", "নাসরিন।"],
+            "hint": {
+                "en": "Bengali follows Subject-Object-Verb order.",
+                "ja": "ベンガル語は主語-目的語-動詞（SOV語順）で表されます。"
+            }
+        },
+        {
+            "id": "ex5_listening2",
+            "type": "listening",
+            "audio": "assets/audio/listening/listening_c1_lesson2_5.mp3",
+            "question": {
+                "en": "Listen and select what was said.",
+                "ja": "音声を聞いて、何と言ったか選んでください。"
+            },
+            "options": [
+                {
+                    "text": {
+                        "bengali": "আপনার সাথে পরিচিত হয়ে ভালো লাগলো।",
+                        "romanized": "Apnar shathe porichito hoye bhalo laglo.",
+                        "en": "Nice to meet you.",
+                        "ja": "お会いできてうれしいです。"
+                    },
+                    "correct": true
+                },
+                {
+                    "text": {
+                        "bengali": "আপনার নাম কী?",
+                        "romanized": "Apnar nam ki?",
+                        "en": "What is your name?",
+                        "ja": "あなたの名前は何ですか？"
+                    },
+                    "correct": false
+                },
+                {
+                    "text": {
+                        "bengali": "আমি ভালো আছি।",
+                        "romanized": "Ami bhalo achhi.",
+                        "en": "I am fine.",
+                        "ja": "元気です。"
+                    },
+                    "correct": false
+                },
+                {
+                    "text": {
+                        "bengali": "শুভ সকাল।",
+                        "romanized": "Shubho shokal.",
+                        "en": "Good morning.",
+                        "ja": "おはようございます。"
+                    },
+                    "correct": false
+                }
+            ],
+            "hint": {
+                "en": "This phrase is used when meeting someone for the first time.",
+                "ja": "このフレーズは初めて会った人に使います。"
+            }
+        }
+    ]
+}

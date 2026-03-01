@@ -2,7 +2,11 @@
  * BengalBird - Exercise Engine (exercises.js)
  * Renders and manages all exercise types:
  *   grammar-sort, grammar-select, grammar-write,
- *   reading, conversation, listening
+ *   reading, conversation, listening,
+ *   alphabet_listening, writing_keyboard, conversation_listening
+ *
+ * Every Bengali word displayed automatically shows romanization below it
+ * when a romanized field is available in the data.
  */
 const Exercises = (() => {
     'use strict';
@@ -57,8 +61,17 @@ const Exercises = (() => {
             case 'listening':
                 renderListening(card, exercise);
                 break;
+            case 'alphabet_listening':
+                renderAlphabetListening(card, exercise);
+                break;
+            case 'writing_keyboard':
+                renderWritingKeyboard(card, exercise);
+                break;
+            case 'conversation_listening':
+                renderConversationListening(card, exercise);
+                break;
             default:
-                card.innerHTML += `<p>Unknown exercise type: ${exercise.type}</p>`;
+                card.innerHTML += '<p>Unknown exercise type: ' + exercise.type + '</p>';
         }
 
         // Hint
@@ -90,25 +103,71 @@ const Exercises = (() => {
         container.style.animation = '';
     }
 
-    // ---------- Badge helpers ----------
+    // ========== Helper: Bengali + Romanization pair ==========
+
+    /**
+     * Create a bengali-rom-pair element showing Bengali script + romanized text below
+     * @param {string} bengali - Bengali script text
+     * @param {string} romanized - Romanized text (optional, shows fallback if missing)
+     * @returns {HTMLElement}
+     */
+    function createBengaliRomPair(bengali, romanized) {
+        const pair = document.createElement('div');
+        pair.className = 'bengali-rom-pair';
+        const bSpan = document.createElement('span');
+        bSpan.className = 'bengali-text';
+        bSpan.textContent = bengali || '';
+        pair.appendChild(bSpan);
+        if (romanized) {
+            const rSpan = document.createElement('span');
+            rSpan.className = 'romanized-text';
+            rSpan.textContent = romanized;
+            pair.appendChild(rSpan);
+        }
+        return pair;
+    }
+
+    /**
+     * Build an audio play button (compact) for inline use
+     */
+    function createInlineAudioBtn(src) {
+        const btn = document.createElement('button');
+        btn.className = 'conv-line-audio-btn';
+        btn.innerHTML = '&#9654;';
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            AudioManager.playListening(src, () => {
+                btn.innerHTML = '&#9654;';
+            });
+            btn.innerHTML = '&#9646;&#9646;';
+        });
+        return btn;
+    }
+
+    // ========== Badge helpers ==========
 
     function getBadgeClass(type) {
-        if (type.startsWith('grammar')) return 'badge-grammar';
+        if (type.startsWith('grammar') || type === 'writing_keyboard') {
+            return type === 'writing_keyboard' ? 'badge-keyboard' : 'badge-grammar';
+        }
         if (type === 'reading') return 'badge-reading';
-        if (type === 'conversation') return 'badge-conversation';
+        if (type === 'conversation' || type === 'conversation_listening') return 'badge-conversation';
         if (type === 'listening') return 'badge-listening';
+        if (type === 'alphabet_listening') return 'badge-alphabet';
         return '';
     }
 
     function getBadgeLabel(type) {
+        if (type === 'writing_keyboard') return I18n.t('badge_keyboard');
         if (type.startsWith('grammar')) return I18n.t('badge_grammar');
         if (type === 'reading') return I18n.t('badge_reading');
-        if (type === 'conversation') return I18n.t('badge_conversation');
+        if (type === 'conversation' || type === 'conversation_listening') return I18n.t('badge_conversation');
         if (type === 'listening') return I18n.t('badge_listening');
+        if (type === 'alphabet_listening') return I18n.t('badge_alphabet');
         return type;
     }
 
-    // ---------- Grammar Sort ----------
+    // ========== Grammar Sort ==========
 
     function renderSort(card, exercise) {
         const question = document.createElement('p');
@@ -127,42 +186,53 @@ const Exercises = (() => {
 
         const answerZone = document.createElement('div');
         answerZone.className = 'answer-zone';
-        answerZone.id = 'sort-answer-zone';
         sortArea.appendChild(answerZone);
 
         // Word bank
         const bankLabel = document.createElement('div');
         bankLabel.className = 'sort-label';
-        bankLabel.style.marginTop = '12px';
+        bankLabel.style.marginTop = '8px';
         bankLabel.textContent = I18n.t('word_bank_label');
         sortArea.appendChild(bankLabel);
 
         const wordBank = document.createElement('div');
         wordBank.className = 'word-bank';
-        wordBank.id = 'sort-word-bank';
 
         // Shuffle words
         const shuffled = [...exercise.words].sort(() => Math.random() - 0.5);
         const answerWords = [];
 
-        shuffled.forEach((word, i) => {
+        // Build romanized lookup from wordsRomanized array if available
+        const romLookup = {};
+        if (exercise.wordsRomanized && Array.isArray(exercise.wordsRomanized)) {
+            exercise.words.forEach((w, i) => {
+                romLookup[w] = exercise.wordsRomanized[i] || '';
+            });
+        }
+
+        function makeChip(word) {
             const chip = document.createElement('button');
             chip.className = 'word-chip';
             chip.textContent = word;
-            chip.dataset.word = word;
+            if (romLookup[word]) {
+                const romSpan = document.createElement('span');
+                romSpan.className = 'chip-romanized';
+                romSpan.textContent = romLookup[word];
+                chip.appendChild(romSpan);
+            }
+            return chip;
+        }
+
+        shuffled.forEach((word, i) => {
+            const chip = makeChip(word);
             chip.dataset.index = i;
 
             chip.addEventListener('click', () => {
                 if (answered) return;
-                // Move to answer zone
                 chip.classList.add('in-answer');
-                const answerChip = document.createElement('button');
-                answerChip.className = 'word-chip';
-                answerChip.textContent = word;
-                answerChip.dataset.sourceIndex = i;
+                const answerChip = makeChip(word);
                 answerChip.addEventListener('click', () => {
                     if (answered) return;
-                    // Move back to bank
                     answerZone.removeChild(answerChip);
                     chip.classList.remove('in-answer');
                     const idx = answerWords.indexOf(word);
@@ -188,20 +258,14 @@ const Exercises = (() => {
             if (answered) return;
             const isCorrect = arraysEqual(answerWords, exercise.correctOrder);
             answered = true;
-
-            if (isCorrect) {
-                answerZone.classList.add('correct-zone');
-            } else {
-                answerZone.classList.add('wrong-zone');
-            }
-
+            answerZone.classList.add(isCorrect ? 'correct-zone' : 'wrong-zone');
             showFeedback(isCorrect, exercise.correctOrder.join(' '));
         });
         checkContainer.appendChild(checkBtn);
         card.appendChild(checkContainer);
     }
 
-    // ---------- Grammar Select ----------
+    // ========== Grammar Select ==========
 
     function renderSelect(card, exercise) {
         const question = document.createElement('p');
@@ -210,17 +274,7 @@ const Exercises = (() => {
         card.appendChild(question);
 
         if (exercise.bengali) {
-            const bengali = document.createElement('p');
-            bengali.className = 'exercise-bengali';
-            bengali.textContent = exercise.bengali;
-            card.appendChild(bengali);
-        }
-
-        if (exercise.romanized) {
-            const rom = document.createElement('p');
-            rom.className = 'exercise-romanized';
-            rom.textContent = exercise.romanized;
-            card.appendChild(rom);
+            card.appendChild(createBengaliRomPair(exercise.bengali, exercise.romanized || ''));
         }
 
         const optionsList = document.createElement('div');
@@ -229,25 +283,35 @@ const Exercises = (() => {
         exercise.options.forEach((opt, i) => {
             const btn = document.createElement('button');
             btn.className = 'option-btn';
-            btn.textContent = I18n.localize(opt.text);
+            // If option has bengali + romanized, show both
+            if (opt.bengali) {
+                const bSpan = document.createElement('span');
+                bSpan.className = 'option-bengali';
+                bSpan.textContent = opt.bengali;
+                btn.appendChild(bSpan);
+                if (opt.romanized) {
+                    const rSpan = document.createElement('span');
+                    rSpan.className = 'option-romanized';
+                    rSpan.textContent = opt.romanized;
+                    btn.appendChild(rSpan);
+                }
+            }
+            const tSpan = document.createElement('span');
+            tSpan.textContent = I18n.localize(opt.text);
+            btn.appendChild(tSpan);
+
             btn.addEventListener('click', () => {
                 if (answered) return;
                 answered = true;
-
-                // Disable all
                 optionsList.querySelectorAll('.option-btn').forEach((b, j) => {
                     b.disabled = true;
-                    if (exercise.options[j].correct) {
-                        b.classList.add('correct');
-                    }
+                    if (exercise.options[j].correct) b.classList.add('correct');
                 });
-
                 if (opt.correct) {
                     btn.classList.add('correct');
                 } else {
                     btn.classList.add('wrong');
                 }
-
                 const correctOpt = exercise.options.find(o => o.correct);
                 showFeedback(opt.correct, I18n.localize(correctOpt.text));
             });
@@ -257,7 +321,7 @@ const Exercises = (() => {
         card.appendChild(optionsList);
     }
 
-    // ---------- Grammar Write ----------
+    // ========== Grammar Write ==========
 
     function renderWrite(card, exercise) {
         const question = document.createElement('p');
@@ -268,23 +332,20 @@ const Exercises = (() => {
         if (exercise.romanized) {
             const rom = document.createElement('p');
             rom.className = 'exercise-romanized';
-            rom.textContent = `(${exercise.romanized})`;
+            rom.textContent = '(' + exercise.romanized + ')';
             card.appendChild(rom);
         }
 
         const writeArea = document.createElement('div');
         writeArea.className = 'write-area';
-
         const input = document.createElement('input');
         input.type = 'text';
         input.className = 'write-input';
         input.placeholder = I18n.t('type_answer');
         input.autocomplete = 'off';
         writeArea.appendChild(input);
-
         card.appendChild(writeArea);
 
-        // Check button
         const checkContainer = document.createElement('div');
         checkContainer.className = 'check-btn-container';
         const checkBtn = document.createElement('button');
@@ -295,15 +356,12 @@ const Exercises = (() => {
             if (answered) return;
             const userAnswer = input.value.trim();
             if (!userAnswer) return;
-
             answered = true;
             input.disabled = true;
-
             const acceptable = exercise.acceptableAnswers || [exercise.correctAnswer];
             const isCorrect = acceptable.some(a =>
                 a.trim().toLowerCase() === userAnswer.toLowerCase()
             );
-
             input.classList.add(isCorrect ? 'correct' : 'wrong');
             showFeedback(isCorrect, exercise.correctAnswer);
         };
@@ -312,15 +370,13 @@ const Exercises = (() => {
         input.addEventListener('keydown', (e) => {
             if (e.key === 'Enter') doCheck();
         });
-
         checkContainer.appendChild(checkBtn);
         card.appendChild(checkContainer);
     }
 
-    // ---------- Reading ----------
+    // ========== Reading ==========
 
     function renderReading(card, exercise) {
-        // Passage box
         const passageBox = document.createElement('div');
         passageBox.className = 'passage-box';
 
@@ -336,7 +392,6 @@ const Exercises = (() => {
             passageBox.appendChild(pRom);
         }
 
-        // Translation toggle
         const toggleBtn = document.createElement('button');
         toggleBtn.className = 'passage-toggle';
         toggleBtn.textContent = I18n.t('show_translation');
@@ -358,48 +413,17 @@ const Exercises = (() => {
         passageBox.appendChild(translation);
         card.appendChild(passageBox);
 
-        // Question
         const question = document.createElement('p');
         question.className = 'exercise-question';
         question.textContent = I18n.localize(exercise.question);
         card.appendChild(question);
 
-        // Options
-        const optionsList = document.createElement('div');
-        optionsList.className = 'options-list';
-
-        exercise.options.forEach((opt, i) => {
-            const btn = document.createElement('button');
-            btn.className = 'option-btn';
-            btn.textContent = I18n.localize(opt.text);
-            btn.addEventListener('click', () => {
-                if (answered) return;
-                answered = true;
-
-                optionsList.querySelectorAll('.option-btn').forEach((b, j) => {
-                    b.disabled = true;
-                    if (exercise.options[j].correct) b.classList.add('correct');
-                });
-
-                if (opt.correct) {
-                    btn.classList.add('correct');
-                } else {
-                    btn.classList.add('wrong');
-                }
-
-                const correctOpt = exercise.options.find(o => o.correct);
-                showFeedback(opt.correct, I18n.localize(correctOpt.text));
-            });
-            optionsList.appendChild(btn);
-        });
-
-        card.appendChild(optionsList);
+        renderOptionButtons(card, exercise);
     }
 
-    // ---------- Conversation ----------
+    // ========== Conversation ==========
 
     function renderConversation(card, exercise) {
-        // Scenario
         if (exercise.scenario) {
             const scenario = document.createElement('p');
             scenario.className = 'exercise-question';
@@ -407,7 +431,6 @@ const Exercises = (() => {
             card.appendChild(scenario);
         }
 
-        // Dialogue
         if (exercise.dialogue && exercise.dialogue.length > 0) {
             const dialogueBox = document.createElement('div');
             dialogueBox.className = 'dialogue-box';
@@ -427,12 +450,21 @@ const Exercises = (() => {
                 bengaliLine.className = 'bengali-line';
                 bengaliLine.textContent = line.text.bengali || '';
 
+                if (line.text.romanized) {
+                    const romLine = document.createElement('div');
+                    romLine.className = 'romanized-line';
+                    romLine.textContent = line.text.romanized;
+                    textDiv.appendChild(bengaliLine);
+                    textDiv.appendChild(romLine);
+                } else {
+                    textDiv.appendChild(bengaliLine);
+                }
+
                 const transLine = document.createElement('div');
                 transLine.className = 'translation-line';
                 transLine.textContent = I18n.localize(line.text);
-
-                textDiv.appendChild(bengaliLine);
                 textDiv.appendChild(transLine);
+
                 bubble.appendChild(avatar);
                 bubble.appendChild(textDiv);
                 dialogueBox.appendChild(bubble);
@@ -441,56 +473,15 @@ const Exercises = (() => {
             card.appendChild(dialogueBox);
         }
 
-        // Question
         const question = document.createElement('p');
         question.className = 'exercise-question';
         question.textContent = I18n.localize(exercise.question);
         card.appendChild(question);
 
-        // Options
-        const optionsList = document.createElement('div');
-        optionsList.className = 'options-list';
-
-        exercise.options.forEach((opt, i) => {
-            const btn = document.createElement('button');
-            btn.className = 'option-btn';
-
-            if (opt.text.bengali) {
-                const bengaliSpan = document.createElement('span');
-                bengaliSpan.className = 'option-bengali';
-                bengaliSpan.textContent = opt.text.bengali;
-                btn.appendChild(bengaliSpan);
-            }
-
-            const translationSpan = document.createElement('span');
-            translationSpan.textContent = I18n.localize(opt.text);
-            btn.appendChild(translationSpan);
-
-            btn.addEventListener('click', () => {
-                if (answered) return;
-                answered = true;
-
-                optionsList.querySelectorAll('.option-btn').forEach((b, j) => {
-                    b.disabled = true;
-                    if (exercise.options[j].correct) b.classList.add('correct');
-                });
-
-                if (opt.correct) {
-                    btn.classList.add('correct');
-                } else {
-                    btn.classList.add('wrong');
-                }
-
-                const correctOpt = exercise.options.find(o => o.correct);
-                showFeedback(opt.correct, I18n.localize(correctOpt.text));
-            });
-            optionsList.appendChild(btn);
-        });
-
-        card.appendChild(optionsList);
+        renderOptionButtonsWithBengali(card, exercise);
     }
 
-    // ---------- Listening ----------
+    // ========== Listening ==========
 
     function renderListening(card, exercise) {
         const question = document.createElement('p');
@@ -498,14 +489,399 @@ const Exercises = (() => {
         question.textContent = I18n.localize(exercise.question);
         card.appendChild(question);
 
-        // Audio controls
+        card.appendChild(createAudioControls(exercise.audio));
+
+        renderOptionButtonsWithBengali(card, exercise);
+    }
+
+    // ========== Alphabet Listening (NEW) ==========
+
+    function renderAlphabetListening(card, exercise) {
+        const question = document.createElement('p');
+        question.className = 'exercise-question';
+        question.textContent = I18n.localize(exercise.question) || I18n.t('identify_letter');
+        card.appendChild(question);
+
+        card.appendChild(createAudioControls(exercise.audio));
+
+        // Grid of letter options
+        const grid = document.createElement('div');
+        grid.className = 'alphabet-options';
+
+        exercise.options.forEach((opt, i) => {
+            const btn = document.createElement('button');
+            btn.className = 'alphabet-option-btn';
+
+            const letterSpan = document.createElement('span');
+            letterSpan.className = 'letter';
+            letterSpan.textContent = opt.letter;
+            btn.appendChild(letterSpan);
+
+            if (opt.romanized) {
+                const romSpan = document.createElement('span');
+                romSpan.className = 'letter-rom';
+                romSpan.textContent = opt.romanized;
+                btn.appendChild(romSpan);
+            }
+
+            btn.addEventListener('click', () => {
+                if (answered) return;
+                answered = true;
+                grid.querySelectorAll('.alphabet-option-btn').forEach((b, j) => {
+                    b.disabled = true;
+                    if (exercise.options[j].correct) b.classList.add('correct');
+                });
+                if (opt.correct) {
+                    btn.classList.add('correct');
+                } else {
+                    btn.classList.add('wrong');
+                }
+                AudioManager.stopListening();
+                const correctOpt = exercise.options.find(o => o.correct);
+                showFeedback(opt.correct, correctOpt.letter + (correctOpt.romanized ? ' (' + correctOpt.romanized + ')' : ''));
+            });
+
+            grid.appendChild(btn);
+        });
+
+        card.appendChild(grid);
+    }
+
+    // ========== Writing Keyboard (NEW) ==========
+
+    function renderWritingKeyboard(card, exercise) {
+        const question = document.createElement('p');
+        question.className = 'exercise-question';
+        question.textContent = I18n.localize(exercise.question) || I18n.t('type_with_keyboard');
+        card.appendChild(question);
+
+        if (exercise.romanized) {
+            const rom = document.createElement('p');
+            rom.className = 'exercise-romanized';
+            rom.textContent = '(' + exercise.romanized + ')';
+            card.appendChild(rom);
+        }
+
+        // Display area (read-only, shows what user has typed)
+        const display = document.createElement('div');
+        display.className = 'keyboard-display';
+        const displayText = document.createElement('span');
+        displayText.id = 'kb-display-text';
+        displayText.textContent = '';
+        const cursor = document.createElement('span');
+        cursor.className = 'cursor-blink';
+        display.appendChild(displayText);
+        display.appendChild(cursor);
+        card.appendChild(display);
+
+        let typed = '';
+
+        // On-screen keyboard grid
+        const kbGrid = document.createElement('div');
+        kbGrid.className = 'keyboard-grid';
+
+        // Letters from JSON
+        const keys = exercise.keys || [];
+        keys.forEach(keyObj => {
+            const btn = document.createElement('button');
+            btn.className = 'key-btn';
+            btn.textContent = keyObj.letter || keyObj;
+            btn.addEventListener('click', () => {
+                if (answered) return;
+                typed += keyObj.letter || keyObj;
+                displayText.textContent = typed;
+            });
+            kbGrid.appendChild(btn);
+        });
+
+        // Backspace
+        const bksp = document.createElement('button');
+        bksp.className = 'key-btn backspace-key';
+        bksp.textContent = I18n.t('backspace');
+        bksp.addEventListener('click', () => {
+            if (answered) return;
+            // Remove last Bengali character (could be multi-byte)
+            const chars = [...typed];
+            chars.pop();
+            typed = chars.join('');
+            displayText.textContent = typed;
+        });
+        kbGrid.appendChild(bksp);
+
+        card.appendChild(kbGrid);
+
+        // Block physical keyboard on the card
+        card.addEventListener('keydown', (e) => {
+            if (!answered) e.preventDefault();
+        });
+
+        // Check button
+        const checkContainer = document.createElement('div');
+        checkContainer.className = 'check-btn-container';
+        const checkBtn = document.createElement('button');
+        checkBtn.className = 'btn btn-primary';
+        checkBtn.textContent = I18n.t('check');
+        checkBtn.addEventListener('click', () => {
+            if (answered || !typed) return;
+            answered = true;
+            cursor.style.display = 'none';
+            const acceptable = exercise.acceptableAnswers || [exercise.correctAnswer];
+            const isCorrect = acceptable.some(a =>
+                a.trim() === typed.trim()
+            );
+            display.classList.add(isCorrect ? 'correct' : 'wrong');
+
+            // Disable keyboard
+            kbGrid.querySelectorAll('.key-btn').forEach(b => b.disabled = true);
+            showFeedback(isCorrect, exercise.correctAnswer);
+        });
+        checkContainer.appendChild(checkBtn);
+        card.appendChild(checkContainer);
+    }
+
+    // ========== Conversation Listening (NEW) ==========
+
+    function renderConversationListening(card, exercise) {
+        const intro = document.createElement('p');
+        intro.className = 'exercise-question';
+        intro.textContent = I18n.localize(exercise.scenario) || I18n.t('listen_and_follow');
+        card.appendChild(intro);
+
+        const convContainer = document.createElement('div');
+        convContainer.className = 'conv-listen-container';
+
+        // All dialogue lines + choice points
+        const lines = exercise.lines || [];
+        let currentStep = 0;
+
+        function advanceToStep(step) {
+            if (step >= lines.length) {
+                // All lines done — this exercise is complete (auto-correct)
+                if (!answered) {
+                    answered = true;
+                    showFeedback(true, '');
+                }
+                return;
+            }
+
+            const lineData = lines[step];
+
+            // Mark all lines up to current as played
+            convContainer.querySelectorAll('.conv-line').forEach((el, i) => {
+                if (i < step) el.classList.add('played');
+                if (i === step) el.classList.add('active');
+            });
+
+            // If it's a choice point, show options
+            if (lineData.type === 'choice') {
+                const choiceCard = convContainer.querySelector('[data-step="' + step + '"]');
+                if (choiceCard) choiceCard.style.display = 'block';
+            } else {
+                // Auto-play audio if available
+                if (lineData.audio) {
+                    AudioManager.playListening(lineData.audio, () => {
+                        // After playback, advance
+                        currentStep = step + 1;
+                        advanceToStep(currentStep);
+                    });
+                } else {
+                    // No audio, auto-advance after short delay
+                    setTimeout(() => {
+                        currentStep = step + 1;
+                        advanceToStep(currentStep);
+                    }, 1200);
+                }
+            }
+        }
+
+        lines.forEach((lineData, idx) => {
+            if (lineData.type === 'choice') {
+                // Choice point element
+                const choiceArea = document.createElement('div');
+                choiceArea.className = 'conv-choice-area';
+                choiceArea.dataset.step = idx;
+                choiceArea.style.display = 'none';
+
+                const q = document.createElement('p');
+                q.className = 'exercise-question';
+                q.textContent = I18n.localize(lineData.question) || I18n.t('choose_response');
+                choiceArea.appendChild(q);
+
+                const optList = document.createElement('div');
+                optList.className = 'options-list';
+
+                lineData.options.forEach((opt, oi) => {
+                    const btn = document.createElement('button');
+                    btn.className = 'option-btn';
+                    if (opt.text && opt.text.bengali) {
+                        const bSpan = document.createElement('span');
+                        bSpan.className = 'option-bengali';
+                        bSpan.textContent = opt.text.bengali;
+                        btn.appendChild(bSpan);
+                        if (opt.text.romanized) {
+                            const rSpan = document.createElement('span');
+                            rSpan.className = 'option-romanized';
+                            rSpan.textContent = opt.text.romanized;
+                            btn.appendChild(rSpan);
+                        }
+                    }
+                    const tSpan = document.createElement('span');
+                    tSpan.textContent = I18n.localize(opt.text);
+                    btn.appendChild(tSpan);
+
+                    btn.addEventListener('click', () => {
+                        if (btn.disabled) return;
+                        optList.querySelectorAll('.option-btn').forEach((b, j) => {
+                            b.disabled = true;
+                            if (lineData.options[j].correct) b.classList.add('correct');
+                        });
+                        if (opt.correct) {
+                            btn.classList.add('correct');
+                            AudioManager.playSfx('correct');
+                        } else {
+                            btn.classList.add('wrong');
+                            AudioManager.playSfx('wrong');
+                        }
+                        // Continue conversation after choice
+                        setTimeout(() => {
+                            currentStep = idx + 1;
+                            advanceToStep(currentStep);
+                        }, 800);
+                    });
+                    optList.appendChild(btn);
+                });
+
+                choiceArea.appendChild(optList);
+                convContainer.appendChild(choiceArea);
+            } else {
+                // Dialogue line
+                const lineEl = document.createElement('div');
+                lineEl.className = 'conv-line';
+
+                if (lineData.audio) {
+                    lineEl.appendChild(createInlineAudioBtn(lineData.audio));
+                }
+
+                const content = document.createElement('div');
+                content.className = 'conv-line-content';
+
+                if (lineData.speaker) {
+                    const sp = document.createElement('div');
+                    sp.className = 'conv-line-speaker';
+                    sp.textContent = lineData.speaker;
+                    content.appendChild(sp);
+                }
+
+                if (lineData.bengali) {
+                    const bn = document.createElement('div');
+                    bn.className = 'conv-line-bengali';
+                    bn.textContent = lineData.bengali;
+                    content.appendChild(bn);
+                }
+
+                if (lineData.romanized) {
+                    const rm = document.createElement('div');
+                    rm.className = 'conv-line-romanized';
+                    rm.textContent = lineData.romanized;
+                    content.appendChild(rm);
+                }
+
+                const tr = document.createElement('div');
+                tr.className = 'conv-line-translation';
+                tr.textContent = I18n.localize(lineData.translation || {});
+                content.appendChild(tr);
+
+                lineEl.appendChild(content);
+                convContainer.appendChild(lineEl);
+            }
+        });
+
+        card.appendChild(convContainer);
+
+        // Start the conversation
+        setTimeout(() => advanceToStep(0), 400);
+    }
+
+    // ========== Shared option render helpers ==========
+
+    /** Simple text-only options (for reading) */
+    function renderOptionButtons(card, exercise) {
+        const optionsList = document.createElement('div');
+        optionsList.className = 'options-list';
+
+        exercise.options.forEach((opt, i) => {
+            const btn = document.createElement('button');
+            btn.className = 'option-btn';
+            btn.textContent = I18n.localize(opt.text);
+            btn.addEventListener('click', () => {
+                if (answered) return;
+                answered = true;
+                optionsList.querySelectorAll('.option-btn').forEach((b, j) => {
+                    b.disabled = true;
+                    if (exercise.options[j].correct) b.classList.add('correct');
+                });
+                if (opt.correct) btn.classList.add('correct');
+                else btn.classList.add('wrong');
+                const correctOpt = exercise.options.find(o => o.correct);
+                showFeedback(opt.correct, I18n.localize(correctOpt.text));
+            });
+            optionsList.appendChild(btn);
+        });
+        card.appendChild(optionsList);
+    }
+
+    /** Options with Bengali + romanized + translation (for conversation, listening) */
+    function renderOptionButtonsWithBengali(card, exercise) {
+        const optionsList = document.createElement('div');
+        optionsList.className = 'options-list';
+
+        exercise.options.forEach((opt, i) => {
+            const btn = document.createElement('button');
+            btn.className = 'option-btn';
+
+            if (opt.text && opt.text.bengali) {
+                const bSpan = document.createElement('span');
+                bSpan.className = 'option-bengali';
+                bSpan.textContent = opt.text.bengali;
+                btn.appendChild(bSpan);
+                if (opt.text.romanized) {
+                    const rSpan = document.createElement('span');
+                    rSpan.className = 'option-romanized';
+                    rSpan.textContent = opt.text.romanized;
+                    btn.appendChild(rSpan);
+                }
+            }
+            const tSpan = document.createElement('span');
+            tSpan.textContent = I18n.localize(opt.text);
+            btn.appendChild(tSpan);
+
+            btn.addEventListener('click', () => {
+                if (answered) return;
+                answered = true;
+                optionsList.querySelectorAll('.option-btn').forEach((b, j) => {
+                    b.disabled = true;
+                    if (exercise.options[j].correct) b.classList.add('correct');
+                });
+                if (opt.correct) btn.classList.add('correct');
+                else btn.classList.add('wrong');
+                AudioManager.stopListening();
+                const correctOpt = exercise.options.find(o => o.correct);
+                showFeedback(opt.correct, I18n.localize(correctOpt.text));
+            });
+            optionsList.appendChild(btn);
+        });
+        card.appendChild(optionsList);
+    }
+
+    // ========== Audio Controls (shared) ==========
+
+    function createAudioControls(audioSrc) {
         const audioControls = document.createElement('div');
         audioControls.className = 'audio-controls';
 
         const playBtn = document.createElement('button');
         playBtn.className = 'audio-play-btn';
-        playBtn.innerHTML = '&#9654;'; // play triangle
-        playBtn.setAttribute('aria-label', I18n.t('play_audio'));
+        playBtn.innerHTML = '&#9654;';
 
         const audioInfo = document.createElement('div');
         audioInfo.className = 'audio-info';
@@ -516,11 +892,9 @@ const Exercises = (() => {
 
         const volumeControl = document.createElement('div');
         volumeControl.className = 'audio-volume-control';
-
         const volLabel = document.createElement('span');
         volLabel.textContent = '🔊';
-        volLabel.style.fontSize = '1rem';
-
+        volLabel.style.fontSize = '0.9rem';
         const volSlider = document.createElement('input');
         volSlider.type = 'range';
         volSlider.min = '0';
@@ -529,7 +903,6 @@ const Exercises = (() => {
         volSlider.addEventListener('input', () => {
             AudioManager.setAudioVolume(parseInt(volSlider.value) / 100);
         });
-
         const replayBtn = document.createElement('button');
         replayBtn.className = 'audio-replay-btn';
         replayBtn.textContent = '🔄 ' + I18n.t('replay');
@@ -537,7 +910,6 @@ const Exercises = (() => {
             AudioManager.replayListening();
             playBtn.classList.add('playing');
         });
-
         volumeControl.appendChild(volLabel);
         volumeControl.appendChild(volSlider);
         volumeControl.appendChild(replayBtn);
@@ -546,8 +918,6 @@ const Exercises = (() => {
         audioControls.appendChild(playBtn);
         audioControls.appendChild(audioInfo);
 
-        let audioLoaded = false;
-
         playBtn.addEventListener('click', () => {
             if (AudioManager.isPlaying()) {
                 AudioManager.stopListening();
@@ -555,96 +925,50 @@ const Exercises = (() => {
                 playBtn.innerHTML = '&#9654;';
                 return;
             }
-
-            const result = AudioManager.playListening(exercise.audio, () => {
+            const result = AudioManager.playListening(audioSrc, () => {
                 playBtn.classList.remove('playing');
                 playBtn.innerHTML = '&#9654;';
             });
-
             if (result.audio) {
-                audioLoaded = true;
                 playBtn.classList.add('playing');
-                playBtn.innerHTML = '&#9646;&#9646;'; // pause
-
+                playBtn.innerHTML = '&#9646;&#9646;';
                 result.audio.addEventListener('error', () => {
                     playBtn.classList.remove('playing');
                     playBtn.innerHTML = '&#9654;';
+                    if (!audioControls.querySelector('.audio-error')) {
+                        const errorMsg = document.createElement('div');
+                        errorMsg.className = 'audio-error';
+                        errorMsg.textContent = I18n.t('audio_error');
+                        audioControls.appendChild(errorMsg);
+                    }
+                });
+            } else {
+                if (!audioControls.querySelector('.audio-error')) {
                     const errorMsg = document.createElement('div');
                     errorMsg.className = 'audio-error';
                     errorMsg.textContent = I18n.t('audio_error');
                     audioControls.appendChild(errorMsg);
-                });
-            } else {
-                const errorMsg = document.createElement('div');
-                errorMsg.className = 'audio-error';
-                errorMsg.textContent = I18n.t('audio_error');
-                audioControls.appendChild(errorMsg);
-            }
-        });
-
-        card.appendChild(audioControls);
-
-        // Options
-        const optionsList = document.createElement('div');
-        optionsList.className = 'options-list';
-
-        exercise.options.forEach((opt, i) => {
-            const btn = document.createElement('button');
-            btn.className = 'option-btn';
-
-            if (opt.text.bengali) {
-                const bengaliSpan = document.createElement('span');
-                bengaliSpan.className = 'option-bengali';
-                bengaliSpan.textContent = opt.text.bengali;
-                btn.appendChild(bengaliSpan);
-            }
-
-            const translationSpan = document.createElement('span');
-            translationSpan.textContent = I18n.localize(opt.text);
-            btn.appendChild(translationSpan);
-
-            btn.addEventListener('click', () => {
-                if (answered) return;
-                answered = true;
-
-                optionsList.querySelectorAll('.option-btn').forEach((b, j) => {
-                    b.disabled = true;
-                    if (exercise.options[j].correct) b.classList.add('correct');
-                });
-
-                if (opt.correct) {
-                    btn.classList.add('correct');
-                } else {
-                    btn.classList.add('wrong');
                 }
-
-                AudioManager.stopListening();
-                const correctOpt = exercise.options.find(o => o.correct);
-                showFeedback(opt.correct, I18n.localize(correctOpt.text));
-            });
-            optionsList.appendChild(btn);
+            }
         });
 
-        card.appendChild(optionsList);
+        return audioControls;
     }
 
-    // ---------- Feedback ----------
+    // ========== Feedback ==========
 
     function showFeedback(isCorrect, correctAnswerText) {
-        // Play SFX
         if (isCorrect) {
             AudioManager.playSfx('correct');
         } else {
             AudioManager.playSfx('wrong');
         }
 
-        // Animate card
         const exerciseCard = container.querySelector('.exercise-card');
         if (exerciseCard) {
             exerciseCard.classList.add(isCorrect ? 'animate-pop' : 'animate-shake');
         }
 
-        // Show feedback bar
         const feedback = document.getElementById('exercise-feedback');
         if (feedback) {
             feedback.className = 'exercise-feedback visible ' +
@@ -655,8 +979,8 @@ const Exercises = (() => {
             if (isCorrect) {
                 textDiv.textContent = I18n.t('correct') + ' ' + I18n.t('great_job');
             } else {
-                textDiv.textContent = I18n.t('incorrect') + ' — ' +
-                    I18n.t('correct_answer_was') + ' ' + correctAnswerText;
+                textDiv.textContent = I18n.t('incorrect') +
+                    (correctAnswerText ? ' — ' + I18n.t('correct_answer_was') + ' ' + correctAnswerText : '');
             }
 
             const nextBtn = document.createElement('button');
@@ -672,7 +996,7 @@ const Exercises = (() => {
         }
     }
 
-    // ---------- Utility ----------
+    // ========== Utility ==========
 
     function arraysEqual(a, b) {
         if (a.length !== b.length) return false;

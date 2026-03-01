@@ -1,0 +1,1062 @@
+SYSTEM TABLE
+There now follows a detailed table containing an exposition of the Romanisation system.
+
+SVOR (SONORANT) LETTERS
+SYLLABIC MODIFIERS
+CONSONANT LETTERS: VELAR
+CONSONANT LETTERS: PALATAL
+CONSONANT LETTERS: RETROFLEX
+CONSONANT LETTERS: DENTAL
+CONSONANT LETTERS: LABIAL
+CONSONANT LETTERS: FORMER AND ACTUAL SEMI-VOWELS
+CONSONANT LETTERS: FRICATIVE
+
+
+SVOR (SONORANT) LETTERS
+
+
+
+
+
+
+Bengali letter
+Transliteration
+Pronunciation/ Comments
+Examples
+অ
+o
+IPA / ɔ /. As o in British English hOt. The letter is called স্বর-অ svoro-o in Bengali.
+
+In Bengali orthography, in the absence of contra-indication and whether or not svoro-o is actually pronounced, every consonant sign by default comprises a consonant sound followed by an inherent svoro-o. Consequently, in Bengali orthography svoro-o is never actually written immediately after a consonant.
+
+Where the difference in pronunciation between o in British English hOt and (see the next item) o in English Obey is to be shown, svoro-o with the pronunciation of IPA / ɔ / can be written as ó.
+
+In Portuguese, the letter ó is pronounced as o in British English hOt - e.g. avó / avɔ / (“grandmother”), próximo / prɔʃimu / (“next”, “close by”, “neighbour”).
+অতথা ototha / ótótha (“untrue”), অকর্মা okorma / ókórma (“idling”, “grossly inefficient”)
+
+
+o
+IPA / o /. As o in English Obey.
+
+Where the difference in pronunciation between o in British English hOt and (see the preceding item) o in English Obey is significant, svoro-o with the pronunciation of IPA / o / can be written as ô.
+
+In Portuguese, the letter ô is pronounced as o in English Obey - e.g. avô / avo / (“grandfather”), metrô / meṱro / (“urban underground railway”).
+অতিরিক্ত otirikto / ôtiriktô (“supernumerary”, “additional”), অনুমতি onumoti / ônumôti (“consent”, “permission”)
+
+
+ʼ
+Silent: svoro-o when it is silent after a consonant that is not the last letter in a word.
+দিনদুপুরে dinʼdupure (“in broad daylight”), ভারবাহী bharʼvahii (“load-bearing”), আমদানি amʼdani (“import” [of goods]), শিগ্গিরই shiggirʼi (“shortly”, “quickly”)
+
+
+(not written)
+Silent: svoro-o when it is silent after a consonant that is the last letter in a word.
+
+A silent অ o is by default to be implied in the Romanisation after a consonant that is the final letter in a word. Consequently, a silent অ o is not represented in the Romanisation after a word-final consonant.
+[v+a gh(+o)] বাঘ vagh (“tiger”), [o s+a m+a l(+o)] অসামাল osamal (“unsteady”, “off-balance”), [d+a n(+o)] দান dan ([act of] “giving”) 
+
+
+eo
+IPA / æ /. As a in English rAt, occurring with this pronunciation only after a silent y in the first syllable in a word: but, for the purposes of pronouncing svoro-o as occurring after a silent y in the first syllable of a word, prefixes and compounding are ignored.
+ব্যবহার vyeovohar (“usage”), দুর্ব্যবহার durvyeovohar (“ill usage”, “rude treatment”, “misbehaviour”), ব্যস্ত vyeosto (“busy”)
+অ্য
+ö
+IPA / ø / or IPA / œ /. Respectively as either the vowel in French dEUx / ḓø / (“two”) or the vowel in French OEUvre / œːvʁ / (“work”) - approximately as u in English hUrt. When treated as a non-traditional single grapheme, it is used in transliterating non-subcontinental words into Bengali orthography. Strictly speaking this is not an independent letter, but the combination of  jzo-phola used as a mere diacritical mark with অ o, in order to represent the sound at the beginning of a non-subcontinental word of IPA / ø / or IPA / œ /. No non-subcontinental words have been adopted into Bengali in which IPA / ø / or IPA / œ / occurs.
+French oeufs / øf / (“eggs”) → Bengali transliteration অ্যফ öf
+
+French oeil / ɶj / (“eye”) → Bengali transliteration অ্যয় öy
+
+
+
+
+
+
+
+
+আ
+a
+IPA / ɑ /. As a in English fAther. The letter is called স্বর-আ svoro-a in Bengali.
+
+When sounded immediately after a consonant in the same syllable, the letter in Bengali orthography is written as a conjunct immediately after that consonant (or any consonant-conjunct ending with that consonant), and is known as আ-কার a-kar (“A-maker”). There is only one form া of a-kar.
+আরাম aram (“ease”, “comfort”), আম am (“mango”), মা (“mother”, “Mom”), ভাষা bhaxa (“language”)
+
+
+ea
+IPA / æ /. This is স্বর-আ svoro-a pronounced as a in English rAt. This pronunciation of স্বর-আ svoro-a occurs only and invariably:
+
+(i) after a silent y in the first syllable of a word. For the purposes of pronouncing svoro-o as occurring after a silent y in the first syllable of a word, prefixes and compounding are ignored.
+
+(ii) (in any syllable) after gjnj. 
+ব্যাপার vyeapar ([a] “matter”), জ্ঞান gjnjean (“knowledge”, “consciousness”), ত্যাগ tyeag (“abandonment”, “relinquishment”), পদত্যাগ podotyeag (“relinquishment of [a] position”, “resignation”), ঢ্যাঙা dthyeanga (“lanky”)
+অ্যা
+ä
+IPA / æ /. As a in English rAt. When treated as a non-traditional single grapheme, it is used in transliterating non-subcontinental words into Bengali orthography. Strictly speaking this is not an independent letter, but the combination of  jzo-phola and া a-kar (conjunct a) to form a mere diacritical mark used with অ o, in order to represent the sound at the beginning of a non-subcontinental word of IPA / æ /.
+অ্যামিবা ämiba (“amoeba”), অ্যাটলাস ätdʼlas (“atlas”)
+
+
+
+
+
+
+
+
+ই
+i
+IPA / i /. As i in English bIt. The letter is called হ্রস্ব-ই hrosvo-i (“short I”) in Bengali.
+
+When sounded immediately after a consonant in the same syllable, the letter in Bengali orthography is written as a conjunct immediately before that consonant (or any consonant-conjunct ending with that consonant), and is known as হ্রস্ব-ই-কার hrosvo-i-kar (“short-I-maker”) There is only one form ি of hrosvo-i-kar.
+ইতি iti (“in conclusion” [equivalent to “yours sincerely”], “termination”), ইত্যাদি ityadi (“et cetera”), নিশ্চিত nishcito (“doubt-free”, “certainly”)
+
+
+
+
+
+
+
+
+ঈ
+ii
+IPA / iː / in careful pronunciation: as i in English machIne. Colloquially the letter is pronounced as i in English bIt (IPA / i /). The letter is called দীর্ঘ-ঈ diirgho-ii (“long II”) in Bengali.
+
+When sounded immediately after a consonant in the same syllable, the letter in Bengali orthography is written as a conjunct immediately after that consonant (or any consonant-conjunct ending with that consonant), and is known as দীর্ঘ-ঈ-কার diirgho-ii-kar (“long-II-maker”). There is only one form ী of diirgho-ii-kar.
+
+In Finnish, ii is pronounced as i in English machIne: e.g. in the word viisi / ʋiːsi / (“five”). In the related language Estonian, ii also is pronounced as i in English machIne: e.g. in the word viis / viːs / (“five”).
+ঈক্ষণ iikxonh ([act of] “seeing”, “eye”), শীতকালীন shiitʼkaliin (“hibernal”, [adjective] “winter”), ঈদ Iid ([Muslim] "Festival" [one of two festivals, either marking the end of the annual period of fasting or occurring at the end of the annual pilgrimage to Mecca][the vowel in this word is invariably pronounced as i in English machIne])
+
+
+
+
+
+
+
+
+উ
+u
+IPA / u /. As u in English fUll. The letter is called হ্রস্ব-উ hrosvo-u (“short U”) in Bengali.
+
+When sounded immediately after a consonant in the same syllable, the letter in Bengali orthography is known as হ্রস্ব-উ-কার hrosvo-u-kar (“short-U-maker”) and is fused to that consonant (or any consonant-conjunct ending with that consonant), below which the usual form ু of hrosvo-u-kar is written. There are several variant forms of hrosvo-u-kar.
+উভয় ubhoy (“both”), উল্লুক ulluk (“gibbon”), সুরুচি suruci (“refined taste”, “of refined taste”), রুই ruʿi ([riverine fish popular in Bengali cuisine] “Labeo rohita”)
+উ্য
+ü
+IPA / y /. As the vowel in French rUE / ʁy / (“street”). When treated as a non-traditional single character, it is used in transliterating non-subcontinental words into Bengali orthography. Strictly speaking this is not an independent letter but the combination of  jzo-phola used as a mere diacritical mark with হ্রস্ব-উ hrosvo-u, in order to represent the sound at the beginning of a non-subcontinental word of IPA / y /. No non-subcontinental words have been adopted into Bengali in which IPA / y / occurs.
+French unanime / yṋɑṋim / (“unanimous”) → Bengali transliteration উ্যনানিম ünanim
+‌
+
+
+
+
+
+
+ঊ
+uu
+IPA / uː /. In careful pronunciation, as u in English rUde. Colloquially the letter is pronounced as u in English fUll (IPA / u /). The letter is called দীর্ঘ-ঊ diirgho-uu (“long UU”) in Bengali.
+
+When sounded immediately after a consonant in the same syllable, the letter in Bengali orthography is known as দীর্ঘ-ঊ-কার diirgho-uu-kar (“long-UU-maker”) and is fused to that consonant (or any consonant-conjunct ending with that consonant), below which the usual form ূ of diirgho-uu-kar is written. There are some variant forms of diirgho-uu-kar.
+
+In Finnish, uu is pronounced as u in English rUde: e.g. in the word kuuma / kuːmɑ / (“hot”). In the related language Estonian, uu also is pronounced as u in English rUde: e.g. in the word kuum / kuːm / (“hot”).
+ঊরু uuru (“thigh”), ঊষা uuxa (“dawn”, “daybreak”), দূর duur (“distance”, “far”), রূপ্য ruupyo (“silver”)
+
+
+
+
+
+
+
+
+ঋ
+rwi
+IPA / ri /. As ri in English gRIn. The letter is simply called ঋ rwi in Bengali.
+
+Grammatically this is treated as a semi-vowel, and never occurs before a vowel. For the purposes of implying an inherent অ o in the Romanisation, this is not a consonant (no inherent অ o is implied after a final ঋ rwi). 
+
+When sounded immediately after a consonant in the same syllable, the letter in Bengali orthography is known as ঋ-কার rwi-kar (“RWI-maker”) and is fused to that consonant (or any consonant-conjunct ending with that consonant), below which the usual form ৃ of rwi-kar is written. There is one variant form of rwi-kar.
+ঋষি rwixi ([a] “sage”), ঋণগ্রাহী rwinhʼgrahii (“borrower”), বিতৃষ্ণা vitrwixnha (“aversion”), বৃদ্ধি vrwiddhi (“augmentation”), হৃদয় hrwidoy (“heart” [figurative])
+
+
+rwi
+Exceptionally, rwi is pronounced as IPA / rri / (as re-ri in English caRE-RIdden) immediately after হ h when হ h occurs immediately after a vowel (the হ h will be silent).
+অপহৃত opohrwito (“misappropriated”, “stolen”, “abducted”)
+
+
+
+
+
+
+
+
+ৠ
+rwii
+IPA / riː /. As ri in English marINe and ree in English gREEn - but the letter is non-existent in modern Bengali. The letter is simply called ৠ rwii in Bengali.
+
+Grammatically this was treated as a semi-vowel, and never occurred before a vowel. For the purposes of implying an inherent অ o in the Romanisation, this would not be a consonant (no inherent অ o would be implied after a final ৠ rwii).
+
+When sounded immediately after a consonant in the same syllable, the letter in Bengali orthography was known as ৠ-কার rwii-kar (“RWII-maker”) and was fused to that consonant (or any consonant-conjunct ending with that consonant), below which the sole form ৄ of rwii-kar was written.
+কৄ krwii ([archaic stem of verb] “to scatter”, “to disperse”), গৄ grwii ([archaic stem of verb] “to praise”, “to gulp”), তৄ trwii ([archaic stem of verb] “to traverse”)
+
+
+
+
+
+
+
+
+ঌ
+lwi
+IPA / li /. As li in English gLIb - but the letter is non-existent in modern Bengali. The letter is simply called ঌ lwi in Bengali.
+
+Grammatically this was treated as a semi-vowel, and never occurred before a vowel. For the purposes of implying an inherent অ o in the Romanisation, this would not be a consonant (no inherent অ o would be implied after a final ঌ lwi).
+
+When sounded immediately after a consonant in the same syllable, the letter in Bengali orthography was known as ঌ-কার lwi-kar (“LWI-maker”) and was fused to that consonant (or any consonant-conjunct ending with that consonant), below which the sole form ৢ of lwi-kar was written.
+কৢপ্ klwip- ([archaic stem of verb] “to envision”, “to arrange”)
+
+
+
+
+
+
+
+
+ৡ
+lwii
+IPA / liː /. As lee in English gLEE - but the letter is non-existent in modern Bengali, and was absent even from any Sanskrit word. The letter is simply called ৡ lwii in Bengali.
+
+Grammatically this was treated as a semi-vowel, and would never have occurred before a vowel. For the purposes of implying an inherent অ o in the Romanisation, this would not have been a consonant (no inherent অ o would have been implied after a final ৡ lwii).
+
+When in theory it was to be sounded immediately after a consonant in the same syllable, the letter in Bengali orthography was known as ৡ-কার lwii-kar (“LWII-maker”) and was to be fused to that consonant (or any consonant-conjunct ending with that consonant), below which the sole form ৣ of lwii-kar was to be written.
+[The letter lwii has never been used in practice.]
+
+
+
+
+
+
+
+
+এ
+e
+IPA / e /. As e in English rEd. The letter is simply called এ e in Bengali.
+
+When sounded immediately after a consonant in the same syllable, the letter in Bengali orthography is written as a conjunct immediately before that consonant (or any consonant-conjunct ending with that consonant), and is known as এ-কার e-kar (“E-maker”). There is only one form ে of e-kar.
+এখানে ekhane (“here”, “in this place”), একুশে ekushe ([the] “twenty-first” [day of a month]), এত্তেলা ettela ([a] “report”, “information”)
+
+
+ee
+IPA / æ /. As a in English rAt.
+এক eek (“one”), লেখা leekha (“writing”), তের teero (“thirteen”)
+
+এ্য
+ë
+(Most commonly as) IPA / ɛ /. As (most commonly) the vowel in French trEIze / ṱʁɛːz / (“thirteen”) - approximately as ea in English bEAr. When treated as a non-traditional single grapheme, it is used in transliterating non-subcontinental words into Bengali orthography. Strictly speaking this is not an independent letter, but the combination of  jzo-phola used as a mere diacritical mark with এ e, in order (most commonly) to represent the sound at the beginning of a non-subcontinental word of IPA / ɛ /. No non-subcontinental words have been adopted into Bengali in which IPA / ɛ / occurs.
+French aile / ɛl / (“wing”) → Bengali transliteration এ্যল ël
+এ্যা
+ê
+IPA / æ /. As a in English rAt. When treated as a non-traditional single grapheme, it is used in transliterating non-subcontinental words into Bengali orthography. Strictly speaking this is not an independent letter, but the combination of  jzo-phola and া a-kar (conjunct a) to form a mere diacritical mark used with এ e, in order to represent the sound at the beginning of a non-subcontinental word of IPA / æ /.
+এ্যাকাডেমী êkadtemii (“academy”)
+
+
+
+
+
+
+
+
+ঐ
+aoi
+IPA / oj /. Approximately as oi in English cOIn. The letter is simply called ঐ aoi in Bengali.
+
+Note that আ a + অ o + ই i = ঐ aoi under the grammatical rules concerning সন্ধি sondhi (“joining” of sounds).
+
+When sounded immediately after a consonant in the same syllable, the letter in Bengali orthography is written as a conjunct immediately before that consonant (or any consonant-conjunct ending with that consonant), and is known as ঐ-কার aoi-kar (“AOI-maker”), There is only one form ৈ of aoi-kar.
+ঐক্য aoikyo (“unity”), বৈধ vaoidh (“lawful”, “valid”), তৈলাক্ত taoilakto (“smeared with oil”), ঐশ্বর্য aoishvorjzo (“lordliness”, “supremacy”, “might”, “affluence”)
+
+
+
+
+
+
+
+
+ও
+ou
+IPA / oː /. As o in Italian cellO, approximately as ou in English fOUr. The letter is simply called ও ou in Bengali.
+
+Note that অ o + উ u = ও ou under the grammatical rules concerning সন্ধি sondhi (“joining” of sounds).
+
+When sounded immediately after a consonant in the same syllable, the letter in Bengali orthography is written as a conjunct in two parts so as to enclose that consonant (or any consonant-conjunct ending with that consonant), and is known as ও-কার ou-kar (“OU-maker”). There is only one form ো of ou-kar.
+অমনোযোগী omonoujzougii (“inattentive”, “heedless”), ওজোন ouzoun (“ozone”), ওলাওঠা oulaʿoutdha (“cholera”), শোয়া shouwa (“to sleep”, “to go to sleep”, “to lie down”)
+
+
+ʼ
+Silent ও ou: occurring only (but not necessarily) immediately before w.
+যাওয়া jzaʼwa (“to go”), ওয়ারেন্ট ʼwarentd (“warrant” [of arrest]), বাঁওয়া vanwʼwa (“left-handed”, “drum beaten by the left hand”), হওয়া hoʼwa (“to be”, “to become”, “to exist”, “being”, “occurrence”)
+
+
+
+
+
+
+
+
+ঔ
+aou
+IPA / ow /. As ow in English bOWler or ou in English sOUl or oa in English rOAd. The letter is simply called ঔ aou in Bengali.
+
+Note that আ a + অ o + উ u = ঔ aou under the grammatical rules concerning সন্ধি sondhi (“joining” of sounds).
+
+When sounded immediately after a consonant in the same syllable, the letter in Bengali orthography is written as a conjunct in two parts so as to enclose that consonant (or any consonant-conjunct ending with that consonant), and is known as ঔ-কার aou-kar (“AOU-maker”). There is only one form ৌ of aou-kar.
+ঔষধালয় aouxodhaloy (“pharmacy”), তৌলন taoulon (“weighing”, “comparing”), নৌ naou (“ship”, “boat”)
+Return to System Table
+SYLLABIC MODIFIERS
+
+
+
+
+
+
+Bengali letter
+Transliteration
+Pronunciation/ Comments
+Examples
+ং
+ngw
+IPA / ŋ /. As ng in English siNG, but never occurring before a vowel or diphthong. The letter is called অনুস্বর onusvor or অনুস্বার onusvar (“after-sound” or “post-sonorant”) in Bengali.
+
+For the purposes of implying an inherent অ o in the Romanisation, this is not a consonant (no inherent অ o would be implied after a final অনুস্বর onusvor). The letter invariably is sounded immediately after a vowel or diphthong in the same syllable, to which onusvor in Bengali orthography is treated as a conjunct.
+সুতরাং sutorangw (“therefore”), অংশ ongwsho (“portion”, “part”, “share”), জং zongw (“rust”)
+
+
+
+
+
+
+
+
+ঃ
+hw
+IPA / h /. As (when sounded) h in English aHoy. The letter is sounded only at the end of a word. The letter never occurs before, and invariably occurs after, a vowel or diphthong. The letter is called বিসর্গ visorgo (“aspirant”: literally “out-producing”) in Bengali.
+
+For the purposes of implying an inherent অ o in the Romanisation, this is not a consonant (no inherent অ o would be implied after a final বিসর্গ visorgo).
+প্রথমতঃ prothomotohw (“firstly”), অন্ততঃ ontotohw (“at least”), ফলতঃ pholotohw (“consequently”), বস্তুতঃ vostutohw (“in fact”)
+
+
+hw
+Silent, immediately before and doubling the pronunciation of a consonant letter.
+দুঃখ duhwkho (“sorrow”), অন্তঃসাগরীয় ontohwsagoriiyo (“undersea”)
+
+
+
+
+
+
+
+
+ঁ
+nw
+IPA / ~ /. Nasalisation of vowel or diphthong, as n in French viN / vɛ̃ / (“wine”). The letter is called চন্দ্রবিন্দু condrovindu (“moon [and] dot”) in Bengali. Condrovindu is written in the Romanisation next after the vowel or diphthong it nasalises.
+
+For the purposes of implying an inherent অ o in the Romanisation, condrovindu is not a consonant (no inherent অ o would be implied after a final condrovindu).
+
+Condrovindu did not exist in classical Sanskrit, in which the Devanagari onusvar ँ (which has the shape of Bengali condrovindu) would stand for both Bengali onusvor / onusvar ং and Bengali condrovindu ঁ .
+চাঁদ canwd (“moon”), গাঁ / গাঁও ganw / ganwou (“village”), জুঁই junwi (“jasmine”) 
+Return to System Table
+CONSONANT LETTERS: VELAR
+
+
+
+
+
+
+Bengali letter
+Transliteration
+Pronunciation/ Comments
+Examples
+ক
+k
+IPA / k /. As k in English Kid. The letter is simply called ক ko in Bengali.
+কাক kak ([a] “crow”), ক্রকচ krokoc ([a] “saw”), ক্লান্তিকর klantikor (“tiresome”, “fatiguing”)
+
+
+q
+IPA / k /. As k in English Kid but representing an original sound of uvular ﻕ‎ / q / in Arabic word قاضي / Qaːdˤi / (a “judge”).
+[Arabic مقدّمة / muqaddima / “prologue”, “introduction” →] মকদ্দমা moqoddoma (“lawsuit”)
+
+
+
+
+
+
+
+
+খ
+kh
+IPA / kʰ /. Approximately as kh in English sinKHole and ckh in English duCKHouse. The letter is simply called খ kho in Bengali.
+খরজচ / খরজ khoroc / khoroj (“expenditure”, “cost”)
+
+
+
+
+
+
+
+
+গ
+g
+IPA / g /. As g in English Gas. The letter is simply called গ go in Bengali.
+গগন gogon (“firmament”, “sky”), গুগ্গুল guggul (“bdellium” [aromatic gum exuded by shrub Commiphora wightii])
+
+
+
+
+
+
+
+
+ঘ
+gh
+IPA / ɡʱ /. Approximately as gh in English doGHouse. The letter is simply called ঘ gho in Bengali.
+ঘুঘু ghughu (“dove”), ঘাঘর ghaghor (“pair of cymbals”)
+
+
+
+
+
+
+
+
+ঙ
+ng
+IPA / ŋ /. As ng in English fiNGer. The letter is called উঙ ungo or উম umo in Bengali.
+রঙ rong / রঙ্গ ronggo (“colour”, “paint”) 
+Return to System Table
+CONSONANT LETTERS: PALATAL
+
+
+
+
+
+
+Bengali letter
+Transliteration
+Pronunciation/ Comments
+Examples
+চ
+c
+IPA / tɕ /. Approximately as c in Italian Cello or ch in English beaCH. The letter is simply called চ co in Bengali.
+চাচা caca (“paternal uncle”, “fatherʼs brother”, “fatherʼs male cousin”)
+
+
+
+
+
+
+
+
+ছ
+ch
+IPA / tɕʰ /. Approximately as "tch h" in English "maTCH Head" or "chh" in English “beaCHHead”. The letter is simply called ছ cho in Bengali.
+ছাড়পত্র charrʼpotro (“passport”, “laissez-passer”), অগোছাল ogouchal (“messy”, “unmethodical”), ছাদ chad (“roof”, “ceiling”)
+
+
+
+
+
+
+
+
+জ
+j
+IPA / ʥ /. Approximately as gi in Italian adaGIo (“at ease”) or j in English aJar. The letter is called বর্গীয় জ vorgiiyo jo (“generic J”) in Bengali.
+[Persian گنج / gɒndʒ / “treasure”, “granary” →] গঞ্জ gonjj (“mart”, “bazar”)
+
+
+z
+IPA / z / (as z in English Zebra) or IPA / ʥ / (approximately as gi in Italian adaGIo or j in English aJar), but representing an original sound of, or close to, z in English Zebra or th in English THe.
+[Guernsey gilet (woollen waistcoat from the Channel Islands) →] গেঞ্জি genjzi (“vest”), [Portuguese zebra (“wild ass”) →] জেব্রা zebra (“zebra”), [Arabic ضلع / dˤilaːʕ / “rib” →] জেলা zela (“district”), [Arabic أَذَان‎ / ʔæˈðæːn / Islamic “call to prayer” →] আজান azan (Islamic “call to prayer”), [Persian جهاز / dʒɒhɒːz / “ship” →] জাহাজ jahaz (“ship”), [Arabic زكاة / zækæːh / Islamic “tithe” →] জাকাত zakat (Islamic “tithe”)
+
+
+gj
+IPA / g /. As g in English Gap, occurring only and invariably before ঞ nj: a juxtaposition which occurs only in the numerous words derived from the archaic verbal stem জ্ঞা gjnjea (“to know”, “to be aware of”).
+
+In standard and Tosk dialects of Albanian the compound letter gj is pronounced as IPA / ɟ / (a palatalised g), not far from the sound of IPA / gj / given to g in English leGume (IPA / lɛɡjuːm /): e.g. gjuhë / ɟuhə / (“language”, [anatomical] “tongue”). In Gheg dialects of Albanian, gj may be pronounced as gi in Italian adaGIo - e.g. gjêndje / dʒɛndje / (“situation”, “condition”).
+বিজ্ঞাত vigjnjeato (“well known”), জ্ঞেয় gjnjeyo (“knowable”, [an] “object to be known”)
+
+
+
+
+
+
+
+
+ঝ
+jh
+IPA / ʥʰ /. Approximately as dgeh in English briDGEHead. The letter is simply called ঝ jho in Bengali.
+ঝাঁক jhanwk (“swarm”, “flock”, “shoal”), ঝুড়ি jhurri ([a] “hamper”, “large basket”), মেঝে mejhe (“floor” [of a room])
+
+
+
+
+
+
+
+
+ঞ
+nj
+IPA / ɲ /. As the first consonant element in nh in Portuguese seNHor / sɪˈnyɔr / (“Mr”, “sir”, “lord”) or in ñ in Castilian Spanish seÑor / sɛˈnyɔr / (“Mr”, “sir”, “lord”): approximately as n in English seNiority or in English steNch. The letter is called ঞীয় njiiyo or ইঙ ingo in Bengali.
+
+In the versions of Serbo-Croat written in the Roman script (Bosnian, Croatian and Montenegrin), the compound letter nj is pronounced as IPA / ɲ / - e.g. konj / kɔɲ / (“horse”). Likewise in Albanian - e.g. një / ɲə / (“one”, “a”, “an”).
+বঞ্চনা vonjcona (“deception”), ঞ্যস্ত njyeosto ([archaic] [of verb inflection] “causative”), ঞ njo ([archaic] “bull”), যাচ্ঞা jzacnja (“solicitation”, [a] “request”), নঞর্থক nonjorthok (“having negative meaning”)
+
+
+nj
+Silent, immediately after and (other than at the start of a word) doubling the pronunciation of জ gj.
+জ্ঞাতব্য gjnjeatovyo (“something that should be known”, “worth learning”)
+Return to System Table
+CONSONANT LETTERS: RETROFLEX
+
+
+
+
+
+
+Bengali letter
+Transliteration
+Pronunciation/ Comments
+Examples
+ট
+td
+IPA / ʈ /. As t in English Trick but retroflexed. The letter is called মূর্ধন্য ট muurdhonyo tdo (“coronal TD”) in Bengali.
+
+The Romanisation of this letter follows that for the letter ড dt.
+
+In Basque, a distinction is made between dental t, written as t, and palatal t, written as tt: e.g between t in the word tanta / tanta / (“drop”), for which the Bengali transliteration would be তান্তা tanta, and tt in the word ttantta / canca / (“droplet”), for which an approximate Bengali transliteration would be টাণ্টা tdanhtda.
+টিটির tditdir (“partridge”), টাট্টু tdatdtdu (“pony”)
+
+
+
+
+
+
+
+
+ঠ
+tdh
+IPA / ʈʰ /. Approximately as th in English hoTHead but retroflexed. The letter is called মূর্ধন্য ঠ muurdhonyo tdho (“coronal TDH”) in Bengali.
+
+The Romanisation of this letter follows that for the letter ড dt.
+ঠোঁট tdhounwtd (“lip”, “beak”)
+
+
+
+
+
+
+
+
+ড
+dt
+IPA / ɖ /. As d in English carDinal but retroflexed. The letter is called মূর্ধন্য ড muurdhonyo dto (“coronal DT”) in Bengali.
+
+In Irish Gaelic, dt is pronounced as a post-alveolar d: e.g. in the word dtír / dʲiːɾʲ / (“country”), for which the closest Bengali transliteration would be ডির dtir.
+
+In Basque, a distinction is made between dental d, written as d, and palatal d, written as dd: e.g between d in the word idi / idi / (“ox”), for which the Bengali transliteration would be ইদি idi, and dd in the word onddo / onɟo / (“mushroom”), for which an approximate Bengali transliteration would be অণ্ড onhdto.
+ডুবা dtuba (“to be submerged”, “to be sunk”, “to be drowned”), হাড্ডি hadtdti (“bone”)
+ড়
+rr
+The grapheme ড় is called ড শূন্য র dto shuunyo ro in Bengali, and is grammatically a variant of the letter ড muurdhonyo dto and not a separate letter: the combination of muurdhonyo dto with a dot ় used as a mere diacritical mark.
+
+Here: IPA / r / (as r in English aRid or rr in English huRRy). In earlier (and still in careful) pronunciation, retroflexed as IPA / ɽ /.
+ভেড়া bheerra (“sheep”), তাড়াহুড়ো tarrahurrou (“great hurry”, “excessive haste”), কাপড় kaporr (“garment”, “cloth”)
+
+
+
+
+
+
+
+
+ঢ
+dth
+IPA / ɖʱ /. Approximately as dh in English maDHouse but retroflexed. The letter is called মূর্ধন্য ঢ muurdhonyo dtho (“coronal DTH”) in Bengali.
+
+The Romanisation of this letter follows that for the letter ড dt.
+ঢিলা dthila (“slack”, “lax”, “loose”), ঢেউ dtheʿu (“wave”, “billow”), ঢেঁড়স dtheenwrros (“okra”, “ladyʼs finger”, “gumbo”, [a] “good-for-nothing”)
+ঢ়
+rrh
+The grapheme ঢ় is called ঢ শূন্য র dtho shuunyo ro in Bengali, and is grammatically a variant of the letter ঢ muurdhonyo dtho and not a separate letter: the combination of muurdhonyo dtho with a dot ় used as a mere diacritical mark.
+
+Here: IPA / r / (as r in English aRid or rrh in English cataRRH). In earlier (and still in careful) pronunciation, retroflexed as IPA / ɽ /. Originally both retroflexed and aspirated as IPA / ɽʱ / (approximately as rh in English brotheRHood.
+দৃঢ় drwirrho (“firm”, “strict”, “taut”), মাঢ়ী marrhii ([anatomical] “gum”)
+
+
+
+
+
+
+
+
+ণ
+nh
+IPA / ɳ /. As a retroflexed version of n in English barN, when next to the retroflex consonants ট td, ঠ tdh, ড dt, and (in theory) ঢ dth. This is the original pronunciation. The letter is called মূর্ধন্য ণ muurdhonyo nho (“coronal NH”) in Bengali.
+
+In careful pronunciation, the letter is always sounded as retroflexed / ɳ /.
+
+In central Welsh, nh at the start of a word is pronounced as an aspirated alveolar voiceless nasal (approximately like nh in English iNHerit): e.g. in the word nhad / n̥hɑːd / (“[my] father”), for which the nearest Bengali transliteration would be ণাড nhadt.
+কণ্টকময় konhtdokʼmoy (“thorny”), কণ্ঠা konhtdha (“collarbone”) , খণ্ড khonhdto ( “segment”, “portion”, “section”, “piece”, [a] “part”), ঘন্টা ghonhtda (“hour”, “gong”, “bell”)
+
+
+nh
+IPA / n /. As alveolar n in English Net - the usual pronunciation in modern Bengali.
+পরমাণু poromanhu (“atom”), কণা konha (“speck”, “particle”, “grain”), মণি monhi (“gem”), ণিচ্ nhic- (“causative inflection of verb”), ণিজস্ত nhijosto ([archaic] [of verb inflection] “causative”)
+Return to System Table
+CONSONANT LETTERS: DENTAL
+
+
+
+
+
+
+Bengali letter
+Transliteration
+Pronunciation/ Comments
+Examples
+
+
+
+
+
+
+
+
+ত
+t
+IPA / ṱ /. As the dentalised t in French méTier / meṱje / (“profession”) or Italian andanTe (“ambling”). The letter is called দন্ত্য ত dontyo to (“dental T”) in Bengali.
+তোতা touta (“parrot”), তৃতীয় trwitiiyo (“third”)
+‌ত্‍
+t-
+IPA / ṱ /. As the dentalised t in French fête / fɛːṱ / (“festival”). The character ত্‍ is called খণ্ড ত khonhdto to (“separated T”) in Bengali, but is not an independent letter. It represents (and at the end of a word sometimes is written as) ত t followed by ্ hosonto - ত্ - that is, ত t without the inherent subsequent অ o.
+
+Khonhdto to does not in Bengali orthography follow a consonant or precede a vowel, and it exists either at the end of a word or before a consonant or consonant-conjunct with which ত t does not have a combining form.
+ব‌ত্‍সর vot-sor (“year”), দি‌ত্‍সা dit-sa ([a] “desire to give”), বৃহ‌ত্‍ (বৃহত্) vrwihot- (“great”)
+
+
+
+
+
+
+
+
+থ
+th
+IPA / ṱʰ /. Approximately as th in English hoTHead but dentalised, and similar to th in English THin. The letter is called দন্ত্য থ dontyo tho (“dental TH”) in Bengali.
+
+In ancient Greek, the letter Θ Romanised as th originally had the pronunciation / ṱʰ /.
+থানা thana (“police station”)
+
+
+
+
+
+
+
+
+দ
+d
+IPA / ḓ /. As the dentalised d in French maDame / mɑḓɑm / (“Mrs”, “Ms”, “my Lady”) or Italian Dolce (“sweet”). The letter is called দন্ত্য দ dontyo do (“dental D”) in Bengali.
+দরিদ্রিতা doridrota (“poverty”)
+
+
+
+
+
+
+
+
+ধ
+dh
+IPA / ḓʰ /. Approximately as dh in English maDHouse but dentalised, and similar to th in English THen. The letter is called দন্ত্য ধ dontyo dho (“dental DH”) in Bengali.
+ধর্ম dhormo (“creed”, “law”, [natural] “disposition”, “nature”), ধনুর্ধর dhonurdhor (“archer”)
+
+
+
+
+
+
+
+
+ন
+n
+IPA / ṋ /. As the dentalised n in Italian andaNte (“ambling”), when next to the dental consonants ত t, থ th, দ d, and ধ dh. This is the original pronunciation. The letter is called দন্ত্য ন dontyo no (“dental N”) in Bengali.
+
+In careful pronunciation, the letter is always sounded as dentalised / ṋ /.
+আন্তরিকতা antorikota (“sincerity”, “cordiality”), যত্ন jzotno (“care”, “earnest attendance”, “zealous effort”), গ্রন্থ grontho ([a] “book”), অন্ধ ondho (“blind”, [of location] “deeply gloomy”), কেন্দ্র kendro ([a] “centre”), বন্ধু bondhu (“friend”)
+
+
+n
+IPA / n /. As the alveolar n in English Net - the usual pronunciation in modern Bengali.
+
+In practice, the difference between dentalised / ṋ / and alveolar / n / is so small that it may be ignored.
+ননদ nonod (“sister of [person's] husband”, [in preceding sense] “sister-in-law”)
+Return to System Table
+CONSONANT LETTERS: LABIAL
+
+
+
+
+
+
+Bengali letter
+Transliteration
+Pronunciation/ Comments
+Examples
+প
+p
+IPA / p /. As p in English raP. The letter is simply called প po in Bengali.
+পাপ pap (“sin”, “crime”, “pest”), প্রাপ্ত prapto (“acquired”, “obtained”)
+
+
+
+
+
+
+
+
+ফ
+ph
+IPA / pʰ /. Approximately as ph in English uPHold. The letter is simply called ফ pho in Bengali.
+
+In ancient Greek, the letter Φ Romanised as ph originally had the pronunciation / pʰ /. The letter ফ pho in Bengali words derived from Greek or Greek-based words consequently will be Romanised as ph and not (see next) as f.
+ফোটোগ্রাফ phoutdougraph (“photograph”), ফল phol (“fruit”, “product”, “benefit”), প্রফুল্ল prophullo (“blooming”, “cheerful”), লাফ laph ([a] “leap”, “jump”), ফড়্ফড়্ phorrphorr- (“fluttering about”, “ostentatious busyness”, “grandiloquence”)
+
+
+f
+IPA / f / (as f in English Fat) or IPA / pʰ / (approximately as ph in English uPHold), but representing an original sound in a word of non-subcontinental origin of f in English Fat.
+
+In personal names of non-subcontinental origin, the pronunciation of ফ f as f in English Fat is the preferred pronunciation. Otherwise, pronunciation as IPA / pʰ / is usual.
+[Arabic وقف‎ / wæqf / “detention” →] ওয়াকফ ʼwaqof (“charitable trust”), [Persian فرمان / fɒrmɒːn / “edict”, [a] “command” →] ফরমান forʼman (“edict”, [a] “command”), [Portuguese fita (“ribbon”, “tape”) →] ফিতা fita (“ribbon”, “tape”), [Arabic صفا / sæfaː / “purity” →] সাফ saf (“cleansed”, “clear”)
+
+
+
+
+
+
+
+
+ব
+b
+IPA / b /. As b in English Bid. The letter is called ব bo or, sometimes, বর্গীয় ব (বর্গ্য ব) vorgiiyo bo (vorgyo bo) (“generic B”) in Bengali.
+বিড়াল birral (“cat”), বন্ধু bondhu (“friend”), জম্বু jombu (“rose apple”), বায়োস্কোপ bayouskoup (“cinema”, “bioscope”), উদ্বুদ্ধ udbuddho (“enlightened”, “inspired”), সম্বদ্ধ somboddho (“affiliated”, “amalgamated”), খবর khobor (“news”, “information”), খাবার khabar (“food”, [a] “meal”), বোমা bouma (“bomb”), বর্বর borbor ([a] “barbarian”, “barbarous”)
+
+
+b
+Silent. Exceptionally, ব b is silent (and doubles the pronunciation of the preceding m) in the word সম্বন্ধ sombondho (“relationship”, “connection”; “marriage proposal”) and in words made by the addition to সম্বন্ধ sombondho of suffixes.
+সম্বন্ধী sombondhii (“[older] brother [or male cousin] of [person's] wife”), সম্বন্ধীয় sombondhiiyo (“relating to”), সম্বন্ধে sombondhe (“relating to”)
+
+
+
+
+
+
+
+
+ভ
+bh
+IPA / bʱ /. Approximately as bh in English aBHor. The letter is simply called ভ bho in Bengali.
+ভাষা bhaxa (“language”)
+
+
+
+
+
+
+
+
+ম
+m
+IPA / m /. As m in English Market. The letter is simply called ম mo in Bengali.
+চশমা coshʼma (“spectacles”, “[eye]glasses”), মাধ্যমিক madhyomik (“middling”, “second stage”), বাসমতী vasʼmotii (“basmati” [fragrant rice variety]), চিরায়ুষ্মান্ cirayux-man- (“immortal”, “possessing lasting life”)
+
+
+m
+Silent, immediately after and (other than at the start of a word) doubling the pronunciation of ত t, দ d, ল l, শ sh, ষ x or স s.
+
+At the start of the suffix মান্ / মতী man- / motii (“possessing”), ম m is not silent even when the suffix is added to a word ending in ত t, দ d, শ sh, ষ x or স s. For example, ম m is fully pronounced in the word আয়ুষ্মান্ ayuxman- / ayux-man- (“long-living”) formed by adding মান্ man- (“possessing”) to আয়ুষ্ ayux- (“lifetime”).
+লৌহবর্ত্ম laouhovortmo (“railway”, “tramway”), গ্রীষ্ম griixmo (“summer”), স্মৃতি smrwiti (“remembrance”), জীবাশ্ম jiivashmo (“fossil”), আত্মীয় atmiiyo ([a] “relative”, “kindred”), স্মারক smarok (“reminder”), লক্ষ্মীবান্ lokxmiivan- (“fortunate”, “prosperous”), পদ্ম podmo (“lotus”), জাল্ম jalmo ([of a person] “base”, “base person”)
+Return to System Table
+CONSONANT LETTERS: FORMER AND ACTUAL SEMI-VOWELS
+
+
+
+
+
+
+Bengali letter
+Transliteration
+Pronunciation/ Comments
+Examples
+য
+jz
+IPA / ʥ /. As gi in Italian adaGIo (“at ease”) or j in English aJar, but more palatalised. The letter in this form য is called অন্তঃস্থ য ontohwstho jzo in Bengali.
+যন্ত্র jzontro ("mechanism"), বাগ্​যুদ্ধ vag-jzuddho (“verbal battle”, “war of words”), কার্য karjzo (“deed”, “work”)
+য়
+y
+The grapheme য় is called অন্তঃস্থ অ ontohwstho o in Bengali, and is grammatically a variant of the letter য ontohwstho jzo and not a separate letter: the combination of য ontohwstho jzo with a dot ় used as a mere diacritical mark.
+
+Here: IPA / j / (as y in English maYor) between vowels, or IPA / ɪ / (as y in English awaY) otherwise. These are the original pronunciations of ontowstho jzo, and they apply to অন্তঃস্থ অ ontohwstho o except in the case of w (see the next item).
+উদয় udoy (“dawn”, “sunrise”), নিয়োগী niyougii (“employed”), দোয়েল douyel (“Oriental magpie-robin”, “Copsychus saularis”)
+
+
+w
+Here: IPA / w /. As w in English aWake.
+
+This pronunciation of অন্তঃস্থ অ ontohwstho o can occur only if (and usually will occur whenever) the letter in Bengali the letter in Bengali is preceded by (i) উ u, or (ii) ঊ uu, or (iii) ও ou (ou may or may not be silent).
+
+With this pronunciation, the letter is written as ৱ wo in Assamese.
+দেওয়া deeʼwa (“to give”), জুয়াড়ি juwarri (“gambler”), কুয়া kuwa / কূয়া kuuwa / কুয়ো kuwou ([a] “well”), দুয়ার duwar / দোয়ার douwar (“gate”, “door”), কুয়েতী Kuwetii (“Kuwaiti”), শূয়র shuuwor (“pig”, “hog”)
+
+y
+The grapheme  is called  য-ফলা  jzo-phola  (“JZ-producer”) in Bengali, and is grammatically a form of the letter য ontohwstho jzo (or its variant য় ontohwstho o) and not a separate letter.
+
+Here: silent and doubling the pronunciation of an immediately preceding consonant. Ontohwstho jzo (or ontohwstho o) takes the form jzo-phola next after a consonant, other than r when r occurs next after a vowel. Jzo-phola is silent except next after: (i) h when h occurs next after a vowel and (ii) r when r occurs next after a consonant.
+
+After some consonants in some fonts, jzo-phola is fused to the preceding consonant. 
+বিদ্যা vidya (“learning”, “erudition”), হ্যাঁ hyeanw (“yes”), সাহায্য sahajzyo (“help”), দ্ব্যক্ষ dvyeokxo (“biaxial”)
+
+
+y
+Here: IPA / ɪ / (as e in English nEar). Jzo-phola is only so pronounced next after r when r occurs next after a consonant.
+ত্র্যস্র tryosro (“triangular”), রাত্র্যন্ধ ratryondho (“night-blind”), অগ্র্য ogryo (“foremost”)
+
+
+jz
+Here: IPA / ʥ /. As gi in Italian adaGIo (“at ease”) or j in English aJar, but more palatalised. Jzo-phola is only so pronounced next after h when h occurs next after a vowel.
+গ্রাহ্য grahjzo (“acceptable”,“receivable”), সহ্য sohjzo (“endurance”, “endurable”, “inured”)
+
+
+
+
+
+
+
+
+র
+r
+IPA / r /. As r in English aRid. The letter is called অন্তঃস্থ র ontohwstho ro (“inner R”) in Bengali. It is written as ৰ in Assamese.
+
+When it is at the same time preceded by a vowel and followed by another consonant, the letter in Bengali orthography is written in a form ⁄ known as রেফ reph immediately above that following consonant.
+
+When it is at the same time preceded by a different consonant (not r) and followed by a vowel or (in an infrequent case) by y (which will be in the form .‍্য jzo-phola), the letter in Bengali orthography is written as a conjunct r or র-ফলা ro-phola (“R-producer”), usually in a form ～ immediately below the preceding consonant (but there are several variant forms).
+
+In every other instance, the letter in Bengali orthography is written in the form র it takes when standing alone.
+রাত্রি ratri (“night”), রৌদ্র raoudro (“sunlight”, “sunshine”), উর্বর urvor (“fertile”), আর্দ্রক ardrok (“ginger” [condiment]), গর্রা / গর্‌রা gor-ra (“sound of loud laughter”), পারতন্ত্র্য parotontryo (“dependence upon another”)
+
+
+
+
+
+
+
+
+ল
+l
+IPA / l /. As l in English aLarm. The letter is called অন্তঃস্থ ল ontohwstho lo (“inner L”) in Bengali.
+
+When occurring immediately after another consonant, the letter in Bengali orthography can be written as a conjunct l or ল-ফলা lo-phola (“L-producer”), immediately below that other consonant.
+লাল lal (“red”, “reddened”), লেখক leekhok (“writer”)
+
+
+
+
+
+
+
+
+ব
+v
+IPA / b /. As b in English Bit. The letter is called অন্তঃস্থ ব ontohwstho vo in Bengali. Representing an original letter व v in Sanskrit (IPA / ʋ /, pronounced midway between v in English aVoid and w in English aWake), or an original sound in other languages of v in English Victory or w in English Win. In modern Bengali, অন্তঃস্থ ব ontohwstho vo has disappeared into বর্গীয় ব vorgiiyo bo (b).
+
+When occurring immediately after অন্তঃস্থ ল ontohwstho lo (l) or another অন্তঃস্থ ব ontohwstho vo or অন্তঃস্থ হ ontohwstho ho (h), or after ড় rr or (in theory) ঢ় rrh, or after a prefix such as উদ্ ud- (“out”, “up”, “high”) or prefixed word such as ষট্ xotd- / ষড়্ xorr- (“six”) ending in a consonant (without an inherent subsequent অ o), the letter in Bengali orthography is written as a conjunct ontohwstho vo or [অন্তঃস্থ] ব-ফলা [ontohwstho] vo-phola (“V-producer”) and fused to the preceding consonant (without altering the pronunciation as IPA / b /).
+
+In Castilian Spanish generally and in Galician (Gallego), the letter v is pronounced as IPA / b /.
+বর্ষণ vorxonh (“rainfall”), উদ্বাস্তু udvastu / ud-vastu (“evacuee”, “refugee”), [Arabic نوّاب / nuwaːb / (“deputies”) →] নবাব্ novab- (“vicegerent”, “viceroy”; [particular title for a South Asian Muslim] “lord”), সর্বব্যাপী sorvovyeapii (“all-pervading”, “omnipresent”), বড় vorro (“big”, “large”, “elder”, “great”), [Portuguese varanda (“balcony”, “porch”) →] বারান্দা varanda (“porch”, “verandah”), ষড়্বিংশ xorrvingwsho / xorr-vingwsho (“twenty-sixth”), বউমা voʿuma (“wife of junior male in [person's] family”), বিবাহ vivaho (“wedding”, “marriage”), জগদ্ব্যাপী jogodvyeapii / jogod-vyeapii (“universally prevalent”, “worldwide”), 
+জিহ্বা jihva / jih-va ([anatomical] “tongue”, [power of] “taste”)
+
+
+v
+Exceptionally, the letter ব v immediately after অন্তঃস্থ হ ontohwstho ho (which will be silent) is pronounced as if it were উব ub: something - see rule 12 - that occurs only in those few words that derive from the archaic verbal stem হ্বে hve (“to summon”).
+আহ্বান ahvan (“invitation”, “summons”), আহ্বায়ক ahvayok (“convener”), আহ্বায়িকা ahvayika (“female convener”)
+
+
+v
+Silent. The letter in Bengali orthography is not silent when it occurs immediately after a prefix or prefixed word ending in a consonant (without an inherent subsequent অ o), after any অন্তঃস্থ ontohwstho consonant (অন্তঃস্থ র ontohwstho ro [r], অন্তঃস্থ ল ontohwstho lo [l], অন্তঃস্থ ব ontohwstho vo [v] or অন্তঃস্থ হ ontohwstho ho [h]: it cannot exist after অন্তঃস্থ য ontohwstho jzo [jz/y/w]), after ড় rr, or (in theory) after ঢ় rrh, after which prefix or consonant the letter is not silent. The letter in Bengali orthography is silent when it occurs immediately after any other consonant, of which other consonant (other than at the start of a word) it doubles the pronunciation.
+
+When silent, the letter in Bengali orthography is written as a conjunct ontohwstho vo or [অন্তঃস্থ] ব-ফলা [ontohwstho] vo-phola (“V-producer”) and fused to the preceding consonant.
+স্বত্ব svotvo (“ownership”, “right” [of ownership]), দ্বীপ dviip (“island”)
+Return to System Table
+CONSONANT LETTERS: FRICATIVE
+
+
+
+
+
+
+Bengali letter
+Transliteration
+Pronunciation/ Comments
+Examples
+শ
+sh
+IPA / ɕ /. As sh in English wiSH but palatalised, when next to the palatal consonants চ c, ছ ch, জ j, ঝ jh, and ঞ nj. This is the original pronunciation, invariably palatalised. The letter is called তালব্য শ talovyo sho (“palatal SH”) in Bengali.
+নিশ্চয়তা nishcoyota (“certainty”, “freedom from doubt”), দুশ্ছেদ্য dushchedyo (“difficult to sever”), নিশ্ছিদ্র nishchidro (“free from holes”, “without pores”, “compact”)
+
+
+sh
+IPA / s /. As s in English Slow, when next before ঋ rwi or র r or ল l.
+মিশ্র mishro (“mixed”, “blended”), কুশ্রী kushrii (“ugly”), অশ্লীল oshliil (“indecent”), শৃঙ্খলা shrwingkhola (“discipline”, “orderliness”), শ্রদ্ধেয় shroddheyo (“reverend”, “venerable”), শ্লাঘ্য shlaghyo (“laudable”), শব্দ shobdo (“word”, “sound”, “noise”), শসা shosha (“cucumber”)
+
+
+sh
+IPA / ʃ /. As sh in English waSH - the usual pronunciation in modern Bengali.
+শুকানো shukanou (“to dry”, “to wither”), বিদেশী videshii (“foreign”)
+
+
+
+
+
+
+
+
+ষ
+x
+IPA / ʂ /. As sh in English harSHer but retroflexed, when next to the retroflex consonants ট td, ঠ tdh, ড dt, and ঢ dth. This is the original pronunciation. The letter is called মূর্ধন্য ষ muurdhonyo xo (“coronal X”) in Bengali.
+আদিষ্ট adixtdo (“commanded”), ষ্ঠীবন xtdhiivon ([act of] “spitting”), ষষ্ঠ xoxtdho (“sixth”)
+
+
+x
+IPA / kʰ /. Approximately as kh in English sinKHole. Occurring only and invariably immediately after ক k in the conjunct ক্ষ kx.
+
+In ancient Greek, the letter Χ Romanised as kh originally had the pronunciation / kʰ /.
+অক্ষীয় okxiiyo (“axial”), ক্ষমা kxoma (“forbearance”, “pardon”)
+
+
+x
+IPA / ʃ /. As sh in English caSH - the usual pronunciation in modern Bengali.
+
+In medieval precursors to Iberian Romance languages, the letter x generally had the pronunciation / ʃ /. The letter in Portuguese most commonly still has the pronunciation / ʃ / - e.g. in caixa / kɑjʃɑ / (“box”, “cashier”). Likewise in Catalan - e.g. in xarop / ʃɑrop / (“syrup”) - and in Galician (Gallego) - e.g. in viaxe / bjɑʃe / (“journey”).
+
+The non-Indo-European Basque language employs the pronunciation / ʃ / for the letter x - e.g. in xuri / ʃuri / (“white”). The Semitic Maltese language also assigns the pronunciation / ʃ / to the letter x - e.g. in xemxata / ʃɛmʃɐtɐ / (“sunstroke”).
+বিশেষ vishex (“speciality”, “peculiarity”, “special”, “distinct”), ষড়্গুণ xorrgunh (“sixfold”)
+
+
+
+
+
+
+
+
+স
+s
+IPA / s /. As s in English Star: (i) when next before any of the dental consonants ত t, থ th, দ d, ধ dh, and ন n; (ii) when next before ঋ rwi or মৃ mrwi [ম m is silent immediately after স s] or র r or ল l; (iii) when representing an original / s / in a word taken from English; or (iv) when occurring at the start of a word next before ক k or খ kh or প p or ফ ph. This is the original pronunciation.
+
+The letter is called দন্ত্য স dontyo so (“dental S”) in Bengali.
+আস্তে aste (“gently”, “slowly”), [English fast →] ফাস্ট fastd (“made fast”), বাস্তব vastov (“actual”, “factual”, “real”), স্পর্শ sporsho (“touch”, “contact”), স্কন্ধ skondho (“shoulder”), স্ফাটিক sphatdik (“crystalline”), স্খলিত skholito (“fallen”, “stumbling”, “shed”, “slipped off”), স্তুপ stup (“mound”, “heap”, “pile”), বিস্মৃত vismrwito (“without memory”, “unremembered”), ব্যবস্হা vyeovostha (“arrangement”), বিসৃত visrwito (“spread out”), অস্র osro (“angle”, “side”), [English slate →] স্লেট sletd (“writing slate”), ইস্লামি Islami (“Islamic”)
+
+
+s
+IPA / ʃ /. As sh in English caSH - the usual pronunciation in modern Bengali.
+সাংসারিক sangwsarik (“domestic”, “pertaining to worldly affairs”), আসতে asʼte (“to come”, “until the arrival”, “in the coming”), বিস্মরণ vismoronh (“forgetting”, “oblivion”), ইস্পাত ispat (“steel”) 
+ 
+
+
+
+
+
+
+হ
+h
+IPA / ɦ /. As h in English beHind. The letter is called অন্তঃস্থ হ ontohwstho ho in Bengali.
+হলুদ holud (“yellow”, “turmeric”), হাতুড়ি haturri ([a] “hammer”)
+
+
+h
+Silent. The letter in Bengali orthography is silent when it occurs immediately before ঋ rwi, between a vowel and a  jzo-phola (the  jzo-phola in this circumstance will be Romanised as jz - see rule 11), or before any (other) consonant. The pronunciation will be doubled of any such  jzo-phola or other consonant (ঋ rwi is not a consonant), except at the start of a word.
+
+If the অন্তঃস্থ হ ontohwstho ho occurs between a vowel and a ঋ rwi, the pronunciation will change of such ঋ rwi to IPA / rri / (as re-ri in English caRE-RIdden).
+
+Exceptionally, the letter ব v immediately after অন্তঃস্থ হ ontohwstho ho is pronounced as if it were উব uv and not as if it were ব্ব vv in those few words - see rule 12 - that derive from the archaic verbal stem হ্বে hve (“to summon”).
+চিহ্ন cihno ([a] “mark”, [a] “sign”), অসহ্য osohjzo (“unendurable”), ঐতিহ্য aoitihjzo (“tradition”), হ্রদ hrod (“lake”), ব্রাহ্মণ Brahmonh (“Brahmin” [person of Hindu priestly caste]), আহ্লাদ ahlad (“gladness”, [act of] “gladdening”, [act of] “indulgence”), হৃদ্রোগ hrwidroug (“cardiac disease”), অব্যবহৃত ovyeovohrwito (“not in use”, “in desuetude”)
+
+
+Return to System Table​​
+
+Return to Table of Contents
+
+
+
+ROMAN LETTER NAMES
+
+If a standard Romanisation becomes widespread to render Bengali for speakers of other languages, including speakers of languages other than English, one issue that should be considered is how to describe Roman letters in Bengali.
+
+The alphabet used by the Romans for their language Latin has come to be used by numerous languages in and outside Europe: however, it is only the English names for Roman letters that are regularly used by Bengali speakers. But when those English names are phonetically rendered they often have no obvious correspondence with the Roman letters being described. The Roman alphabet descends from the alphabet used by the Semitic Phoenicians, from which alphabet also descends the alphabet used by the Semitic Arabs, and the expanded version of the Arabic alphabet used in Persian. Looking at the letter names used in Arabic, Persian, Latin and Bengali, and with the idea that letter names should have an obvious phonetic correspondence with the letters being named, something like the listing below could be used in Bengali to describe Roman letters.
+ 
+A
+আলেফ alef (Persian ا) (Phoenician alf)
+B
+বে be (Persian ب) (Phoenician bet)
+C
+চে ce (Persian چ)
+D
+দাল dal (Arabic/ Persian د) (Phoenician delt)
+E
+হেয়ে heye (Persian ه) (Phoenician he)
+F
+ফা fa (Arabic ف) (Arabic fa derives its form from the Phoenician pe, not from the Phoenician wau which is the ancestor of Latin F)
+G
+গীম giim (Egyptian ج) (Phoenician gaml)
+H
+হা ha (Arabic ﺡ) (Phoenician het)
+I
+ইয়া iya (Arabic ِي) (Phoenician yōd)
+J
+জীম jiim (Arabic/ Persian ج) (Phoenician gaml)
+K
+কাফ kaf (Arabic ك) (Phoenician kaf)
+L
+লাম lam (Arabic/ Persian ل) (Phoenician lamd)
+M
+মীম miim (Arabic/ Persian م) (Phoenician mem)
+N
+নূন nuun (Arabic/ Persian ن) (Phoenician nun)
+O
+ও ou (Phoenician ain)
+P
+পে pe (Persian پ) (Persian pe derives its form via Arabic ب ba from the Phoenician bet, not from the Phoenician pe which is ancestor to Latin P)
+Q
+কূ quu (Latin qū) (Phoenician qōf)
+R
+রা ra (Arabic ر) (Phoenician rōsh)
+S
+এস es (Latin es)
+T
+তা ta (Arabic ت) (Phoenician tau)
+U
+উ u (Phoenician wau)
+V
+বাব vav (Persian و) (Phoenician wau)
+W
+ওয়াঊ  ʼwaʻuu (Arabic و) (Phoenician wau)
+X
+ষীন xiin (Arabic ش) (Arabic shīn derives its form from the Phoenician shin, not from any Phoenician letter which may be ancestor to Latin X)
+Y
+অন্তঃস্থ ইয়া ontohwstho iya (Arabic ي) (Arabic ي ya derives its form from the Phoenician yōd, not from the Phoenician wau which is ancestor to Latin Y)
+Z
+জায় zay (Arabic ز) (Phoenician zai)
+
+
+
+
+
+Romanisation and, unless otherwise stated, all sentence translations by আনাতুল ফাতেহ্ Anatul Fateh-, to whom belong all faults.
+
+Please email comments and corrections to the author at roman[at]raaid[dot]com.
+
+The author permits purely non-commercial use of these his works, provided he is at all times clearly identified as the author of the same. The author otherwise asserts and requires respect of all the rights afforded to him under the Berne Convention for the Protection of Literary and Artistic Works and under the World Intellectual Property Organization Copyright Treaty.

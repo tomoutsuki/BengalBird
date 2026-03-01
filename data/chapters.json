@@ -17,7 +17,7 @@
                         "en": "Section 1: Hello & Goodbye",
                         "ja": "セクション1：こんにちは＆さようなら"
                     },
-                    "lessons": ["lesson1"]
+                    "lessons": ["lesson1", "lesson2"]
                 }
             ]
         }
