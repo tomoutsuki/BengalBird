@@ -1,0 +1,1089 @@
+{
+  "description": "Bengali romanisation lookup table. Keys are transliteration strings. Use 'matchOrder' for greedy (longest-first) matching when parsing a roman input string.",
+
+  "matchOrder": [
+    "rwii", "lwii",
+    "aoi", "aou", "dth", "ngw", "rrh", "rwi", "tdh", "lwi",
+    "bh", "ch", "dh", "dt", "ea", "ee", "eo", "gh", "gj",
+    "hw", "ii", "jh", "jz", "kh", "nj", "nh", "ng", "nw", "ou", "ph",
+    "rr", "sh", "t-", "td", "th", "uu",
+    "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m",
+    "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z",
+    "ä", "ê", "ë", "ö", "ü", "ʼ"
+  ],
+
+  "entries": {
+
+    "o": [
+      {
+        "bengali": "অ",
+        "section": "svor",
+        "ipa": "/ɔ/",
+        "notes": "Primary vowel. As o in British English 'hOt'. Default inherent vowel after every consonant unless otherwise indicated. Can be written ó to distinguish from /o/.",
+        "examples": [
+          { "bengali": "অতথা", "roman": "ototha", "meaning": "untrue" },
+          { "bengali": "অকর্মা", "roman": "okorma", "meaning": "idling, grossly inefficient" }
+        ]
+      },
+      {
+        "bengali": "অ",
+        "section": "svor",
+        "ipa": "/o/",
+        "notes": "As o in English 'Obey'. Can be written ô to distinguish from /ɔ/.",
+        "examples": [
+          { "bengali": "অতিরিক্ত", "roman": "otirikto", "meaning": "supernumerary, additional" },
+          { "bengali": "অনুমতি", "roman": "onumoti", "meaning": "consent, permission" }
+        ]
+      }
+    ],
+
+    "ʼ": [
+      {
+        "bengali": "অ",
+        "section": "svor",
+        "ipa": "∅",
+        "notes": "Silent অ o after a consonant that is NOT the last letter in a word.",
+        "examples": [
+          { "bengali": "দিনদুপুরে", "roman": "dinʼdupure", "meaning": "in broad daylight" },
+          { "bengali": "ভারবাহী", "roman": "bharʼvahii", "meaning": "load-bearing" }
+        ]
+      },
+      {
+        "bengali": "ও",
+        "section": "svor",
+        "ipa": "∅",
+        "notes": "Silent ও ou, occurring only (but not necessarily) immediately before w.",
+        "examples": [
+          { "bengali": "যাওয়া", "roman": "jzaʼwa", "meaning": "to go" },
+          { "bengali": "হওয়া", "roman": "hoʼwa", "meaning": "to be, to become, to exist" }
+        ]
+      }
+    ],
+
+    "eo": [
+      {
+        "bengali": "অ",
+        "section": "svor",
+        "ipa": "/æ/",
+        "notes": "অ o pronounced as a in English 'rAt'. Occurs only after a silent y in the first syllable of a word (prefixes and compounding ignored).",
+        "examples": [
+          { "bengali": "ব্যবহার", "roman": "vyeovohar", "meaning": "usage" },
+          { "bengali": "ব্যস্ত", "roman": "vyeosto", "meaning": "busy" }
+        ]
+      }
+    ],
+
+    "ö": [
+      {
+        "bengali": "অ্য",
+        "section": "svor",
+        "ipa": "/ø/ or /œ/",
+        "notes": "Non-traditional grapheme for transliterating non-subcontinental words. As the vowel in French 'dEUx' (/ø/) or 'OEUvre' (/œ/), approximately as u in English 'hUrt'. Formed by jzo-phola used as diacritical mark with অ o.",
+        "examples": [
+          { "bengali": "অ্যফ", "roman": "öf", "meaning": "French oeufs (eggs)" },
+          { "bengali": "অ্যয়", "roman": "öy", "meaning": "French oeil (eye)" }
+        ]
+      }
+    ],
+
+    "a": [
+      {
+        "bengali": "আ",
+        "section": "svor",
+        "ipa": "/ɑ/",
+        "notes": "As a in English 'fAther'. Called স্বর-আ svoro-a. Written as আ-কার a-kar (া) after a consonant.",
+        "examples": [
+          { "bengali": "আরাম", "roman": "aram", "meaning": "ease, comfort" },
+          { "bengali": "মা", "roman": "ma", "meaning": "mother, Mom" }
+        ]
+      }
+    ],
+
+    "ea": [
+      {
+        "bengali": "আ",
+        "section": "svor",
+        "ipa": "/æ/",
+        "notes": "স্বর-আ svoro-a pronounced as a in English 'rAt'. Occurs (i) after a silent y in the first syllable of a word, or (ii) in any syllable after gjnj.",
+        "examples": [
+          { "bengali": "ব্যাপার", "roman": "vyeapar", "meaning": "a matter" },
+          { "bengali": "জ্ঞান", "roman": "gjnjean", "meaning": "knowledge, consciousness" }
+        ]
+      }
+    ],
+
+    "ä": [
+      {
+        "bengali": "অ্যা",
+        "section": "svor",
+        "ipa": "/æ/",
+        "notes": "Non-traditional grapheme for transliterating non-subcontinental words. As a in English 'rAt'. Formed by jzo-phola + া a-kar used as diacritical mark with অ o.",
+        "examples": [
+          { "bengali": "অ্যামিবা", "roman": "ämiba", "meaning": "amoeba" },
+          { "bengali": "অ্যাটলাস", "roman": "ätdʼlas", "meaning": "atlas" }
+        ]
+      }
+    ],
+
+    "i": [
+      {
+        "bengali": "ই",
+        "section": "svor",
+        "ipa": "/i/",
+        "notes": "As i in English 'bIt'. Called হ্রস্ব-ই hrosvo-i (short I). Written as হ্রস্ব-ই-কার hrosvo-i-kar (ি) before the consonant it follows.",
+        "examples": [
+          { "bengali": "ইতি", "roman": "iti", "meaning": "in conclusion, termination" },
+          { "bengali": "ইত্যাদি", "roman": "ityadi", "meaning": "et cetera" }
+        ]
+      }
+    ],
+
+    "ii": [
+      {
+        "bengali": "ঈ",
+        "section": "svor",
+        "ipa": "/iː/",
+        "notes": "In careful pronunciation as i in English 'machIne'; colloquially as /i/. Called দীর্ঘ-ঈ diirgho-ii (long II). Written as দীর্ঘ-ঈ-কার diirgho-ii-kar (ী) after a consonant.",
+        "examples": [
+          { "bengali": "ঈক্ষণ", "roman": "iikxonh", "meaning": "seeing, eye" },
+          { "bengali": "শীতকালীন", "roman": "shiitʼkaliin", "meaning": "hibernal, winter" }
+        ]
+      }
+    ],
+
+    "u": [
+      {
+        "bengali": "উ",
+        "section": "svor",
+        "ipa": "/u/",
+        "notes": "As u in English 'fUll'. Called হ্রস্ব-উ hrosvo-u (short U). Written as হ্রস্ব-উ-কার hrosvo-u-kar (ু) fused below the consonant it follows.",
+        "examples": [
+          { "bengali": "উভয়", "roman": "ubhoy", "meaning": "both" },
+          { "bengali": "উল্লুক", "roman": "ulluk", "meaning": "gibbon" }
+        ]
+      }
+    ],
+
+    "ü": [
+      {
+        "bengali": "উ্য",
+        "section": "svor",
+        "ipa": "/y/",
+        "notes": "Non-traditional grapheme for transliterating non-subcontinental words. As the vowel in French 'rUE' (/y/). Formed by jzo-phola used as diacritical mark with হ্রস্ব-উ hrosvo-u.",
+        "examples": [
+          { "bengali": "উ্যনানিম", "roman": "ünanim", "meaning": "French unanime (unanimous)" }
+        ]
+      }
+    ],
+
+    "uu": [
+      {
+        "bengali": "ঊ",
+        "section": "svor",
+        "ipa": "/uː/",
+        "notes": "In careful pronunciation as u in English 'rUde'; colloquially as /u/. Called দীর্ঘ-ঊ diirgho-uu (long UU). Written as দীর্ঘ-ঊ-কার diirgho-uu-kar (ূ) fused below the consonant it follows.",
+        "examples": [
+          { "bengali": "ঊরু", "roman": "uuru", "meaning": "thigh" },
+          { "bengali": "দূর", "roman": "duur", "meaning": "distance, far" }
+        ]
+      }
+    ],
+
+    "rwi": [
+      {
+        "bengali": "ঋ",
+        "section": "svor",
+        "ipa": "/ri/",
+        "notes": "As ri in English 'gRIn'. Treated as a semi-vowel; never occurs before a vowel; no inherent অ o implied after a final ঋ. Written as ঋ-কার rwi-kar (ৃ) fused below the consonant it follows.",
+        "examples": [
+          { "bengali": "ঋষি", "roman": "rwixi", "meaning": "a sage" },
+          { "bengali": "বৃদ্ধি", "roman": "vrwiddhi", "meaning": "augmentation" }
+        ]
+      },
+      {
+        "bengali": "ঋ",
+        "section": "svor",
+        "ipa": "/rri/",
+        "notes": "Exceptional: pronounced as IPA /rri/ (as re-ri in English 'caRE-RIdden') immediately after হ h when হ h occurs after a vowel (the হ h will be silent).",
+        "examples": [
+          { "bengali": "অপহৃত", "roman": "opohrwito", "meaning": "misappropriated, stolen, abducted" }
+        ]
+      }
+    ],
+
+    "rwii": [
+      {
+        "bengali": "ৠ",
+        "section": "svor",
+        "ipa": "/riː/",
+        "notes": "Non-existent in modern Bengali. As ri in English 'marINe'. Treated as a semi-vowel; no inherent অ o implied after a final ৠ. Written as ৠ-কার rwii-kar (ৄ) fused below the consonant it follows.",
+        "examples": [
+          { "bengali": "কৄ", "roman": "krwii", "meaning": "archaic verb stem: to scatter, to disperse" },
+          { "bengali": "গৄ", "roman": "grwii", "meaning": "archaic verb stem: to praise, to gulp" }
+        ]
+      }
+    ],
+
+    "lwi": [
+      {
+        "bengali": "ঌ",
+        "section": "svor",
+        "ipa": "/li/",
+        "notes": "Non-existent in modern Bengali. As li in English 'gLIb'. Treated as a semi-vowel; no inherent অ o implied after a final ঌ. Written as ঌ-কার lwi-kar (ৢ) fused below the consonant it follows.",
+        "examples": [
+          { "bengali": "কৢপ্", "roman": "klwip-", "meaning": "archaic verb stem: to envision, to arrange" }
+        ]
+      }
+    ],
+
+    "lwii": [
+      {
+        "bengali": "ৡ",
+        "section": "svor",
+        "ipa": "/liː/",
+        "notes": "Non-existent in modern Bengali and absent from any Sanskrit word. As lee in English 'gLEE'. Treated as a semi-vowel; no inherent অ o implied after a final ৡ. Written as ৡ-কার lwii-kar (ৣ) fused below the consonant it follows.",
+        "examples": []
+      }
+    ],
+
+    "e": [
+      {
+        "bengali": "এ",
+        "section": "svor",
+        "ipa": "/e/",
+        "notes": "As e in English 'rEd'. Called এ e. Written as এ-কার e-kar (ে) before the consonant it follows.",
+        "examples": [
+          { "bengali": "এখানে", "roman": "ekhane", "meaning": "here, in this place" },
+          { "bengali": "একুশে", "roman": "ekushe", "meaning": "the twenty-first (day of a month)" }
+        ]
+      }
+    ],
+
+    "ee": [
+      {
+        "bengali": "এ",
+        "section": "svor",
+        "ipa": "/æ/",
+        "notes": "এ e pronounced as a in English 'rAt'.",
+        "examples": [
+          { "bengali": "এক", "roman": "eek", "meaning": "one" },
+          { "bengali": "লেখা", "roman": "leekha", "meaning": "writing" },
+          { "bengali": "তের", "roman": "teero", "meaning": "thirteen" }
+        ]
+      }
+    ],
+
+    "ë": [
+      {
+        "bengali": "এ্য",
+        "section": "svor",
+        "ipa": "/ɛ/",
+        "notes": "Non-traditional grapheme for transliterating non-subcontinental words. Most commonly as the vowel in French 'trEIze' (/ɛ/), approximately as ea in English 'bEAr'. Formed by jzo-phola used as diacritical mark with এ e.",
+        "examples": [
+          { "bengali": "এ্যল", "roman": "ël", "meaning": "French aile (wing)" }
+        ]
+      }
+    ],
+
+    "ê": [
+      {
+        "bengali": "এ্যা",
+        "section": "svor",
+        "ipa": "/æ/",
+        "notes": "Non-traditional grapheme for transliterating non-subcontinental words. As a in English 'rAt'. Formed by jzo-phola + া a-kar used as diacritical mark with এ e.",
+        "examples": [
+          { "bengali": "এ্যাকাডেমী", "roman": "êkadtemii", "meaning": "academy" }
+        ]
+      }
+    ],
+
+    "aoi": [
+      {
+        "bengali": "ঐ",
+        "section": "svor",
+        "ipa": "/oj/",
+        "notes": "Approximately as oi in English 'cOIn'. Called ঐ aoi. Note: আ a + অ o + ই i = ঐ aoi (sondhi rule). Written as ঐ-কার aoi-kar (ৈ) before the consonant it follows.",
+        "examples": [
+          { "bengali": "ঐক্য", "roman": "aoikyo", "meaning": "unity" },
+          { "bengali": "বৈধ", "roman": "vaoidh", "meaning": "lawful, valid" }
+        ]
+      }
+    ],
+
+    "ou": [
+      {
+        "bengali": "ও",
+        "section": "svor",
+        "ipa": "/oː/",
+        "notes": "As o in Italian 'cellO'. Called ও ou. Note: অ o + উ u = ও ou (sondhi rule). Written as ও-কার ou-kar (ো) enclosing the consonant it follows.",
+        "examples": [
+          { "bengali": "ওজোন", "roman": "ouzoun", "meaning": "ozone" },
+          { "bengali": "শোয়া", "roman": "shouwa", "meaning": "to sleep, to lie down" }
+        ]
+      }
+    ],
+
+    "aou": [
+      {
+        "bengali": "ঔ",
+        "section": "svor",
+        "ipa": "/ow/",
+        "notes": "As ow in English 'bOWler' or oa in English 'rOAd'. Called ঔ aou. Note: আ a + অ o + উ u = ঔ aou (sondhi rule). Written as ঔ-কার aou-kar (ৌ) enclosing the consonant it follows.",
+        "examples": [
+          { "bengali": "ঔষধালয়", "roman": "aouxodhaloy", "meaning": "pharmacy" },
+          { "bengali": "নৌ", "roman": "naou", "meaning": "ship, boat" }
+        ]
+      }
+    ],
+
+    "ngw": [
+      {
+        "bengali": "ং",
+        "section": "syllabic_modifier",
+        "ipa": "/ŋ/",
+        "notes": "As ng in English 'siNG'. Called অনুস্বর onusvor / অনুস্বার onusvar. Never occurs before a vowel or diphthong; invariably occurs after a vowel or diphthong. Not a consonant in the Romanisation (no inherent অ o implied).",
+        "examples": [
+          { "bengali": "সুতরাং", "roman": "sutorangw", "meaning": "therefore" },
+          { "bengali": "অংশ", "roman": "ongwsho", "meaning": "portion, part, share" },
+          { "bengali": "জং", "roman": "zongw", "meaning": "rust" }
+        ]
+      }
+    ],
+
+    "hw": [
+      {
+        "bengali": "ঃ",
+        "section": "syllabic_modifier",
+        "ipa": "/h/",
+        "notes": "Called বিসর্গ visorgo. Sounded only at the end of a word; always follows (never precedes) a vowel or diphthong. Not a consonant in the Romanisation (no inherent অ o implied).",
+        "examples": [
+          { "bengali": "প্রথমতঃ", "roman": "prothomotohw", "meaning": "firstly" },
+          { "bengali": "অন্ততঃ", "roman": "ontotohw", "meaning": "at least" }
+        ]
+      },
+      {
+        "bengali": "ঃ",
+        "section": "syllabic_modifier",
+        "ipa": "∅",
+        "notes": "Silent, immediately before and doubling the pronunciation of a consonant letter.",
+        "examples": [
+          { "bengali": "দুঃখ", "roman": "duhwkho", "meaning": "sorrow" },
+          { "bengali": "অন্তঃসাগরীয়", "roman": "ontohwsagoriiyo", "meaning": "undersea" }
+        ]
+      }
+    ],
+
+    "nw": [
+      {
+        "bengali": "ঁ",
+        "section": "syllabic_modifier",
+        "ipa": "/~/",
+        "notes": "Nasalisation of vowel or diphthong, as n in French 'viN' (/vɛ̃/). Called চন্দ্রবিন্দু condrovindu. Written in Romanisation next after the vowel or diphthong it nasalises. Not a consonant (no inherent অ o implied).",
+        "examples": [
+          { "bengali": "চাঁদ", "roman": "canwd", "meaning": "moon" },
+          { "bengali": "গাঁ", "roman": "ganw", "meaning": "village" },
+          { "bengali": "জুঁই", "roman": "junwi", "meaning": "jasmine" }
+        ]
+      }
+    ],
+
+    "k": [
+      {
+        "bengali": "ক",
+        "section": "velar",
+        "ipa": "/k/",
+        "notes": "As k in English 'Kid'. Called ক ko.",
+        "examples": [
+          { "bengali": "কাক", "roman": "kak", "meaning": "a crow" },
+          { "bengali": "ক্লান্তিকর", "roman": "klantikor", "meaning": "tiresome, fatiguing" }
+        ]
+      }
+    ],
+
+    "q": [
+      {
+        "bengali": "ক",
+        "section": "velar",
+        "ipa": "/k/",
+        "notes": "As k in English 'Kid' but representing an original uvular ق /q/ sound in Arabic loanwords.",
+        "examples": [
+          { "bengali": "মকদ্দমা", "roman": "moqoddoma", "meaning": "lawsuit (from Arabic مقدّمة)" }
+        ]
+      }
+    ],
+
+    "kh": [
+      {
+        "bengali": "খ",
+        "section": "velar",
+        "ipa": "/kʰ/",
+        "notes": "Approximately as kh in English 'sinKHole' and ckh in English 'duCKHouse'. Called খ kho.",
+        "examples": [
+          { "bengali": "খরজচ", "roman": "khoroc", "meaning": "expenditure, cost" }
+        ]
+      }
+    ],
+
+    "g": [
+      {
+        "bengali": "গ",
+        "section": "velar",
+        "ipa": "/g/",
+        "notes": "As g in English 'Gas'. Called গ go.",
+        "examples": [
+          { "bengali": "গগন", "roman": "gogon", "meaning": "firmament, sky" },
+          { "bengali": "গুগ্গুল", "roman": "guggul", "meaning": "bdellium" }
+        ]
+      }
+    ],
+
+    "gh": [
+      {
+        "bengali": "ঘ",
+        "section": "velar",
+        "ipa": "/ɡʱ/",
+        "notes": "Approximately as gh in English 'doGHouse'. Called ঘ gho.",
+        "examples": [
+          { "bengali": "ঘুঘু", "roman": "ghughu", "meaning": "dove" },
+          { "bengali": "ঘাঘর", "roman": "ghaghor", "meaning": "pair of cymbals" }
+        ]
+      }
+    ],
+
+    "ng": [
+      {
+        "bengali": "ঙ",
+        "section": "velar",
+        "ipa": "/ŋ/",
+        "notes": "As ng in English 'fiNGer'. Called উঙ ungo or উম umo.",
+        "examples": [
+          { "bengali": "রঙ", "roman": "rong", "meaning": "colour, paint" }
+        ]
+      }
+    ],
+
+    "c": [
+      {
+        "bengali": "চ",
+        "section": "palatal",
+        "ipa": "/tɕ/",
+        "notes": "Approximately as c in Italian 'Cello' or ch in English 'beaCH'. Called চ co.",
+        "examples": [
+          { "bengali": "চাচা", "roman": "caca", "meaning": "paternal uncle" }
+        ]
+      }
+    ],
+
+    "ch": [
+      {
+        "bengali": "ছ",
+        "section": "palatal",
+        "ipa": "/tɕʰ/",
+        "notes": "Approximately as 'tch h' in English 'maTCH Head' or 'chh' in English 'beaCHHead'. Called ছ cho.",
+        "examples": [
+          { "bengali": "ছাড়পত্র", "roman": "charrʼpotro", "meaning": "passport, laissez-passer" },
+          { "bengali": "ছাদ", "roman": "chad", "meaning": "roof, ceiling" }
+        ]
+      }
+    ],
+
+    "j": [
+      {
+        "bengali": "জ",
+        "section": "palatal",
+        "ipa": "/ʥ/",
+        "notes": "Approximately as gi in Italian 'adaGIo' or j in English 'aJar'. Called বর্গীয় জ vorgiiyo jo (generic J).",
+        "examples": [
+          { "bengali": "গঞ্জ", "roman": "gonjj", "meaning": "mart, bazar" }
+        ]
+      }
+    ],
+
+    "z": [
+      {
+        "bengali": "জ",
+        "section": "palatal",
+        "ipa": "/z/ or /ʥ/",
+        "notes": "IPA /z/ (as z in English 'Zebra') or /ʥ/ (as gi in Italian 'adaGIo'), representing an original sound close to z in English 'Zebra' or th in English 'THe' in non-subcontinental loanwords.",
+        "examples": [
+          { "bengali": "জেব্রা", "roman": "zebra", "meaning": "zebra (from Portuguese)" },
+          { "bengali": "জাহাজ", "roman": "jahaz", "meaning": "ship" },
+          { "bengali": "জেলা", "roman": "zela", "meaning": "district" }
+        ]
+      }
+    ],
+
+    "gj": [
+      {
+        "bengali": "জ",
+        "section": "palatal",
+        "ipa": "/g/",
+        "notes": "IPA /g/. Occurs only and invariably before ঞ nj; this juxtaposition occurs only in words derived from the archaic verbal stem জ্ঞা gjnjea ('to know', 'to be aware of').",
+        "examples": [
+          { "bengali": "বিজ্ঞাত", "roman": "vigjnjeato", "meaning": "well known" },
+          { "bengali": "জ্ঞেয়", "roman": "gjnjeyo", "meaning": "knowable, an object to be known" }
+        ]
+      }
+    ],
+
+    "jh": [
+      {
+        "bengali": "ঝ",
+        "section": "palatal",
+        "ipa": "/ʥʰ/",
+        "notes": "Approximately as dgeh in English 'briDGEHead'. Called ঝ jho.",
+        "examples": [
+          { "bengali": "ঝাঁক", "roman": "jhanwk", "meaning": "swarm, flock, shoal" },
+          { "bengali": "ঝুড়ি", "roman": "jhurri", "meaning": "a hamper, large basket" }
+        ]
+      }
+    ],
+
+    "nj": [
+      {
+        "bengali": "ঞ",
+        "section": "palatal",
+        "ipa": "/ɲ/",
+        "notes": "As the first consonant element in nh in Portuguese 'seNHor' or ñ in Castilian Spanish 'seÑor'. Called ঞীয় njiiyo or ইঙ ingo.",
+        "examples": [
+          { "bengali": "বঞ্চনা", "roman": "vonjcona", "meaning": "deception" },
+          { "bengali": "যাচ্ঞা", "roman": "jzacnja", "meaning": "solicitation, a request" }
+        ]
+      },
+      {
+        "bengali": "ঞ",
+        "section": "palatal",
+        "ipa": "∅",
+        "notes": "Silent, immediately after and (other than at the start of a word) doubling the pronunciation of জ gj.",
+        "examples": [
+          { "bengali": "জ্ঞাতব্য", "roman": "gjnjeatovyo", "meaning": "something that should be known, worth learning" }
+        ]
+      }
+    ],
+
+    "td": [
+      {
+        "bengali": "ট",
+        "section": "retroflex",
+        "ipa": "/ʈ/",
+        "notes": "As t in English 'Trick' but retroflexed. Called মূর্ধন্য ট muurdhonyo tdo (coronal TD). Romanisation follows that for ড dt.",
+        "examples": [
+          { "bengali": "টিটির", "roman": "tditdir", "meaning": "partridge" },
+          { "bengali": "টাট্টু", "roman": "tdatdtdu", "meaning": "pony" }
+        ]
+      }
+    ],
+
+    "tdh": [
+      {
+        "bengali": "ঠ",
+        "section": "retroflex",
+        "ipa": "/ʈʰ/",
+        "notes": "Approximately as th in English 'hoTHead' but retroflexed. Called মূর্ধন্য ঠ muurdhonyo tdho (coronal TDH). Romanisation follows that for ড dt.",
+        "examples": [
+          { "bengali": "ঠোঁট", "roman": "tdhounwtd", "meaning": "lip, beak" }
+        ]
+      }
+    ],
+
+    "dt": [
+      {
+        "bengali": "ড",
+        "section": "retroflex",
+        "ipa": "/ɖ/",
+        "notes": "As d in English 'carDinal' but retroflexed. Called মূর্ধন্য ড muurdhonyo dto (coronal DT).",
+        "examples": [
+          { "bengali": "ডুবা", "roman": "dtuba", "meaning": "to be submerged, to be drowned" },
+          { "bengali": "হাড্ডি", "roman": "hadtdti", "meaning": "bone" }
+        ]
+      }
+    ],
+
+    "rr": [
+      {
+        "bengali": "ড়",
+        "section": "retroflex",
+        "ipa": "/r/",
+        "notes": "Called ড শূন্য র dto shuunyo ro; a variant of ড muurdhonyo dto. IPA /r/ (as r in English 'aRid' or rr in English 'huRRy'). In earlier/careful pronunciation retroflexed as /ɽ/.",
+        "examples": [
+          { "bengali": "ভেড়া", "roman": "bheerra", "meaning": "sheep" },
+          { "bengali": "কাপড়", "roman": "kaporr", "meaning": "garment, cloth" }
+        ]
+      }
+    ],
+
+    "dth": [
+      {
+        "bengali": "ঢ",
+        "section": "retroflex",
+        "ipa": "/ɖʱ/",
+        "notes": "Approximately as dh in English 'maDHouse' but retroflexed. Called মূর্ধন্য ঢ muurdhonyo dtho (coronal DTH). Romanisation follows that for ড dt.",
+        "examples": [
+          { "bengali": "ঢিলা", "roman": "dthila", "meaning": "slack, lax, loose" },
+          { "bengali": "ঢেউ", "roman": "dtheʿu", "meaning": "wave, billow" }
+        ]
+      }
+    ],
+
+    "rrh": [
+      {
+        "bengali": "ঢ়",
+        "section": "retroflex",
+        "ipa": "/r/",
+        "notes": "Called ঢ শূন্য র dtho shuunyo ro; a variant of ঢ muurdhonyo dtho. IPA /r/ (as r in English 'aRid' or rrh in English 'cataRRH'). In earlier pronunciation retroflexed /ɽ/; originally retroflexed and aspirated /ɽʱ/.",
+        "examples": [
+          { "bengali": "দৃঢ়", "roman": "drwirrho", "meaning": "firm, strict, taut" },
+          { "bengali": "মাঢ়ী", "roman": "marrhii", "meaning": "gum (anatomical)" }
+        ]
+      }
+    ],
+
+    "nh": [
+      {
+        "bengali": "ণ",
+        "section": "retroflex",
+        "ipa": "/ɳ/",
+        "notes": "Retroflexed n, when next to retroflex consonants ট td, ঠ tdh, ড dt, and (in theory) ঢ dth. Original pronunciation. Called মূর্ধন্য ণ muurdhonyo nho (coronal NH). In careful pronunciation always retroflexed.",
+        "examples": [
+          { "bengali": "কণ্টকময়", "roman": "konhtdokʼmoy", "meaning": "thorny" },
+          { "bengali": "কণ্ঠা", "roman": "konhtdha", "meaning": "collarbone" }
+        ]
+      },
+      {
+        "bengali": "ণ",
+        "section": "retroflex",
+        "ipa": "/n/",
+        "notes": "IPA /n/. As alveolar n in English 'Net'. The usual pronunciation in modern Bengali.",
+        "examples": [
+          { "bengali": "পরমাণু", "roman": "poromanhu", "meaning": "atom" },
+          { "bengali": "কণা", "roman": "konha", "meaning": "speck, particle, grain" }
+        ]
+      }
+    ],
+
+    "t": [
+      {
+        "bengali": "ত",
+        "section": "dental",
+        "ipa": "/ṱ/",
+        "notes": "As the dentalised t in French 'méTier' or Italian 'andanTe'. Called দন্ত্য ত dontyo to (dental T).",
+        "examples": [
+          { "bengali": "তোতা", "roman": "touta", "meaning": "parrot" },
+          { "bengali": "তৃতীয়", "roman": "trwitiiyo", "meaning": "third" }
+        ]
+      }
+    ],
+
+    "t-": [
+      {
+        "bengali": "ত্‍",
+        "section": "dental",
+        "ipa": "/ṱ/",
+        "notes": "Called খণ্ড ত khonhdto to (separated T); not an independent letter. Represents ত t followed by ্ hosonto (ত t without its inherent অ o). Does not follow a consonant or precede a vowel; exists at the end of a word or before a consonant/conjunct with which ত t has no combining form.",
+        "examples": [
+          { "bengali": "ব‌ত্‍সর", "roman": "vot-sor", "meaning": "year" },
+          { "bengali": "বৃহ‌ত্‍", "roman": "vrwihot-", "meaning": "great" }
+        ]
+      }
+    ],
+
+    "th": [
+      {
+        "bengali": "থ",
+        "section": "dental",
+        "ipa": "/ṱʰ/",
+        "notes": "Approximately as th in English 'hoTHead' but dentalised; similar to th in English 'THin'. Called দন্ত্য থ dontyo tho (dental TH).",
+        "examples": [
+          { "bengali": "থানা", "roman": "thana", "meaning": "police station" }
+        ]
+      }
+    ],
+
+    "d": [
+      {
+        "bengali": "দ",
+        "section": "dental",
+        "ipa": "/ḓ/",
+        "notes": "As the dentalised d in French 'maDame' or Italian 'Dolce'. Called দন্ত্য দ dontyo do (dental D).",
+        "examples": [
+          { "bengali": "দরিদ্রিতা", "roman": "doridrota", "meaning": "poverty" }
+        ]
+      }
+    ],
+
+    "dh": [
+      {
+        "bengali": "ধ",
+        "section": "dental",
+        "ipa": "/ḓʰ/",
+        "notes": "Approximately as dh in English 'maDHouse' but dentalised; similar to th in English 'THen'. Called দন্ত্য ধ dontyo dho (dental DH).",
+        "examples": [
+          { "bengali": "ধর্ম", "roman": "dhormo", "meaning": "creed, law, natural disposition, nature" },
+          { "bengali": "ধনুর্ধর", "roman": "dhonurdhor", "meaning": "archer" }
+        ]
+      }
+    ],
+
+    "n": [
+      {
+        "bengali": "ন",
+        "section": "dental",
+        "ipa": "/ṋ/",
+        "notes": "As the dentalised n in Italian 'andaNte', when next to dental consonants ত t, থ th, দ d, and ধ dh. Original pronunciation. Called দন্ত্য ন dontyo no (dental N). In careful pronunciation always dentalised.",
+        "examples": [
+          { "bengali": "যত্ন", "roman": "jzotno", "meaning": "care, earnest attendance" },
+          { "bengali": "গ্রন্থ", "roman": "grontho", "meaning": "a book" }
+        ]
+      },
+      {
+        "bengali": "ন",
+        "section": "dental",
+        "ipa": "/n/",
+        "notes": "IPA /n/. As the alveolar n in English 'Net'. The usual pronunciation in modern Bengali. In practice, the difference between dentalised /ṋ/ and alveolar /n/ is so small it may be ignored.",
+        "examples": [
+          { "bengali": "ননদ", "roman": "nonod", "meaning": "sister of one's husband, sister-in-law" }
+        ]
+      }
+    ],
+
+    "p": [
+      {
+        "bengali": "প",
+        "section": "labial",
+        "ipa": "/p/",
+        "notes": "As p in English 'raP'. Called প po.",
+        "examples": [
+          { "bengali": "পাপ", "roman": "pap", "meaning": "sin, crime, pest" },
+          { "bengali": "প্রাপ্ত", "roman": "prapto", "meaning": "acquired, obtained" }
+        ]
+      }
+    ],
+
+    "ph": [
+      {
+        "bengali": "ফ",
+        "section": "labial",
+        "ipa": "/pʰ/",
+        "notes": "Approximately as ph in English 'uPHold'. Called ফ pho. Used in Bengali words derived from Greek or Greek-based words (not f).",
+        "examples": [
+          { "bengali": "ফল", "roman": "phol", "meaning": "fruit, product, benefit" },
+          { "bengali": "ফোটোগ্রাফ", "roman": "phoutdougraph", "meaning": "photograph" }
+        ]
+      }
+    ],
+
+    "f": [
+      {
+        "bengali": "ফ",
+        "section": "labial",
+        "ipa": "/f/ or /pʰ/",
+        "notes": "IPA /f/ (as f in English 'Fat') or /pʰ/, representing an original f sound in non-subcontinental loanwords. Preferred pronunciation is /f/ in personal names of non-subcontinental origin; otherwise /pʰ/ is usual.",
+        "examples": [
+          { "bengali": "ফিতা", "roman": "fita", "meaning": "ribbon, tape (from Portuguese fita)" },
+          { "bengali": "সাফ", "roman": "saf", "meaning": "cleansed, clear" }
+        ]
+      }
+    ],
+
+    "b": [
+      {
+        "bengali": "ব",
+        "section": "labial",
+        "ipa": "/b/",
+        "notes": "As b in English 'Bid'. Called ব bo or বর্গীয় ব vorgiiyo bo / vorgyo bo (generic B).",
+        "examples": [
+          { "bengali": "বিড়াল", "roman": "birral", "meaning": "cat" },
+          { "bengali": "বন্ধু", "roman": "bondhu", "meaning": "friend" },
+          { "bengali": "বোমা", "roman": "bouma", "meaning": "bomb" }
+        ]
+      },
+      {
+        "bengali": "ব",
+        "section": "labial",
+        "ipa": "∅",
+        "notes": "Silent, doubling the pronunciation of the preceding m. Occurs exceptionally in সম্বন্ধ sombondho ('relationship') and words derived from it.",
+        "examples": [
+          { "bengali": "সম্বন্ধ", "roman": "sombondho", "meaning": "relationship, connection" },
+          { "bengali": "সম্বন্ধীয়", "roman": "sombondhiiyo", "meaning": "relating to" }
+        ]
+      }
+    ],
+
+    "bh": [
+      {
+        "bengali": "ভ",
+        "section": "labial",
+        "ipa": "/bʱ/",
+        "notes": "Approximately as bh in English 'aBHor'. Called ভ bho.",
+        "examples": [
+          { "bengali": "ভাষা", "roman": "bhaxa", "meaning": "language" }
+        ]
+      }
+    ],
+
+    "m": [
+      {
+        "bengali": "ম",
+        "section": "labial",
+        "ipa": "/m/",
+        "notes": "As m in English 'Market'. Called ম mo.",
+        "examples": [
+          { "bengali": "চশমা", "roman": "coshʼma", "meaning": "spectacles, eyeglasses" },
+          { "bengali": "মাধ্যমিক", "roman": "madhyomik", "meaning": "middling, second stage" }
+        ]
+      },
+      {
+        "bengali": "ম",
+        "section": "labial",
+        "ipa": "∅",
+        "notes": "Silent, immediately after and (other than at the start of a word) doubling the pronunciation of ত t, দ d, ল l, শ sh, ষ x or স s. Note: ম m is NOT silent at the start of the suffix মান্/মতী man-/motii ('possessing'), even when added to words ending in those consonants.",
+        "examples": [
+          { "bengali": "গ্রীষ্ম", "roman": "griixmo", "meaning": "summer" },
+          { "bengali": "পদ্ম", "roman": "podmo", "meaning": "lotus" }
+        ]
+      }
+    ],
+
+    "jz": [
+      {
+        "bengali": "য",
+        "section": "semi_vowel",
+        "ipa": "/ʥ/",
+        "notes": "As gi in Italian 'adaGIo' or j in English 'aJar', but more palatalised. Called অন্তঃস্থ য ontohwstho jzo.",
+        "examples": [
+          { "bengali": "যন্ত্র", "roman": "jzontro", "meaning": "mechanism" },
+          { "bengali": "কার্য", "roman": "karjzo", "meaning": "deed, work" }
+        ]
+      },
+      {
+        "bengali": "্য",
+        "section": "semi_vowel",
+        "ipa": "/ʥ/",
+        "notes": "Jzo-phola (য-ফলা) pronounced as /ʥ/. Occurs only after হ h when হ h occurs after a vowel (the হ h will be silent).",
+        "examples": [
+          { "bengali": "গ্রাহ্য", "roman": "grahjzo", "meaning": "acceptable, receivable" },
+          { "bengali": "সহ্য", "roman": "sohjzo", "meaning": "endurance, endurable, inured" }
+        ]
+      }
+    ],
+
+    "y": [
+      {
+        "bengali": "য়",
+        "section": "semi_vowel",
+        "ipa": "/j/ or /ɪ/",
+        "notes": "Called অন্তঃস্থ অ ontohwstho o; a variant of য ontohwstho jzo. IPA /j/ (as y in English 'maYor') between vowels, or IPA /ɪ/ (as y in English 'awaY') otherwise.",
+        "examples": [
+          { "bengali": "উদয়", "roman": "udoy", "meaning": "dawn, sunrise" },
+          { "bengali": "নিয়োগী", "roman": "niyougii", "meaning": "employed" }
+        ]
+      },
+      {
+        "bengali": "্য",
+        "section": "semi_vowel",
+        "ipa": "∅",
+        "notes": "Jzo-phola (য-ফলা) silent, doubling the pronunciation of an immediately preceding consonant. Default jzo-phola behaviour after a consonant (other than r after a vowel). Exceptions: after h (following a vowel) pronounced as jz; after r (following a consonant) pronounced as /ɪ/.",
+        "examples": [
+          { "bengali": "বিদ্যা", "roman": "vidya", "meaning": "learning, erudition" },
+          { "bengali": "হ্যাঁ", "roman": "hyeanw", "meaning": "yes" }
+        ]
+      },
+      {
+        "bengali": "্য",
+        "section": "semi_vowel",
+        "ipa": "/ɪ/",
+        "notes": "Jzo-phola (য-ফলা) pronounced as /ɪ/ (as e in English 'nEar'). Occurs only after র r when র r occurs after a consonant.",
+        "examples": [
+          { "bengali": "ত্র্যস্র", "roman": "tryosro", "meaning": "triangular" },
+          { "bengali": "অগ্র্য", "roman": "ogryo", "meaning": "foremost" }
+        ]
+      }
+    ],
+
+    "w": [
+      {
+        "bengali": "য়",
+        "section": "semi_vowel",
+        "ipa": "/w/",
+        "notes": "Called অন্তঃস্থ অ ontohwstho o. IPA /w/ as in English 'aWake'. Occurs only when preceded by (i) উ u, (ii) ঊ uu, or (iii) ও ou (which may or may not be silent). Written as ৱ wo in Assamese.",
+        "examples": [
+          { "bengali": "দেওয়া", "roman": "deeʼwa", "meaning": "to give" },
+          { "bengali": "জুয়াড়ি", "roman": "juwarri", "meaning": "gambler" }
+        ]
+      }
+    ],
+
+    "r": [
+      {
+        "bengali": "র",
+        "section": "semi_vowel",
+        "ipa": "/r/",
+        "notes": "As r in English 'aRid'. Called অন্তঃস্থ র ontohwstho ro (inner R). Written as ৰ in Assamese. When preceded by a vowel and followed by a consonant, written above that consonant as রেফ reph. When preceded by a consonant and followed by a vowel or jzo-phola, written below as র-ফলা ro-phola (～).",
+        "examples": [
+          { "bengali": "রাত্রি", "roman": "ratri", "meaning": "night" },
+          { "bengali": "উর্বর", "roman": "urvor", "meaning": "fertile" }
+        ]
+      }
+    ],
+
+    "l": [
+      {
+        "bengali": "ল",
+        "section": "semi_vowel",
+        "ipa": "/l/",
+        "notes": "As l in English 'aLarm'. Called অন্তঃস্থ ল ontohwstho lo (inner L). When occurring immediately after another consonant, may be written as ল-ফলা lo-phola below that consonant.",
+        "examples": [
+          { "bengali": "লাল", "roman": "lal", "meaning": "red, reddened" },
+          { "bengali": "লেখক", "roman": "leekhok", "meaning": "writer" }
+        ]
+      }
+    ],
+
+    "v": [
+      {
+        "bengali": "ব",
+        "section": "semi_vowel",
+        "ipa": "/b/",
+        "notes": "Called অন্তঃস্থ ব ontohwstho vo. Represents Sanskrit व v (IPA /ʋ/, midway between v and w) or original v/w sounds in loanwords. In modern Bengali, merged with বর্গীয় ব vorgiiyo bo (b). Written as ব-ফলা vo-phola fused to the preceding consonant when following অন্তঃস্থ consonants, ড় rr, ঢ় rrh, or prefix/prefixed-word ending in a consonant.",
+        "examples": [
+          { "bengali": "বর্ষণ", "roman": "vorxonh", "meaning": "rainfall" },
+          { "bengali": "বারান্দা", "roman": "varanda", "meaning": "porch, verandah" }
+        ]
+      },
+      {
+        "bengali": "ব",
+        "section": "semi_vowel",
+        "ipa": "/ub/",
+        "notes": "Exceptional: when immediately after অন্তঃস্থ হ ontohwstho ho (silent h), this ব v is pronounced as if it were উব ub. Occurs only in words deriving from the archaic verbal stem হ্বে hve ('to summon').",
+        "examples": [
+          { "bengali": "আহ্বান", "roman": "ahvan", "meaning": "invitation, summons" },
+          { "bengali": "আহ্বায়ক", "roman": "ahvayok", "meaning": "convener" }
+        ]
+      },
+      {
+        "bengali": "ব",
+        "section": "semi_vowel",
+        "ipa": "∅",
+        "notes": "Silent (and doubles the pronunciation of the preceding consonant) when occurring immediately after any consonant other than: অন্তঃস্থ consonants (র r, ল l, ব v, হ h), ড় rr, ঢ় rrh, or a prefix/prefixed-word ending in a consonant. Written as ব-ফলা vo-phola fused to the preceding consonant.",
+        "examples": [
+          { "bengali": "স্বত্ব", "roman": "svotvo", "meaning": "ownership, right of ownership" },
+          { "bengali": "দ্বীপ", "roman": "dviip", "meaning": "island" }
+        ]
+      }
+    ],
+
+    "sh": [
+      {
+        "bengali": "শ",
+        "section": "fricative",
+        "ipa": "/ɕ/",
+        "notes": "As sh in English 'wiSH' but palatalised. Original pronunciation, invariably palatalised when next to palatal consonants চ c, ছ ch, জ j, ঝ jh, and ঞ nj. Called তালব্য শ talovyo sho (palatal SH).",
+        "examples": [
+          { "bengali": "নিশ্চয়তা", "roman": "nishcoyota", "meaning": "certainty, freedom from doubt" },
+          { "bengali": "নিশ্ছিদ্র", "roman": "nishchidro", "meaning": "free from holes, without pores, compact" }
+        ]
+      },
+      {
+        "bengali": "শ",
+        "section": "fricative",
+        "ipa": "/s/",
+        "notes": "IPA /s/. As s in English 'Slow'. Occurs when next before ঋ rwi, র r, or ল l.",
+        "examples": [
+          { "bengali": "মিশ্র", "roman": "mishro", "meaning": "mixed, blended" },
+          { "bengali": "শ্রদ্ধেয়", "roman": "shroddheyo", "meaning": "reverend, venerable" }
+        ]
+      },
+      {
+        "bengali": "শ",
+        "section": "fricative",
+        "ipa": "/ʃ/",
+        "notes": "IPA /ʃ/. As sh in English 'waSH'. The usual pronunciation in modern Bengali.",
+        "examples": [
+          { "bengali": "শুকানো", "roman": "shukanou", "meaning": "to dry, to wither" },
+          { "bengali": "বিদেশী", "roman": "videshii", "meaning": "foreign" }
+        ]
+      }
+    ],
+
+    "x": [
+      {
+        "bengali": "ষ",
+        "section": "fricative",
+        "ipa": "/ʂ/",
+        "notes": "As sh in English 'harSHer' but retroflexed. Original pronunciation, when next to retroflex consonants ট td, ঠ tdh, ড dt, and ঢ dth. Called মূর্ধন্য ষ muurdhonyo xo (coronal X).",
+        "examples": [
+          { "bengali": "আদিষ্ট", "roman": "adixtdo", "meaning": "commanded" },
+          { "bengali": "ষষ্ঠ", "roman": "xoxtdho", "meaning": "sixth" }
+        ]
+      },
+      {
+        "bengali": "ষ",
+        "section": "fricative",
+        "ipa": "/kʰ/",
+        "notes": "IPA /kʰ/. Approximately as kh in English 'sinKHole'. Occurs only and invariably immediately after ক k in the conjunct ক্ষ kx.",
+        "examples": [
+          { "bengali": "অক্ষীয়", "roman": "okxiiyo", "meaning": "axial" },
+          { "bengali": "ক্ষমা", "roman": "kxoma", "meaning": "forbearance, pardon" }
+        ]
+      },
+      {
+        "bengali": "ষ",
+        "section": "fricative",
+        "ipa": "/ʃ/",
+        "notes": "IPA /ʃ/. As sh in English 'caSH'. The usual pronunciation in modern Bengali.",
+        "examples": [
+          { "bengali": "বিশেষ", "roman": "vishex", "meaning": "speciality, peculiarity, special, distinct" },
+          { "bengali": "ষড়্গুণ", "roman": "xorrgunh", "meaning": "sixfold" }
+        ]
+      }
+    ],
+
+    "s": [
+      {
+        "bengali": "স",
+        "section": "fricative",
+        "ipa": "/s/",
+        "notes": "IPA /s/. As s in English 'Star'. Original pronunciation. Occurs (i) before dental consonants ত t, থ th, দ d, ধ dh, ন n; (ii) before ঋ rwi, মৃ mrwi, র r, or ল l; (iii) when representing original /s/ in English loanwords; (iv) at the start of a word before ক k, খ kh, প p, or ফ ph. Called দন্ত্য স dontyo so (dental S).",
+        "examples": [
+          { "bengali": "আস্তে", "roman": "aste", "meaning": "gently, slowly" },
+          { "bengali": "বাস্তব", "roman": "vastov", "meaning": "actual, factual, real" }
+        ]
+      },
+      {
+        "bengali": "স",
+        "section": "fricative",
+        "ipa": "/ʃ/",
+        "notes": "IPA /ʃ/. As sh in English 'caSH'. The usual pronunciation in modern Bengali.",
+        "examples": [
+          { "bengali": "সাংসারিক", "roman": "sangwsarik", "meaning": "domestic, pertaining to worldly affairs" },
+          { "bengali": "ইস্পাত", "roman": "ispat", "meaning": "steel" }
+        ]
+      }
+    ],
+
+    "h": [
+      {
+        "bengali": "হ",
+        "section": "fricative",
+        "ipa": "/ɦ/",
+        "notes": "As h in English 'beHind'. Called অন্তঃস্থ হ ontohwstho ho.",
+        "examples": [
+          { "bengali": "হলুদ", "roman": "holud", "meaning": "yellow, turmeric" },
+          { "bengali": "হাতুড়ি", "roman": "haturri", "meaning": "a hammer" }
+        ]
+      },
+      {
+        "bengali": "হ",
+        "section": "fricative",
+        "ipa": "∅",
+        "notes": "Silent when: (i) immediately before ঋ rwi (ঋ then pronounced /rri/); (ii) between a vowel and jzo-phola (jzo-phola then pronounced as jz); (iii) before any other consonant (that consonant's pronunciation is doubled). Exceptional: ব v after silent হ h is pronounced as উব uv (not doubled) in words from archaic stem হ্বে hve.",
+        "examples": [
+          { "bengali": "চিহ্ন", "roman": "cihno", "meaning": "a mark, a sign" },
+          { "bengali": "হ্রদ", "roman": "hrod", "meaning": "lake" },
+          { "bengali": "ব্রাহ্মণ", "roman": "Brahmonh", "meaning": "Brahmin" }
+        ]
+      }
+    ]
+
+  }
+}
