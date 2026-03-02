@@ -70,6 +70,9 @@ const Exercises = (() => {
             case 'conversation_listening':
                 renderConversationListening(card, exercise);
                 break;
+            case 'figure_choice':
+                renderFigureChoice(card, exercise);
+                break;
             default:
                 card.innerHTML += '<p>Unknown exercise type: ' + exercise.type + '</p>';
         }
@@ -154,6 +157,7 @@ const Exercises = (() => {
         if (type === 'conversation' || type === 'conversation_listening') return 'badge-conversation';
         if (type === 'listening') return 'badge-listening';
         if (type === 'alphabet_listening') return 'badge-alphabet';
+        if (type === 'figure_choice') return 'badge-figure';
         return '';
     }
 
@@ -164,7 +168,79 @@ const Exercises = (() => {
         if (type === 'conversation' || type === 'conversation_listening') return I18n.t('badge_conversation');
         if (type === 'listening') return I18n.t('badge_listening');
         if (type === 'alphabet_listening') return I18n.t('badge_alphabet');
+        if (type === 'figure_choice') return I18n.t('badge_figure');
         return type;
+    }
+
+    // ========== Figure Choice (NEW) ==========
+
+    function renderFigureChoice(card, exercise) {
+        const question = document.createElement('p');
+        question.className = 'exercise-question';
+        question.textContent = I18n.localize(exercise.question) || I18n.t('select_image');
+        card.appendChild(question);
+
+        // Show the Bengali word + romanization
+        if (exercise.bengali) {
+            card.appendChild(createBengaliRomPair(exercise.bengali, exercise.romanized || ''));
+        }
+
+        // Audio button if available
+        if (exercise.audio) {
+            card.appendChild(createAudioControls(exercise.audio));
+        }
+
+        // Image grid
+        const grid = document.createElement('div');
+        grid.className = 'figure-choice-grid';
+
+        exercise.options.forEach((opt, i) => {
+            const btn = document.createElement('button');
+            btn.className = 'figure-option-btn';
+
+            const img = document.createElement('img');
+            img.className = 'figure-option-img';
+            img.src = opt.image;
+            img.alt = opt.label ? I18n.localize(opt.label) : '';
+            img.loading = 'lazy';
+            img.addEventListener('error', () => {
+                img.style.display = 'none';
+                const fallback = document.createElement('div');
+                fallback.className = 'figure-option-fallback';
+                fallback.textContent = opt.label ? I18n.localize(opt.label) : '?';
+                btn.insertBefore(fallback, btn.firstChild);
+            });
+            btn.appendChild(img);
+
+            if (opt.label) {
+                const labelSpan = document.createElement('span');
+                labelSpan.className = 'figure-option-label';
+                labelSpan.textContent = I18n.localize(opt.label);
+                btn.appendChild(labelSpan);
+            }
+
+            btn.addEventListener('click', () => {
+                if (answered) return;
+                answered = true;
+                grid.querySelectorAll('.figure-option-btn').forEach((b, j) => {
+                    b.disabled = true;
+                    if (j === exercise.correctIndex) b.classList.add('correct');
+                });
+                if (i === exercise.correctIndex) {
+                    btn.classList.add('correct');
+                } else {
+                    btn.classList.add('wrong');
+                }
+                const correctLabel = exercise.options[exercise.correctIndex].label
+                    ? I18n.localize(exercise.options[exercise.correctIndex].label)
+                    : '';
+                showFeedback(i === exercise.correctIndex, correctLabel);
+            });
+
+            grid.appendChild(btn);
+        });
+
+        card.appendChild(grid);
     }
 
     // ========== Grammar Sort ==========
@@ -186,6 +262,11 @@ const Exercises = (() => {
 
         const answerZone = document.createElement('div');
         answerZone.className = 'answer-zone';
+        // Stabilize height: pre-calculate based on word count to prevent layout shift
+        const chipHeight = 36; // approximate chip height + gap
+        const rowCapacity = 4; // approximate chips per row
+        const rows = Math.ceil(exercise.words.length / rowCapacity);
+        answerZone.style.minHeight = (rows * chipHeight + 16) + 'px';
         sortArea.appendChild(answerZone);
 
         // Word bank
@@ -575,6 +656,23 @@ const Exercises = (() => {
         card.appendChild(display);
 
         let typed = '';
+        let mode = 'keyboard'; // 'keyboard' | 'roman'
+
+        // Mode toggle (Bengali Keyboard <-> Roman Input)
+        const toggleContainer = document.createElement('div');
+        toggleContainer.className = 'input-mode-toggle';
+
+        const kbModeBtn = document.createElement('button');
+        kbModeBtn.className = 'mode-btn active';
+        kbModeBtn.textContent = I18n.t('mode_bengali_keyboard');
+
+        const romanModeBtn = document.createElement('button');
+        romanModeBtn.className = 'mode-btn';
+        romanModeBtn.textContent = I18n.t('mode_roman_input');
+
+        toggleContainer.appendChild(kbModeBtn);
+        toggleContainer.appendChild(romanModeBtn);
+        card.appendChild(toggleContainer);
 
         // On-screen keyboard grid
         const kbGrid = document.createElement('div');
@@ -610,9 +708,49 @@ const Exercises = (() => {
 
         card.appendChild(kbGrid);
 
-        // Block physical keyboard on the card
+        // Roman input area (hidden by default)
+        const romanArea = document.createElement('div');
+        romanArea.className = 'roman-input-area';
+        romanArea.style.display = 'none';
+
+        const romanInput = document.createElement('input');
+        romanInput.type = 'text';
+        romanInput.className = 'write-input';
+        romanInput.placeholder = I18n.t('type_roman');
+        romanInput.autocomplete = 'off';
+        romanInput.addEventListener('input', () => {
+            if (answered) return;
+            const bengali = Transliterator.isLoaded()
+                ? Transliterator.transliterate(romanInput.value)
+                : romanInput.value;
+            typed = bengali;
+            displayText.textContent = typed;
+        });
+        romanArea.appendChild(romanInput);
+        card.appendChild(romanArea);
+
+        // Mode switching
+        kbModeBtn.addEventListener('click', () => {
+            if (mode === 'keyboard' || answered) return;
+            mode = 'keyboard';
+            kbModeBtn.classList.add('active');
+            romanModeBtn.classList.remove('active');
+            kbGrid.style.display = '';
+            romanArea.style.display = 'none';
+        });
+        romanModeBtn.addEventListener('click', () => {
+            if (mode === 'roman' || answered) return;
+            mode = 'roman';
+            romanModeBtn.classList.add('active');
+            kbModeBtn.classList.remove('active');
+            kbGrid.style.display = 'none';
+            romanArea.style.display = '';
+            romanInput.focus();
+        });
+
+        // Block physical keyboard on the card when in keyboard mode
         card.addEventListener('keydown', (e) => {
-            if (!answered) e.preventDefault();
+            if (!answered && mode === 'keyboard') e.preventDefault();
         });
 
         // Check button
@@ -631,8 +769,9 @@ const Exercises = (() => {
             );
             display.classList.add(isCorrect ? 'correct' : 'wrong');
 
-            // Disable keyboard
+            // Disable keyboard & roman input
             kbGrid.querySelectorAll('.key-btn').forEach(b => b.disabled = true);
+            romanInput.disabled = true;
             showFeedback(isCorrect, exercise.correctAnswer);
         });
         checkContainer.appendChild(checkBtn);
@@ -666,10 +805,15 @@ const Exercises = (() => {
 
             const lineData = lines[step];
 
-            // Mark all lines up to current as played
+            // Progressive visibility: show current and previous lines, hide future
             convContainer.querySelectorAll('.conv-line').forEach((el, i) => {
-                if (i < step) el.classList.add('played');
-                if (i === step) el.classList.add('active');
+                if (i < step) {
+                    el.classList.add('played', 'visible');
+                    el.classList.remove('active');
+                }
+                if (i === step) {
+                    el.classList.add('active', 'visible');
+                }
             });
 
             // If it's a choice point, show options

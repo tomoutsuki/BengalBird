@@ -468,6 +468,7 @@ const App = (() => {
         I18n.init();
         Progress.init();
         AudioManager.init();
+        await Transliterator.load();
         Exercises.init($('#exercise-container'), handleAnswer);
 
         bindEvents();

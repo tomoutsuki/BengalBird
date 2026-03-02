@@ -285,6 +285,39 @@
                 "en": "নমস্কার is spelled: ন + ম + স + ্ + ক + া + র",
                 "ja": "নমস্কার の綴り: ন + ম + স + ্ + ক + া + র"
             }
+        },
+        {
+            "id": "ex11_figure_choice",
+            "type": "figure_choice",
+            "question": {
+                "en": "Which image matches the Bengali word?",
+                "ja": "ベンガル語の単語に合う画像はどれですか？"
+            },
+            "bengali": "দুধ",
+            "romanized": "Dudh",
+            "options": [
+                {
+                    "image": "assets/illustrations/bread.png",
+                    "label": {"en": "Bread", "ja": "パン"}
+                },
+                {
+                    "image": "assets/illustrations/tomato.png",
+                    "label": {"en": "Tomato", "ja": "トマト"}
+                },
+                {
+                    "image": "assets/illustrations/milk.png",
+                    "label": {"en": "Milk", "ja": "牛乳"}
+                },
+                {
+                    "image": "assets/illustrations/orange.png",
+                    "label": {"en": "Orange", "ja": "オレンジ"}
+                }
+            ],
+            "correctIndex": 2,
+            "hint": {
+                "en": "This common dairy product is white.",
+                "ja": "この一般的な乳製品は白いです。"
+            }
         }
     ]
 }
