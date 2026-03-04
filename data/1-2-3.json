@@ -1,0 +1,40 @@
+{
+  "lesson_id": "1-2-3",
+  "title": {
+    "en": "Consonants Group 1",
+    "ja": "子音グループ1"
+  },
+  "description": {
+    "en": "Learn the first consonant groups and aspirated contrasts.",
+    "ja": "最初の子音グループと有気音の違いを学ぶ。"
+  },
+  "est_time_mins": 6,
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "alphabet_listening",
+      "audio": "assets/audio/alphabet/ক.mp3",
+      "question": { "en": "Which letter was pronounced?", "ja": "どの文字ですか？" },
+      "options": [
+        { "letter": "ক", "romanized": "k", "correct": true },
+        { "letter": "খ", "romanized": "kh", "correct": false },
+        { "letter": "গ", "romanized": "g", "correct": false },
+        { "letter": "ঘ", "romanized": "gh", "correct": false }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "figure_choice",
+      "question": { "en": "Select the picture for the word", "ja": "単語に合う画像を選んでください" },
+      "bengali": "ঘর",
+      "romanized": "ghor",
+      "options": [
+        { "image": "assets/illustrations/house.svg", "label": { "en": "House", "ja": "家" } },
+        { "image": "assets/illustrations/tree.svg", "label": { "en": "Tree", "ja": "木" } },
+        { "image": "assets/illustrations/bird.svg", "label": { "en": "Bird", "ja": "鳥" } },
+        { "image": "assets/illustrations/boat.svg", "label": { "en": "Boat", "ja": "船" } }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

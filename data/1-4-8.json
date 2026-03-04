@@ -1,0 +1,33 @@
+{
+  "lesson_id": "1-4-8",
+  "title": {
+    "en": "Reading Lab",
+    "ja": "リーディング演習"
+  },
+  "description": {
+    "en": "Practice reading simple Bengali sentences.",
+    "ja": "簡単なベンガル語の文章を読む練習。"
+  },
+  "est_time_mins": 6,
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "reading",
+      "passage": {
+        "bengali": "আম ঘরে আছে। আমি আম খাই।",
+        "romanized": "Am ghore ache. Ami am khai.",
+        "en": "There is a mango in the house. I eat mango.",
+        "ja": "家にマンゴーがあります。私はマンゴーを食べます。"
+      },
+      "question": {
+        "en": "What fruit is mentioned?",
+        "ja": "どの果物が出てきますか？"
+      },
+      "options": [
+        { "text": { "en": "Mango", "ja": "マンゴー" }, "correct": true },
+        { "text": { "en": "Apple", "ja": "りんご" }, "correct": false },
+        { "text": { "en": "Banana", "ja": "バナナ" }, "correct": false }
+      ]
+    }
+  ]
+}

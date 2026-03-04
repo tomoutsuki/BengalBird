@@ -1,0 +1,78 @@
+{
+  "lesson_id": "1-1-1",
+  "title": {
+    "en": "Vowels Part 1",
+    "ja": "母音（パート1）"
+  },
+  "description": {
+    "en": "Learn the first Bengali vowels and their pronunciation.",
+    "ja": "ベンガル語の最初の母音と発音を学ぶ。"
+  },
+  "est_time_mins": 5,
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "alphabet_listening",
+      "audio": "assets/audio/alphabet/অ.mp3",
+      "question": {
+        "en": "Which vowel did you hear?",
+        "ja": "どの母音が聞こえましたか？"
+      },
+      "options": [
+        { "letter": "অ", "romanized": "ô", "correct": true },
+        { "letter": "আ", "romanized": "a", "correct": false },
+        { "letter": "ই", "romanized": "i", "correct": false },
+        { "letter": "উ", "romanized": "u", "correct": false }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "alphabet_listening",
+      "audio": "assets/audio/alphabet/আ.mp3",
+      "question": {
+        "en": "Which vowel did you hear?",
+        "ja": "どの母音が聞こえましたか？"
+      },
+      "options": [
+        { "letter": "আ", "romanized": "a", "correct": true },
+        { "letter": "ঈ", "romanized": "ii", "correct": false },
+        { "letter": "অ", "romanized": "ô", "correct": false },
+        { "letter": "উ", "romanized": "u", "correct": false }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "figure_choice",
+      "question": {
+        "en": "Which image matches the word?",
+        "ja": "どの画像が単語に合いますか？"
+      },
+      "bengali": "আম",
+      "romanized": "am",
+      "audio": "assets/audio/listening/am.m4a",
+      "options": [
+        { "image": "assets/illustrations/mango.png", "label": { "en": "Mango", "ja": "マンゴー" } },
+        { "image": "assets/illustrations/rice.png", "label": { "en": "Rice", "ja": "米" } },
+        { "image": "assets/illustrations/ilish.png", "label": { "en": "Fish", "ja": "魚" } },
+        { "image": "assets/illustrations/tea.png", "label": { "en": "Tea", "ja": "お茶" } }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ex4",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the word for mango",
+        "ja": "マンゴーの単語を入力してください"
+      },
+      "romanized": "am",
+      "correctAnswer": "আম",
+      "acceptableAnswers": ["আম"],
+      "keys": [
+        { "letter": "অ" },
+        { "letter": "আ" },
+        { "letter": "ম" }
+      ]
+    }
+  ]
+}

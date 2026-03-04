@@ -1,0 +1,24 @@
+{
+  "lesson_id": "1-3-6",
+  "title": {
+    "en": "Vowel Signs (Kar)",
+    "ja": "母音記号（কার）"
+  },
+  "description": {
+    "en": "Learn vowel signs used with consonants.",
+    "ja": "子音に付く母音記号を学ぶ。"
+  },
+  "est_time_mins": 6,
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "grammar-select",
+      "question": { "en": "Which form reads 'ka'?", "ja": "どれが「ka」ですか？" },
+      "options": [
+        { "text": { "en": "কা", "ja": "কা" }, "correct": true },
+        { "text": { "en": "কি", "ja": "কি" }, "correct": false },
+        { "text": { "en": "কু", "ja": "কু" }, "correct": false }
+      ]
+    }
+  ]
+}

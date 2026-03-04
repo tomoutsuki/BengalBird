@@ -1,25 +1,354 @@
 {
-    "chapters": [
+  "chapters": [
+    {
+      "id": "chapter_1",
+      "title": {
+        "en": "Chapter 1: Script & Phonology Foundation",
+        "ja": "第1章：文字と音韻の基礎"
+      },
+      "description": {
+        "en": "Build literacy and pronunciation accuracy through vowels, consonants, vowel signs, and conjunct basics.",
+        "ja": "母音・子音・কার（母音記号）・ যুক্তাক্ষর（合字）の基礎で読み書きと発音を固める。"
+      },
+      "sections": [
         {
-            "id": "ch1",
-            "title": {
-                "en": "Chapter 1: Greetings & Basics",
-                "ja": "第1章：挨拶と基本"
-            },
-            "description": {
-                "en": "Learn basic Bengali greetings, introductions, and simple phrases.",
-                "ja": "ベンガル語の基本的な挨拶、自己紹介、簡単なフレーズを学びましょう。"
-            },
-            "sections": [
-                {
-                    "id": "ch1_s1",
-                    "title": {
-                        "en": "Section 1: Hello & Goodbye",
-                        "ja": "セクション1：こんにちは＆さようなら"
-                    },
-                    "lessons": ["lesson1", "lesson2"]
-                }
-            ]
+          "id": "section_1-1",
+          "title": {
+            "en": "Section 1: Vowels",
+            "ja": "セクション1：母音"
+          },
+          "lessons": [
+            "1-1-1",
+            "1-1-2"
+          ]
+        },
+        {
+          "id": "section_1-2",
+          "title": {
+            "en": "Section 2: Consonants",
+            "ja": "セクション2：子音"
+          },
+          "lessons": [
+            "1-2-3",
+            "1-2-4",
+            "1-2-5"
+          ]
+        },
+        {
+          "id": "section_1-3",
+          "title": {
+            "en": "Section 3: Vowel Signs (Kar) & Conjuncts",
+            "ja": "セクション3：母音記号（কার）と合字"
+          },
+          "lessons": [
+            "1-3-6",
+            "1-3-7"
+          ]
+        },
+        {
+          "id": "section_1-4",
+          "title": {
+            "en": "Section 4: Reading Lab",
+            "ja": "セクション4：リーディング演習"
+          },
+          "lessons": ["1-4-8"]
         }
-    ]
+      ]
+    },
+    {
+      "id": "chapter_2",
+      "title": {
+        "en": "Chapter 2: Greetings & Politeness System",
+        "ja": "第2章：あいさつと丁寧さ（敬意）システム"
+      },
+      "description": {
+        "en": "Learn greetings, pronoun hierarchy, and essential introduction patterns with cultural-neutral politeness.",
+        "ja": "あいさつ、代名詞の敬意差、自己紹介の基本を文化的配慮（中立）と共に学ぶ。"
+      },
+      "sections": [
+        {
+          "id": "section_2-1",
+          "title": {
+            "en": "Section 1: Greetings",
+            "ja": "セクション1：あいさつ"
+          },
+          "lessons": ["2-1-9"]
+        },
+        {
+          "id": "section_2-2",
+          "title": {
+            "en": "Section 2: Pronouns & Respect Hierarchy",
+            "ja": "セクション2：代名詞と敬意の階層"
+          },
+          "lessons": ["2-2-10"]
+        },
+        {
+          "id": "section_2-3",
+          "title": {
+            "en": "Section 3: Introducing Yourself",
+            "ja": "セクション3：自己紹介"
+          },
+          "lessons": [
+            "2-3-11",
+            "2-3-12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter_3",
+      "title": {
+        "en": "Chapter 3: Family & Social Structure",
+        "ja": "第3章：家族と社会的関係"
+      },
+      "description": {
+        "en": "Master kinship hierarchy, extended family terms, and polite ways to address people in daily life.",
+        "ja": "親族呼称の階層、拡大家族語彙、日常での丁寧な呼びかけを身につける。"
+      },
+      "sections": [
+        {
+          "id": "section_3-1",
+          "title": {
+            "en": "Section 1: Nuclear Family",
+            "ja": "セクション1：核家族"
+          },
+          "lessons": ["3-1-13"]
+        },
+        {
+          "id": "section_3-2",
+          "title": {
+            "en": "Section 2: Extended Family",
+            "ja": "セクション2：拡大家族"
+          },
+          "lessons": [
+            "3-2-14",
+            "3-2-15"
+          ]
+        },
+        {
+          "id": "section_3-3",
+          "title": {
+            "en": "Section 3: Polite Addressing in Society",
+            "ja": "セクション3：社会での丁寧な呼びかけ"
+          },
+          "lessons": ["3-3-16"]
+        }
+      ]
+    },
+    {
+      "id": "chapter_4",
+      "title": {
+        "en": "Chapter 4: Core Verbs & Daily Life",
+        "ja": "第4章：基本動詞と日常生活"
+      },
+      "description": {
+        "en": "Use present tense, negatives, questions, daily routine vocabulary, and numbers for practical communication.",
+        "ja": "現在形、否定・疑問、日課語彙、数字を使って実用会話を作る。"
+      },
+      "sections": [
+        {
+          "id": "section_4-1",
+          "title": {
+            "en": "Section 1: Present Tense Basics",
+            "ja": "セクション1：現在形の基礎"
+          },
+          "lessons": [
+            "4-1-17",
+            "4-1-18"
+          ]
+        },
+        {
+          "id": "section_4-2",
+          "title": {
+            "en": "Section 2: Daily Routine Language",
+            "ja": "セクション2：日課の言い方"
+          },
+          "lessons": ["4-2-19"]
+        },
+        {
+          "id": "section_4-3",
+          "title": {
+            "en": "Section 3: Numbers 0–20",
+            "ja": "セクション3：数字 0〜20"
+          },
+          "lessons": ["4-3-20"]
+        }
+      ]
+    },
+    {
+      "id": "chapter_5",
+      "title": {
+        "en": "Chapter 5: Food & Hospitality",
+        "ja": "第5章：食事とおもてなし"
+      },
+      "description": {
+        "en": "Learn core food vocabulary, ordering patterns, and culturally polite offering/accepting strategies.",
+        "ja": "食べ物語彙、注文表現、勧める／受ける（断る）の丁寧表現を文化背景と一緒に学ぶ。"
+      },
+      "sections": [
+        {
+          "id": "section_5-1",
+          "title": {
+            "en": "Section 1: Food Basics",
+            "ja": "セクション1：食の基本語彙"
+          },
+          "lessons": ["5-1-21"]
+        },
+        {
+          "id": "section_5-2",
+          "title": {
+            "en": "Section 2: Ordering Food",
+            "ja": "セクション2：注文する"
+          },
+          "lessons": ["5-2-22"]
+        },
+        {
+          "id": "section_5-3",
+          "title": {
+            "en": "Section 3: Offering & Accepting Politely",
+            "ja": "セクション3：勧める／受ける（丁寧）"
+          },
+          "lessons": ["5-3-23"]
+        }
+      ]
+    },
+    {
+      "id": "chapter_6",
+      "title": {
+        "en": "Chapter 6: Tense Expansion",
+        "ja": "第6章：時制の拡張"
+      },
+      "description": {
+        "en": "Expand beyond present tense into past, past continuous, and future with respect-based forms.",
+        "ja": "過去・過去進行・未来を、敬意差（丁寧形）も含めて身につける。"
+      },
+      "sections": [
+        {
+          "id": "section_6-1",
+          "title": {
+            "en": "Section 1: Past Tense",
+            "ja": "セクション1：過去形"
+          },
+          "lessons": ["6-1-24"]
+        },
+        {
+          "id": "section_6-2",
+          "title": {
+            "en": "Section 2: Past Continuous",
+            "ja": "セクション2：過去進行"
+          },
+          "lessons": ["6-2-25"]
+        },
+        {
+          "id": "section_6-3",
+          "title": {
+            "en": "Section 3: Future Tense & Respect",
+            "ja": "セクション3：未来形と敬意差"
+          },
+          "lessons": ["6-3-26"]
+        }
+      ]
+    },
+    {
+      "id": "chapter_7",
+      "title": {
+        "en": "Chapter 7: Real Life Situations",
+        "ja": "第7章：実生活の場面"
+      },
+      "description": {
+        "en": "Practice practical scenarios: market bargaining, transport, health/feelings, and weather.",
+        "ja": "市場のやり取り、交通、体調・気分、天気などの実用場面で練習する。"
+      },
+      "sections": [
+        {
+          "id": "section_7-1",
+          "title": {
+            "en": "Section 1: Shopping & Market",
+            "ja": "セクション1：買い物と市場"
+          },
+          "lessons": ["7-1-27"]
+        },
+        {
+          "id": "section_7-2",
+          "title": {
+            "en": "Section 2: Transportation",
+            "ja": "セクション2：交通"
+          },
+          "lessons": ["7-2-28"]
+        },
+        {
+          "id": "section_7-3",
+          "title": {
+            "en": "Section 3: Health & Feelings",
+            "ja": "セクション3：健康と気分"
+          },
+          "lessons": ["7-3-29"]
+        },
+        {
+          "id": "section_7-4",
+          "title": {
+            "en": "Section 4: Weather",
+            "ja": "セクション4：天気"
+          },
+          "lessons": ["7-4-30"]
+        }
+      ]
+    },
+    {
+      "id": "chapter_8",
+      "title": {
+        "en": "Chapter 8: Social Interaction & Expression",
+        "ja": "第8章：交流と表現"
+      },
+      "description": {
+        "en": "Handle social visits, invitations, hobbies/ability, descriptions, opinions, and a final integrated dialogue.",
+        "ja": "訪問、誘い、趣味・能力、描写、意見表現、最終統合ダイアログで総仕上げ。"
+      },
+      "sections": [
+        {
+          "id": "section_8-1",
+          "title": {
+            "en": "Section 1: Visiting & Etiquette",
+            "ja": "セクション1：訪問とマナー"
+          },
+          "lessons": ["8-1-31"]
+        },
+        {
+          "id": "section_8-2",
+          "title": {
+            "en": "Section 2: Invitations",
+            "ja": "セクション2：誘い"
+          },
+          "lessons": ["8-2-32"]
+        },
+        {
+          "id": "section_8-3",
+          "title": {
+            "en": "Section 3: Hobbies & Ability",
+            "ja": "セクション3：趣味と能力"
+          },
+          "lessons": ["8-3-33"]
+        },
+        {
+          "id": "section_8-4",
+          "title": {
+            "en": "Section 4: Descriptions & Opinions",
+            "ja": "セクション4：描写と意見"
+          },
+          "lessons": [
+            "8-4-34",
+            "8-4-35"
+          ]
+        },
+        {
+          "id": "section_8-5",
+          "title": {
+            "en": "Section 5: Final Integrated Dialogue",
+            "ja": "セクション5：最終統合ダイアログ"
+          },
+          "lessons": ["8-5-36"]
+        }
+      ]
+    }
+  ]
 }

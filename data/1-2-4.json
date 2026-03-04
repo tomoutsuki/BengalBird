@@ -1,0 +1,26 @@
+{
+  "lesson_id": "1-2-4",
+  "title": {
+    "en": "Consonants Group 2",
+    "ja": "子音グループ2"
+  },
+  "description": {
+    "en": "Practice retroflex vs dental consonants.",
+    "ja": "反舌音と歯音の違いを練習する。"
+  },
+  "est_time_mins": 6,
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "alphabet_listening",
+      "audio": "assets/audio/alphabet/ট.mp3",
+      "question": { "en": "Which consonant did you hear?", "ja": "どの子音ですか？" },
+      "options": [
+        { "letter": "ট", "romanized": "ṭ", "correct": true },
+        { "letter": "ত", "romanized": "t", "correct": false },
+        { "letter": "ড", "romanized": "ḍ", "correct": false },
+        { "letter": "দ", "romanized": "d", "correct": false }
+      ]
+    }
+  ]
+}

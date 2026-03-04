@@ -1,0 +1,53 @@
+{
+  "lesson_id": "1-1-2",
+  "title": {
+    "en": "Vowels Part 2",
+    "ja": "母音（パート2）"
+  },
+  "description": {
+    "en": "Learn additional Bengali vowels and read vowel-initial words.",
+    "ja": "追加の母音と母音から始まる単語を学ぶ。"
+  },
+  "est_time_mins": 5,
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "alphabet_listening",
+      "audio": "assets/audio/alphabet/এ.mp3",
+      "question": { "en": "Which vowel was pronounced?", "ja": "どの母音でしたか？" },
+      "options": [
+        { "letter": "এ", "romanized": "e", "correct": true },
+        { "letter": "ঐ", "romanized": "oi", "correct": false },
+        { "letter": "ও", "romanized": "o", "correct": false },
+        { "letter": "অ", "romanized": "ô", "correct": false }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "figure_choice",
+      "question": { "en": "Select the image for the word", "ja": "単語に合う画像を選んでください" },
+      "bengali": "এক",
+      "romanized": "ek",
+      "options": [
+        { "image": "assets/illustrations/number1.svg", "label": { "en": "One", "ja": "1" } },
+        { "image": "assets/illustrations/number2.svg", "label": { "en": "Two", "ja": "2" } },
+        { "image": "assets/illustrations/apple.svg", "label": { "en": "Apple", "ja": "りんご" } },
+        { "image": "assets/illustrations/car.svg", "label": { "en": "Car", "ja": "車" } }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ex3",
+      "type": "writing_keyboard",
+      "question": { "en": "Type the Bengali word for 'country'", "ja": "「国」を入力してください" },
+      "romanized": "desh",
+      "correctAnswer": "দেশ",
+      "acceptableAnswers": ["দেশ"],
+      "keys": [
+        { "letter": "দ" },
+        { "letter": "ে" },
+        { "letter": "শ" }
+      ]
+    }
+  ]
+}
