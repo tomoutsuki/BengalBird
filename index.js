@@ -10,8 +10,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Serve /data JSON files
 app.use('/data', express.static(path.join(__dirname, 'data')));
 
-// Serve /assets (audio files)
+// Serve /assets (audio files, icons)
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
+
+// Serve /dictionary files (JSONL)
+app.use('/dictionary', express.static(path.join(__dirname, 'dictionary')));
 
 // Serve CREDITS.md and LICENSE from project root
 app.get('/CREDITS.md', (req, res) => {

@@ -97,52 +97,93 @@
         </div>
     </div>
 
-    <!-- ===== Main Content Area ===== -->
-    <main id="app">
-        <!-- Home Screen -->
-        <section id="screen-home" class="screen active">
-            <div class="home-hero">
-                <div class="hero-icon">🐦</div>
-                <h2>BengalBird</h2>
-                <p data-i18n="home_subtitle">Learn Bengali step by step</p>
-            </div>
-            <div id="chapter-list" class="chapter-list"></div>
-        </section>
+    <!-- ===== Main Content Area (SPA sections) ===== -->
+    <div id="app-wrapper">
 
-        <!-- Lesson Screen -->
-        <section id="screen-lesson" class="screen">
-            <div id="lesson-header">
-                <button id="back-btn" class="btn btn-secondary btn-sm" data-i18n="back">← Back</button>
-                <div id="lesson-info">
-                    <h2 id="lesson-title"></h2>
-                    <p id="lesson-description"></p>
-                </div>
-            </div>
-            <div id="progress-bar-container">
-                <div id="progress-bar"></div>
-                <span id="progress-text">0 / 0</span>
-            </div>
-            <div id="exercise-area">
-                <div id="exercise-container"></div>
-            </div>
-        </section>
+        <!-- ===== COURSE Section ===== -->
+        <div id="section-course" class="tab-section active">
+            <main id="app">
+                <!-- Home Screen -->
+                <section id="screen-home" class="screen active">
+                    <div class="home-hero">
+                        <div class="hero-icon">🐦</div>
+                        <h2>BengalBird</h2>
+                        <p data-i18n="home_subtitle">Learn Bengali step by step</p>
+                    </div>
+                    <div id="chapter-list" class="chapter-list"></div>
+                </section>
 
-        <!-- Lesson Complete Screen -->
-        <section id="screen-complete" class="screen">
-            <div class="complete-content">
-                <div class="complete-icon">🎉</div>
-                <h2 data-i18n="lesson_complete">Lesson Complete!</h2>
-                <p id="complete-stats"></p>
-                <button id="complete-home-btn" class="btn btn-primary" data-i18n="back_to_home">Back to Home</button>
-            </div>
-        </section>
-    </main>
+                <!-- Lesson Screen -->
+                <section id="screen-lesson" class="screen">
+                    <div id="lesson-header">
+                        <button id="back-btn" class="btn btn-secondary btn-sm" data-i18n="back">← Back</button>
+                        <div id="lesson-info">
+                            <h2 id="lesson-title"></h2>
+                            <p id="lesson-description"></p>
+                        </div>
+                    </div>
+                    <div id="progress-bar-container">
+                        <div id="progress-bar"></div>
+                        <span id="progress-text">0 / 0</span>
+                    </div>
+                    <div id="exercise-area">
+                        <div id="exercise-container"></div>
+                    </div>
+                </section>
+
+                <!-- Lesson Complete Screen -->
+                <section id="screen-complete" class="screen">
+                    <div class="complete-content">
+                        <div class="complete-icon">🎉</div>
+                        <h2 data-i18n="lesson_complete">Lesson Complete!</h2>
+                        <p id="complete-stats"></p>
+                        <button id="complete-home-btn" class="btn btn-primary" data-i18n="back_to_home">Back to Home</button>
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <!-- ===== DICTIONARY Section ===== -->
+        <div id="section-dictionary" class="tab-section"></div>
+
+        <!-- ===== KEYBOARD Section ===== -->
+        <div id="section-keyboard" class="tab-section"></div>
+
+        <!-- ===== PROFILE Section ===== -->
+        <div id="section-profile" class="tab-section"></div>
+
+    </div>
+
+    <!-- ===== Footer Navigation ===== -->
+    <nav id="footer-nav">
+        <button class="footer-tab active" data-tab="course">
+            <img src="assets/icon/course.png" alt="" class="footer-icon">
+            <span data-i18n="nav_course">Course</span>
+        </button>
+        <button class="footer-tab" data-tab="dictionary">
+            <img src="assets/icon/dictionary.png" alt="" class="footer-icon">
+            <span data-i18n="nav_dictionary">Dictionary</span>
+        </button>
+        <button class="footer-tab" data-tab="keyboard">
+            <img src="assets/icon/keyboard.png" alt="" class="footer-icon">
+            <span data-i18n="nav_keyboard">Keyboard</span>
+        </button>
+        <button class="footer-tab" data-tab="profile">
+            <img src="assets/icon/profile.png" alt="" class="footer-icon">
+            <span data-i18n="nav_profile">Profile</span>
+        </button>
+    </nav>
 
     <!-- ===== Scripts ===== -->
     <script src="js/i18n.js"></script>
     <script src="js/progress.js"></script>
     <script src="js/audio.js"></script>
-    <script src="js/transliterate.js"></script>
+    <script src="js/bengali-ime.js"></script>
+    <script src="js/word-ime.js"></script>
+    <script src="js/router.js"></script>
+    <script src="js/dictionary.js"></script>
+    <script src="js/keyboard-page.js"></script>
+    <script src="js/profile.js"></script>
     <script src="js/exercises.js"></script>
     <script src="js/app.js"></script>
 </body>

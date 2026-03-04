@@ -263,10 +263,10 @@ const Exercises = (() => {
         const answerZone = document.createElement('div');
         answerZone.className = 'answer-zone';
         // Stabilize height: pre-calculate based on word count to prevent layout shift
-        const chipHeight = 36; // approximate chip height + gap
+        const chipHeight = 68; // approximate chip height + gap
         const rowCapacity = 4; // approximate chips per row
         const rows = Math.ceil(exercise.words.length / rowCapacity);
-        answerZone.style.minHeight = (rows * chipHeight + 16) + 'px';
+        answerZone.style.minHeight = (rows * chipHeight + 8) + 'px';
         sortArea.appendChild(answerZone);
 
         // Word bank
@@ -718,13 +718,25 @@ const Exercises = (() => {
         romanInput.className = 'write-input';
         romanInput.placeholder = I18n.t('type_roman');
         romanInput.autocomplete = 'off';
-        romanInput.addEventListener('input', () => {
+
+        // Word-level IME: convert full word on SPACE or ENTER
+        romanInput.addEventListener('keydown', (e) => {
             if (answered) return;
-            const bengali = Transliterator.isLoaded()
-                ? Transliterator.transliterate(romanInput.value)
-                : romanInput.value;
-            typed = bengali;
-            displayText.textContent = typed;
+            if (e.key === ' ' || e.key === 'Enter') {
+                e.preventDefault();
+                const val = romanInput.value.trim();
+                if (val) {
+                    typed += WordIME.convert(val);
+                }
+                romanInput.value = '';
+                displayText.textContent = typed;
+            } else if (e.key === 'Backspace' && romanInput.value === '' && typed.length > 0) {
+                // Allow backspace into committed Bengali text
+                const chars = [...typed];
+                chars.pop();
+                typed = chars.join('');
+                displayText.textContent = typed;
+            }
         });
         romanArea.appendChild(romanInput);
         card.appendChild(romanArea);
@@ -793,6 +805,9 @@ const Exercises = (() => {
         const lines = exercise.lines || [];
         let currentStep = 0;
 
+        // Map step index -> DOM element for reliable lookup
+        const stepElements = {};
+
         function advanceToStep(step) {
             if (step >= lines.length) {
                 // All lines done — this exercise is complete (auto-correct)
@@ -805,21 +820,27 @@ const Exercises = (() => {
 
             const lineData = lines[step];
 
-            // Progressive visibility: show current and previous lines, hide future
-            convContainer.querySelectorAll('.conv-line').forEach((el, i) => {
-                if (i < step) {
+            // Progressive visibility: show current and previous, hide future
+            for (let s = 0; s < lines.length; s++) {
+                const el = stepElements[s];
+                if (!el) continue;
+                if (s < step) {
                     el.classList.add('played', 'visible');
                     el.classList.remove('active');
-                }
-                if (i === step) {
+                } else if (s === step) {
                     el.classList.add('active', 'visible');
                 }
-            });
+                // future steps stay hidden (no .visible class)
+            }
 
-            // If it's a choice point, show options
+            // If it's a choice point, show it and WAIT for user selection
             if (lineData.type === 'choice') {
-                const choiceCard = convContainer.querySelector('[data-step="' + step + '"]');
-                if (choiceCard) choiceCard.style.display = 'block';
+                const choiceCard = stepElements[step];
+                if (choiceCard) {
+                    choiceCard.style.display = 'block';
+                    choiceCard.classList.add('visible');
+                }
+                // Do NOT auto-advance — wait for user click in the choice handler
             } else {
                 // Auto-play audio if available
                 if (lineData.audio) {
@@ -845,6 +866,8 @@ const Exercises = (() => {
                 choiceArea.className = 'conv-choice-area';
                 choiceArea.dataset.step = idx;
                 choiceArea.style.display = 'none';
+
+                stepElements[idx] = choiceArea;
 
                 const q = document.createElement('p');
                 q.className = 'exercise-question';
@@ -901,6 +924,9 @@ const Exercises = (() => {
                 // Dialogue line
                 const lineEl = document.createElement('div');
                 lineEl.className = 'conv-line';
+                lineEl.dataset.step = idx;
+
+                stepElements[idx] = lineEl;
 
                 if (lineData.audio) {
                     lineEl.appendChild(createInlineAudioBtn(lineData.audio));

@@ -63,6 +63,33 @@ const I18n = (() => {
             mode_roman_input: 'Roman Input',
             type_roman: 'Type in Roman letters...',
             image_load_error: 'Image could not be loaded.',
+            // Footer nav
+            nav_course: 'Course',
+            nav_dictionary: 'Dictionary',
+            nav_keyboard: 'Keyboard',
+            nav_profile: 'Profile',
+            // Dictionary
+            dict_search_placeholder: 'Search Bengali, Roman, or English...',
+            dict_random_word: 'Random Word',
+            dict_new_random: 'New Word',
+            dict_no_results: 'No results found.',
+            dict_load_error: 'Could not load dictionary.',
+            // Keyboard page
+            kb_page_title: 'Bengali Keyboard',
+            kb_clear: 'Clear',
+            kb_copy: 'Copy',
+            kb_space: 'Space',
+            kb_vowel_signs: 'Vowel signs',
+            kb_roman_hint: 'Type a word then press Space or Enter to convert.',
+            // Profile
+            profile_nickname: 'Nickname',
+            profile_nick_placeholder: 'Enter your nickname...',
+            profile_save: 'Save',
+            profile_saved: 'Saved!',
+            profile_choose_avatar: 'Choose Avatar',
+            profile_default_name: 'Learner',
+            profile_stats: 'Progress',
+            profile_lessons_completed: '{count} lessons completed',
         },
         ja: {
             menu_title: 'レッスン一覧',
@@ -120,6 +147,33 @@ const I18n = (() => {
             mode_roman_input: 'ローマ字入力',
             type_roman: 'ローマ字で入力…',
             image_load_error: '画像を読み込めませんでした。',
+            // Footer nav
+            nav_course: 'コース',
+            nav_dictionary: '辞書',
+            nav_keyboard: 'キーボード',
+            nav_profile: 'プロフィール',
+            // Dictionary
+            dict_search_placeholder: 'ベンガル語・ローマ字・英語で検索…',
+            dict_random_word: 'ランダム単語',
+            dict_new_random: '新しい単語',
+            dict_no_results: '結果が見つかりませんでした。',
+            dict_load_error: '辞書を読み込めませんでした。',
+            // Keyboard page
+            kb_page_title: 'ベンガル語キーボード',
+            kb_clear: 'クリア',
+            kb_copy: 'コピー',
+            kb_space: 'スペース',
+            kb_vowel_signs: '母音記号',
+            kb_roman_hint: '単語を入力してスペースまたはEnterで変換。',
+            // Profile
+            profile_nickname: 'ニックネーム',
+            profile_nick_placeholder: 'ニックネームを入力…',
+            profile_save: '保存',
+            profile_saved: '保存済み！',
+            profile_choose_avatar: 'アバターを選択',
+            profile_default_name: '学習者',
+            profile_stats: '進捗',
+            profile_lessons_completed: '{count}レッスン完了',
         }
     };
 

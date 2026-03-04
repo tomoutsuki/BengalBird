@@ -1,8 +1,9 @@
 /**
  * BengalBird - Main Application Controller (app.js)
  * Orchestrates screens, lesson loading, navigation, settings,
- * lesson-detail popup, and credits/license display.
- * No external dependencies — uses I18n, Progress, AudioManager, Exercises modules.
+ * lesson-detail popup, credits/license display, and SPA routing.
+ * No external dependencies — uses I18n, Progress, AudioManager,
+ * Exercises, Router, Dictionary, KeyboardPage, ProfilePage, WordIME modules.
  */
 const App = (() => {
     'use strict';
@@ -15,6 +16,7 @@ const App = (() => {
     let totalExercises = 0;
     let allLessonIds = []; // flat ordered list of lesson IDs across all chapters
     let pendingLessonData = null; // lesson data waiting for BEGIN click
+    let sectionsInitialized = { course: false, dictionary: false, keyboard: false, profile: false };
 
     // ---- DOM references ----
     const $ = (sel) => document.querySelector(sel);
@@ -468,12 +470,53 @@ const App = (() => {
         I18n.init();
         Progress.init();
         AudioManager.init();
-        await Transliterator.load();
         Exercises.init($('#exercise-container'), handleAnswer);
 
+        // Initialize Word-level IME (loads romanisation.json)
+        await WordIME.init();
+
         bindEvents();
+        bindFooterNav();
+
+        // Initialize SPA router
+        Router.init(onTabChange);
 
         await loadChapters();
+        sectionsInitialized.course = true;
+    }
+
+    // ---- SPA Tab Switching ----
+    function onTabChange(tab) {
+        // Lazy-initialize sections on first visit
+        if (tab === 'dictionary' && !sectionsInitialized.dictionary) {
+            Dictionary.init($('#section-dictionary'));
+            sectionsInitialized.dictionary = true;
+        } else if (tab === 'dictionary') {
+            Dictionary.onActivate();
+        }
+
+        if (tab === 'keyboard' && !sectionsInitialized.keyboard) {
+            KeyboardPage.init($('#section-keyboard'));
+            sectionsInitialized.keyboard = true;
+        } else if (tab === 'keyboard') {
+            KeyboardPage.onActivate();
+        }
+
+        if (tab === 'profile' && !sectionsInitialized.profile) {
+            ProfilePage.init($('#section-profile'));
+            sectionsInitialized.profile = true;
+        } else if (tab === 'profile') {
+            ProfilePage.onActivate();
+        }
+    }
+
+    function bindFooterNav() {
+        $$('.footer-tab').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const tab = btn.dataset.tab;
+                if (tab) Router.navigateTo(tab);
+            });
+        });
     }
 
     if (document.readyState === 'loading') {

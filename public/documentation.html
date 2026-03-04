@@ -93,7 +93,9 @@ data/
   chapters.json          &larr; master index of all chapters, sections &amp; lessons
   lesson1.json           &larr; exercises for Lesson 1
   lesson2.json           &larr; exercises for Lesson 2
-  romanisation.json      &larr; Roman&ndash;Bengali transliteration mappings
+public/js/
+  bengali-ime.js         &larr; Bengali IME engine (browser bundle)
+  ime/                   &larr; IME source modules (ES6)
 assets/
   audio/
     alphabet/            &larr; single-letter pronunciation files (অ.mp3, etc.)
@@ -318,23 +320,38 @@ assets/
 }
     </pre>
 
-    <h2>6. romanisation.json</h2>
-    <p>Defines Roman&ndash;Bengali transliteration mappings used by the Roman input mode in writing_keyboard exercises.</p>
+    <h2>6. Bengali IME Engine</h2>
+    <p>The Roman input mode in <code>writing_keyboard</code> exercises uses a simple phonetic IME (<code>bengali-ime.js</code>). It is <strong>not</strong> dictionary-based or predictive &mdash; it performs direct greedy longest-match symbol mapping.</p>
+    <h3>Architecture</h3>
+    <p>The IME is composed of 5 modules (source in <code>public/js/ime/</code>):</p>
+    <table>
+        <tr><th>Module</th><th>Responsibility</th></tr>
+        <tr><td><code>RomanBuffer</code></td><td>Manages a mutable Roman character buffer (addChar, removeChar, clear, getValue)</td></tr>
+        <tr><td><code>Tokenizer</code></td><td>Greedy longest-match parser &mdash; splits Roman string into token array</td></tr>
+        <tr><td><code>Mapper</code></td><td>Holds the phonetic mapping table (Roman &rarr; Bengali) and sorted key list</td></tr>
+        <tr><td><code>Renderer</code></td><td>Maps each token to its Bengali symbol and joins into a string</td></tr>
+        <tr><td><code>IMEController</code></td><td>Orchestrates all modules; exposes handleInput, handleBackspace, commit, reset</td></tr>
+    </table>
+    <h3>Phonetic Mappings</h3>
     <pre>
-{
-  "mappings": {
-    "a": "অ", "aa": "আ", "sh": "শ", "kh": "খ", ...
-  },
-  "vowelSigns": {
-    "আ": "া", "ই": "ি", "ঈ": "ী", ...
-  },
-  "consonants": ["ক", "খ", "গ", ...],
-  "vowels": ["অ", "আ", "ই", ...],
-  "hasanta": "্",
-  "specialChars": { "0": "০", "1": "১", ".": "।" }
-}
+Multi-char:  kh&rarr;খ  gh&rarr;ঘ  ch&rarr;ছ  jh&rarr;ঝ  th&rarr;থ  dh&rarr;ধ  ph&rarr;ফ  bh&rarr;ভ  sh&rarr;শ  ng&rarr;ঙ  aa&rarr;আ  ii&rarr;ঈ  uu&rarr;ঊ
+Vowels:      a&rarr;অ   i&rarr;ই   u&rarr;উ   e&rarr;এ   o&rarr;ও
+Consonants:  k&rarr;ক   g&rarr;গ   c&rarr;চ   j&rarr;জ   t&rarr;ত   d&rarr;দ   n&rarr;ন   p&rarr;প   b&rarr;ব   m&rarr;ম   r&rarr;র   l&rarr;ল   s&rarr;স   h&rarr;হ
     </pre>
-    <p><strong>How it works:</strong> The transliteration engine sorts all mapping keys by length (longest first), then greedily matches the input left-to-right. After a consonant, vowels are automatically converted to their dependent (matra) form using <code>vowelSigns</code>.</p>
+    <h3>Browser Usage</h3>
+    <pre>
+// One-shot conversion
+const bengali = BengaliIME.convert('nomoshkar');
+// &rarr; "নওমওশকঅর"
+
+// Stateful controller
+const ime = BengaliIME.createController();
+ime.handleInput('n');  // preview: "ন"
+ime.handleInput('o');  // preview: "নও"
+...
+ime.commit();          // commit &amp; clear buffer
+ime.reset();           // full reset
+    </pre>
 
     <h2>7. Adding Audio Files</h2>
     <ul>
