@@ -1,0 +1,1 @@
+[] Add the word নাম (nam - name)

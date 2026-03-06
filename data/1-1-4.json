@@ -1,0 +1,141 @@
+{
+  "lesson_id": "chapter1_1_4",
+  "title": {
+    "en": "Expand Vocabulary",
+    "ja": "語彙を増やす"
+  },
+  "description": {
+    "en": "Add a new consonant and increase your decoding speed.",
+    "ja": "新しい子音を追加し、読むスピードを上げます。"
+  },
+  "est_time_mins": 7,
+  "exercises": [
+    {
+      "id": "l4_ex1",
+      "type": "alphabet_listening",
+      "audio": "assets/audio/alphabet/ঘ.mp3",
+      "question": {
+        "en": "Which letter did you hear?",
+        "ja": "どの文字が聞こえましたか？"
+      },
+      "options": [
+        {
+          "letter": "ঘ",
+          "romanized": "gh",
+          "correct": true
+        },
+        {
+          "letter": "গ",
+          "romanized": "g",
+          "correct": false
+        },
+        {
+          "letter": "ক",
+          "romanized": "k",
+          "correct": false
+        },
+        {
+          "letter": "জ",
+          "romanized": "j",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "l4_ex2",
+      "type": "alphabet_listening",
+      "audio": "assets/audio/alphabet/র.mp3",
+      "question": {
+        "en": "Which letter did you hear?",
+        "ja": "どの文字が聞こえましたか？"
+      },
+      "options": [
+        {
+          "letter": "র",
+          "romanized": "r",
+          "correct": true
+        },
+        {
+          "letter": "ল",
+          "romanized": "l",
+          "correct": false
+        },
+        {
+          "letter": "ম",
+          "romanized": "m",
+          "correct": false
+        },
+        {
+          "letter": "ন",
+          "romanized": "n",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "l4_ex3",
+      "type": "figure_choice",
+      "question": {
+        "en": "Select the word for house",
+        "ja": "家の単語を選んでください"
+      },
+      "bengali": "ঘর",
+      "romanized": "ghor",
+      "options": [
+        {
+          "image": "assets/illustrations/house.png",
+          "label": {
+            "en": "House",
+            "ja": "家"
+          }
+        },
+        {
+          "image": "assets/illustrations/water.png",
+          "label": {
+            "en": "Water",
+            "ja": "水"
+          }
+        },
+        {
+          "image": "assets/illustrations/pen.png",
+          "label": {
+            "en": "Pen",
+            "ja": "ペン"
+          }
+        },
+        {
+          "image": "assets/illustrations/mango.png",
+          "label": {
+            "en": "Mango",
+            "ja": "マンゴー"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "l4_ex4",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the word: ঘর",
+        "ja": "単語を入力：ঘর"
+      },
+      "romanized": "ghor",
+      "correctAnswer": "ঘর",
+      "acceptableAnswers": [
+        "ঘর"
+      ],
+      "keys": [
+        {
+          "letter": "ঘ"
+        },
+        {
+          "letter": "র"
+        },
+        {
+          "letter": "অ"
+        }
+      ]
+    }
+  ]
+}

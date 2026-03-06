@@ -1,0 +1,140 @@
+{
+  "lesson_id": "chapter1_3_1",
+  "title": {
+    "en": "Reading Integration",
+    "ja": "読みの統合"
+  },
+  "description": {
+    "en": "Practice reading with only the words you already know.",
+    "ja": "既に知っている単語だけで読む練習をします。"
+  },
+  "est_time_mins": 7,
+  "exercises": [
+    {
+      "id": "l11_ex1",
+      "type": "reading",
+      "question": {
+        "en": "Read the text aloud (then tap Continue).",
+        "ja": "テキストを声に出して読んでください（読んだら続行）。"
+      },
+      "text": {
+        "bn": "আমি নাম আম"
+      }
+    },
+    {
+      "id": "l11_ex2",
+      "type": "grammar-sort",
+      "instruction": {
+        "en": "Reorder the words.",
+        "ja": "単語を正しい順に並べ替えてください。"
+      },
+      "words": [
+        "আম",
+        "আমি",
+        "নাম"
+      ],
+      "correctOrder": [
+        "আমি",
+        "নাম",
+        "আম"
+      ]
+    },
+    {
+      "id": "l11_ex3",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which one is “I” (আমি)?",
+        "ja": "「私」（আমি）はどれ？"
+      },
+      "prompt": {
+        "bn": "___"
+      },
+      "options": [
+        {
+          "bn": "আমি"
+        },
+        {
+          "bn": "আম"
+        },
+        {
+          "bn": "নাম"
+        },
+        {
+          "bn": "মা"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "l11_ex4",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which one is “mango” (আম)?",
+        "ja": "「マンゴー」（আম）はどれ？"
+      },
+      "prompt": {
+        "bn": "___"
+      },
+      "options": [
+        {
+          "bn": "আম"
+        },
+        {
+          "bn": "আমি"
+        },
+        {
+          "bn": "নাম"
+        },
+        {
+          "bn": "না"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "l11_ex5",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the word: আম",
+        "ja": "単語を入力：আম"
+      },
+      "romanized": "am",
+      "correctAnswer": "আম",
+      "acceptableAnswers": [
+        "আম"
+      ],
+      "keys": [
+        {
+          "letter": "আ"
+        },
+        {
+          "letter": "ম"
+        }
+      ]
+    },
+    {
+      "id": "l11_ex6",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the word: নাম",
+        "ja": "単語を入力：নাম"
+      },
+      "romanized": "nam",
+      "correctAnswer": "নাম",
+      "acceptableAnswers": [
+        "নাম"
+      ],
+      "keys": [
+        {
+          "letter": "ন"
+        },
+        {
+          "letter": "া"
+        },
+        {
+          "letter": "ম"
+        }
+      ]
+    }
+  ]
+}

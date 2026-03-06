@@ -1,0 +1,113 @@
+{
+  "lesson_id": "chapter1_4_1",
+  "title": {
+    "en": "Conjunct Basics",
+    "ja": "合字の基本"
+  },
+  "description": {
+    "en": "Learn what a conjunct is and recognize ‘ন্দ’.",
+    "ja": "合字とは何かを学び、「ন্দ」を見分けます。"
+  },
+  "est_time_mins": 8,
+  "exercises": [
+    {
+      "id": "l12_ex1",
+      "type": "reading",
+      "question": {
+        "en": "Conjuncts join consonants into a cluster. Example: ন + দ = ন্দ.",
+        "ja": "連結（合字）：子音どうしがくっついて1つのまとまりになります。例：ন + দ = ন্দ。"
+      },
+      "text": {
+        "bn": "ন্দ"
+      }
+    },
+    {
+      "id": "l12_ex2",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which one shows the conjunct “ন্দ”?",
+        "ja": "合字「ন্দ」はどれ？"
+      },
+      "prompt": {
+        "bn": "___"
+      },
+      "options": [
+        {
+          "bn": "ন্দ"
+        },
+        {
+          "bn": "ন"
+        },
+        {
+          "bn": "দ"
+        },
+        {
+          "bn": "না"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "l12_ex3",
+      "type": "reading",
+      "question": {
+        "en": "Read the text aloud (then tap Continue).",
+        "ja": "テキストを声に出して読んでください（読んだら続行）。"
+      },
+      "text": {
+        "bn": "বন্ধু"
+      },
+      "romanized": "bondhu"
+    },
+    {
+      "id": "l12_ex4",
+      "type": "grammar-select",
+      "question": {
+        "en": "Pick the word that contains the conjunct “ন্দ”.",
+        "ja": "合字「ন্দ」を含む単語はどれ？"
+      },
+      "prompt": {
+        "bn": "___"
+      },
+      "options": [
+        {
+          "bn": "বন্ধু"
+        },
+        {
+          "bn": "আম"
+        },
+        {
+          "bn": "নাম"
+        },
+        {
+          "bn": "কলম"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "l12_ex5",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the word: ন্দ",
+        "ja": "単語を入力：ন্দ"
+      },
+      "romanized": "ndô",
+      "correctAnswer": "ন্দ",
+      "acceptableAnswers": [
+        "ন্দ"
+      ],
+      "keys": [
+        {
+          "letter": "ন"
+        },
+        {
+          "letter": "দ"
+        },
+        {
+          "letter": "্"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "lesson_id": "chapter1_1_3",
+  "title": {
+    "en": "More Consonants",
+    "ja": "さらに子音"
+  },
+  "description": {
+    "en": "Introduce a new consonant and spot a familiar syllable pattern.",
+    "ja": "新しい子音を学び、なじみの音のパターンを見分けます。"
+  },
+  "est_time_mins": 6,
+  "exercises": [
+    {
+      "id": "l3_ex1",
+      "type": "alphabet_listening",
+      "audio": "assets/audio/alphabet/জ.mp3",
+      "question": {
+        "en": "Which letter did you hear?",
+        "ja": "どの文字が聞こえましたか？"
+      },
+      "options": [
+        {
+          "letter": "জ",
+          "romanized": "j",
+          "correct": true
+        },
+        {
+          "letter": "ক",
+          "romanized": "k",
+          "correct": false
+        },
+        {
+          "letter": "ল",
+          "romanized": "l",
+          "correct": false
+        },
+        {
+          "letter": "ম",
+          "romanized": "m",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "l3_ex2",
+      "type": "figure_choice",
+      "question": {
+        "en": "Select the word for water",
+        "ja": "水の単語を選んでください"
+      },
+      "bengali": "জল",
+      "romanized": "jol",
+      "options": [
+        {
+          "image": "assets/illustrations/water.png",
+          "label": {
+            "en": "Water",
+            "ja": "水"
+          }
+        },
+        {
+          "image": "assets/illustrations/pen.png",
+          "label": {
+            "en": "Pen",
+            "ja": "ペン"
+          }
+        },
+        {
+          "image": "assets/illustrations/mango.png",
+          "label": {
+            "en": "Mango",
+            "ja": "マンゴー"
+          }
+        },
+        {
+          "image": "assets/illustrations/house.png",
+          "label": {
+            "en": "House",
+            "ja": "家"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "l3_ex3",
+      "type": "reading",
+      "question": {
+        "en": "Read the text aloud (then tap Continue).",
+        "ja": "テキストを声に出して読んでください（読んだら続行）。"
+      },
+      "text": {
+        "bn": "জল"
+      },
+      "romanized": "jol"
+    },
+    {
+      "id": "l3_ex4",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the word: জল",
+        "ja": "単語を入力：জল"
+      },
+      "romanized": "jol",
+      "correctAnswer": "জল",
+      "acceptableAnswers": [
+        "জল"
+      ],
+      "keys": [
+        {
+          "letter": "জ"
+        },
+        {
+          "letter": "ল"
+        },
+        {
+          "letter": "অ"
+        }
+      ]
+    },
+    {
+      "id": "l3_ex5",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which one means “water”?",
+        "ja": "「水」はどれ？"
+      },
+      "prompt": {
+        "bn": "___"
+      },
+      "options": [
+        {
+          "bn": "জল"
+        },
+        {
+          "bn": "আম"
+        },
+        {
+          "bn": "কলম"
+        },
+        {
+          "bn": "ঘর"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

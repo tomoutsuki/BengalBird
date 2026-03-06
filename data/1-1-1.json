@@ -1,77 +1,137 @@
 {
-  "lesson_id": "1-1-1",
+  "lesson_id": "chapter1_1_1",
   "title": {
-    "en": "Vowels Part 1",
-    "ja": "母音（パート1）"
+    "en": "First Word",
+    "ja": "最初の単語"
   },
   "description": {
-    "en": "Learn the first Bengali vowels and their pronunciation.",
-    "ja": "ベンガル語の最初の母音と発音を学ぶ。"
+    "en": "Meet your first Bengali letters and read your first word.",
+    "ja": "最初のベンガル文字を学び、最初の単語を読みます。"
   },
-  "est_time_mins": 5,
+  "est_time_mins": 6,
   "exercises": [
     {
-      "id": "ex1",
-      "type": "alphabet_listening",
-      "audio": "assets/audio/alphabet/অ.mp3",
-      "question": {
-        "en": "Which vowel did you hear?",
-        "ja": "どの母音が聞こえましたか？"
-      },
-      "options": [
-        { "letter": "অ", "romanized": "ô", "correct": true },
-        { "letter": "আ", "romanized": "a", "correct": false },
-        { "letter": "ই", "romanized": "i", "correct": false },
-        { "letter": "উ", "romanized": "u", "correct": false }
-      ]
-    },
-    {
-      "id": "ex2",
+      "id": "l1_ex1",
       "type": "alphabet_listening",
       "audio": "assets/audio/alphabet/আ.mp3",
       "question": {
-        "en": "Which vowel did you hear?",
-        "ja": "どの母音が聞こえましたか？"
+        "en": "Which letter did you hear?",
+        "ja": "どの文字が聞こえましたか？"
       },
       "options": [
-        { "letter": "আ", "romanized": "a", "correct": true },
-        { "letter": "ঈ", "romanized": "ii", "correct": false },
-        { "letter": "অ", "romanized": "ô", "correct": false },
-        { "letter": "উ", "romanized": "u", "correct": false }
+        {
+          "letter": "আ",
+          "romanized": "a",
+          "correct": true
+        },
+        {
+          "letter": "ম",
+          "romanized": "m",
+          "correct": false
+        },
+        {
+          "letter": "অ",
+          "romanized": "ô",
+          "correct": false
+        },
+        {
+          "letter": "ক",
+          "romanized": "k",
+          "correct": false
+        }
       ]
     },
     {
-      "id": "ex3",
+      "id": "l1_ex2",
+      "type": "alphabet_listening",
+      "audio": "assets/audio/alphabet/ম.mp3",
+      "question": {
+        "en": "Which letter did you hear?",
+        "ja": "どの文字が聞こえましたか？"
+      },
+      "options": [
+        {
+          "letter": "ম",
+          "romanized": "m",
+          "correct": true
+        },
+        {
+          "letter": "আ",
+          "romanized": "a",
+          "correct": false
+        },
+        {
+          "letter": "অ",
+          "romanized": "ô",
+          "correct": false
+        },
+        {
+          "letter": "ল",
+          "romanized": "l",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "l1_ex3",
       "type": "figure_choice",
       "question": {
-        "en": "Which image matches the word?",
-        "ja": "どの画像が単語に合いますか？"
+        "en": "Select the word for mango",
+        "ja": "マンゴーの単語を選んでください"
       },
       "bengali": "আম",
       "romanized": "am",
-      "audio": "assets/audio/listening/am.m4a",
       "options": [
-        { "image": "assets/illustrations/mango.png", "label": { "en": "Mango", "ja": "マンゴー" } },
-        { "image": "assets/illustrations/rice.png", "label": { "en": "Rice", "ja": "米" } },
-        { "image": "assets/illustrations/ilish.png", "label": { "en": "Fish", "ja": "魚" } },
-        { "image": "assets/illustrations/tea.png", "label": { "en": "Tea", "ja": "お茶" } }
+        {
+          "image": "assets/illustrations/mango.png",
+          "label": {
+            "en": "Mango",
+            "ja": "マンゴー"
+          }
+        },
+        {
+          "image": "assets/illustrations/pen.png",
+          "label": {
+            "en": "Pen",
+            "ja": "ペン"
+          }
+        },
+        {
+          "image": "assets/illustrations/water.png",
+          "label": {
+            "en": "Water",
+            "ja": "水"
+          }
+        },
+        {
+          "image": "assets/illustrations/house.png",
+          "label": {
+            "en": "House",
+            "ja": "家"
+          }
+        }
       ],
       "correctIndex": 0
     },
     {
-      "id": "ex4",
+      "id": "l1_ex4",
       "type": "writing_keyboard",
       "question": {
-        "en": "Type the word for mango",
-        "ja": "マンゴーの単語を入力してください"
+        "en": "Type the word: আম",
+        "ja": "単語を入力：আম"
       },
       "romanized": "am",
       "correctAnswer": "আম",
-      "acceptableAnswers": ["আম"],
+      "acceptableAnswers": [
+        "আম"
+      ],
       "keys": [
-        { "letter": "অ" },
-        { "letter": "আ" },
-        { "letter": "ম" }
+        {
+          "letter": "আ"
+        },
+        {
+          "letter": "ম"
+        }
       ]
     }
   ]

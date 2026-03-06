@@ -1,52 +1,143 @@
 {
-  "lesson_id": "1-1-2",
+  "lesson_id": "chapter1_1_2",
   "title": {
-    "en": "Vowels Part 2",
-    "ja": "母音（パート2）"
+    "en": "First Consonant Expansion",
+    "ja": "子音を増やそう"
   },
   "description": {
-    "en": "Learn additional Bengali vowels and read vowel-initial words.",
-    "ja": "追加の母音と母音から始まる単語を学ぶ。"
+    "en": "Add new consonants and read a 3-letter word with the inherent vowel.",
+    "ja": "新しい子音を追加し、内在母音で3文字の単語を読みます。"
   },
-  "est_time_mins": 5,
+  "est_time_mins": 7,
   "exercises": [
     {
-      "id": "ex1",
+      "id": "l2_ex1",
       "type": "alphabet_listening",
-      "audio": "assets/audio/alphabet/এ.mp3",
-      "question": { "en": "Which vowel was pronounced?", "ja": "どの母音でしたか？" },
+      "audio": "assets/audio/alphabet/ক.mp3",
+      "question": {
+        "en": "Which letter did you hear?",
+        "ja": "どの文字が聞こえましたか？"
+      },
       "options": [
-        { "letter": "এ", "romanized": "e", "correct": true },
-        { "letter": "ঐ", "romanized": "oi", "correct": false },
-        { "letter": "ও", "romanized": "o", "correct": false },
-        { "letter": "অ", "romanized": "ô", "correct": false }
+        {
+          "letter": "ক",
+          "romanized": "k",
+          "correct": true
+        },
+        {
+          "letter": "ল",
+          "romanized": "l",
+          "correct": false
+        },
+        {
+          "letter": "ম",
+          "romanized": "m",
+          "correct": false
+        },
+        {
+          "letter": "অ",
+          "romanized": "ô",
+          "correct": false
+        }
       ]
     },
     {
-      "id": "ex2",
-      "type": "figure_choice",
-      "question": { "en": "Select the image for the word", "ja": "単語に合う画像を選んでください" },
-      "bengali": "এক",
-      "romanized": "ek",
+      "id": "l2_ex2",
+      "type": "alphabet_listening",
+      "audio": "assets/audio/alphabet/ল.mp3",
+      "question": {
+        "en": "Which letter did you hear?",
+        "ja": "どの文字が聞こえましたか？"
+      },
       "options": [
-        { "image": "assets/illustrations/number1.svg", "label": { "en": "One", "ja": "1" } },
-        { "image": "assets/illustrations/number2.svg", "label": { "en": "Two", "ja": "2" } },
-        { "image": "assets/illustrations/apple.svg", "label": { "en": "Apple", "ja": "りんご" } },
-        { "image": "assets/illustrations/car.svg", "label": { "en": "Car", "ja": "車" } }
+        {
+          "letter": "ল",
+          "romanized": "l",
+          "correct": true
+        },
+        {
+          "letter": "ক",
+          "romanized": "k",
+          "correct": false
+        },
+        {
+          "letter": "ম",
+          "romanized": "m",
+          "correct": false
+        },
+        {
+          "letter": "অ",
+          "romanized": "ô",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "l2_ex3",
+      "type": "figure_choice",
+      "question": {
+        "en": "Select the word for pen",
+        "ja": "ペンの単語を選んでください"
+      },
+      "bengali": "কলম",
+      "romanized": "kolom",
+      "options": [
+        {
+          "image": "assets/illustrations/pen.png",
+          "label": {
+            "en": "Pen",
+            "ja": "ペン"
+          }
+        },
+        {
+          "image": "assets/illustrations/mango.png",
+          "label": {
+            "en": "Mango",
+            "ja": "マンゴー"
+          }
+        },
+        {
+          "image": "assets/illustrations/water.png",
+          "label": {
+            "en": "Water",
+            "ja": "水"
+          }
+        },
+        {
+          "image": "assets/illustrations/house.png",
+          "label": {
+            "en": "House",
+            "ja": "家"
+          }
+        }
       ],
       "correctIndex": 0
     },
     {
-      "id": "ex3",
+      "id": "l2_ex4",
       "type": "writing_keyboard",
-      "question": { "en": "Type the Bengali word for 'country'", "ja": "「国」を入力してください" },
-      "romanized": "desh",
-      "correctAnswer": "দেশ",
-      "acceptableAnswers": ["দেশ"],
+      "question": {
+        "en": "Type the word: কলম",
+        "ja": "単語を入力：কলম"
+      },
+      "romanized": "kolom",
+      "correctAnswer": "কলম",
+      "acceptableAnswers": [
+        "কলম"
+      ],
       "keys": [
-        { "letter": "দ" },
-        { "letter": "ে" },
-        { "letter": "শ" }
+        {
+          "letter": "ক"
+        },
+        {
+          "letter": "ল"
+        },
+        {
+          "letter": "ম"
+        },
+        {
+          "letter": "অ"
+        }
       ]
     }
   ]

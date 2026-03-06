@@ -1,0 +1,133 @@
+{
+  "lesson_id": "chapter1_1_6",
+  "title": {
+    "en": "Fluent Reading",
+    "ja": "流暢に読む"
+  },
+  "description": {
+    "en": "Finish Stage 1 and read inherent-vowel words more smoothly.",
+    "ja": "ステージ1の仕上げ：内在母音の単語をスムーズに読みます。"
+  },
+  "est_time_mins": 7,
+  "exercises": [
+    {
+      "id": "l6_ex1",
+      "type": "alphabet_listening",
+      "audio": "assets/audio/alphabet/ফ.mp3",
+      "question": {
+        "en": "Which letter did you hear?",
+        "ja": "どの文字が聞こえましたか？"
+      },
+      "options": [
+        {
+          "letter": "ফ",
+          "romanized": "ph",
+          "correct": true
+        },
+        {
+          "letter": "ক",
+          "romanized": "k",
+          "correct": false
+        },
+        {
+          "letter": "গ",
+          "romanized": "g",
+          "correct": false
+        },
+        {
+          "letter": "ম",
+          "romanized": "m",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "l6_ex2",
+      "type": "figure_choice",
+      "question": {
+        "en": "Select the word for fruit",
+        "ja": "果物の単語を選んでください"
+      },
+      "bengali": "ফল",
+      "romanized": "phol",
+      "options": [
+        {
+          "image": "assets/illustrations/fruit.png",
+          "label": {
+            "en": "Fruit",
+            "ja": "果物"
+          }
+        },
+        {
+          "image": "assets/illustrations/mango.png",
+          "label": {
+            "en": "Mango",
+            "ja": "マンゴー"
+          }
+        },
+        {
+          "image": "assets/illustrations/pen.png",
+          "label": {
+            "en": "Pen",
+            "ja": "ペン"
+          }
+        },
+        {
+          "image": "assets/illustrations/house.png",
+          "label": {
+            "en": "House",
+            "ja": "家"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "l6_ex3",
+      "type": "reading",
+      "question": {
+        "en": "Read the text aloud (then tap Continue).",
+        "ja": "テキストを声に出して読んでください（読んだら続行）。"
+      },
+      "text": {
+        "bn": "ফল"
+      },
+      "romanized": "phol"
+    },
+    {
+      "id": "l6_ex4",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the word: ফল",
+        "ja": "単語を入力：ফল"
+      },
+      "romanized": "phol",
+      "correctAnswer": "ফল",
+      "acceptableAnswers": [
+        "ফল"
+      ],
+      "keys": [
+        {
+          "letter": "ফ"
+        },
+        {
+          "letter": "ল"
+        },
+        {
+          "letter": "অ"
+        }
+      ]
+    },
+    {
+      "id": "l6_ex5",
+      "type": "reading",
+      "question": {
+        "en": "Read the text aloud (then tap Continue).",
+        "ja": "テキストを声に出して読んでください（読んだら続行）。"
+      },
+      "text": {
+        "bn": "আম কলম জল ঘর বন ফল নগর"
+      }
+    }
+  ]
+}

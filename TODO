@@ -1,0 +1,5 @@
+* A question that contains 2 words (e.g. Pen and Book) and the alternatives show two figures each (for example, Book with pen, book with apple, etc.).
+* Indication showing that the word or alphabet is new. For example: If the letter ল is new, show this in a bold and with different color.
+* Make the words in question clickable or touchable. It should show the meaning of the word, with the way to read in romanised representation.
+* Improve dictionary: if it is Bengali input, don't romanise it to search, search only directly from Bengali words.
+* Improve dictionary: Frequency classification and better match sorting - sort the results by most match > most frequent words.

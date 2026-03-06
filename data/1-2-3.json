@@ -1,40 +1,94 @@
 {
-  "lesson_id": "1-2-3",
+  "lesson_id": "chapter1_2_3",
   "title": {
-    "en": "Consonants Group 1",
-    "ja": "子音グループ1"
+    "en": "Build a Word with ‘া’",
+    "ja": "「া」で単語を作る"
   },
   "description": {
-    "en": "Learn the first consonant groups and aspirated contrasts.",
-    "ja": "最初の子音グループと有気音の違いを学ぶ。"
+    "en": "Combine letters and ‘া’ to read a short multi-letter word.",
+    "ja": "文字と「া」を組み合わせて短い単語を読みます。"
   },
   "est_time_mins": 6,
   "exercises": [
     {
-      "id": "ex1",
-      "type": "alphabet_listening",
-      "audio": "assets/audio/alphabet/ক.mp3",
-      "question": { "en": "Which letter was pronounced?", "ja": "どの文字ですか？" },
-      "options": [
-        { "letter": "ক", "romanized": "k", "correct": true },
-        { "letter": "খ", "romanized": "kh", "correct": false },
-        { "letter": "গ", "romanized": "g", "correct": false },
-        { "letter": "ঘ", "romanized": "gh", "correct": false }
+      "id": "l9_ex1",
+      "type": "reading",
+      "question": {
+        "en": "Read the text aloud (then tap Continue).",
+        "ja": "テキストを声に出して読んでください（読んだら続行）。"
+      },
+      "text": {
+        "bn": "নাম"
+      },
+      "romanized": "nam"
+    },
+    {
+      "id": "l9_ex2",
+      "type": "grammar-sort",
+      "instruction": {
+        "en": "Reorder the words.",
+        "ja": "単語を正しい順に並べ替えてください。"
+      },
+      "words": [
+        "ম",
+        "না",
+        "নাম"
+      ],
+      "correctOrder": [
+        "নাম",
+        "না",
+        "ম"
       ]
     },
     {
-      "id": "ex2",
-      "type": "figure_choice",
-      "question": { "en": "Select the picture for the word", "ja": "単語に合う画像を選んでください" },
-      "bengali": "ঘর",
-      "romanized": "ghor",
+      "id": "l9_ex3",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which one is the full word “name” (নাম)?",
+        "ja": "「名前」（নাম）はどれ？"
+      },
+      "prompt": {
+        "bn": "___"
+      },
       "options": [
-        { "image": "assets/illustrations/house.svg", "label": { "en": "House", "ja": "家" } },
-        { "image": "assets/illustrations/tree.svg", "label": { "en": "Tree", "ja": "木" } },
-        { "image": "assets/illustrations/bird.svg", "label": { "en": "Bird", "ja": "鳥" } },
-        { "image": "assets/illustrations/boat.svg", "label": { "en": "Boat", "ja": "船" } }
+        {
+          "bn": "নাম"
+        },
+        {
+          "bn": "না"
+        },
+        {
+          "bn": "মা"
+        },
+        {
+          "bn": "আম"
+        }
       ],
       "correctIndex": 0
+    },
+    {
+      "id": "l9_ex4",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the word: নাম",
+        "ja": "単語を入力：নাম"
+      },
+      "romanized": "nam",
+      "correctAnswer": "নাম",
+      "acceptableAnswers": [
+        "নাম"
+      ],
+      "keys": [
+        {
+          "letter": "ন"
+        },
+        {
+          "letter": "া"
+        },
+        {
+          "letter": "ম"
+        }
+      ]
     }
   ]
 }

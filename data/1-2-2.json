@@ -1,0 +1,99 @@
+{
+  "lesson_id": "chapter1_2_2",
+  "title": {
+    "en": "Practice ‘া’",
+    "ja": "「া」練習"
+  },
+  "description": {
+    "en": "Use ‘া’ with a familiar consonant to read a new word.",
+    "ja": "既習の子音に「া」を付けて新しい単語を読みます。"
+  },
+  "est_time_mins": 5,
+  "exercises": [
+    {
+      "id": "l8_ex1",
+      "type": "grammar-select",
+      "question": {
+        "en": "Read it: which word is “na”?",
+        "ja": "読んでください：「na」はどれ？"
+      },
+      "prompt": {
+        "bn": "___"
+      },
+      "options": [
+        {
+          "bn": "না"
+        },
+        {
+          "bn": "ন"
+        },
+        {
+          "bn": "মা"
+        },
+        {
+          "bn": "আম"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "l8_ex2",
+      "type": "reading",
+      "question": {
+        "en": "Read the text aloud (then tap Continue).",
+        "ja": "テキストを声に出して読んでください（読んだら続行）。"
+      },
+      "text": {
+        "bn": "না"
+      },
+      "romanized": "na"
+    },
+    {
+      "id": "l8_ex3",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the word: না",
+        "ja": "単語を入力：না"
+      },
+      "romanized": "na",
+      "correctAnswer": "না",
+      "acceptableAnswers": [
+        "না"
+      ],
+      "keys": [
+        {
+          "letter": "ন"
+        },
+        {
+          "letter": "া"
+        }
+      ]
+    },
+    {
+      "id": "l8_ex4",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which one starts with ন?",
+        "ja": "「ন」から始まるのはどれ？"
+      },
+      "prompt": {
+        "bn": "___"
+      },
+      "options": [
+        {
+          "bn": "না"
+        },
+        {
+          "bn": "মা"
+        },
+        {
+          "bn": "আম"
+        },
+        {
+          "bn": "কলম"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

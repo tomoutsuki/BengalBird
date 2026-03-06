@@ -1,0 +1,220 @@
+{
+  "lesson_id": "chapter1_1_5",
+  "title": {
+    "en": "Nasal Consonant",
+    "ja": "鼻音子音"
+  },
+  "description": {
+    "en": "Learn a nasal consonant and read longer words.",
+    "ja": "鼻音の子音を学び、長い単語も読めるようにします。"
+  },
+  "est_time_mins": 8,
+  "exercises": [
+    {
+      "id": "l5_ex1",
+      "type": "alphabet_listening",
+      "audio": "assets/audio/alphabet/ন.mp3",
+      "question": {
+        "en": "Which letter did you hear?",
+        "ja": "どの文字が聞こえましたか？"
+      },
+      "options": [
+        {
+          "letter": "ন",
+          "romanized": "n",
+          "correct": true
+        },
+        {
+          "letter": "ম",
+          "romanized": "m",
+          "correct": false
+        },
+        {
+          "letter": "র",
+          "romanized": "r",
+          "correct": false
+        },
+        {
+          "letter": "ল",
+          "romanized": "l",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "l5_ex2",
+      "type": "alphabet_listening",
+      "audio": "assets/audio/alphabet/গ.mp3",
+      "question": {
+        "en": "Which letter did you hear?",
+        "ja": "どの文字が聞こえましたか？"
+      },
+      "options": [
+        {
+          "letter": "গ",
+          "romanized": "g",
+          "correct": true
+        },
+        {
+          "letter": "ঘ",
+          "romanized": "gh",
+          "correct": false
+        },
+        {
+          "letter": "ক",
+          "romanized": "k",
+          "correct": false
+        },
+        {
+          "letter": "জ",
+          "romanized": "j",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "l5_ex3",
+      "type": "figure_choice",
+      "question": {
+        "en": "Select the word for forest",
+        "ja": "森の単語を選んでください"
+      },
+      "bengali": "বন",
+      "romanized": "bon",
+      "options": [
+        {
+          "image": "assets/illustrations/forest.png",
+          "label": {
+            "en": "Forest",
+            "ja": "森"
+          }
+        },
+        {
+          "image": "assets/illustrations/city.png",
+          "label": {
+            "en": "City",
+            "ja": "都市"
+          }
+        },
+        {
+          "image": "assets/illustrations/house.png",
+          "label": {
+            "en": "House",
+            "ja": "家"
+          }
+        },
+        {
+          "image": "assets/illustrations/water.png",
+          "label": {
+            "en": "Water",
+            "ja": "水"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "l5_ex4",
+      "type": "figure_choice",
+      "question": {
+        "en": "Select the word for city",
+        "ja": "都市の単語を選んでください"
+      },
+      "bengali": "নগর",
+      "romanized": "nogor",
+      "options": [
+        {
+          "image": "assets/illustrations/city.png",
+          "label": {
+            "en": "City",
+            "ja": "都市"
+          }
+        },
+        {
+          "image": "assets/illustrations/forest.png",
+          "label": {
+            "en": "Forest",
+            "ja": "森"
+          }
+        },
+        {
+          "image": "assets/illustrations/pen.png",
+          "label": {
+            "en": "Pen",
+            "ja": "ペン"
+          }
+        },
+        {
+          "image": "assets/illustrations/mango.png",
+          "label": {
+            "en": "Mango",
+            "ja": "マンゴー"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "l5_ex5",
+      "type": "reading",
+      "question": {
+        "en": "Read the text aloud (then tap Continue).",
+        "ja": "テキストを声に出して読んでください（読んだら続行）。"
+      },
+      "text": {
+        "bn": "বন নগর"
+      }
+    },
+    {
+      "id": "l5_ex6",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the word: বন",
+        "ja": "単語を入力：বন"
+      },
+      "romanized": "bon",
+      "correctAnswer": "বন",
+      "acceptableAnswers": [
+        "বন"
+      ],
+      "keys": [
+        {
+          "letter": "ব"
+        },
+        {
+          "letter": "ন"
+        },
+        {
+          "letter": "অ"
+        }
+      ]
+    },
+    {
+      "id": "l5_ex7",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the word: নগর",
+        "ja": "単語を入力：নগর"
+      },
+      "romanized": "nogor",
+      "correctAnswer": "নগর",
+      "acceptableAnswers": [
+        "নগর"
+      ],
+      "keys": [
+        {
+          "letter": "ন"
+        },
+        {
+          "letter": "গ"
+        },
+        {
+          "letter": "র"
+        },
+        {
+          "letter": "অ"
+        }
+      ]
+    }
+  ]
+}

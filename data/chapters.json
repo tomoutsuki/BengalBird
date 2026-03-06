@@ -14,44 +14,50 @@
         {
           "id": "section_1-1",
           "title": {
-            "en": "Section 1: Vowels",
-            "ja": "セクション1：母音"
+            "en": "Section 1: Inherent Vowels and Consonants",
+            "ja": "セクション1：固有の母音と子音"
           },
           "lessons": [
             "1-1-1",
-            "1-1-2"
+            "1-1-2",
+            "1-1-3",
+            "1-1-4",
+            "1-1-5",
+            "1-1-6"
           ]
         },
         {
           "id": "section_1-2",
           "title": {
-            "en": "Section 2: Consonants",
-            "ja": "セクション2：子音"
+            "en": "Section 2: Vowel Signs (Shoroborno) & Consonants",
+            "ja": "セクション2：母音記号（শোরবর্ণ）と子音"
           },
           "lessons": [
+            "1-2-1",
+            "1-2-2",
             "1-2-3",
-            "1-2-4",
-            "1-2-5"
+            "1-2-4"
           ]
         },
         {
           "id": "section_1-3",
           "title": {
-            "en": "Section 3: Vowel Signs (Kar) & Conjuncts",
-            "ja": "セクション3：母音記号（কার）と合字"
+            "en": "Section 3: Reading Practice",
+            "ja": "セクション3：読みの練習"
           },
           "lessons": [
-            "1-3-6",
-            "1-3-7"
+            "1-3-1"
           ]
         },
         {
           "id": "section_1-4",
           "title": {
-            "en": "Section 4: Reading Lab",
-            "ja": "セクション4：リーディング演習"
+            "en": "Section 4: Conjunctions (Juktakkhor) & Reading Practice",
+            "ja": "セクション4：連接詞（জুক্তাক্ষর）と読みの練習"
           },
-          "lessons": ["1-4-8"]
+          "lessons": [
+            "1-4-1"
+          ]
         }
       ]
     },

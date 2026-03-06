@@ -1,0 +1,34 @@
+site_name: BengalBird Documentation
+
+nav:
+  - Home: index.md
+
+  - Getting Started:
+      - Overview: getting-started/overview.md
+      - Project Structure: getting-started/project-structure.md
+      - Localization: getting-started/localization.md
+
+  - Course Structure:
+      - Chapters: course-structure/chapters.md
+      - Lessons: course-structure/lessons.md
+
+  - Exercises:
+      - Overview: exercises/overview.md
+      - Grammar Sort: exercises/grammar-sort.md
+      - Grammar Select: exercises/grammar-select.md
+      - Grammar Write: exercises/grammar-write.md
+      - Reading: exercises/reading.md
+      - Conversation: exercises/conversation.md
+      - Listening: exercises/listening.md
+      - Alphabet Listening: exercises/alphabet-listening.md
+      - Writing Keyboard: exercises/writing-keyboard.md
+      - Conversation Listening: exercises/conversation-listening.md
+      - Figure Choice: exercises/figure-choice.md
+
+  - Assets:
+      - Audio Files: assets/audio.md
+      - Illustrations: assets/illustrations.md
+
+  - Reference:
+      - Exercise Schema: reference/exercise-schema.md
+      - Best Practices: reference/best-practices.md
