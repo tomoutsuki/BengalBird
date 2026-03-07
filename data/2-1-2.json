@@ -1,0 +1,101 @@
+{
+  "lesson_id": "chapter2_1_2",
+  "title": {
+    "en": "Vowel Sign ো",
+    "ja": "母音記号 ো"
+  },
+  "description": {
+    "en": "Recognize the two-part vowel sign ‘ো’ and read simple words.",
+    "ja": "二つに見える母音記号「ো」を認識して単語を読みます。"
+  },
+  "est_time_mins": 8,
+  "exercises": [
+    {
+      "id": "c2_1_2_ex1",
+      "type": "reading",
+      "passage": {
+        "bengali": "ব + ো = বো",
+        "romanized": "b + o-kar = bo",
+        "en": "New: ‘ো’ is one vowel sign, even if it looks like two parts.",
+        "ja": "新しく「ো」：見た目は2つでも、1つの母音記号です。"
+      },
+      "question": {
+        "en": "Which option is the vowel sign in the example?",
+        "ja": "例の中で母音記号はどれ？"
+      },
+      "options": [
+        { "text": { "en": "ো", "ja": "ো" }, "correct": true },
+        { "text": { "en": "ব", "ja": "ব" }, "correct": false },
+        { "text": { "en": "ও", "ja": "ও" }, "correct": false },
+        { "text": { "en": "অ", "ja": "অ" }, "correct": false }
+      ]
+    },
+    {
+      "id": "c2_1_2_ex2",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the word: বোতল",
+        "ja": "単語を入力：বোতল"
+      },
+      "romanized": "botl",
+      "correctAnswer": "বোতল",
+      "acceptableAnswers": ["বোতল"],
+      "keys": [
+        { "letter": "ব" },
+        { "letter": "ো" },
+        { "letter": "ত" },
+        { "letter": "ল" }
+      ]
+    },
+    {
+      "id": "c2_1_2_ex3",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the word: ভালো",
+        "ja": "単語を入力：ভালো"
+      },
+      "romanized": "bhalo",
+      "correctAnswer": "ভালো",
+      "acceptableAnswers": ["ভালো"],
+      "keys": [
+        { "letter": "ভ" },
+        { "letter": "া" },
+        { "letter": "ল" },
+        { "letter": "ো" }
+      ]
+    },
+    {
+      "id": "c2_1_2_ex4",
+      "type": "figure_choice",
+      "question": {
+        "en": "Which image matches the Bengali word?",
+        "ja": "どの画像が単語に合いますか？"
+      },
+      "bengali": "টমেটো",
+      "romanized": "tometo",
+      "options": [
+        { "image": "assets/illustrations/tomato.png", "label": { "en": "Tomato", "ja": "トマト" } },
+        { "image": "assets/illustrations/mango.png", "label": { "en": "Mango", "ja": "マンゴー" } },
+        { "image": "assets/illustrations/orange.png", "label": { "en": "Orange", "ja": "オレンジ" } },
+        { "image": "assets/illustrations/pineapple.png", "label": { "en": "Pineapple", "ja": "パイナップル" } }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "c2_1_2_ex5",
+      "type": "grammar-select",
+      "question": {
+        "en": "What does this word mean?",
+        "ja": "この単語の意味は？"
+      },
+      "bengali": "ভালো",
+      "romanized": "bhalo",
+      "options": [
+        { "text": { "en": "Good", "ja": "良い" }, "correct": true },
+        { "text": { "en": "Bottle", "ja": "ボトル" }, "correct": false },
+        { "text": { "en": "Tomato", "ja": "トマト" }, "correct": false },
+        { "text": { "en": "Cloud", "ja": "雲" }, "correct": false }
+      ]
+    }
+  ]
+}

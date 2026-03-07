@@ -1,0 +1,99 @@
+{
+  "lesson_id": "chapter2_2_4",
+  "title": {
+    "en": "Vowel Sign ু",
+    "ja": "母音記号 ু"
+  },
+  "description": {
+    "en": "Learn the bottom vowel sign ‘ু’ and read three common words.",
+    "ja": "下に付く母音記号「ু」を学び、単語を読みます。"
+  },
+  "est_time_mins": 8,
+  "exercises": [
+    {
+      "id": "c2_2_4_ex1",
+      "type": "reading",
+      "passage": {
+        "bengali": "ক + ু = কু",
+        "romanized": "k + u-kar = ku",
+        "en": "New: ‘ু’ is written below the consonant.",
+        "ja": "新しく「ু」：子音の下に書きます。"
+      },
+      "question": {
+        "en": "Which option is the vowel sign?",
+        "ja": "母音記号はどれ？"
+      },
+      "options": [
+        { "text": { "en": "ু", "ja": "ু" }, "correct": true },
+        { "text": { "en": "ক", "ja": "ক" }, "correct": false },
+        { "text": { "en": "উ", "ja": "উ" }, "correct": false },
+        { "text": { "en": "া", "ja": "া" }, "correct": false }
+      ]
+    },
+    {
+      "id": "c2_2_4_ex2",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the word: ফুল",
+        "ja": "単語を入力：ফুল"
+      },
+      "romanized": "phul",
+      "correctAnswer": "ফুল",
+      "acceptableAnswers": ["ফুল"],
+      "keys": [
+        { "letter": "ফ" },
+        { "letter": "ু" },
+        { "letter": "ল" }
+      ]
+    },
+    {
+      "id": "c2_2_4_ex3",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the word: কুকুর",
+        "ja": "単語を入力：কুকুর"
+      },
+      "romanized": "kukur",
+      "correctAnswer": "কুকুর",
+      "acceptableAnswers": ["কুকুর"],
+      "keys": [
+        { "letter": "ক" },
+        { "letter": "ু" },
+        { "letter": "র" }
+      ]
+    },
+    {
+      "id": "c2_2_4_ex4",
+      "type": "grammar-select",
+      "question": {
+        "en": "What does this word mean?",
+        "ja": "この単語の意味は？"
+      },
+      "bengali": "লেবু",
+      "romanized": "lebu",
+      "options": [
+        { "text": { "en": "Lemon", "ja": "レモン" }, "correct": true },
+        { "text": { "en": "Dog", "ja": "犬" }, "correct": false },
+        { "text": { "en": "Flower", "ja": "花" }, "correct": false },
+        { "text": { "en": "Bottle", "ja": "ボトル" }, "correct": false }
+      ]
+    },
+    {
+      "id": "c2_2_4_ex5",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the word: লেবু",
+        "ja": "単語を入力：লেবু"
+      },
+      "romanized": "lebu",
+      "correctAnswer": "লেবু",
+      "acceptableAnswers": ["লেবু"],
+      "keys": [
+        { "letter": "ল" },
+        { "letter": "ে" },
+        { "letter": "ব" },
+        { "letter": "ু" }
+      ]
+    }
+  ]
+}

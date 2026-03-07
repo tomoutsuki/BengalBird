@@ -1,0 +1,97 @@
+{
+  "lesson_id": "chapter3_3_6",
+  "title": {
+    "en": "Practice II (Writing)",
+    "ja": "練習II（入力）"
+  },
+  "description": {
+    "en": "Type high-frequency words to build speed and accuracy.",
+    "ja": "よく使う単語を入力してスピードと正確さを上げます。"
+  },
+  "est_time_mins": 7,
+  "exercises": [
+    {
+      "id": "c3_3_6_ex1",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type: ভাত",
+        "ja": "入力：ভাত"
+      },
+      "romanized": "bhat",
+      "correctAnswer": "ভাত",
+      "acceptableAnswers": ["ভাত"],
+      "keys": [
+        { "letter": "ভ" },
+        { "letter": "া" },
+        { "letter": "ত" }
+      ]
+    },
+    {
+      "id": "c3_3_6_ex2",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type: খাই",
+        "ja": "入力：খাই"
+      },
+      "romanized": "khai",
+      "correctAnswer": "খাই",
+      "acceptableAnswers": ["খাই"],
+      "keys": [
+        { "letter": "খ" },
+        { "letter": "া" },
+        { "letter": "ই" }
+      ]
+    },
+    {
+      "id": "c3_3_6_ex3",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type: যাই",
+        "ja": "入力：যাই"
+      },
+      "romanized": "yai",
+      "correctAnswer": "যাই",
+      "acceptableAnswers": ["যাই"],
+      "keys": [
+        { "letter": "য" },
+        { "letter": "া" },
+        { "letter": "ই" }
+      ]
+    },
+    {
+      "id": "c3_3_6_ex4",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type: তোমার",
+        "ja": "入力：তোমার"
+      },
+      "romanized": "tomar",
+      "correctAnswer": "তোমার",
+      "acceptableAnswers": ["তোমার"],
+      "keys": [
+        { "letter": "ত" },
+        { "letter": "ো" },
+        { "letter": "ম" },
+        { "letter": "া" },
+        { "letter": "র" }
+      ]
+    },
+    {
+      "id": "c3_3_6_ex5",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type: আমার",
+        "ja": "入力：আমার"
+      },
+      "romanized": "amar",
+      "correctAnswer": "আমার",
+      "acceptableAnswers": ["আমার"],
+      "keys": [
+        { "letter": "আ" },
+        { "letter": "ম" },
+        { "letter": "া" },
+        { "letter": "র" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "lesson_id": "chapter2_1_3",
+  "title": {
+    "en": "More Practice Words",
+    "ja": "単語の練習"
+  },
+  "description": {
+    "en": "Practice reading and writing with a few everyday words.",
+    "ja": "身近な単語で読み書きの練習をします。"
+  },
+  "est_time_mins": 8,
+  "exercises": [
+    {
+      "id": "c2_1_3_ex1",
+      "type": "grammar-select",
+      "question": {
+        "en": "What does this word mean?",
+        "ja": "この単語の意味は？"
+      },
+      "bengali": "আলো",
+      "romanized": "alo",
+      "options": [
+        { "text": { "en": "Light", "ja": "光" }, "correct": true },
+        { "text": { "en": "Cinema", "ja": "映画館" }, "correct": false },
+        { "text": { "en": "Mobile phone", "ja": "携帯電話" }, "correct": false },
+        { "text": { "en": "Bottle", "ja": "ボトル" }, "correct": false }
+      ]
+    },
+    {
+      "id": "c2_1_3_ex2",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the word: আলো",
+        "ja": "単語を入力：আলো"
+      },
+      "romanized": "alo",
+      "correctAnswer": "আলো",
+      "acceptableAnswers": ["আলো"],
+      "keys": [
+        { "letter": "আ" },
+        { "letter": "ল" },
+        { "letter": "ো" }
+      ]
+    },
+    {
+      "id": "c2_1_3_ex3",
+      "type": "grammar-select",
+      "question": {
+        "en": "What does this word mean?",
+        "ja": "この単語の意味は？"
+      },
+      "bengali": "সিনেমা",
+      "romanized": "sinema",
+      "options": [
+        { "text": { "en": "Cinema / movie", "ja": "映画（映画館）" }, "correct": true },
+        { "text": { "en": "Cloud", "ja": "雲" }, "correct": false },
+        { "text": { "en": "Tomato", "ja": "トマト" }, "correct": false },
+        { "text": { "en": "Good", "ja": "良い" }, "correct": false }
+      ]
+    },
+    {
+      "id": "c2_1_3_ex4",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the word: সিনেমা",
+        "ja": "単語を入力：সিনেমা"
+      },
+      "romanized": "sinema",
+      "correctAnswer": "সিনেমা",
+      "acceptableAnswers": ["সিনেমা"],
+      "keys": [
+        { "letter": "স" },
+        { "letter": "ি" },
+        { "letter": "ন" },
+        { "letter": "ে" },
+        { "letter": "ম" },
+        { "letter": "া" }
+      ]
+    },
+    {
+      "id": "c2_1_3_ex5",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the word: মোবাইল",
+        "ja": "単語を入力：মোবাইল"
+      },
+      "romanized": "mobail",
+      "correctAnswer": "মোবাইল",
+      "acceptableAnswers": ["মোবাইল"],
+      "keys": [
+        { "letter": "ম" },
+        { "letter": "ো" },
+        { "letter": "ব" },
+        { "letter": "া" },
+        { "letter": "ই" },
+        { "letter": "ল" }
+      ]
+    }
+  ]
+}

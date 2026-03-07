@@ -1,0 +1,47 @@
+{
+  "lesson_id": "chapter3_3_5",
+  "title": {
+    "en": "Practice I (Sorting)",
+    "ja": "練習I（並べ替え）"
+  },
+  "description": {
+    "en": "Reinforce SOV word order with short sentences.",
+    "ja": "短い文でSOV語順を練習します。"
+  },
+  "est_time_mins": 7,
+  "exercises": [
+    {
+      "id": "c3_3_5_ex1",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Rearrange: “I eat rice.”",
+        "ja": "並べ替え：「私はご飯を食べる」。"
+      },
+      "words": ["আমি", "খাই", "ভাত"],
+      "wordsRomanized": ["ami", "khai", "bhat"],
+      "correctOrder": ["আমি", "ভাত", "খাই"]
+    },
+    {
+      "id": "c3_3_5_ex2",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Rearrange: “I go home.”",
+        "ja": "並べ替え：「私は家へ行く」。"
+      },
+      "words": ["যাই", "বাড়ি", "আমি"],
+      "wordsRomanized": ["yai", "bari", "ami"],
+      "correctOrder": ["আমি", "বাড়ি", "যাই"]
+    },
+    {
+      "id": "c3_3_5_ex3",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Rearrange: “my dog”.",
+        "ja": "並べ替え：「私の犬」。"
+      },
+      "words": ["কুকুর", "আমার"],
+      "wordsRomanized": ["kukur", "amar"],
+      "correctOrder": ["আমার", "কুকুর"]
+    }
+  ]
+}

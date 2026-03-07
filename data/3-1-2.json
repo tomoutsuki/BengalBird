@@ -1,0 +1,90 @@
+{
+  "lesson_id": "chapter3_1_2",
+  "title": {
+    "en": "Pronouns: I / You",
+    "ja": "代名詞：私／あなた"
+  },
+  "description": {
+    "en": "Learn ‘আমি’ (I) and ‘তুমি’ (you), then build tiny sentences with names.",
+    "ja": "「আমি（私）」「তুমি（あなた）」を学び、名前で短い文を作ります。"
+  },
+  "est_time_mins": 7,
+  "exercises": [
+    {
+      "id": "c3_1_2_ex1",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which word means “I”?",
+        "ja": "「私」はどれ？"
+      },
+      "options": [
+        { "bengali": "আমি", "romanized": "ami", "text": { "en": "I", "ja": "私" }, "correct": true },
+        { "bengali": "তুমি", "romanized": "tumi", "text": { "en": "You", "ja": "あなた" }, "correct": false },
+        { "bengali": "আমার", "romanized": "amar", "text": { "en": "My", "ja": "私の" }, "correct": false },
+        { "bengali": "তোমার", "romanized": "tomar", "text": { "en": "Your", "ja": "あなたの" }, "correct": false }
+      ]
+    },
+    {
+      "id": "c3_1_2_ex2",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type: আমি",
+        "ja": "入力：আমি"
+      },
+      "romanized": "ami",
+      "correctAnswer": "আমি",
+      "acceptableAnswers": ["আমি"],
+      "keys": [
+        { "letter": "আ" },
+        { "letter": "ম" },
+        { "letter": "ি" }
+      ]
+    },
+    {
+      "id": "c3_1_2_ex3",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which word means “you”?",
+        "ja": "「あなた」はどれ？"
+      },
+      "options": [
+        { "bengali": "আমি", "romanized": "ami", "text": { "en": "I", "ja": "私" }, "correct": false },
+        { "bengali": "তুমি", "romanized": "tumi", "text": { "en": "You", "ja": "あなた" }, "correct": true },
+        { "bengali": "মা", "romanized": "ma", "text": { "en": "Mother", "ja": "お母さん" }, "correct": false },
+        { "bengali": "বাবা", "romanized": "baba", "text": { "en": "Father", "ja": "お父さん" }, "correct": false }
+      ]
+    },
+    {
+      "id": "c3_1_2_ex4",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type: তুমি",
+        "ja": "入力：তুমি"
+      },
+      "romanized": "tumi",
+      "correctAnswer": "তুমি",
+      "acceptableAnswers": ["তুমি"],
+      "keys": [
+        { "letter": "ত" },
+        { "letter": "ু" },
+        { "letter": "ম" },
+        { "letter": "ি" }
+      ]
+    },
+    {
+      "id": "c3_1_2_ex5",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Rearrange to make: “I am Masum.”",
+        "ja": "並べ替えて「私はマスムです」。"
+      },
+      "words": ["মাসুম", "আমি"],
+      "wordsRomanized": ["Masum", "ami"],
+      "correctOrder": ["আমি", "মাসুম"],
+      "hint": {
+        "en": "Pronoun first, then name.",
+        "ja": "代名詞→名前の順。"
+      }
+    }
+  ]
+}

@@ -64,39 +64,47 @@
     {
       "id": "chapter_2",
       "title": {
-        "en": "Chapter 2: Greetings & Politeness System",
-        "ja": "第2章：あいさつと丁寧さ（敬意）システム"
+        "en": "Chapter 2: Vowel Expansion & Simple Sentences",
+        "ja": "第2章：母音記号の拡張と短い文"
       },
       "description": {
-        "en": "Learn greetings, pronoun hierarchy, and essential introduction patterns with cultural-neutral politeness.",
-        "ja": "あいさつ、代名詞の敬意差、自己紹介の基本を文化的配慮（中立）と共に学ぶ。"
+        "en": "Expand the core vowel-sign system and read short natural sentences.",
+        "ja": "基本の母音記号を増やし、短い自然な文を読めるようにします。"
       },
       "sections": [
         {
           "id": "section_2-1",
           "title": {
-            "en": "Section 1: Greetings",
-            "ja": "セクション1：あいさつ"
+            "en": "Stage 4: New Vowel Signs",
+            "ja": "ステージ4：新しい母音記号"
           },
-          "lessons": ["2-1-9"]
+          "lessons": [
+            "2-1-1",
+            "2-1-2",
+            "2-1-3"
+          ]
         },
         {
           "id": "section_2-2",
           "title": {
-            "en": "Section 2: Pronouns & Respect Hierarchy",
-            "ja": "セクション2：代名詞と敬意の階層"
+            "en": "Stage 5: New Vowel Sign & Consonant",
+            "ja": "ステージ5：新しい母音記号と子音"
           },
-          "lessons": ["2-2-10"]
+          "lessons": [
+            "2-2-4",
+            "2-2-5"
+          ]
         },
         {
           "id": "section_2-3",
           "title": {
-            "en": "Section 3: Introducing Yourself",
-            "ja": "セクション3：自己紹介"
+            "en": "Stage 6: Vocabulary Practice",
+            "ja": "ステージ6：語彙の練習"
           },
           "lessons": [
-            "2-3-11",
-            "2-3-12"
+            "2-3-6",
+            "2-3-7",
+            "2-3-8"
           ]
         }
       ]
@@ -104,40 +112,47 @@
     {
       "id": "chapter_3",
       "title": {
-        "en": "Chapter 3: Family & Social Structure",
-        "ja": "第3章：家族と社会的関係"
+        "en": "Chapter 3: First Sentences",
+        "ja": "第3章：最初の文"
       },
       "description": {
-        "en": "Master kinship hierarchy, extended family terms, and polite ways to address people in daily life.",
-        "ja": "親族呼称の階層、拡大家族語彙、日常での丁寧な呼びかけを身につける。"
+        "en": "Learn pronouns, a couple of core verbs, and make your first simple SOV sentences.",
+        "ja": "代名詞と基本動詞を学び、SOVの簡単な文を作ります。"
       },
       "sections": [
         {
           "id": "section_3-1",
           "title": {
-            "en": "Section 1: Nuclear Family",
-            "ja": "セクション1：核家族"
+            "en": "Stage 6: Pronouns",
+            "ja": "ステージ6：代名詞"
           },
-          "lessons": ["3-1-13"]
+          "lessons": [
+            "3-1-1",
+            "3-1-2"
+          ]
         },
         {
           "id": "section_3-2",
           "title": {
-            "en": "Section 2: Extended Family",
-            "ja": "セクション2：拡大家族"
+            "en": "First Verbs & Possessives",
+            "ja": "最初の動詞と所有（〜の）"
           },
           "lessons": [
-            "3-2-14",
-            "3-2-15"
+            "3-2-3",
+            "3-2-4"
           ]
         },
         {
           "id": "section_3-3",
           "title": {
-            "en": "Section 3: Polite Addressing in Society",
-            "ja": "セクション3：社会での丁寧な呼びかけ"
+            "en": "Practice",
+            "ja": "練習"
           },
-          "lessons": ["3-3-16"]
+          "lessons": [
+            "3-3-5",
+            "3-3-6",
+            "3-3-7"
+          ]
         }
       ]
     },

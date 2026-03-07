@@ -76,10 +76,11 @@ Introduce: ড় (ro), গ (go).
 Words: বিড়াল (biral - cat), বাড়ি (bari - house), গাড়ি (gari - car).
 Goal: Learn words with ড় (ro), without deepening nukta concept.
 
----
-## Lesson 6 — Vocabulary Practice
+-------------------------------------
 
-Words:
+# STAGE 6  — Vocabulary Practice
 
+## Lesson 6, 7, 8.
 
 Goal:
+* Practice already known words.

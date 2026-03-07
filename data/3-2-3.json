@@ -1,0 +1,104 @@
+{
+  "lesson_id": "chapter3_2_3",
+  "title": {
+    "en": "First Verbs",
+    "ja": "最初の動詞"
+  },
+  "description": {
+    "en": "Learn two core verbs and build your first simple SOV sentences.",
+    "ja": "基本動詞を2つ学び、SOVの文を作ります。"
+  },
+  "est_time_mins": 9,
+  "exercises": [
+    {
+      "id": "c3_2_3_ex1",
+      "type": "grammar-select",
+      "question": {
+        "en": "What does this word mean?",
+        "ja": "この単語の意味は？"
+      },
+      "bengali": "খাই",
+      "romanized": "khai",
+      "options": [
+        { "text": { "en": "(I) eat", "ja": "（私は）食べる" }, "correct": true },
+        { "text": { "en": "(I) go", "ja": "（私は）行く" }, "correct": false },
+        { "text": { "en": "Rice", "ja": "ご飯" }, "correct": false },
+        { "text": { "en": "House", "ja": "家" }, "correct": false }
+      ]
+    },
+    {
+      "id": "c3_2_3_ex2",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type: খাই",
+        "ja": "入力：খাই"
+      },
+      "romanized": "khai",
+      "correctAnswer": "খাই",
+      "acceptableAnswers": ["খাই"],
+      "keys": [
+        { "letter": "খ" },
+        { "letter": "া" },
+        { "letter": "ই" }
+      ]
+    },
+    {
+      "id": "c3_2_3_ex3",
+      "type": "grammar-select",
+      "question": {
+        "en": "What does this word mean?",
+        "ja": "この単語の意味は？"
+      },
+      "bengali": "যাই",
+      "romanized": "yai",
+      "options": [
+        { "text": { "en": "(I) go", "ja": "（私は）行く" }, "correct": true },
+        { "text": { "en": "(I) eat", "ja": "（私は）食べる" }, "correct": false },
+        { "text": { "en": "Good", "ja": "良い" }, "correct": false },
+        { "text": { "en": "Car", "ja": "車" }, "correct": false }
+      ]
+    },
+    {
+      "id": "c3_2_3_ex4",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type: যাই",
+        "ja": "入力：যাই"
+      },
+      "romanized": "yai",
+      "correctAnswer": "যাই",
+      "acceptableAnswers": ["যাই"],
+      "keys": [
+        { "letter": "য" },
+        { "letter": "া" },
+        { "letter": "ই" }
+      ]
+    },
+    {
+      "id": "c3_2_3_ex5",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Rearrange to make: “I eat rice.”",
+        "ja": "並べ替えて「私はご飯を食べる」。"
+      },
+      "words": ["খাই", "আমি", "ভাত"],
+      "wordsRomanized": ["khai", "ami", "bhat"],
+      "correctOrder": ["আমি", "ভাত", "খাই"],
+      "hint": {
+        "en": "Bengali often uses Subject–Object–Verb.",
+        "ja": "基本は「主語→目的語→動詞」。"
+      }
+    },
+    {
+      "id": "c3_2_3_ex6",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Rearrange to make: “I go home.”",
+        "ja": "並べ替えて「私は家に行く（家へ行く）」。"
+      },
+      "words": ["বাড়ি", "যাই", "আমি"],
+      "wordsRomanized": ["bari", "yai", "ami"],
+      "correctOrder": ["আমি", "বাড়ি", "যাই"]
+    }
+  ]
+}

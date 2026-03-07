@@ -1,0 +1,96 @@
+{
+  "lesson_id": "chapter2_3_6",
+  "title": {
+    "en": "Practice A",
+    "ja": "練習A"
+  },
+  "description": {
+    "en": "Review the new vowel signs with quick recognition and typing.",
+    "ja": "新しい母音記号を復習します（認識＋入力）。"
+  },
+  "est_time_mins": 7,
+  "exercises": [
+    {
+      "id": "c2_3_6_ex1",
+      "type": "grammar-select",
+      "question": {
+        "en": "What does this word mean?",
+        "ja": "この単語の意味は？"
+      },
+      "bengali": "মেঘ",
+      "romanized": "megh",
+      "options": [
+        { "text": { "en": "Cloud", "ja": "雲" }, "correct": true },
+        { "text": { "en": "Cake", "ja": "ケーキ" }, "correct": false },
+        { "text": { "en": "Apple", "ja": "りんご" }, "correct": false },
+        { "text": { "en": "Bottle", "ja": "ボトル" }, "correct": false }
+      ]
+    },
+    {
+      "id": "c2_3_6_ex2",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the word: কেক",
+        "ja": "単語を入力：কেক"
+      },
+      "romanized": "kek",
+      "correctAnswer": "কেক",
+      "acceptableAnswers": ["কেক"],
+      "keys": [
+        { "letter": "ক" },
+        { "letter": "ে" }
+      ]
+    },
+    {
+      "id": "c2_3_6_ex3",
+      "type": "figure_choice",
+      "question": {
+        "en": "Which image matches the Bengali word?",
+        "ja": "どの画像が単語に合いますか？"
+      },
+      "bengali": "টমেটো",
+      "romanized": "tometo",
+      "options": [
+        { "image": "assets/illustrations/tomato.png", "label": { "en": "Tomato", "ja": "トマト" } },
+        { "image": "assets/illustrations/rice.png", "label": { "en": "Rice", "ja": "ご飯" } },
+        { "image": "assets/illustrations/water.png", "label": { "en": "Water", "ja": "水" } },
+        { "image": "assets/illustrations/pen.png", "label": { "en": "Pen", "ja": "ペン" } }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "c2_3_6_ex4",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the word: বোতল",
+        "ja": "単語を入力：বোতল"
+      },
+      "romanized": "botl",
+      "correctAnswer": "বোতল",
+      "acceptableAnswers": ["বোতল"],
+      "keys": [
+        { "letter": "ব" },
+        { "letter": "ো" },
+        { "letter": "ত" },
+        { "letter": "ল" }
+      ]
+    },
+    {
+      "id": "c2_3_6_ex5",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the word: ভালো",
+        "ja": "単語を入力：ভালো"
+      },
+      "romanized": "bhalo",
+      "correctAnswer": "ভালো",
+      "acceptableAnswers": ["ভালো"],
+      "keys": [
+        { "letter": "ভ" },
+        { "letter": "া" },
+        { "letter": "ল" },
+        { "letter": "ো" }
+      ]
+    }
+  ]
+}

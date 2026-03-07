@@ -1,0 +1,104 @@
+{
+  "lesson_id": "chapter2_1_1",
+  "title": {
+    "en": "Vowel Sign ে",
+    "ja": "母音記号 ে"
+  },
+  "description": {
+    "en": "Learn the left-position vowel sign ‘ে’ and read a few common words.",
+    "ja": "左側に付く母音記号「ে」を学び、基本単語を読みます。"
+  },
+  "est_time_mins": 7,
+  "exercises": [
+    {
+      "id": "c2_1_1_ex1",
+      "type": "reading",
+      "passage": {
+        "bengali": "ক + ে = কে",
+        "romanized": "k + e-kar = ke",
+        "en": "New: ‘ে’ is written before the consonant (left side).",
+        "ja": "新しく「ে」：子音の左側に書きます。"
+      },
+      "question": {
+        "en": "Which character is the vowel sign in the example?",
+        "ja": "例の中で母音記号はどれ？"
+      },
+      "options": [
+        { "text": { "en": "ে", "ja": "ে" }, "correct": true },
+        { "text": { "en": "ক", "ja": "ক" }, "correct": false },
+        { "text": { "en": "েে", "ja": "েে" }, "correct": false },
+        { "text": { "en": "অ", "ja": "অ" }, "correct": false }
+      ]
+    },
+    {
+      "id": "c2_1_1_ex2",
+      "type": "grammar-select",
+      "question": {
+        "en": "Pick the word that means “cloud”.",
+        "ja": "「雲」の単語を選んでください。"
+      },
+      "options": [
+        { "bengali": "মেঘ", "romanized": "megh", "text": { "en": "Cloud", "ja": "雲" }, "correct": true },
+        { "bengali": "আম", "romanized": "am", "text": { "en": "Mango", "ja": "マンゴー" }, "correct": false },
+        { "bengali": "কলম", "romanized": "kolom", "text": { "en": "Pen", "ja": "ペン" }, "correct": false },
+        { "bengali": "মা", "romanized": "ma", "text": { "en": "Mother", "ja": "お母さん" }, "correct": false }
+      ]
+    },
+    {
+      "id": "c2_1_1_ex3",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the word: মেঘ",
+        "ja": "単語を入力：মেঘ"
+      },
+      "romanized": "megh",
+      "correctAnswer": "মেঘ",
+      "acceptableAnswers": ["মেঘ"],
+      "keys": [
+        { "letter": "ম" },
+        { "letter": "ে" },
+        { "letter": "ঘ" }
+      ],
+      "hint": {
+        "en": "Tip: use Bengali Keyboard mode for vowel signs.",
+        "ja": "ヒント：母音記号は「ベンガルキーボード」モードで入力します。"
+      }
+    },
+    {
+      "id": "c2_1_1_ex4",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the word: কেক",
+        "ja": "単語を入力：কেক"
+      },
+      "romanized": "kek",
+      "correctAnswer": "কেক",
+      "acceptableAnswers": ["কেক"],
+      "keys": [
+        { "letter": "ক" },
+        { "letter": "ে" }
+      ],
+      "hint": {
+        "en": "Press ‘ক’ twice.",
+        "ja": "「ক」を2回押します。"
+      }
+    },
+    {
+      "id": "c2_1_1_ex5",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the word: আপেল",
+        "ja": "単語を入力：আপেল"
+      },
+      "romanized": "apel",
+      "correctAnswer": "আপেল",
+      "acceptableAnswers": ["আপেল"],
+      "keys": [
+        { "letter": "আ" },
+        { "letter": "প" },
+        { "letter": "ে" },
+        { "letter": "ল" }
+      ]
+    }
+  ]
+}

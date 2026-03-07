@@ -1,0 +1,91 @@
+{
+  "lesson_id": "chapter2_3_7",
+  "title": {
+    "en": "Practice B",
+    "ja": "練習B"
+  },
+  "description": {
+    "en": "Practice the ‘u’ vowel sign and review key vocabulary.",
+    "ja": "母音記号「ু」を中心に語彙を復習します。"
+  },
+  "est_time_mins": 7,
+  "exercises": [
+    {
+      "id": "c2_3_7_ex1",
+      "type": "grammar-select",
+      "question": {
+        "en": "Pick the word that means “dog”.",
+        "ja": "「犬」の単語を選んでください。"
+      },
+      "options": [
+        { "bengali": "কুকুর", "romanized": "kukur", "text": { "en": "Dog", "ja": "犬" }, "correct": true },
+        { "bengali": "বিড়াল", "romanized": "biral", "text": { "en": "Cat", "ja": "猫" }, "correct": false },
+        { "bengali": "ফুল", "romanized": "phul", "text": { "en": "Flower", "ja": "花" }, "correct": false },
+        { "bengali": "লেবু", "romanized": "lebu", "text": { "en": "Lemon", "ja": "レモン" }, "correct": false }
+      ]
+    },
+    {
+      "id": "c2_3_7_ex2",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the word: কুকুর",
+        "ja": "単語を入力：কুকুর"
+      },
+      "romanized": "kukur",
+      "correctAnswer": "কুকুর",
+      "acceptableAnswers": ["কুকুর"],
+      "keys": [
+        { "letter": "ক" },
+        { "letter": "ু" },
+        { "letter": "র" }
+      ]
+    },
+    {
+      "id": "c2_3_7_ex3",
+      "type": "grammar-select",
+      "question": {
+        "en": "Pick the word that contains the vowel sign ‘ু’.",
+        "ja": "母音記号「ু」を含む単語を選んでください。"
+      },
+      "options": [
+        { "bengali": "ফুল", "romanized": "phul", "text": { "en": "(contains ‘ু’)", "ja": "（「ু」あり）" }, "correct": true },
+        { "bengali": "মেঘ", "romanized": "megh", "text": { "en": "(no ‘ু’)", "ja": "（「ু」なし）" }, "correct": false },
+        { "bengali": "কেক", "romanized": "kek", "text": { "en": "(no ‘ু’)", "ja": "（「ু」なし）" }, "correct": false },
+        { "bengali": "ভালো", "romanized": "bhalo", "text": { "en": "(no ‘ু’)", "ja": "（「ু」なし）" }, "correct": false }
+      ]
+    },
+    {
+      "id": "c2_3_7_ex4",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the word: ফুল",
+        "ja": "単語を入力：ফুল"
+      },
+      "romanized": "phul",
+      "correctAnswer": "ফুল",
+      "acceptableAnswers": ["ফুল"],
+      "keys": [
+        { "letter": "ফ" },
+        { "letter": "ু" },
+        { "letter": "ল" }
+      ]
+    },
+    {
+      "id": "c2_3_7_ex5",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the word: লেবু",
+        "ja": "単語を入力：লেবু"
+      },
+      "romanized": "lebu",
+      "correctAnswer": "লেবু",
+      "acceptableAnswers": ["লেবু"],
+      "keys": [
+        { "letter": "ল" },
+        { "letter": "ে" },
+        { "letter": "ব" },
+        { "letter": "ু" }
+      ]
+    }
+  ]
+}

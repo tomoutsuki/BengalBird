@@ -1,0 +1,81 @@
+{
+  "lesson_id": "chapter3_2_4",
+  "title": {
+    "en": "Possessive: My / Your",
+    "ja": "所有：私の／あなたの"
+  },
+  "description": {
+    "en": "Learn ‘আমার’ (my) and ‘তোমার’ (your) and make simple noun phrases.",
+    "ja": "「আমার（私の）」「তোমার（あなたの）」を学び、名詞句を作ります。"
+  },
+  "est_time_mins": 8,
+  "exercises": [
+    {
+      "id": "c3_2_4_ex1",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which word means “my”?",
+        "ja": "「私の」はどれ？"
+      },
+      "options": [
+        { "bengali": "আমার", "romanized": "amar", "text": { "en": "My", "ja": "私の" }, "correct": true },
+        { "bengali": "তোমার", "romanized": "tomar", "text": { "en": "Your", "ja": "あなたの" }, "correct": false },
+        { "bengali": "আমি", "romanized": "ami", "text": { "en": "I", "ja": "私" }, "correct": false },
+        { "bengali": "তুমি", "romanized": "tumi", "text": { "en": "You", "ja": "あなた" }, "correct": false }
+      ]
+    },
+    {
+      "id": "c3_2_4_ex2",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type: আমার",
+        "ja": "入力：আমার"
+      },
+      "romanized": "amar",
+      "correctAnswer": "আমার",
+      "acceptableAnswers": ["আমার"],
+      "keys": [
+        { "letter": "আ" },
+        { "letter": "ম" },
+        { "letter": "া" },
+        { "letter": "র" }
+      ]
+    },
+    {
+      "id": "c3_2_4_ex3",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Rearrange: “my mother”.",
+        "ja": "並べ替え：「私の母」。"
+      },
+      "words": ["মা", "আমার"],
+      "wordsRomanized": ["ma", "amar"],
+      "correctOrder": ["আমার", "মা"]
+    },
+    {
+      "id": "c3_2_4_ex4",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Rearrange: “your father”.",
+        "ja": "並べ替え：「あなたの父」。"
+      },
+      "words": ["বাবা", "তোমার"],
+      "wordsRomanized": ["baba", "tomar"],
+      "correctOrder": ["তোমার", "বাবা"]
+    },
+    {
+      "id": "c3_2_4_ex5",
+      "type": "grammar-select",
+      "question": {
+        "en": "Pick the phrase that means “my dog”.",
+        "ja": "「私の犬」はどれ？"
+      },
+      "options": [
+        { "bengali": "আমার কুকুর", "romanized": "amar kukur", "text": { "en": "My dog", "ja": "私の犬" }, "correct": true },
+        { "bengali": "তোমার কুকুর", "romanized": "tomar kukur", "text": { "en": "Your dog", "ja": "あなたの犬" }, "correct": false },
+        { "bengali": "আমার বিড়াল", "romanized": "amar biral", "text": { "en": "My cat", "ja": "私の猫" }, "correct": false },
+        { "bengali": "তোমার বিড়াল", "romanized": "tomar biral", "text": { "en": "Your cat", "ja": "あなたの猫" }, "correct": false }
+      ]
+    }
+  ]
+}

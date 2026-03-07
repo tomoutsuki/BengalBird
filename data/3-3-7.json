@@ -1,0 +1,54 @@
+{
+  "lesson_id": "chapter3_3_7",
+  "title": {
+    "en": "Practice III (Listening Prep)",
+    "ja": "練習III（リスニング準備）"
+  },
+  "description": {
+    "en": "Review common phrases in a dialogue format. (Audio can be added later.)",
+    "ja": "会話形式で基本フレーズを復習します（音声は後で追加可能）。"
+  },
+  "est_time_mins": 6,
+  "exercises": [
+    {
+      "id": "c3_3_7_ex1",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Read along with the dialogue and choose the best response.",
+        "ja": "会話を読み、最適な返答を選びましょう。"
+      },
+      "lines": [
+        {
+          "speaker": "A",
+          "bengali": "আমি মাসুম।",
+          "romanized": "Ami Masum.",
+          "translation": { "en": "I am Masum.", "ja": "私はマスムです。" }
+        },
+        {
+          "speaker": "B",
+          "bengali": "তুমি করিমা?",
+          "romanized": "Tumi Karima?",
+          "translation": { "en": "Are you Karima?", "ja": "あなたはカリマ？" }
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "Choose your response:",
+            "ja": "返答を選んでください："
+          },
+          "options": [
+            { "text": { "bengali": "আমি করিমা।", "romanized": "Ami Karima.", "en": "I am Karima.", "ja": "私はカリマです。" }, "correct": true },
+            { "text": { "bengali": "তুমি মাসুম।", "romanized": "Tumi Masum.", "en": "You are Masum.", "ja": "あなたはマスムです。" }, "correct": false },
+            { "text": { "bengali": "আমি ভাত খাই।", "romanized": "Ami bhat khai.", "en": "I eat rice.", "ja": "私はご飯を食べます。" }, "correct": false }
+          ]
+        },
+        {
+          "speaker": "A",
+          "bengali": "ভালো।",
+          "romanized": "Bhalo.",
+          "translation": { "en": "Good.", "ja": "いいね。" }
+        }
+      ]
+    }
+  ]
+}

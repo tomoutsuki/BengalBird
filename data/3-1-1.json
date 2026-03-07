@@ -1,0 +1,77 @@
+{
+  "lesson_id": "chapter3_1_1",
+  "title": {
+    "en": "Your Name in Bengali (Practice)",
+    "ja": "自分の名前（練習）"
+  },
+  "description": {
+    "en": "Practice typing a name in Bengali script using the on-screen keyboard.",
+    "ja": "画面キーボードで名前をベンガル文字で入力する練習をします。"
+  },
+  "est_time_mins": 6,
+  "exercises": [
+    {
+      "id": "c3_1_1_ex1",
+      "type": "reading",
+      "passage": {
+        "bengali": "নাম লিখুন: মাসুম",
+        "romanized": "nam likhun: masum",
+        "en": "Practice: type a name in Bengali script.",
+        "ja": "練習：名前をベンガル文字で入力してみましょう。"
+      },
+      "question": {
+        "en": "What is the highlighted word?",
+        "ja": "強調された単語は何ですか？"
+      },
+      "options": [
+        { "text": { "en": "A name", "ja": "名前" }, "correct": true },
+        { "text": { "en": "A fruit", "ja": "果物" }, "correct": false },
+        { "text": { "en": "A color", "ja": "色" }, "correct": false },
+        { "text": { "en": "A number", "ja": "数字" }, "correct": false }
+      ]
+    },
+    {
+      "id": "c3_1_1_ex2",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the name: মাসুম",
+        "ja": "名前を入力：মাসুম"
+      },
+      "romanized": "masum",
+      "correctAnswer": "মাসুম",
+      "acceptableAnswers": ["মাসুম"],
+      "keys": [
+        { "letter": "ম" },
+        { "letter": "া" },
+        { "letter": "স" },
+        { "letter": "ু" }
+      ],
+      "hint": {
+        "en": "Press ‘ম’ twice at the end.",
+        "ja": "最後に「ম」を2回押します。"
+      }
+    },
+    {
+      "id": "c3_1_1_ex3",
+      "type": "writing_keyboard",
+      "question": {
+        "en": "Type the name: করিমা",
+        "ja": "名前を入力：করিমা"
+      },
+      "romanized": "karima",
+      "correctAnswer": "করিমা",
+      "acceptableAnswers": ["করিমা"],
+      "keys": [
+        { "letter": "ক" },
+        { "letter": "র" },
+        { "letter": "ি" },
+        { "letter": "ম" },
+        { "letter": "া" }
+      ],
+      "hint": {
+        "en": "Tip: if Roman input doesn’t convert, use Bengali Keyboard mode.",
+        "ja": "ヒント：ローマ字入力で変換できない場合はベンガルキーボードを使います。"
+      }
+    }
+  ]
+}
