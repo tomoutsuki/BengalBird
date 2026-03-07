@@ -122,6 +122,8 @@ const Dictionary = (() => {
         }
     }
 
+    let currentPracticeEntry = null;
+
     /**
      * Show a random word card.
      */
@@ -130,6 +132,7 @@ const Dictionary = (() => {
         if (!card || entries.length === 0) return;
 
         const entry = entries[Math.floor(Math.random() * entries.length)];
+        currentPracticeEntry = entry;
         card.innerHTML = '';
 
         const label = document.createElement('div');
@@ -139,12 +142,27 @@ const Dictionary = (() => {
 
         card.appendChild(buildEntryCard(entry, true));
 
+        // Button row
+        const btnRow = document.createElement('div');
+        btnRow.style.cssText = 'display:flex;gap:8px;justify-content:center;margin-top:10px;';
+
         // Refresh button
         const refreshBtn = document.createElement('button');
         refreshBtn.className = 'btn btn-secondary btn-sm dict-refresh-btn';
         refreshBtn.textContent = I18n.t('dict_new_random');
         refreshBtn.addEventListener('click', showRandomWord);
-        card.appendChild(refreshBtn);
+        btnRow.appendChild(refreshBtn);
+
+        // Practice button
+        if (entry.bn) {
+            const practiceBtn = document.createElement('button');
+            practiceBtn.className = 'btn btn-primary btn-sm dict-practice-btn';
+            practiceBtn.textContent = I18n.t('practice_word');
+            practiceBtn.addEventListener('click', () => showPracticeSelect(entry));
+            btnRow.appendChild(practiceBtn);
+        }
+
+        card.appendChild(btnRow);
     }
 
     /**
@@ -348,6 +366,413 @@ const Dictionary = (() => {
     function eagerLoad() {
         loadData();
     }
+
+    // ---- Practice Mode ----
+
+    function showPracticeSelect(entry) {
+        const modal = document.getElementById('practice-modal');
+        const overlay = document.getElementById('practice-overlay');
+        const title = document.getElementById('practice-modal-title');
+        const body = document.getElementById('practice-modal-body');
+
+        title.textContent = I18n.t('practice_word');
+        body.innerHTML = '';
+
+        // Show the word
+        const target = document.createElement('div');
+        target.className = 'practice-target';
+        const bn = document.createElement('span');
+        bn.className = 'pt-bengali';
+        bn.textContent = entry.bn;
+        target.appendChild(bn);
+        const en = document.createElement('span');
+        en.className = 'pt-english';
+        en.textContent = entry.en || '';
+        target.appendChild(en);
+        body.appendChild(target);
+
+        // Difficulty buttons
+        const select = document.createElement('div');
+        select.className = 'practice-select';
+
+        const modes = [
+            { key: 'easy', cssClass: 'ps-easy', fn: () => startPracticeEasy(entry) },
+            { key: 'normal', cssClass: 'ps-normal', fn: () => startPracticeNormal(entry) },
+            { key: 'hard', cssClass: 'ps-hard', fn: () => startPracticeHard(entry) }
+        ];
+
+        modes.forEach(m => {
+            const btn = document.createElement('button');
+            btn.className = 'practice-select-btn ' + m.cssClass;
+            const labelSpan = document.createElement('span');
+            labelSpan.className = 'ps-label';
+            labelSpan.textContent = I18n.t('practice_' + m.key);
+            btn.appendChild(labelSpan);
+            const descSpan = document.createElement('span');
+            descSpan.className = 'ps-desc';
+            descSpan.textContent = I18n.t('practice_' + m.key + '_desc');
+            btn.appendChild(descSpan);
+            btn.addEventListener('click', m.fn);
+            select.appendChild(btn);
+        });
+
+        body.appendChild(select);
+        modal.classList.remove('hidden');
+        overlay.classList.remove('hidden');
+    }
+
+    function closePracticeModal() {
+        document.getElementById('practice-modal').classList.add('hidden');
+        document.getElementById('practice-overlay').classList.add('hidden');
+    }
+
+    /**
+     * EASY mode: on-screen keyboard with only the word's characters.
+     */
+    function startPracticeEasy(entry) {
+        const body = document.getElementById('practice-modal-body');
+        const title = document.getElementById('practice-modal-title');
+        title.textContent = I18n.t('practice_easy');
+        body.innerHTML = '';
+
+        const word = entry.bn;
+        // Extract characters (code points) in order
+        const chars = [];
+        for (const ch of word) {
+            chars.push(ch);
+        }
+        // Get unique characters (shuffled)
+        const unique = [...new Set(chars)];
+        const shuffled = unique.slice().sort(() => Math.random() - 0.5);
+
+        let userInput = '';
+
+        // Target display
+        const targetDiv = document.createElement('div');
+        targetDiv.className = 'practice-target';
+        const enSpan = document.createElement('span');
+        enSpan.className = 'pt-english';
+        enSpan.textContent = entry.en || '';
+        targetDiv.appendChild(enSpan);
+        body.appendChild(targetDiv);
+
+        // Instruction
+        const instr = document.createElement('p');
+        instr.className = 'practice-instruction';
+        instr.textContent = I18n.t('practice_instructions_easy');
+        body.appendChild(instr);
+
+        // Display area
+        const display = document.createElement('div');
+        display.className = 'practice-display';
+        body.appendChild(display);
+
+        // Keyboard
+        const keyboard = document.createElement('div');
+        keyboard.className = 'practice-keyboard';
+        shuffled.forEach(ch => {
+            const key = document.createElement('button');
+            key.className = 'practice-key';
+            key.textContent = ch;
+            key.addEventListener('click', () => {
+                userInput += ch;
+                display.textContent = userInput;
+            });
+            keyboard.appendChild(key);
+        });
+        // Backspace
+        const bksp = document.createElement('button');
+        bksp.className = 'practice-key backspace-key';
+        bksp.textContent = I18n.t('backspace');
+        bksp.addEventListener('click', () => {
+            const codePoints = [...userInput];
+            codePoints.pop();
+            userInput = codePoints.join('');
+            display.textContent = userInput;
+        });
+        keyboard.appendChild(bksp);
+        body.appendChild(keyboard);
+
+        // Feedback
+        const feedback = document.createElement('div');
+        feedback.className = 'practice-feedback';
+        body.appendChild(feedback);
+
+        // Actions
+        const actions = document.createElement('div');
+        actions.className = 'practice-actions';
+
+        const checkBtn = document.createElement('button');
+        checkBtn.className = 'btn btn-primary btn-sm';
+        checkBtn.textContent = I18n.t('practice_check');
+        checkBtn.addEventListener('click', () => {
+            if (userInput === word) {
+                display.classList.add('correct');
+                feedback.className = 'practice-feedback visible correct-fb';
+                feedback.textContent = I18n.t('practice_correct') + ' ' + I18n.t('practice_great');
+                AudioManager.playSfx('correct');
+            } else {
+                display.classList.add('wrong');
+                feedback.className = 'practice-feedback visible wrong-fb';
+                feedback.textContent = I18n.t('practice_try_again') + ' → ' + word;
+                AudioManager.playSfx('wrong');
+            }
+        });
+        actions.appendChild(checkBtn);
+
+        const resetBtn = document.createElement('button');
+        resetBtn.className = 'btn btn-secondary btn-sm';
+        resetBtn.textContent = I18n.t('practice_reset');
+        resetBtn.addEventListener('click', () => {
+            userInput = '';
+            display.textContent = '';
+            display.classList.remove('correct', 'wrong');
+            feedback.className = 'practice-feedback';
+        });
+        actions.appendChild(resetBtn);
+
+        const backBtn = document.createElement('button');
+        backBtn.className = 'btn btn-secondary btn-sm';
+        backBtn.textContent = I18n.t('practice_back');
+        backBtn.addEventListener('click', closePracticeModal);
+        actions.appendChild(backBtn);
+
+        body.appendChild(actions);
+    }
+
+    /**
+     * NORMAL mode: type romanization, system converts to Bengali.
+     */
+    function startPracticeNormal(entry) {
+        const body = document.getElementById('practice-modal-body');
+        const title = document.getElementById('practice-modal-title');
+        title.textContent = I18n.t('practice_normal');
+        body.innerHTML = '';
+
+        const word = entry.bn;
+        const targetRoman = entry.romanised || '';
+
+        // Target display
+        const targetDiv = document.createElement('div');
+        targetDiv.className = 'practice-target';
+        const bnSpan = document.createElement('span');
+        bnSpan.className = 'pt-bengali';
+        bnSpan.textContent = word;
+        targetDiv.appendChild(bnSpan);
+        const enSpan = document.createElement('span');
+        enSpan.className = 'pt-english';
+        enSpan.textContent = entry.en || '';
+        targetDiv.appendChild(enSpan);
+        body.appendChild(targetDiv);
+
+        // Instruction
+        const instr = document.createElement('p');
+        instr.className = 'practice-instruction';
+        instr.textContent = I18n.t('practice_instructions_normal');
+        body.appendChild(instr);
+
+        // Input
+        const input = document.createElement('input');
+        input.type = 'text';
+        input.className = 'practice-input';
+        input.placeholder = 'e.g. ' + (targetRoman || 'romanised');
+        input.autocomplete = 'off';
+        body.appendChild(input);
+
+        // Feedback
+        const feedback = document.createElement('div');
+        feedback.className = 'practice-feedback';
+        body.appendChild(feedback);
+
+        // Actions
+        const actions = document.createElement('div');
+        actions.className = 'practice-actions';
+
+        const checkBtn = document.createElement('button');
+        checkBtn.className = 'btn btn-primary btn-sm';
+        checkBtn.textContent = I18n.t('practice_check');
+        checkBtn.addEventListener('click', () => {
+            const typed = input.value.trim().toLowerCase();
+            // Try converting romanization to Bengali
+            let converted = '';
+            try { converted = BengaliIME.convert(typed); } catch (_) { converted = ''; }
+            const isCorrectRoman = targetRoman && typed === targetRoman.toLowerCase();
+            const isCorrectConverted = converted === word;
+
+            if (isCorrectRoman || isCorrectConverted) {
+                input.classList.add('correct');
+                input.classList.remove('wrong');
+                feedback.className = 'practice-feedback visible correct-fb';
+                feedback.textContent = I18n.t('practice_correct') + ' ' + I18n.t('practice_great');
+                AudioManager.playSfx('correct');
+            } else {
+                input.classList.add('wrong');
+                input.classList.remove('correct');
+                feedback.className = 'practice-feedback visible wrong-fb';
+                feedback.textContent = I18n.t('practice_try_again') + ' → ' + (targetRoman || word);
+                AudioManager.playSfx('wrong');
+            }
+        });
+        actions.appendChild(checkBtn);
+
+        const resetBtn = document.createElement('button');
+        resetBtn.className = 'btn btn-secondary btn-sm';
+        resetBtn.textContent = I18n.t('practice_reset');
+        resetBtn.addEventListener('click', () => {
+            input.value = '';
+            input.classList.remove('correct', 'wrong');
+            feedback.className = 'practice-feedback';
+        });
+        actions.appendChild(resetBtn);
+
+        const backBtn = document.createElement('button');
+        backBtn.className = 'btn btn-secondary btn-sm';
+        backBtn.textContent = I18n.t('practice_back');
+        backBtn.addEventListener('click', closePracticeModal);
+        actions.appendChild(backBtn);
+
+        body.appendChild(actions);
+        input.focus();
+    }
+
+    /**
+     * HARD mode: type Bengali using full on-screen keyboard.
+     */
+    function startPracticeHard(entry) {
+        const body = document.getElementById('practice-modal-body');
+        const title = document.getElementById('practice-modal-title');
+        title.textContent = I18n.t('practice_hard');
+        body.innerHTML = '';
+
+        const word = entry.bn;
+        let userInput = '';
+
+        // Target display (English only)
+        const targetDiv = document.createElement('div');
+        targetDiv.className = 'practice-target';
+        const enSpan = document.createElement('span');
+        enSpan.className = 'pt-english';
+        enSpan.textContent = entry.en || '';
+        targetDiv.appendChild(enSpan);
+        body.appendChild(targetDiv);
+
+        // Instruction
+        const instr = document.createElement('p');
+        instr.className = 'practice-instruction';
+        instr.textContent = I18n.t('practice_instructions_hard');
+        body.appendChild(instr);
+
+        // Display area
+        const display = document.createElement('div');
+        display.className = 'practice-display';
+        body.appendChild(display);
+
+        // Full Bengali keyboard (5 rows)
+        const rows = [
+            ['অ','আ','ই','ঈ','উ','ঊ','এ','ঐ','ও','ঔ'],
+            ['ক','খ','গ','ঘ','ঙ','চ','ছ','জ','ঝ','ঞ'],
+            ['ট','ঠ','ড','ঢ','ণ','ত','থ','দ','ধ','ন'],
+            ['প','ফ','ব','ভ','ম','য','র','ল','শ','ষ'],
+            ['স','হ','ড়','ঢ়','য়','ৎ','ং','ঃ','ঁ','্']
+        ];
+        const vowelSigns = ['া','ি','ী','ু','ূ','ে','ৈ','ো','ৌ','ৃ'];
+
+        const keyboard = document.createElement('div');
+        keyboard.className = 'practice-keyboard';
+
+        rows.forEach(row => {
+            row.forEach(ch => {
+                const key = document.createElement('button');
+                key.className = 'practice-key';
+                key.textContent = ch;
+                key.addEventListener('click', () => {
+                    userInput += ch;
+                    display.textContent = userInput;
+                });
+                keyboard.appendChild(key);
+            });
+        });
+
+        // Vowel signs row
+        vowelSigns.forEach(ch => {
+            const key = document.createElement('button');
+            key.className = 'practice-key';
+            key.textContent = '\u25CC' + ch; // dotted circle + sign
+            key.addEventListener('click', () => {
+                userInput += ch;
+                display.textContent = userInput;
+            });
+            keyboard.appendChild(key);
+        });
+
+        // Backspace
+        const bksp = document.createElement('button');
+        bksp.className = 'practice-key backspace-key';
+        bksp.textContent = I18n.t('backspace');
+        bksp.addEventListener('click', () => {
+            const codePoints = [...userInput];
+            codePoints.pop();
+            userInput = codePoints.join('');
+            display.textContent = userInput;
+        });
+        keyboard.appendChild(bksp);
+
+        body.appendChild(keyboard);
+
+        // Feedback
+        const feedback = document.createElement('div');
+        feedback.className = 'practice-feedback';
+        body.appendChild(feedback);
+
+        // Actions
+        const actions = document.createElement('div');
+        actions.className = 'practice-actions';
+
+        const checkBtn = document.createElement('button');
+        checkBtn.className = 'btn btn-primary btn-sm';
+        checkBtn.textContent = I18n.t('practice_check');
+        checkBtn.addEventListener('click', () => {
+            if (userInput === word) {
+                display.classList.add('correct');
+                feedback.className = 'practice-feedback visible correct-fb';
+                feedback.textContent = I18n.t('practice_correct') + ' ' + I18n.t('practice_great');
+                AudioManager.playSfx('correct');
+            } else {
+                display.classList.add('wrong');
+                feedback.className = 'practice-feedback visible wrong-fb';
+                feedback.textContent = I18n.t('practice_try_again') + ' → ' + word;
+                AudioManager.playSfx('wrong');
+            }
+        });
+        actions.appendChild(checkBtn);
+
+        const resetBtn = document.createElement('button');
+        resetBtn.className = 'btn btn-secondary btn-sm';
+        resetBtn.textContent = I18n.t('practice_reset');
+        resetBtn.addEventListener('click', () => {
+            userInput = '';
+            display.textContent = '';
+            display.classList.remove('correct', 'wrong');
+            feedback.className = 'practice-feedback';
+        });
+        actions.appendChild(resetBtn);
+
+        const backBtn = document.createElement('button');
+        backBtn.className = 'btn btn-secondary btn-sm';
+        backBtn.textContent = I18n.t('practice_back');
+        backBtn.addEventListener('click', closePracticeModal);
+        actions.appendChild(backBtn);
+
+        body.appendChild(actions);
+    }
+
+    // Bind practice modal close
+    document.addEventListener('DOMContentLoaded', () => {
+        const closeBtn = document.getElementById('practice-close-btn');
+        const overlay = document.getElementById('practice-overlay');
+        if (closeBtn) closeBtn.addEventListener('click', closePracticeModal);
+        if (overlay) overlay.addEventListener('click', closePracticeModal);
+    });
 
     return { init, onActivate, lookup, isLoaded, eagerLoad };
 })();

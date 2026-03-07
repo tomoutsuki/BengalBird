@@ -371,5 +371,196 @@
         }
       ]
     }
-  ]
+  ],
+  "lesson_types": {
+    "1-1-1": "alphabet",
+    "1-1-2": "listening",
+    "1-1-3": "alphabet",
+    "1-1-4": "listening",
+    "1-1-5": "alphabet",
+    "1-1-6": "practice",
+    "1-2-1": "alphabet",
+    "1-2-2": "listening",
+    "1-2-3": "writing",
+    "1-2-4": "practice",
+    "1-3-1": "practice",
+    "1-4-1": "practice",
+    "2-1-1": "alphabet",
+    "2-1-2": "alphabet",
+    "2-1-3": "listening",
+    "2-2-4": "alphabet",
+    "2-2-5": "listening",
+    "2-3-6": "practice",
+    "2-3-7": "practice",
+    "2-3-8": "writing",
+    "3-1-1": "writing",
+    "3-1-2": "writing",
+    "3-2-3": "dialogue",
+    "3-2-4": "dialogue",
+    "3-3-5": "practice",
+    "3-3-6": "listening",
+    "3-3-7": "practice",
+    "4-1-17": "dialogue",
+    "4-1-18": "practice",
+    "4-2-19": "dialogue",
+    "4-3-20": "alphabet",
+    "5-1-21": "alphabet",
+    "5-2-22": "dialogue",
+    "5-3-23": "dialogue",
+    "6-1-24": "practice",
+    "6-2-25": "practice",
+    "6-3-26": "dialogue",
+    "7-1-27": "dialogue",
+    "7-2-28": "dialogue",
+    "7-3-29": "dialogue",
+    "7-4-30": "practice",
+    "8-1-31": "dialogue",
+    "8-2-32": "dialogue",
+    "8-3-33": "dialogue",
+    "8-4-34": "practice",
+    "8-4-35": "writing",
+    "8-5-36": "practice"
+  },
+  "section_details": {
+    "section_1-1": {
+      "description": {"en": "Learn your first vowels and consonants with audio recognition and figure matching.", "ja": "最初の母音と子音を音声認識と図のマッチングで学びます。"},
+      "newLetters": "অ আ ই ক খ গ ম",
+      "vocabulary": "আম, কলা, গান, মা, খাই"
+    },
+    "section_1-2": {
+      "description": {"en": "Learn vowel signs (কার) that attach to consonants, changing their sound.", "ja": "子音に付いて音を変える母音記号（কার）を学びます。"},
+      "newLetters": "া ে ি ো",
+      "vocabulary": "কলা, মেলা, চিনি, রোদ"
+    },
+    "section_1-3": {
+      "description": {"en": "Practice reading Bengali words and short phrases.", "ja": "ベンガル語の単語と短いフレーズを読む練習をします。"},
+      "newLetters": "",
+      "vocabulary": "Review words"
+    },
+    "section_1-4": {
+      "description": {"en": "Learn conjunct consonants (যুক্তাক্ষর) and practice reading them.", "ja": "合字（যুক্তাক্ষর）を学び、読む練習をします。"},
+      "newLetters": "্ (hasanta)",
+      "vocabulary": "স্কুল, প্রথম"
+    },
+    "section_2-1": {
+      "description": {"en": "Expand your vowel sign knowledge with new signs and positions.", "ja": "新しい母音記号とその位置を学びます。"},
+      "newLetters": "ে (left), ৈ, ৌ",
+      "vocabulary": "কেন, মৈত্রী, মৌসুম"
+    },
+    "section_2-2": {
+      "description": {"en": "Learn additional vowel signs and a new consonant.", "ja": "追加の母音記号と新しい子音を学びます。"},
+      "newLetters": "ু ূ দ",
+      "vocabulary": "তুমি, দূর, দিন"
+    },
+    "section_2-3": {
+      "description": {"en": "Practice vocabulary through mixed exercises.", "ja": "さまざまな練習で語彙を強化します。"},
+      "newLetters": "",
+      "vocabulary": "Mixed review"
+    },
+    "section_3-1": {
+      "description": {"en": "Learn Bengali pronouns for people.", "ja": "人に関するベンガル語の代名詞を学びます。"},
+      "newLetters": "",
+      "vocabulary": "আমি, তুমি, সে, তারা"
+    },
+    "section_3-2": {
+      "description": {"en": "Learn your first verbs and possessive forms.", "ja": "最初の動詞と所有形を学びます。"},
+      "newLetters": "",
+      "vocabulary": "আছে, করি, আমার, তোমার"
+    },
+    "section_3-3": {
+      "description": {"en": "Practice everything learned so far with mixed exercises.", "ja": "これまで学んだことをさまざまな練習で強化します。"},
+      "newLetters": "",
+      "vocabulary": "Comprehensive review"
+    },
+    "section_4-1": {
+      "description": {"en": "Learn present tense verb conjugation basics.", "ja": "現在形の動詞活用の基礎を学びます。"},
+      "newLetters": "",
+      "vocabulary": "করি, করো, করে"
+    },
+    "section_4-2": {
+      "description": {"en": "Express daily routine activities.", "ja": "日常のルーティン活動を表現します。"},
+      "newLetters": "",
+      "vocabulary": "ঘুম, খাওয়া, যাওয়া"
+    },
+    "section_4-3": {
+      "description": {"en": "Learn Bengali numerals from 0 to 20.", "ja": "ベンガル語の数字0から20を学びます。"},
+      "newLetters": "০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯",
+      "vocabulary": "এক, দুই, তিন, চার, পাঁচ"
+    },
+    "section_5-1": {
+      "description": {"en": "Learn food-related vocabulary.", "ja": "食べ物に関する語彙を学びます。"},
+      "newLetters": "",
+      "vocabulary": "ভাত, মাছ, ডাল, চা"
+    },
+    "section_5-2": {
+      "description": {"en": "Learn phrases for ordering food.", "ja": "食べ物を注文するフレーズを学びます。"},
+      "newLetters": "",
+      "vocabulary": "দিন, চাই, আরেকটু"
+    },
+    "section_5-3": {
+      "description": {"en": "Practice polite offering and accepting.", "ja": "丁寧に勧めたり受けたりする表現を練習します。"},
+      "newLetters": "",
+      "vocabulary": "নেবেন, ধন্যবাদ"
+    },
+    "section_6-1": {
+      "description": {"en": "Learn past tense forms.", "ja": "過去形を学びます。"},
+      "newLetters": "",
+      "vocabulary": "করলাম, গেলাম, খেলাম"
+    },
+    "section_6-2": {
+      "description": {"en": "Learn past continuous tense.", "ja": "過去進行形を学びます。"},
+      "newLetters": "",
+      "vocabulary": "করছিলাম, যাচ্ছিল"
+    },
+    "section_6-3": {
+      "description": {"en": "Learn future tense and respect-based forms.", "ja": "未来形と敬意に基づく表現を学びます。"},
+      "newLetters": "",
+      "vocabulary": "করব, যাবে, করবেন"
+    },
+    "section_7-1": {
+      "description": {"en": "Practice shopping and market conversations.", "ja": "買い物と市場の会話を練習します。"},
+      "newLetters": "",
+      "vocabulary": "দাম, কত, কিনব"
+    },
+    "section_7-2": {
+      "description": {"en": "Learn transportation-related phrases.", "ja": "交通に関するフレーズを学びます。"},
+      "newLetters": "",
+      "vocabulary": "বাস, রিকশা, কোথায়"
+    },
+    "section_7-3": {
+      "description": {"en": "Express health conditions and feelings.", "ja": "健康状態と気分を表現します。"},
+      "newLetters": "",
+      "vocabulary": "ভালো, খারাপ, ব্যথা"
+    },
+    "section_7-4": {
+      "description": {"en": "Talk about the weather.", "ja": "天気について話します。"},
+      "newLetters": "",
+      "vocabulary": "গরম, ঠান্ডা, বৃষ্টি"
+    },
+    "section_8-1": {
+      "description": {"en": "Learn visiting etiquette and greetings.", "ja": "訪問のマナーと挨拶を学びます。"},
+      "newLetters": "",
+      "vocabulary": "আসুন, বসুন, নমস্কার"
+    },
+    "section_8-2": {
+      "description": {"en": "Practice making and responding to invitations.", "ja": "招待の仕方と応答を練習します。"},
+      "newLetters": "",
+      "vocabulary": "আসবে, চলো, পারব"
+    },
+    "section_8-3": {
+      "description": {"en": "Talk about hobbies and abilities.", "ja": "趣味と能力について話します。"},
+      "newLetters": "",
+      "vocabulary": "পারি, ভালোবাসি, শখ"
+    },
+    "section_8-4": {
+      "description": {"en": "Describe things and express opinions.", "ja": "物を描写し、意見を述べます。"},
+      "newLetters": "",
+      "vocabulary": "সুন্দর, বড়, ছোট, মনে হয়"
+    },
+    "section_8-5": {
+      "description": {"en": "Final comprehensive dialogue integrating all skills.", "ja": "すべてのスキルを統合した最終総合ダイアログ。"},
+      "newLetters": "",
+      "vocabulary": "Comprehensive review"
+    }
+  }
 }

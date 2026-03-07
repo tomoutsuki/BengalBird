@@ -18,12 +18,16 @@
 <body>
     <!-- ===== Top Navigation Bar ===== -->
     <header id="topbar">
-        <button id="menu-btn" class="icon-btn" aria-label="Menu">☰</button>
-        <!--<img src="assets/logo/full_light.svg" alt="BengalBird" class="topbar-logo">-->
-        <!--<h1 id="topbar-title">BengalBird</h1>-->
-        <div id="topbar-actions">
+        <div class="topbar-left">
+            <button id="menu-btn" class="icon-btn" aria-label="Menu">
+                <img src="assets/icon/menu.png" alt="" class="topbar-icon">
+            </button>
+        </div>
+        <div class="topbar-right">
             <button id="lang-toggle-btn" class="icon-btn" aria-label="Toggle Language">EN</button>
-            <button id="settings-btn" class="icon-btn" aria-label="Settings">⚙</button>
+            <button id="settings-btn" class="icon-btn" aria-label="Settings">
+                <img src="assets/icon/settings.png" alt="" class="topbar-icon">
+            </button>
         </div>
     </header>
 
@@ -96,6 +100,30 @@
         <div class="modal-body">
             <div id="text-modal-body"></div>
         </div>
+    </div>
+
+    <!-- ===== Section Detail Popup ===== -->
+    <div id="section-popup-overlay" class="overlay hidden"></div>
+    <div id="section-popup" class="modal hidden">
+        <div class="modal-header">
+            <h2 id="section-popup-title" data-i18n="section_details">Section Details</h2>
+            <button id="section-popup-close-btn" class="icon-btn" aria-label="Close">✕</button>
+        </div>
+        <div class="section-popup-body">
+            <p id="section-popup-desc"></p>
+            <div id="section-popup-letters" class="section-popup-meta"></div>
+            <div id="section-popup-vocab" class="section-popup-meta"></div>
+        </div>
+    </div>
+
+    <!-- ===== Dictionary Practice Modal ===== -->
+    <div id="practice-overlay" class="overlay hidden"></div>
+    <div id="practice-modal" class="modal modal-scrollable hidden">
+        <div class="modal-header">
+            <h2 id="practice-modal-title"></h2>
+            <button id="practice-close-btn" class="icon-btn" aria-label="Close">✕</button>
+        </div>
+        <div id="practice-modal-body" class="modal-body"></div>
     </div>
 
     <!-- ===== Main Content Area (SPA sections) ===== -->

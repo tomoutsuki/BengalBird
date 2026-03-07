@@ -83,6 +83,7 @@ const App = (() => {
             console.error('Invalid lesson data for:', lessonId);
             return;
         }
+        data.id = lessonId;
         showLessonPopup(data);
     }
 
@@ -111,58 +112,191 @@ const App = (() => {
         startLesson(data);
     }
 
-    // ---- Home Screen ----
+    // ---- Home Screen (Course Path) ----
     function renderHome() {
         const list = $('#chapter-list');
         list.innerHTML = '';
 
+        const lessonTypes = chaptersData.lesson_types || {};
+        const sectionDetails = chaptersData.section_details || {};
+        let nodeIndex = 0; // for zigzag alternation
+
         chaptersData.chapters.forEach(chapter => {
-            const card = document.createElement('div');
-            card.className = 'chapter-card';
+            // Chapter header
+            const chHeader = document.createElement('div');
+            chHeader.className = 'path-chapter-header';
+            const chTitle = document.createElement('h3');
+            chTitle.textContent = I18n.localize(chapter.title);
+            chHeader.appendChild(chTitle);
+            const chDesc = document.createElement('p');
+            chDesc.textContent = I18n.localize(chapter.description);
+            chHeader.appendChild(chDesc);
+            list.appendChild(chHeader);
 
-            const title = document.createElement('h3');
-            title.textContent = I18n.localize(chapter.title);
-            card.appendChild(title);
+            // Path container for this chapter
+            const pathContainer = document.createElement('div');
+            pathContainer.className = 'course-path';
+            const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+            svg.classList.add('path-svg');
+            pathContainer.appendChild(svg);
+            const nodesContainer = document.createElement('div');
+            nodesContainer.className = 'path-nodes';
+            pathContainer.appendChild(nodesContainer);
 
-            const desc = document.createElement('p');
-            desc.textContent = I18n.localize(chapter.description);
-            card.appendChild(desc);
+            let sectionNodeIndex = 0;
+            (chapter.sections || []).forEach((section, si) => {
+                const secNum = si + 1;
+                const secDetail = sectionDetails[section.id] || {};
 
-            (chapter.sections || []).forEach(section => {
-                const secTitle = document.createElement('div');
-                secTitle.className = 'section-title';
-                secTitle.textContent = I18n.localize(section.title);
-                card.appendChild(secTitle);
+                // Section marker island (centered)
+                const secNode = document.createElement('div');
+                secNode.className = 'path-node island-center';
+                const secBtn = document.createElement('button');
+                secBtn.className = 'island-btn section-island';
+                const secLabel = document.createElement('span');
+                secLabel.className = 'island-label';
+                secLabel.textContent = secNum;
+                secBtn.appendChild(secLabel);
+                secBtn.addEventListener('click', () => showSectionPopup(section, secDetail));
+                secNode.appendChild(secBtn);
+                nodesContainer.appendChild(secNode);
+                sectionNodeIndex++;
 
-                const btnContainer = document.createElement('div');
-                btnContainer.className = 'lesson-buttons';
-
-                (section.lessons || []).forEach((lessonId, i) => {
+                // Lesson islands
+                (section.lessons || []).forEach((lessonId) => {
                     const globalIdx = allLessonIds.indexOf(lessonId);
-                    const btn = document.createElement('button');
-                    btn.className = 'lesson-btn';
-                    btn.textContent = globalIdx + 1;
+                    const type = lessonTypes[lessonId] || 'practice';
 
+                    // Alternate left/right
+                    const side = sectionNodeIndex % 2 === 0 ? 'island-left' : 'island-right';
+                    const node = document.createElement('div');
+                    node.className = 'path-node ' + side;
+
+                    const btn = document.createElement('button');
+                    btn.className = 'island-btn';
+
+                    // Island icon
+                    const icon = document.createElement('img');
+                    icon.className = 'island-icon';
+                    icon.src = 'assets/icon/island/' + type + '.png';
+                    icon.alt = '';
+                    btn.appendChild(icon);
+
+                    // Label
+                    const label = document.createElement('span');
+                    label.className = 'island-label';
+                    label.textContent = globalIdx + 1;
+                    btn.appendChild(label);
+
+                    // State
                     if (Progress.isLessonCompleted(lessonId)) {
-                        btn.classList.add('completed');
+                        btn.classList.add('island-completed');
                     } else {
                         const prevDone = allLessonIds.slice(0, globalIdx).every(
                             id => Progress.isLessonCompleted(id)
                         );
-                        if (prevDone && !Progress.isLessonCompleted(lessonId)) {
-                            btn.classList.add('current');
+                        if (prevDone) {
+                            btn.classList.add('island-current');
+                        } else {
+                            btn.classList.add('island-locked');
                         }
                     }
 
-                    btn.addEventListener('click', () => loadLesson(lessonId));
-                    btnContainer.appendChild(btn);
-                });
+                    if (!btn.classList.contains('island-locked')) {
+                        btn.addEventListener('click', () => loadLesson(lessonId));
+                    }
 
-                card.appendChild(btnContainer);
+                    node.appendChild(btn);
+                    nodesContainer.appendChild(node);
+                    sectionNodeIndex++;
+                });
             });
 
-            list.appendChild(card);
+            list.appendChild(pathContainer);
+
+            // Draw connector lines after layout
+            requestAnimationFrame(() => drawPathConnectors(pathContainer, svg, nodesContainer));
         });
+    }
+
+    /**
+     * Draw SVG lines connecting consecutive island nodes.
+     */
+    function drawPathConnectors(container, svg, nodesContainer) {
+        const buttons = nodesContainer.querySelectorAll('.island-btn');
+        if (buttons.length < 2) return;
+
+        const containerRect = nodesContainer.getBoundingClientRect();
+        const scrollLeft = nodesContainer.scrollLeft || 0;
+        const scrollTop = nodesContainer.scrollTop || 0;
+
+        // Set SVG to fill the nodes container
+        svg.style.width = nodesContainer.offsetWidth + 'px';
+        svg.style.height = nodesContainer.offsetHeight + 'px';
+        svg.setAttribute('viewBox', '0 0 ' + nodesContainer.offsetWidth + ' ' + nodesContainer.offsetHeight);
+        svg.innerHTML = '';
+
+        for (let i = 1; i < buttons.length; i++) {
+            const prev = buttons[i - 1];
+            const curr = buttons[i];
+
+            const prevRect = prev.getBoundingClientRect();
+            const currRect = curr.getBoundingClientRect();
+
+            const x1 = prevRect.left + prevRect.width / 2 - containerRect.left + scrollLeft;
+            const y1 = prevRect.top + prevRect.height / 2 - containerRect.top + scrollTop;
+            const x2 = currRect.left + currRect.width / 2 - containerRect.left + scrollLeft;
+            const y2 = currRect.top + currRect.height / 2 - containerRect.top + scrollTop;
+
+            const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+            line.setAttribute('x1', x1);
+            line.setAttribute('y1', y1);
+            line.setAttribute('x2', x2);
+            line.setAttribute('y2', y2);
+            svg.appendChild(line);
+        }
+    }
+
+    /**
+     * Show section detail popup.
+     */
+    function showSectionPopup(section, detail) {
+        $('#section-popup-title').textContent = I18n.localize(section.title);
+        $('#section-popup-desc').textContent = I18n.localize(detail.description || section.title);
+
+        const lettersEl = $('#section-popup-letters');
+        lettersEl.innerHTML = '';
+        if (detail.newLetters) {
+            const label = document.createElement('div');
+            label.className = 'meta-label';
+            label.textContent = I18n.t('section_letters');
+            lettersEl.appendChild(label);
+            const value = document.createElement('div');
+            value.className = 'meta-value';
+            value.textContent = detail.newLetters;
+            lettersEl.appendChild(value);
+        }
+
+        const vocabEl = $('#section-popup-vocab');
+        vocabEl.innerHTML = '';
+        if (detail.vocabulary) {
+            const label = document.createElement('div');
+            label.className = 'meta-label';
+            label.textContent = I18n.t('section_vocabulary');
+            vocabEl.appendChild(label);
+            const value = document.createElement('div');
+            value.className = 'meta-value';
+            value.textContent = detail.vocabulary;
+            vocabEl.appendChild(value);
+        }
+
+        $('#section-popup').classList.remove('hidden');
+        $('#section-popup-overlay').classList.remove('hidden');
+    }
+
+    function closeSectionPopup() {
+        $('#section-popup').classList.add('hidden');
+        $('#section-popup-overlay').classList.add('hidden');
     }
 
     // ---- Side Menu ----
@@ -463,6 +597,10 @@ const App = (() => {
         });
         $('#text-modal-close-btn').addEventListener('click', closeTextModal);
         $('#text-modal-overlay').addEventListener('click', closeTextModal);
+
+        // Section popup
+        $('#section-popup-close-btn').addEventListener('click', closeSectionPopup);
+        $('#section-popup-overlay').addEventListener('click', closeSectionPopup);
     }
 
     // ---- Init ----
