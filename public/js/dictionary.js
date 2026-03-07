@@ -1,7 +1,8 @@
 /**
  * BengalBird - Dictionary Engine (dictionary.js)
  * Loads JSONL dictionary data, provides search with debounce,
- * and random word display.  No external dependencies.
+ * ranked results, Bengali/Latin detection, and word-popup lookup.
+ * No external dependencies.
  */
 const Dictionary = (() => {
     'use strict';
@@ -9,8 +10,10 @@ const Dictionary = (() => {
     const JSONL_PATH = 'dictionary/wiktionary/en_bn_dictionary_from_wiktionary.jsonl';
     const MAX_RESULTS = 20;
     const DEBOUNCE_MS = 250;
+    const BENGALI_REGEX = /[\u0980-\u09FF]/;
 
     let entries = [];       // parsed dictionary entries
+    let bnIndex = {};       // Bengali text -> entry (for fast popup lookup)
     let loaded = false;
     let loading = false;
     let searchTimer = null;
@@ -94,6 +97,9 @@ const Dictionary = (() => {
                         const obj = JSON.parse(line);
                         if (obj && (obj.bn || obj.en)) {
                             entries.push(obj);
+                            if (obj.bn) {
+                                bnIndex[obj.bn] = obj;
+                            }
                         }
                     } catch (_) {
                         // Skip malformed lines
@@ -191,7 +197,72 @@ const Dictionary = (() => {
     }
 
     /**
-     * Perform a search and render results.
+     * Detect if a query string contains Bengali script.
+     * @param {string} str
+     * @returns {boolean}
+     */
+    function isBengaliQuery(str) {
+        return BENGALI_REGEX.test(str);
+    }
+
+    /**
+     * Score an entry against the query for ranking.
+     * Higher score = better match.
+     * @param {Object} e - dictionary entry
+     * @param {string} q - lowercased query
+     * @param {boolean} bengaliMode
+     * @returns {number} score (0 = no match)
+     */
+    function scoreEntry(e, q, bengaliMode) {
+        let score = 0;
+
+        if (bengaliMode) {
+            // Bengali mode: only search bn field
+            if (!e.bn) return 0;
+            if (e.bn === q) return 100;
+            if (e.bn.startsWith(q)) return 70;
+            if (e.bn.includes(q)) return 40;
+            return 0;
+        }
+
+        // Latin mode: search romanised and en fields
+        const rom = e.romanised ? e.romanised.toLowerCase() : '';
+        const en = e.en ? e.en.toLowerCase() : '';
+
+        // Exact match (romanised)
+        if (rom === q) score = Math.max(score, 100);
+        // Exact match (English)
+        else if (en === q) score = Math.max(score, 95);
+        // Prefix match (romanised)
+        else if (rom && rom.startsWith(q)) score = Math.max(score, 70);
+        // Prefix match (English)
+        else if (en && en.startsWith(q)) score = Math.max(score, 65);
+        // Substring match (romanised)
+        else if (rom && rom.includes(q)) score = Math.max(score, 40);
+        // Substring match (English)
+        else if (en && en.includes(q)) score = Math.max(score, 35);
+        // Fuzzy: check if all query chars appear in order
+        else {
+            if (rom && fuzzyMatch(q, rom)) score = Math.max(score, 15);
+            if (en && fuzzyMatch(q, en)) score = Math.max(score, 10);
+        }
+
+        return score;
+    }
+
+    /**
+     * Simple fuzzy match: all characters in needle appear in haystack in order.
+     */
+    function fuzzyMatch(needle, haystack) {
+        let ni = 0;
+        for (let hi = 0; hi < haystack.length && ni < needle.length; hi++) {
+            if (needle[ni] === haystack[hi]) ni++;
+        }
+        return ni === needle.length;
+    }
+
+    /**
+     * Perform a scored, ranked search and render results.
      * @param {string} query
      */
     function performSearch(query) {
@@ -208,18 +279,21 @@ const Dictionary = (() => {
             return;
         }
 
-        const q = query.toLowerCase();
-        const matches = [];
+        const bengaliMode = isBengaliQuery(query);
+        const q = bengaliMode ? query : query.toLowerCase();
+        const scored = [];
 
-        for (let i = 0; i < entries.length && matches.length < MAX_RESULTS; i++) {
-            const e = entries[i];
-            const bnMatch = e.bn && e.bn.includes(query);
-            const enMatch = e.en && e.en.toLowerCase().includes(q);
-            const romMatch = e.romanised && e.romanised.toLowerCase().includes(q);
-            if (bnMatch || enMatch || romMatch) {
-                matches.push(e);
+        for (let i = 0; i < entries.length; i++) {
+            const s = scoreEntry(entries[i], q, bengaliMode);
+            if (s > 0) {
+                scored.push({ entry: entries[i], score: s });
+                if (scored.length >= MAX_RESULTS * 3) break; // collect extras for sorting
             }
         }
+
+        // Sort by descending score
+        scored.sort((a, b) => b.score - a.score);
+        const matches = scored.slice(0, MAX_RESULTS);
 
         resultsEl.innerHTML = '';
 
@@ -231,8 +305,8 @@ const Dictionary = (() => {
             return;
         }
 
-        matches.forEach(entry => {
-            resultsEl.appendChild(buildEntryCard(entry, false));
+        matches.forEach(m => {
+            resultsEl.appendChild(buildEntryCard(m.entry, false));
         });
     }
 
@@ -243,5 +317,37 @@ const Dictionary = (() => {
         if (loaded) showRandomWord();
     }
 
-    return { init, onActivate };
+    /**
+     * Look up a Bengali word for the word popup feature.
+     * @param {string} bengaliWord - Bengali script word
+     * @returns {Object|null} dictionary entry or null
+     */
+    function lookup(bengaliWord) {
+        if (!bengaliWord || !loaded) return null;
+        // Fast path: exact index lookup
+        if (bnIndex[bengaliWord]) return bnIndex[bengaliWord];
+        // Fallback: search entries
+        for (let i = 0; i < entries.length; i++) {
+            if (entries[i].bn === bengaliWord) return entries[i];
+        }
+        return null;
+    }
+
+    /**
+     * Check if dictionary data has been loaded.
+     * @returns {boolean}
+     */
+    function isLoaded() {
+        return loaded;
+    }
+
+    /**
+     * Start loading dictionary data eagerly (without rendering UI).
+     * Called at app startup so word popups work in exercises.
+     */
+    function eagerLoad() {
+        loadData();
+    }
+
+    return { init, onActivate, lookup, isLoaded, eagerLoad };
 })();

@@ -1,0 +1,135 @@
+{
+    "lesson_id": "example_new_features",
+    "title": {
+        "en": "New Features Demo",
+        "ja": "新機能デモ"
+    },
+    "description": {
+        "en": "Demonstrates dual figure choice, NEW indicators, and clickable words.",
+        "ja": "デュアル画像選択、NEW表示、クリック可能な単語のデモ。"
+    },
+    "est_time_mins": 4,
+    "exercises": [
+        {
+            "id": "demo_ex1",
+            "type": "alphabet_listening",
+            "audio": "assets/audio/alphabet/ল.mp3",
+            "question": {
+                "en": "Which letter did you hear?",
+                "ja": "どの文字が聞こえましたか？"
+            },
+            "options": [
+                {
+                    "letter": "ল",
+                    "romanized": "l",
+                    "correct": true,
+                    "is_new": true
+                },
+                {
+                    "letter": "ম",
+                    "romanized": "m",
+                    "correct": false
+                },
+                {
+                    "letter": "আ",
+                    "romanized": "a",
+                    "correct": false
+                },
+                {
+                    "letter": "ক",
+                    "romanized": "k",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": "demo_ex2",
+            "type": "figure_choice",
+            "question": {
+                "en": "Select the image for this word:",
+                "ja": "この単語の画像を選んでください："
+            },
+            "bengali": "কলম",
+            "romanized": "kolom",
+            "is_new": true,
+            "options": [
+                {
+                    "image": "assets/illustrations/pen.png",
+                    "label": { "en": "Pen", "ja": "ペン" }
+                },
+                {
+                    "image": "assets/illustrations/mango.png",
+                    "label": { "en": "Mango", "ja": "マンゴー" }
+                },
+                {
+                    "image": "assets/illustrations/water.png",
+                    "label": { "en": "Water", "ja": "水" }
+                },
+                {
+                    "image": "assets/illustrations/house.png",
+                    "label": { "en": "House", "ja": "家" }
+                }
+            ],
+            "correctIndex": 0
+        },
+        {
+            "id": "demo_ex3",
+            "type": "figure_choice_multi",
+            "question": {
+                "en": "Select the correct images for both words:",
+                "ja": "両方の単語に合う画像を選んでください："
+            },
+            "words": [
+                {
+                    "bengali": "কলম",
+                    "romanized": "kolom",
+                    "is_new": false
+                },
+                {
+                    "bengali": "বই",
+                    "romanized": "boi",
+                    "is_new": true
+                }
+            ],
+            "correctIds": ["pen", "book"],
+            "options": [
+                {
+                    "id": "pen",
+                    "image": "assets/illustrations/pen.png",
+                    "label": { "en": "Pen", "ja": "ペン" }
+                },
+                {
+                    "id": "mango",
+                    "image": "assets/illustrations/mango.png",
+                    "label": { "en": "Mango", "ja": "マンゴー" }
+                },
+                {
+                    "id": "book",
+                    "image": "assets/illustrations/bread.png",
+                    "label": { "en": "Book", "ja": "本" }
+                },
+                {
+                    "id": "water",
+                    "image": "assets/illustrations/water.png",
+                    "label": { "en": "Water", "ja": "水" }
+                }
+            ]
+        },
+        {
+            "id": "demo_ex4",
+            "type": "grammar-select",
+            "question": {
+                "en": "What does this word mean?",
+                "ja": "この単語の意味は？"
+            },
+            "bengali": "আম",
+            "romanized": "am",
+            "is_new": false,
+            "options": [
+                { "text": { "en": "Mango", "ja": "マンゴー" }, "correct": true },
+                { "text": { "en": "Water", "ja": "水" }, "correct": false },
+                { "text": { "en": "Pen", "ja": "ペン" }, "correct": false }
+            ]
+        }
+    ]
+}

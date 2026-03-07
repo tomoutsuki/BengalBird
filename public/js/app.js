@@ -475,6 +475,9 @@ const App = (() => {
         // Initialize Word-level IME (loads romanisation.json)
         await WordIME.init();
 
+        // Start loading dictionary data early for word popup feature
+        Dictionary.eagerLoad();
+
         bindEvents();
         bindFooterNav();
 

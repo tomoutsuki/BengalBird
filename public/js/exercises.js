@@ -3,10 +3,14 @@
  * Renders and manages all exercise types:
  *   grammar-sort, grammar-select, grammar-write,
  *   reading, conversation, listening,
- *   alphabet_listening, writing_keyboard, conversation_listening
+ *   alphabet_listening, writing_keyboard, conversation_listening,
+ *   figure_choice, figure_choice_multi
  *
  * Every Bengali word displayed automatically shows romanization below it
  * when a romanized field is available in the data.
+ *
+ * Clickable Bengali words show a mini-dictionary popup.
+ * Items with is_new:true get a NEW indicator badge.
  */
 const Exercises = (() => {
     'use strict';
@@ -15,6 +19,7 @@ const Exercises = (() => {
     let currentExercise = null;
     let answered = false;
     let onAnswered = null; // callback(isCorrect)
+    let activePopup = null; // currently open word popup
 
     /**
      * Initialize with DOM container and answer callback
@@ -22,6 +27,10 @@ const Exercises = (() => {
     function init(containerEl, answerCallback) {
         container = containerEl;
         onAnswered = answerCallback;
+
+        // Close word popup on outside click/touch
+        document.addEventListener('click', closeWordPopup, true);
+        document.addEventListener('touchstart', closeWordPopup, true);
     }
 
     /**
@@ -73,6 +82,9 @@ const Exercises = (() => {
             case 'figure_choice':
                 renderFigureChoice(card, exercise);
                 break;
+            case 'figure_choice_multi':
+                renderFigureChoiceMulti(card, exercise);
+                break;
             default:
                 card.innerHTML += '<p>Unknown exercise type: ' + exercise.type + '</p>';
         }
@@ -109,18 +121,37 @@ const Exercises = (() => {
     // ========== Helper: Bengali + Romanization pair ==========
 
     /**
-     * Create a bengali-rom-pair element showing Bengali script + romanized text below
+     * Create a bengali-rom-pair element showing Bengali script + romanized text below.
+     * If is_new is true, adds a NEW indicator badge.
+     * Bengali text is clickable to show a mini-dictionary popup.
      * @param {string} bengali - Bengali script text
      * @param {string} romanized - Romanized text (optional, shows fallback if missing)
+     * @param {boolean} [isNew=false] - Whether this is a newly introduced word
      * @returns {HTMLElement}
      */
-    function createBengaliRomPair(bengali, romanized) {
+    function createBengaliRomPair(bengali, romanized, isNew) {
         const pair = document.createElement('div');
         pair.className = 'bengali-rom-pair';
+        if (isNew) pair.classList.add('is-new');
+
         const bSpan = document.createElement('span');
-        bSpan.className = 'bengali-text';
+        bSpan.className = 'bengali-text bengali-clickable';
         bSpan.textContent = bengali || '';
+        if (bengali) {
+            bSpan.addEventListener('click', (e) => {
+                e.stopPropagation();
+                showWordPopup(bengali, romanized, bSpan);
+            });
+        }
         pair.appendChild(bSpan);
+
+        if (isNew) {
+            const newBadge = document.createElement('span');
+            newBadge.className = 'new-indicator';
+            newBadge.textContent = 'NEW';
+            pair.appendChild(newBadge);
+        }
+
         if (romanized) {
             const rSpan = document.createElement('span');
             rSpan.className = 'romanized-text';
@@ -128,6 +159,113 @@ const Exercises = (() => {
             pair.appendChild(rSpan);
         }
         return pair;
+    }
+
+    // ========== Word Popup (Mini Dictionary) ==========
+
+    /**
+     * Close the currently open word popup, if any.
+     */
+    function closeWordPopup(e) {
+        if (activePopup) {
+            // If click is inside the popup, ignore
+            if (e && activePopup.contains(e.target)) return;
+            activePopup.remove();
+            activePopup = null;
+        }
+    }
+
+    /**
+     * Show a mini-dictionary popup near an element.
+     * Looks up the Bengali word in the Dictionary module.
+     * @param {string} bengali
+     * @param {string} romanized - fallback romanization
+     * @param {HTMLElement} anchorEl - element to position near
+     */
+    function showWordPopup(bengali, romanized, anchorEl) {
+        closeWordPopup();
+
+        const popup = document.createElement('div');
+        popup.className = 'word-popup';
+
+        const bnDiv = document.createElement('div');
+        bnDiv.className = 'word-popup-bn';
+        bnDiv.textContent = bengali;
+        popup.appendChild(bnDiv);
+
+        // Try dictionary lookup
+        let entry = null;
+        if (typeof Dictionary !== 'undefined' && Dictionary.isLoaded()) {
+            entry = Dictionary.lookup(bengali);
+        }
+
+        const romDiv = document.createElement('div');
+        romDiv.className = 'word-popup-rom';
+        romDiv.textContent = (entry && entry.romanised) ? entry.romanised : (romanized || '');
+        popup.appendChild(romDiv);
+
+        const enDiv = document.createElement('div');
+        enDiv.className = 'word-popup-en';
+        enDiv.textContent = (entry && entry.en) ? entry.en : '';
+        popup.appendChild(enDiv);
+
+        if (entry && entry.pos) {
+            const posDiv = document.createElement('span');
+            posDiv.className = 'word-popup-pos';
+            posDiv.textContent = entry.pos;
+            popup.appendChild(posDiv);
+        }
+
+        // Position near anchor
+        document.body.appendChild(popup);
+        activePopup = popup;
+
+        const rect = anchorEl.getBoundingClientRect();
+        const popupRect = popup.getBoundingClientRect();
+
+        let top = rect.bottom + 6;
+        let left = rect.left + (rect.width / 2) - (popupRect.width / 2);
+
+        // Keep within viewport
+        if (left < 8) left = 8;
+        if (left + popupRect.width > window.innerWidth - 8) {
+            left = window.innerWidth - popupRect.width - 8;
+        }
+        if (top + popupRect.height > window.innerHeight - 8) {
+            top = rect.top - popupRect.height - 6;
+        }
+
+        popup.style.top = top + 'px';
+        popup.style.left = left + 'px';
+    }
+
+    /**
+     * Make a text element's Bengali words clickable for dictionary popup.
+     * Splits text on spaces, wrapping each Bengali word in a clickable span.
+     * @param {HTMLElement} el - element containing Bengali text
+     * @param {string} bengaliText - the Bengali text
+     * @param {string} [romanized] - optional romanization
+     */
+    function makeBengaliClickable(el, bengaliText, romanized) {
+        if (!bengaliText) return;
+        const BENGALI_RE = /[\u0980-\u09FF]/;
+        // Split by white space, make Bengali tokens clickable
+        const tokens = bengaliText.split(/(\s+)/);
+        el.innerHTML = '';
+        tokens.forEach(token => {
+            if (BENGALI_RE.test(token)) {
+                const span = document.createElement('span');
+                span.className = 'bengali-clickable';
+                span.textContent = token;
+                span.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    showWordPopup(token, romanized, span);
+                });
+                el.appendChild(span);
+            } else {
+                el.appendChild(document.createTextNode(token));
+            }
+        });
     }
 
     /**
@@ -157,7 +295,7 @@ const Exercises = (() => {
         if (type === 'conversation' || type === 'conversation_listening') return 'badge-conversation';
         if (type === 'listening') return 'badge-listening';
         if (type === 'alphabet_listening') return 'badge-alphabet';
-        if (type === 'figure_choice') return 'badge-figure';
+        if (type === 'figure_choice' || type === 'figure_choice_multi') return 'badge-figure';
         return '';
     }
 
@@ -168,7 +306,7 @@ const Exercises = (() => {
         if (type === 'conversation' || type === 'conversation_listening') return I18n.t('badge_conversation');
         if (type === 'listening') return I18n.t('badge_listening');
         if (type === 'alphabet_listening') return I18n.t('badge_alphabet');
-        if (type === 'figure_choice') return I18n.t('badge_figure');
+        if (type === 'figure_choice' || type === 'figure_choice_multi') return I18n.t('badge_figure');
         return type;
     }
 
@@ -182,7 +320,7 @@ const Exercises = (() => {
 
         // Show the Bengali word + romanization
         if (exercise.bengali) {
-            card.appendChild(createBengaliRomPair(exercise.bengali, exercise.romanized || ''));
+            card.appendChild(createBengaliRomPair(exercise.bengali, exercise.romanized || '', exercise.is_new));
         }
 
         // Audio button if available
@@ -235,6 +373,108 @@ const Exercises = (() => {
                     ? I18n.localize(exercise.options[exercise.correctIndex].label)
                     : '';
                 showFeedback(i === exercise.correctIndex, correctLabel);
+            });
+
+            grid.appendChild(btn);
+        });
+
+        card.appendChild(grid);
+    }
+
+    // ========== Figure Choice Multi (Dual Word) ==========
+
+    function renderFigureChoiceMulti(card, exercise) {
+        const question = document.createElement('p');
+        question.className = 'exercise-question';
+        question.textContent = I18n.localize(exercise.question) || I18n.t('select_images_multi');
+        card.appendChild(question);
+
+        // Show the Bengali words with romanization
+        const wordsRow = document.createElement('div');
+        wordsRow.className = 'figure-multi-words';
+
+        (exercise.words || []).forEach(w => {
+            wordsRow.appendChild(createBengaliRomPair(w.bengali, w.romanized || '', w.is_new));
+        });
+        card.appendChild(wordsRow);
+
+        // Image grid
+        const grid = document.createElement('div');
+        grid.className = 'figure-choice-grid';
+
+        const correctIds = exercise.correctIds || [];
+        const selected = [];
+
+        exercise.options.forEach((opt, i) => {
+            const btn = document.createElement('button');
+            btn.className = 'figure-option-btn';
+
+            const img = document.createElement('img');
+            img.className = 'figure-option-img';
+            img.src = opt.image;
+            img.alt = opt.label ? I18n.localize(opt.label) : '';
+            img.loading = 'lazy';
+            img.addEventListener('error', () => {
+                img.style.display = 'none';
+                const fallback = document.createElement('div');
+                fallback.className = 'figure-option-fallback';
+                fallback.textContent = opt.label ? I18n.localize(opt.label) : '?';
+                btn.insertBefore(fallback, btn.firstChild);
+            });
+            btn.appendChild(img);
+
+            if (opt.label) {
+                const labelSpan = document.createElement('span');
+                labelSpan.className = 'figure-option-label';
+                labelSpan.textContent = I18n.localize(opt.label);
+                btn.appendChild(labelSpan);
+            }
+
+            btn.addEventListener('click', () => {
+                if (answered) return;
+
+                // Toggle selection
+                const idx = selected.indexOf(opt.id);
+                if (idx !== -1) {
+                    selected.splice(idx, 1);
+                    btn.classList.remove('selected');
+                } else {
+                    if (selected.length >= correctIds.length) return; // max selections reached
+                    selected.push(opt.id);
+                    btn.classList.add('selected');
+                }
+
+                // Auto-check when correct number selected
+                if (selected.length === correctIds.length) {
+                    answered = true;
+                    const sortedSelected = [...selected].sort();
+                    const sortedCorrect = [...correctIds].sort();
+                    const isCorrect = sortedSelected.length === sortedCorrect.length &&
+                        sortedSelected.every((v, j) => v === sortedCorrect[j]);
+
+                    grid.querySelectorAll('.figure-option-btn').forEach(b => {
+                        b.disabled = true;
+                        const bOpt = exercise.options[Array.from(grid.children).indexOf(b)];
+                        if (bOpt && correctIds.includes(bOpt.id)) {
+                            b.classList.add('correct');
+                        }
+                    });
+
+                    if (!isCorrect) {
+                        grid.querySelectorAll('.figure-option-btn.selected').forEach(b => {
+                            const bOpt = exercise.options[Array.from(grid.children).indexOf(b)];
+                            if (bOpt && !correctIds.includes(bOpt.id)) {
+                                b.classList.add('wrong');
+                            }
+                        });
+                    }
+
+                    const correctLabels = exercise.options
+                        .filter(o => correctIds.includes(o.id))
+                        .map(o => o.label ? I18n.localize(o.label) : '')
+                        .join(', ');
+                    showFeedback(isCorrect, correctLabels);
+                }
             });
 
             grid.appendChild(btn);
@@ -355,7 +595,7 @@ const Exercises = (() => {
         card.appendChild(question);
 
         if (exercise.bengali) {
-            card.appendChild(createBengaliRomPair(exercise.bengali, exercise.romanized || ''));
+            card.appendChild(createBengaliRomPair(exercise.bengali, exercise.romanized || '', exercise.is_new));
         }
 
         const optionsList = document.createElement('div');
@@ -463,7 +703,7 @@ const Exercises = (() => {
 
         const pBengali = document.createElement('div');
         pBengali.className = 'passage-bengali';
-        pBengali.textContent = exercise.passage.bengali;
+        makeBengaliClickable(pBengali, exercise.passage.bengali, exercise.passage.romanized);
         passageBox.appendChild(pBengali);
 
         if (exercise.passage.romanized) {
@@ -529,7 +769,17 @@ const Exercises = (() => {
 
                 const bengaliLine = document.createElement('div');
                 bengaliLine.className = 'bengali-line';
-                bengaliLine.textContent = line.text.bengali || '';
+
+                if (line.text.bengali) {
+                    makeBengaliClickable(bengaliLine, line.text.bengali, line.text.romanized);
+                }
+
+                if (line.is_new) {
+                    const newBadge = document.createElement('span');
+                    newBadge.className = 'new-indicator new-indicator-sm new-indicator-inline';
+                    newBadge.textContent = 'NEW';
+                    bengaliLine.appendChild(newBadge);
+                }
 
                 if (line.text.romanized) {
                     const romLine = document.createElement('div');
@@ -592,11 +842,23 @@ const Exercises = (() => {
         exercise.options.forEach((opt, i) => {
             const btn = document.createElement('button');
             btn.className = 'alphabet-option-btn';
+            if (opt.is_new) btn.classList.add('is-new');
 
             const letterSpan = document.createElement('span');
-            letterSpan.className = 'letter';
+            letterSpan.className = 'letter bengali-clickable';
             letterSpan.textContent = opt.letter;
+            letterSpan.addEventListener('click', (e) => {
+                // Only show popup if not selecting an answer
+                if (e.detail > 1) return; // ignore double-click
+            });
             btn.appendChild(letterSpan);
+
+            if (opt.is_new) {
+                const newBadge = document.createElement('span');
+                newBadge.className = 'new-indicator new-indicator-sm';
+                newBadge.textContent = 'NEW';
+                btn.appendChild(newBadge);
+            }
 
             if (opt.romanized) {
                 const romSpan = document.createElement('span');
@@ -945,7 +1207,7 @@ const Exercises = (() => {
                 if (lineData.bengali) {
                     const bn = document.createElement('div');
                     bn.className = 'conv-line-bengali';
-                    bn.textContent = lineData.bengali;
+                    makeBengaliClickable(bn, lineData.bengali, lineData.romanized);
                     content.appendChild(bn);
                 }
 

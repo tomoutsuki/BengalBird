@@ -5,37 +5,46 @@
 
 /* ---------- CSS Variables ---------- */
 :root {
-    --color-primary: #58cc02;
-    --color-primary-dark: #46a302;
-    --color-primary-light: #7edf3a;
-    --color-secondary: #1cb0f6;
+    --color-primary: #AA95C9;
+    --color-primary-dark: #574b8d;
+    --color-primary-light: #ef85f8;
+
+    --color-secondary: #e272c6;
     --color-secondary-dark: #0e8bc9;
+
     --color-danger: #ff4b4b;
     --color-danger-dark: #cc3c3c;
+
     --color-warning: #ffc800;
-    --color-bg: #131f24;
-    --color-bg-card: #1a2d35;
-    --color-bg-elevated: #1f3a45;
+    
+    --color-bg-card: #5b4b70;
+    --color-bg-elevated: #594d68;
     --color-bg-input: #0d171c;
+
     --color-text: #e5e5e5;
-    --color-text-muted: #8ba4b0;
+    --color-text-muted: #9b8fac;
     --color-text-bright: #ffffff;
-    --color-border: #2a4550;
+    --color-border: #5e515f;
     --color-correct: #58cc02;
     --color-wrong: #ff4b4b;
     --color-alphabet: #e040fb;
     --color-keyboard: #ff9800;
+
     --font-primary: 'Inter', 'Noto Sans Bengali', sans-serif;
     --font-bengali: 'Noto Sans Bengali', sans-serif;
+
     --radius-sm: 8px;
     --radius-md: 12px;
     --radius-lg: 16px;
+
     --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
     --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+
     --transition-fast: 0.15s ease;
     --transition-normal: 0.25s ease;
     --topbar-h: 48px;
     --footer-h: 56px;
+    
 }
 
 /* ---------- Reset & Base ---------- */
@@ -54,7 +63,9 @@ html, body {
 
 body {
     font-family: var(--font-primary);
-    background: var(--color-bg);
+    /*background: #242326;
+    background: linear-gradient(180deg,rgba(36, 35, 38, 1) 0%, rgba(35, 34, 37, 1) 100%);*/
+    background: #fff;
     color: var(--color-text);
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
@@ -71,6 +82,7 @@ body {
     height: var(--topbar-h);
     background: var(--color-bg-card);
     border-bottom: 2px solid var(--color-border);
+
     display: flex;
     align-items: center;
     padding: 0 10px;
@@ -2022,5 +2034,156 @@ body {
     .kb-page-display {
         min-height: 48px;
         font-size: 1.1rem;
+    }
+}
+
+/* ============================================
+   NEW Indicator Badge
+   ============================================ */
+.new-indicator {
+    display: inline-block;
+    padding: 1px 6px;
+    border-radius: 6px;
+    font-size: 0.55rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: rgba(255, 200, 0, 0.25);
+    color: var(--color-warning);
+    border: 1px solid var(--color-warning);
+    vertical-align: middle;
+    margin-left: 6px;
+    animation: pop 0.4s ease;
+}
+
+.new-indicator-sm {
+    font-size: 0.5rem;
+    padding: 0px 4px;
+    margin-left: 4px;
+}
+
+.new-indicator-inline {
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.bengali-rom-pair.is-new .bengali-text {
+    font-weight: 700;
+    color: var(--color-warning);
+}
+
+.alphabet-option-btn.is-new {
+    border-color: var(--color-warning);
+    box-shadow: 0 0 0 2px rgba(255, 200, 0, 0.2);
+}
+
+/* ============================================
+   Clickable Bengali Words
+   ============================================ */
+.bengali-clickable {
+    cursor: pointer;
+    border-bottom: 1px dashed var(--color-text-muted);
+    transition: border-color var(--transition-fast), color var(--transition-fast);
+}
+
+.bengali-clickable:hover,
+.bengali-clickable:active {
+    border-bottom-color: var(--color-secondary);
+    color: var(--color-secondary);
+}
+
+/* ============================================
+   Word Popup (Mini Dictionary)
+   ============================================ */
+.word-popup {
+    position: fixed;
+    z-index: 500;
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-md);
+    padding: 10px 14px;
+    min-width: 120px;
+    max-width: 240px;
+    animation: fadeIn 0.15s ease;
+    pointer-events: auto;
+}
+
+.word-popup-bn {
+    font-family: var(--font-bengali);
+    font-size: 1.3rem;
+    color: var(--color-secondary);
+    margin-bottom: 2px;
+}
+
+.word-popup-rom {
+    font-size: 0.78rem;
+    color: var(--color-text-muted);
+    font-style: italic;
+    margin-bottom: 4px;
+}
+
+.word-popup-en {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-text-bright);
+}
+
+.word-popup-pos {
+    display: inline-block;
+    padding: 1px 6px;
+    border-radius: 8px;
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: rgba(28, 176, 246, 0.15);
+    color: var(--color-secondary);
+    margin-top: 4px;
+}
+
+/* ============================================
+   Figure Choice Multi (Dual Word)
+   ============================================ */
+.figure-multi-words {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.figure-multi-words .bengali-rom-pair {
+    text-align: center;
+    flex: 0 0 auto;
+}
+
+.figure-option-btn.selected {
+    border-color: var(--color-secondary);
+    background: rgba(28, 176, 246, 0.1);
+    box-shadow: 0 0 0 2px rgba(28, 176, 246, 0.3);
+}
+
+/* ============================================
+   Logo (header + hero)
+   ============================================ */
+.topbar-logo {
+    height: 28px;
+    width: 80%;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.hero-logo {
+    height: 64px;
+    width: auto;
+    margin-bottom: 4px;
+}
+
+@media (max-width: 480px) {
+    .topbar-logo {
+        height: 24px;
+    }
+    .hero-logo {
+        height: 48px;
     }
 }
