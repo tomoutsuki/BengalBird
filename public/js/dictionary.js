@@ -426,6 +426,15 @@ const Dictionary = (() => {
         document.getElementById('practice-overlay').classList.add('hidden');
     }
 
+    function splitGraphemes(value) {
+        const text = (value || '').normalize('NFC');
+        if (typeof Intl !== 'undefined' && Intl.Segmenter) {
+            const seg = new Intl.Segmenter(undefined, { granularity: 'grapheme' });
+            return Array.from(seg.segment(text), s => s.segment);
+        }
+        return Array.from(text);
+    }
+
     /**
      * EASY mode: on-screen keyboard with only the word's characters.
      */
@@ -435,12 +444,9 @@ const Dictionary = (() => {
         title.textContent = I18n.t('practice_easy');
         body.innerHTML = '';
 
-        const word = entry.bn;
-        // Extract characters (code points) in order
-        const chars = [];
-        for (const ch of word) {
-            chars.push(ch);
-        }
+        const word = (entry.bn || '').normalize('NFC');
+        // Extract grapheme clusters so characters with nukta stay as one key.
+        const chars = splitGraphemes(word);
         // Get unique characters (shuffled)
         const unique = [...new Set(chars)];
         const shuffled = unique.slice().sort(() => Math.random() - 0.5);
@@ -485,9 +491,9 @@ const Dictionary = (() => {
         bksp.className = 'practice-key backspace-key';
         bksp.textContent = I18n.t('backspace');
         bksp.addEventListener('click', () => {
-            const codePoints = [...userInput];
-            codePoints.pop();
-            userInput = codePoints.join('');
+            const graphemes = splitGraphemes(userInput);
+            graphemes.pop();
+            userInput = graphemes.join('');
             display.textContent = userInput;
         });
         keyboard.appendChild(bksp);
@@ -506,7 +512,7 @@ const Dictionary = (() => {
         checkBtn.className = 'btn btn-primary btn-sm';
         checkBtn.textContent = I18n.t('practice_check');
         checkBtn.addEventListener('click', () => {
-            if (userInput === word) {
+            if (userInput.normalize('NFC') === word) {
                 display.classList.add('correct');
                 feedback.className = 'practice-feedback visible correct-fb';
                 feedback.textContent = I18n.t('practice_correct') + ' ' + I18n.t('practice_great');

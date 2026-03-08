@@ -17,6 +17,7 @@ const App = (() => {
     let allLessonIds = []; // flat ordered list of lesson IDs across all chapters
     let pendingLessonData = null; // lesson data waiting for BEGIN click
     let sectionsInitialized = { course: false, dictionary: false, keyboard: false, profile: false };
+    let resizeTimer = null;
 
     // ---- DOM references ----
     const $ = (sel) => document.querySelector(sel);
@@ -148,11 +149,19 @@ const App = (() => {
                 const secNum = si + 1;
                 const secDetail = sectionDetails[section.id] || {};
 
-                // Section marker island (centered)
+                // Section marker island
                 const secNode = document.createElement('div');
-                secNode.className = 'path-node island-center';
+                secNode.className = 'path-node';
+                secNode.style.setProperty('--path-shift', computePathShift(sectionNodeIndex) + 'px');
                 const secBtn = document.createElement('button');
                 secBtn.className = 'island-btn section-island';
+
+                const secIcon = document.createElement('img');
+                secIcon.className = 'island-icon';
+                secIcon.src = 'assets/icon/island/section.png';
+                secIcon.alt = '';
+                secBtn.appendChild(secIcon);
+
                 const secLabel = document.createElement('span');
                 secLabel.className = 'island-label';
                 secLabel.textContent = secNum;
@@ -167,18 +176,18 @@ const App = (() => {
                     const globalIdx = allLessonIds.indexOf(lessonId);
                     const type = lessonTypes[lessonId] || 'practice';
 
-                    // Alternate left/right
-                    const side = sectionNodeIndex % 2 === 0 ? 'island-left' : 'island-right';
                     const node = document.createElement('div');
-                    node.className = 'path-node ' + side;
+                    node.className = 'path-node';
+                    node.style.setProperty('--path-shift', computePathShift(sectionNodeIndex) + 'px');
 
                     const btn = document.createElement('button');
                     btn.className = 'island-btn';
 
+                    let iconState = 'enabled';
+
                     // Island icon
                     const icon = document.createElement('img');
                     icon.className = 'island-icon';
-                    icon.src = 'assets/icon/island/' + type + '.png';
                     icon.alt = '';
                     btn.appendChild(icon);
 
@@ -191,16 +200,21 @@ const App = (() => {
                     // State
                     if (Progress.isLessonCompleted(lessonId)) {
                         btn.classList.add('island-completed');
+                        iconState = 'completed';
                     } else {
                         const prevDone = allLessonIds.slice(0, globalIdx).every(
                             id => Progress.isLessonCompleted(id)
                         );
                         if (prevDone) {
                             btn.classList.add('island-current');
+                            iconState = 'enabled';
                         } else {
                             btn.classList.add('island-locked');
+                            iconState = 'disabled';
                         }
                     }
+
+                    icon.src = 'assets/icon/island/' + iconState + '/' + type + '.png';
 
                     if (!btn.classList.contains('island-locked')) {
                         btn.addEventListener('click', () => loadLesson(lessonId));
@@ -219,8 +233,15 @@ const App = (() => {
         });
     }
 
+    function computePathShift(nodeIndex) {
+        const viewport = Math.max(320, Math.min(window.innerWidth || 390, 900));
+        const amplitude = Math.round(viewport * 0.17);
+        // Smooth S-wave using sine so nodes follow a gentle curve instead of hard left/right alternation.
+        return Math.round(Math.sin(nodeIndex * 0.65) * amplitude);
+    }
+
     /**
-     * Draw SVG lines connecting consecutive island nodes.
+     * Draw curved SVG connectors connecting consecutive island nodes.
      */
     function drawPathConnectors(container, svg, nodesContainer) {
         const buttons = nodesContainer.querySelectorAll('.island-btn');
@@ -248,12 +269,10 @@ const App = (() => {
             const x2 = currRect.left + currRect.width / 2 - containerRect.left + scrollLeft;
             const y2 = currRect.top + currRect.height / 2 - containerRect.top + scrollTop;
 
-            const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
-            line.setAttribute('x1', x1);
-            line.setAttribute('y1', y1);
-            line.setAttribute('x2', x2);
-            line.setAttribute('y2', y2);
-            svg.appendChild(line);
+            const midY = (y1 + y2) / 2;
+            const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+            path.setAttribute('d', 'M ' + x1 + ' ' + y1 + ' C ' + x1 + ' ' + midY + ', ' + x2 + ' ' + midY + ', ' + x2 + ' ' + y2);
+            svg.appendChild(path);
         }
     }
 
@@ -601,6 +620,25 @@ const App = (() => {
         // Section popup
         $('#section-popup-close-btn').addEventListener('click', closeSectionPopup);
         $('#section-popup-overlay').addEventListener('click', closeSectionPopup);
+
+        // Keep path geometry responsive after viewport changes
+        window.addEventListener('resize', () => {
+            if (!chaptersData) return;
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(() => {
+                renderHome();
+            }, 120);
+        });
+
+        // Mobile home background parallax (branches move slower than content scroll)
+        const homeScreen = $('#screen-home');
+        if (homeScreen) {
+            const updateHomeParallax = () => {
+                homeScreen.style.setProperty('--home-scroll', homeScreen.scrollTop + 'px');
+            };
+            homeScreen.addEventListener('scroll', updateHomeParallax, { passive: true });
+            updateHomeParallax();
+        }
     }
 
     // ---- Init ----

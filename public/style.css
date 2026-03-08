@@ -505,11 +505,58 @@ body {
 
 /* ---------- Home Screen ---------- */
 #screen-home {
+    position: relative;
     overflow-y: auto;
     padding: 8px 0;
+    --home-scroll: 0px;
+}
+
+#screen-home::before,
+#screen-home::after {
+    content: '';
+    position: absolute;
+    z-index: 0;
+    pointer-events: none;
+    top: -80px;
+    bottom: -80px;
+    width: clamp(280px, 30vw, 240px);
+    opacity: 0.28;
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+    will-change: transform;
+    transform: translate3d(0, calc(var(--home-scroll) * 0.38), 0);
+}
+
+#screen-home::before {
+    left: -42px;
+    background-image: url('assets/background/branch1_L.png');
+    background-position: center 0;
+}
+
+#screen-home::after {
+    right: -42px;
+    background-image: url('assets/background/branch2_R.png');
+    /* Offset the right column so repeated branches appear spaced between left/right columns */
+    background-position: center 240px;
+}
+
+@media (min-width: 900px) {
+    #screen-home {
+        background-image: url('assets/background/desktop.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    #screen-home::before,
+    #screen-home::after {
+        display: none;
+    }
 }
 
 .home-hero {
+    position: relative;
+    z-index: 1;
     text-align: center;
     padding: 16px 12px 8px;
 }
@@ -533,6 +580,8 @@ body {
 
 /* ---------- Chapter List ---------- */
 .chapter-list {
+    position: relative;
+    z-index: 1;
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -2201,7 +2250,7 @@ body {
 .course-path {
     position: relative;
     width: 100%;
-    padding: 8px 0 24px;
+    padding: 10px 0 26px;
 }
 
 .path-svg {
@@ -2214,10 +2263,12 @@ body {
     z-index: 0;
 }
 
-.path-svg line {
-    stroke: var(--color-border);
-    stroke-width: 3;
+.path-svg path {
+    stroke: #d6cede;
+    stroke-width: 4;
     stroke-linecap: round;
+    fill: none;
+    opacity: 0.95;
 }
 
 .path-nodes {
@@ -2231,127 +2282,114 @@ body {
 .path-node {
     width: 100%;
     display: flex;
+    justify-content: center;
     padding: 10px 0;
-}
-
-.path-node.island-left {
-    justify-content: center;
-    padding-right: 28%;
-}
-
-.path-node.island-right {
-    justify-content: center;
-    padding-left: 28%;
-}
-
-.path-node.island-center {
-    justify-content: center;
+    transform: translateX(var(--path-shift, 0px));
+    transition: transform var(--transition-normal);
 }
 
 /* --- Island Button --- */
 .island-btn {
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
-    border: 3px solid var(--color-border);
-    background: var(--color-bg-card);
+    width: 78px;
+    height: 78px;
+    border: none;
+    background: transparent;
     cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2px;
+    gap: 0;
     transition: all var(--transition-fast);
     user-select: none;
     -webkit-tap-highlight-color: transparent;
-    box-shadow: 0 3px 0 var(--color-border);
     position: relative;
 }
 
 .island-btn:active {
-    transform: translateY(2px);
-    box-shadow: 0 1px 0 var(--color-border);
+    transform: translateY(1px) scale(0.98);
 }
 
 .island-btn .island-icon {
-    width: 28px;
-    height: 28px;
+    width: 78px;
+    height: 78px;
     object-fit: contain;
+    display: block;
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.12));
 }
 
 .island-btn .island-label {
-    font-size: 0.55rem;
-    font-weight: 700;
-    color: var(--color-text-muted);
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.82rem;
+    font-weight: 800;
+    color: #fff;
     line-height: 1;
+    background: transparent;
+    /*text-shadow: 0 1px 1px rgba(0, 0, 0, 0.65);*/
 }
 
 /* Island states */
 .island-btn.island-completed {
-    border-color: var(--color-correct);
-    background: var(--color-correct);
-    box-shadow: 0 3px 0 #2E7D32;
+    filter: saturate(1.08);
 }
 
 .island-btn.island-completed .island-icon {
-    filter: brightness(0) invert(1);
+    filter: drop-shadow(0 1px 2px rgba(67, 160, 71, 0.42));
 }
 
 .island-btn.island-completed .island-label {
-    color: #fff;
+    color: #f7fff7;
 }
 
 .island-btn.island-current {
-    border-color: var(--color-primary);
-    background: var(--color-primary);
-    box-shadow: 0 3px 0 var(--color-primary-dark);
     animation: islandPulse 2s ease-in-out infinite;
 }
 
 .island-btn.island-current .island-icon {
-    filter: brightness(0) invert(1);
+    filter: drop-shadow(0 1px 2px rgba(123, 97, 194, 0.48));
 }
 
 .island-btn.island-current .island-label {
-    color: #fff;
+    color: #ffffff;
 }
 
 .island-btn.island-locked {
-    opacity: 0.5;
     cursor: default;
+    filter: grayscale(0.32);
 }
 
 .island-btn.island-locked:active {
     transform: none;
-    box-shadow: 0 3px 0 var(--color-border);
 }
 
 @keyframes islandPulse {
-    0%, 100% { box-shadow: 0 3px 0 var(--color-primary-dark), 0 0 0 0 rgba(123, 97, 194, 0.3); }
-    50% { box-shadow: 0 3px 0 var(--color-primary-dark), 0 0 0 8px rgba(123, 97, 194, 0); }
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.04); }
 }
 
 /* --- Section Marker Island --- */
 .island-btn.section-island {
-    width: 56px;
-    height: 56px;
-    border-color: var(--color-warning);
-    background: var(--color-warning);
-    box-shadow: 0 3px 0 #E08F00;
-}
-
-.island-btn.section-island .island-icon {
-    display: none;
+    width: 84px;
+    height: 84px;
 }
 
 .island-btn.section-island .island-label {
-    font-size: 1rem;
-    font-weight: 800;
+    top: 10%;
+    bottom: 0%;
+    left: 10%;
+    right: 10%;
+    transform: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 200;
     color: #fff;
-}
-
-.island-btn.section-island:active {
-    box-shadow: 0 1px 0 #E08F00;
+    background: transparent;
+    /*text-shadow: 0 2px 3px rgba(0, 0, 0, 0.45);*/
 }
 
 /* --- Chapter Header in Path --- */
@@ -2376,26 +2414,18 @@ body {
 /* Responsive island sizing */
 @media (max-width: 480px) {
     .island-btn {
-        width: 56px;
-        height: 56px;
+        width: 66px;
+        height: 66px;
     }
 
     .island-btn .island-icon {
-        width: 24px;
-        height: 24px;
+        width: 66px;
+        height: 66px;
     }
 
     .island-btn.section-island {
-        width: 48px;
-        height: 48px;
-    }
-
-    .path-node.island-left {
-        padding-right: 22%;
-    }
-
-    .path-node.island-right {
-        padding-left: 22%;
+        width: 72px;
+        height: 72px;
     }
 }
 
