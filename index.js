@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+const enBnDictionary = require('bn-en-dictionary');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -13,8 +14,18 @@ app.use('/data', express.static(path.join(__dirname, 'data')));
 // Serve /assets (audio files, icons)
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
 
-// Serve /dictionary files (JSONL)
-app.use('/dictionary', express.static(path.join(__dirname, 'dictionary')));
+// Package-backed dictionary API
+app.get('/api/dictionary/all', (req, res) => {
+    res.json(enBnDictionary.dictionary || []);
+});
+
+app.get('/api/dictionary/translate', (req, res) => {
+    const input = typeof req.query.q === 'string' ? req.query.q.trim() : '';
+    if (!input) {
+        return res.json([]);
+    }
+    res.json(enBnDictionary.translate(input));
+});
 
 // Serve CREDITS.md and LICENSE from project root
 app.get('/CREDITS.md', (req, res) => {

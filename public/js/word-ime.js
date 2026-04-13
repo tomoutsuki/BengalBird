@@ -2,7 +2,7 @@
  * BengalBird - Word-level Dictionary IME (word-ime.js)
  *
  * Converts a typed romanised word to Bengali by looking it up in
- * the dictionary JSONL file (en_bn_dictionary_from_wiktionary.jsonl).
+ * dictionary data loaded from the backend API.
  *
  * Conversion only triggers on SPACE or ENTER — the full word typed
  * before the trigger is matched against the "romanised" field of
@@ -22,7 +22,7 @@
 const WordIME = (() => {
     'use strict';
 
-    const JSONL_PATH = 'dictionary/wiktionary/en_bn_dictionary_from_wiktionary.jsonl';
+    const API_ALL_PATH = '/api/dictionary/all';
 
     // romanised (lowercase) → first matching bn
     let romanisedMap = {};
@@ -30,38 +30,30 @@ const WordIME = (() => {
     let loading = false;
 
     /**
-     * Load the JSONL dictionary and build the romanised→bn lookup map.
+    * Load dictionary entries and build the romanised→bn lookup map.
      * Safe to call multiple times; only loads once.
      */
     async function init() {
         if (ready || loading) return;
         loading = true;
         try {
-            const resp = await fetch(JSONL_PATH);
+            const resp = await fetch(API_ALL_PATH);
             if (!resp.ok) throw new Error('HTTP ' + resp.status);
-            const text = await resp.text();
+            const entries = await resp.json();
 
-            const lines = text.split('\n');
-            for (const line of lines) {
-                const trimmed = line.trim();
-                if (!trimmed) continue;
-                try {
-                    const entry = JSON.parse(trimmed);
-                    if (entry && entry.romanised && entry.bn) {
-                        const key = entry.romanised.trim().toLowerCase();
-                        // Keep only the first seen mapping per romanised form
-                        if (key && !(key in romanisedMap)) {
-                            romanisedMap[key] = entry.bn;
-                        }
+            for (const entry of entries) {
+                if (entry && entry.romanised && entry.bn) {
+                    const key = entry.romanised.trim().toLowerCase();
+                    // Keep only the first seen mapping per romanised form
+                    if (key && !(key in romanisedMap)) {
+                        romanisedMap[key] = entry.bn;
                     }
-                } catch (_) {
-                    // Skip malformed lines silently
                 }
             }
 
             ready = true;
         } catch (e) {
-            console.error('WordIME: failed to load dictionary', e);
+            console.error('WordIME: failed to load dictionary API data', e);
             ready = true; // Mark ready so callers are not blocked
         } finally {
             loading = false;

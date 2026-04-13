@@ -24,6 +24,7 @@
     "dev": "node index.js"
   },
   "dependencies": {
+    "bn-en-dictionary": "^1.0.0",
     "express": "^5.2.1"
   }
 }

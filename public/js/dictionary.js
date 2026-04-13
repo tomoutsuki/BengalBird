@@ -1,13 +1,13 @@
 /**
  * BengalBird - Dictionary Engine (dictionary.js)
- * Loads JSONL dictionary data, provides search with debounce,
+ * Loads dictionary data from API, provides search with debounce,
  * ranked results, Bengali/Latin detection, and word-popup lookup.
  * No external dependencies.
  */
 const Dictionary = (() => {
     'use strict';
 
-    const JSONL_PATH = 'dictionary/wiktionary/en_bn_dictionary_from_wiktionary.jsonl';
+    const API_ALL_PATH = '/api/dictionary/all';
     const MAX_RESULTS = 20;
     const DEBOUNCE_MS = 250;
     const BENGALI_REGEX = /[\u0980-\u09FF]/;
@@ -72,40 +72,33 @@ const Dictionary = (() => {
     }
 
     /**
-     * Load the JSONL file, parse line-by-line.
+     * Load dictionary entries from the backend API.
      */
     async function loadData() {
         if (loaded || loading) return;
         loading = true;
 
         try {
-            const resp = await fetch(JSONL_PATH);
+            const resp = await fetch(API_ALL_PATH);
             if (!resp.ok) throw new Error('HTTP ' + resp.status);
-            const text = await resp.text();
+            const data = await resp.json();
 
-            // Process in chunks to avoid blocking UI
-            const lines = text.split('\n');
+            // Keep chunked processing to avoid long main-thread stalls.
             const CHUNK = 2000;
             let idx = 0;
 
             function processChunk() {
-                const end = Math.min(idx + CHUNK, lines.length);
+                const end = Math.min(idx + CHUNK, data.length);
                 for (; idx < end; idx++) {
-                    const line = lines[idx].trim();
-                    if (!line) continue;
-                    try {
-                        const obj = JSON.parse(line);
-                        if (obj && (obj.bn || obj.en)) {
-                            entries.push(obj);
-                            if (obj.bn) {
-                                bnIndex[obj.bn] = obj;
-                            }
+                    const obj = data[idx];
+                    if (obj && (obj.bn || obj.en)) {
+                        entries.push(obj);
+                        if (obj.bn) {
+                            bnIndex[obj.bn] = obj;
                         }
-                    } catch (_) {
-                        // Skip malformed lines
                     }
                 }
-                if (idx < lines.length) {
+                if (idx < data.length) {
                     requestAnimationFrame(processChunk);
                 } else {
                     loaded = true;
@@ -115,7 +108,7 @@ const Dictionary = (() => {
             }
             processChunk();
         } catch (e) {
-            console.error('Dictionary: failed to load JSONL', e);
+            console.error('Dictionary: failed to load dictionary API data', e);
             loading = false;
             const card = document.getElementById('dict-random-card');
             if (card) card.innerHTML = '<p class="dict-error">' + I18n.t('dict_load_error') + '</p>';
