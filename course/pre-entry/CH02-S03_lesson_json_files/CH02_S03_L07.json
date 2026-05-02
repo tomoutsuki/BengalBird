@@ -1,0 +1,297 @@
+{
+  "lesson_id": "CH02_S03_L07",
+  "title": {
+    "en": "Fine, So-so, Not Bad: Review Mix"
+  },
+  "description": {
+    "en": "Recycle fine, so-so, not bad with earlier course language."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH02_S03_L07_E01",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Review mix: greeting + check-in."
+      },
+      "audio": "assets/audio/listening/ch02_s03_mini_scene.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "নমস্কার।",
+          "romanized": "nomoshkar"
+        },
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "কেমন আছেন?",
+          "romanized": "kemon achen?"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "Choose a review answer."
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "ভালো আছি",
+                "en": "I’m fine"
+              },
+              "correct": true,
+              "romanized": "bhalo achi"
+            },
+            {
+              "text": {
+                "bengali": "মাফ করবেন",
+                "en": "Excuse me"
+              },
+              "correct": false,
+              "romanized": "maf korben"
+            },
+            {
+              "text": {
+                "bengali": "হ্যালো",
+                "en": "Hello"
+              },
+              "correct": false,
+              "romanized": "hyalo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CH02_S03_L07_E02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch02_s03_motamuti.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "So-so"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Hello"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Thank you"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH02_S03_L07_E03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch02_s03_kharap_na.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Not bad"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Yes"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Okay"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH02_S03_L07_E04",
+      "type": "reading",
+      "passage": {
+        "en": "ধন্যবাদ।"
+      },
+      "question": {
+        "en": "Review: What does this mean?"
+      },
+      "options": [
+        {
+          "en": "Thank you"
+        },
+        {
+          "en": "So-so"
+        },
+        {
+          "en": "How are you?"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH02_S03_L07_E05",
+      "type": "reading",
+      "passage": {
+        "en": "ভালো আছি।"
+      },
+      "question": {
+        "en": "Review: What does this mean?"
+      },
+      "options": [
+        {
+          "en": "I’m fine"
+        },
+        {
+          "en": "Not bad"
+        },
+        {
+          "en": "Excuse me"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH02_S03_L07_E06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which phrase answers কেমন আছেন?"
+      },
+      "options": [
+        {
+          "en": "মোটামুটি"
+        },
+        {
+          "en": "নমস্কার"
+        },
+        {
+          "en": "ধন্যবাদ"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH02_S03_L07_E07",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which phrase answers কেমন আছেন?"
+      },
+      "options": [
+        {
+          "en": "খারাপ না"
+        },
+        {
+          "en": "হ্যালো"
+        },
+        {
+          "en": "মাফ করবেন"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH02_S03_L07_E08",
+      "type": "conversation",
+      "scenario": {
+        "en": "A friendlier but still polite check-in."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "কেমন আছেন?",
+            "en": "How are you?"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose a natural answer."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ভালো আছি",
+            "en": "I’m fine"
+          },
+          "correct": true,
+          "romanized": "bhalo achi"
+        },
+        {
+          "text": {
+            "bengali": "হ্যাঁ",
+            "en": "Yes"
+          },
+          "correct": false,
+          "romanized": "hya"
+        },
+        {
+          "text": {
+            "bengali": "না",
+            "en": "No"
+          },
+          "correct": false,
+          "romanized": "na"
+        }
+      ]
+    },
+    {
+      "id": "CH02_S03_L07_E09",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the image for খারাপ না."
+      },
+      "options": [
+        {
+          "image": "assets/illustrations/feeling_good.png",
+          "label": {
+            "en": "ভালো আছি — I’m fine"
+          }
+        },
+        {
+          "image": "assets/illustrations/feeling_so_so.png",
+          "label": {
+            "en": "মোটামুটি — So-so"
+          }
+        },
+        {
+          "image": "assets/illustrations/feeling_not_bad.png",
+          "label": {
+            "en": "খারাপ না — Not bad"
+          }
+        }
+      ],
+      "correctIndex": 2,
+      "bengali": "খারাপ না"
+    },
+    {
+      "id": "CH02_S03_L07_E10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which set is all check-in answers?"
+      },
+      "options": [
+        {
+          "en": "ভালো আছি / মোটামুটি / খারাপ না"
+        },
+        {
+          "en": "হ্যালো / না / নাম"
+        },
+        {
+          "en": "চা দিন / বাজার / কোথায়"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

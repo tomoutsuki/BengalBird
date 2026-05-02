@@ -1,0 +1,306 @@
+{
+  "lesson_id": "CH05_S04_L02",
+  "title": {
+    "en": "Bangladesh & West Bengal Terms: Tap the Meaning"
+  },
+  "description": {
+    "en": "Match আব্বা, আম্মা, দাদা, দিদি to meaning without production."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH05_S04_L02_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s04_l02_abba.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আব্বা — father/dad in some families"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আম্মা — mother/mom"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "দাদা — older brother in some contexts"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "বাবা — father"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "আব্বা is a family/context word, often heard in Bangladesh and Muslim Bengali families."
+      }
+    },
+    {
+      "id": "CH05_S04_L02_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s04_l02_amma.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আম্মা — mother/mom in some families"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আব্বা — father/dad"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "দিদি — older sister"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মা — mother"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "আম্মা is a family/context word, often heard in Bangladesh and Muslim Bengali families."
+      }
+    },
+    {
+      "id": "CH05_S04_L02_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s04_l02_dada.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "দাদা — older brother in some contexts"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "দিদি — older sister"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আব্বা — father/dad"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "বাবা — father"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "দাদা can vary by family and region; here it is practiced as older brother."
+      }
+    },
+    {
+      "id": "CH05_S04_L02_ex04",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s04_l02_didi.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "দিদি — older sister"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "দাদা — older brother"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আম্মা — mother/mom"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মা — mother"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "দিদি is a common respectful/family word for older sister."
+      }
+    },
+    {
+      "id": "CH05_S04_L02_ex05",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the picture for: আব্বা"
+      },
+      "bengali": "আব্বা",
+      "options": [
+        {
+          "image": "assets/illustrations/family_father.png",
+          "label": {
+            "en": "father/dad"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_mother.png",
+          "label": {
+            "en": "mother/mom"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_older_sister.png",
+          "label": {
+            "en": "older sister"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S04_L02_ex06",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the picture for: আম্মা"
+      },
+      "bengali": "আম্মা",
+      "options": [
+        {
+          "image": "assets/illustrations/family_mother.png",
+          "label": {
+            "en": "mother/mom"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_father.png",
+          "label": {
+            "en": "father/dad"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_older_brother.png",
+          "label": {
+            "en": "older brother"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S04_L02_ex07",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which Bengali word can mean “dad” in some families?"
+      },
+      "options": [
+        {
+          "en": "আব্বা"
+        },
+        {
+          "en": "আম্মা"
+        },
+        {
+          "en": "দিদি"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Context matters: not every Bengali family uses the same word."
+      }
+    },
+    {
+      "id": "CH05_S04_L02_ex08",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which Bengali word can mean “mom” in some families?"
+      },
+      "options": [
+        {
+          "en": "আম্মা"
+        },
+        {
+          "en": "আব্বা"
+        },
+        {
+          "en": "দাদা"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Context matters: not every Bengali family uses the same word."
+      }
+    },
+    {
+      "id": "CH05_S04_L02_ex09",
+      "type": "reading",
+      "passage": {
+        "en": "দাদা\ndada"
+      },
+      "question": {
+        "en": "Choose the meaning for this lesson."
+      },
+      "options": [
+        {
+          "en": "older brother"
+        },
+        {
+          "en": "mother"
+        },
+        {
+          "en": "thank you"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S04_L02_ex10",
+      "type": "reading",
+      "passage": {
+        "en": "দিদি\ndidi"
+      },
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "en": "older sister"
+        },
+        {
+          "en": "father"
+        },
+        {
+          "en": "hello"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "lesson_id": "CH05_S02_L09",
+  "title": {
+    "en": "I Have…: Read the Shape"
+  },
+  "description": {
+    "en": "Recognize the Bengali written shape for this section."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH05_S02_L09_ex01",
+      "type": "reading",
+      "passage": {
+        "en": "আমার"
+      },
+      "question": {
+        "en": "Which word shape means “my”?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আপনি"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "তারা"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L09_ex02",
+      "type": "reading",
+      "passage": {
+        "en": "আছে"
+      },
+      "question": {
+        "en": "In this lesson, recognize this as part of “I have…”."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আছে"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "নাম"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "কী"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L09_ex03",
+      "type": "reading",
+      "passage": {
+        "en": "আমার মা আছে।"
+      },
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I have a mother."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "My name is mother."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Mother says hello."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L09_ex04",
+      "type": "reading",
+      "passage": {
+        "en": "আমার বাবা আছে।"
+      },
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I have a father."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "I have a brother."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Your father?"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L09_ex05",
+      "type": "reading",
+      "passage": {
+        "en": "আমার ভাই আছে।"
+      },
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I have a brother."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "I have a sister."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "I am fine."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L09_ex06",
+      "type": "reading",
+      "passage": {
+        "en": "আমার বোন আছে।"
+      },
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I have a sister."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "I have a father."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Hello."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L09_ex07",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which word is the family word in: আমার মা আছে।"
+      },
+      "options": [
+        {
+          "en": "মা"
+        },
+        {
+          "en": "আমার"
+        },
+        {
+          "en": "আছে"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S02_L09_ex08",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the phrase you can read."
+      },
+      "words": [
+        "আছে।",
+        "আমার",
+        "বাবা"
+      ],
+      "wordsRomanized": [
+        "achhe",
+        "amar",
+        "baba"
+      ],
+      "correctOrder": [
+        "আমার",
+        "বাবা",
+        "আছে।"
+      ]
+    },
+    {
+      "id": "CH05_S02_L09_ex09",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s02_l09_read_shape_audio.mp3",
+      "question": {
+        "en": "Match the audio to the written shape."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার বোন আছে।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আমার নাম কী?"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "নমস্কার।"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L09_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the chunk ending."
+      },
+      "options": [
+        {
+          "en": "আছে"
+        },
+        {
+          "en": "কী"
+        },
+        {
+          "en": "ধন্যবাদ"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

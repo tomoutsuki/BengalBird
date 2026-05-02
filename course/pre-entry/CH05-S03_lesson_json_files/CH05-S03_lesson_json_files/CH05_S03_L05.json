@@ -1,0 +1,252 @@
+{
+  "lesson_id": "CH05_S03_L05",
+  "title": {
+    "en": "Older/Younger: Build the Chunk"
+  },
+  "description": {
+    "en": "Build the key chunk for older/younger."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH05_S03_L05_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s03_l05_boro_bhai.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "বড় ভাই — older brother"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ছোট বোন — younger sister"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভাই — brother"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "বড় ভাই means older brother."
+      }
+    },
+    {
+      "id": "CH05_S03_L05_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s03_l05_chhoto_bon.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ছোট বোন — younger sister"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "বড় ভাই — older brother"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "বোন — sister"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ছোট বোন means younger sister."
+      }
+    },
+    {
+      "id": "CH05_S03_L05_ex03",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the picture for: বড় ভাই"
+      },
+      "bengali": "বড় ভাই",
+      "options": [
+        {
+          "image": "assets/illustrations/family_older_brother.png",
+          "label": {
+            "en": "older brother"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_younger_sister.png",
+          "label": {
+            "en": "younger sister"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_sister.png",
+          "label": {
+            "en": "sister"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S03_L05_ex04",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the picture for: ছোট বোন"
+      },
+      "bengali": "ছোট বোন",
+      "options": [
+        {
+          "image": "assets/illustrations/family_brother.png",
+          "label": {
+            "en": "brother"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_younger_sister.png",
+          "label": {
+            "en": "younger sister"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_older_brother.png",
+          "label": {
+            "en": "older brother"
+          }
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH05_S03_L05_ex05",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: my older brother"
+      },
+      "words": [
+        "ভাই",
+        "আমার",
+        "বড়"
+      ],
+      "correctOrder": [
+        "আমার",
+        "বড়",
+        "ভাই"
+      ],
+      "wordsRomanized": [
+        "bhai",
+        "amar",
+        "boro"
+      ]
+    },
+    {
+      "id": "CH05_S03_L05_ex06",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: my younger sister"
+      },
+      "words": [
+        "ছোট",
+        "বোন",
+        "আমার"
+      ],
+      "correctOrder": [
+        "আমার",
+        "ছোট",
+        "বোন"
+      ],
+      "wordsRomanized": [
+        "chhoto",
+        "bon",
+        "amar"
+      ]
+    },
+    {
+      "id": "CH05_S03_L05_ex07",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: I have an older brother."
+      },
+      "words": [
+        "আছে।",
+        "বড়",
+        "আমার",
+        "ভাই"
+      ],
+      "correctOrder": [
+        "আমার",
+        "বড়",
+        "ভাই",
+        "আছে।"
+      ]
+    },
+    {
+      "id": "CH05_S03_L05_ex08",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: I have a younger sister."
+      },
+      "words": [
+        "ছোট",
+        "আছে।",
+        "বোন",
+        "আমার"
+      ],
+      "correctOrder": [
+        "আমার",
+        "ছোট",
+        "বোন",
+        "আছে।"
+      ]
+    },
+    {
+      "id": "CH05_S03_L05_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which chunk is complete?"
+      },
+      "options": [
+        {
+          "en": "বড় ভাই"
+        },
+        {
+          "en": "ভাই বড়"
+        },
+        {
+          "en": "বড় আছে"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S03_L05_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which chunk is complete?"
+      },
+      "options": [
+        {
+          "en": "ছোট বোন"
+        },
+        {
+          "en": "বোন ছোট"
+        },
+        {
+          "en": "ছোট আছে"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

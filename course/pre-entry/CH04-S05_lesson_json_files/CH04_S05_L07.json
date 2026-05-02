@@ -1,0 +1,332 @@
+{
+  "lesson_id": "CH04_S05_L07",
+  "title": {
+    "en": "Pronoun Review: Review Mix"
+  },
+  "description": {
+    "en": "Recycle pronoun review with earlier course language."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH04_S05_L07_ex01",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Listen to a quick pronoun review."
+      },
+      "audio": "assets/audio/listening/ch04_s05/CH04_S05_L07_ex01.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "নমস্কার।"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "A new person is speaking. Choose the safer “you”."
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "আপনি",
+                "romanized": "apni",
+                "en": "you — polite"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "তুমি",
+                "romanized": "tumi",
+                "en": "you — friendly"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "bengali": "তুই",
+                "romanized": "tui",
+                "en": "you — very intimate/risky"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L07_ex02",
+      "type": "grammar-select",
+      "question": {
+        "en": "Review: হ্যালো + polite you ="
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "হ্যালো, আপনি কেমন?",
+            "romanized": "hello, apni kemon",
+            "en": "Hello, how are you? — polite"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "হ্যালো, তুই আছিস?",
+            "en": "Hello, risky/intimate"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "হ্যালো, তারা কেমন?",
+            "en": "Hello, how are they?"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L07_ex03",
+      "type": "grammar-select",
+      "question": {
+        "en": "Review: Choose “we”."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমরা",
+            "romanized": "amra",
+            "en": "we"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তারা",
+            "romanized": "tara",
+            "en": "they"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "সে",
+            "romanized": "she",
+            "en": "he / she"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L07_ex04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Review: Choose “they”."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তারা",
+            "romanized": "tara",
+            "en": "they"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমরা",
+            "romanized": "amra",
+            "en": "we"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আমি",
+            "romanized": "ami",
+            "en": "I / me"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L07_ex05",
+      "type": "reading",
+      "passage": {
+        "en": "আমার নাম অর্ণব।"
+      },
+      "question": {
+        "en": "What is being introduced?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "my name"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "their name"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "your polite name"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L07_ex06",
+      "type": "reading",
+      "passage": {
+        "en": "আপনার নাম কী?"
+      },
+      "question": {
+        "en": "This is best for:"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "a polite/new-person context"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "only a very close friend"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "talking about they"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L07_ex07",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s05/she.mp3",
+      "question": {
+        "en": "Which word did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "সে",
+            "romanized": "she",
+            "en": "he / she"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তারা",
+            "romanized": "tara",
+            "en": "they"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আমরা",
+            "romanized": "amra",
+            "en": "we"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L07_ex08",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s05/amra_bhalo_achhi.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমরা ভালো আছি।",
+            "romanized": "amra bhalo achhi",
+            "en": "We are fine."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তারা ভালো আছে।",
+            "en": "They are fine."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আমি ভালো আছি।",
+            "en": "I am fine."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L07_ex09",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: “Your name?” — polite"
+      },
+      "words": [
+        "কী?",
+        "আপনার",
+        "নাম"
+      ],
+      "correctOrder": [
+        "আপনার",
+        "নাম",
+        "কী?"
+      ]
+    },
+    {
+      "id": "CH04_S05_L07_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which choice avoids risky address?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনি",
+            "romanized": "apni",
+            "en": "you — polite"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তুই",
+            "romanized": "tui",
+            "en": "you — very intimate/risky"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আছিস",
+            "romanized": "achis",
+            "en": "are — very intimate/risky"
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

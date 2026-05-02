@@ -1,0 +1,273 @@
+{
+  "lesson_id": "CH05_S05_L04",
+  "title": {
+    "en": "Family Profile: Choose the Reply"
+  },
+  "description": {
+    "en": "Choose a natural response using short family cards."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH05_S05_L04_ex01",
+      "type": "conversation",
+      "scenario": {
+        "en": "Someone introduces themself politely."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "bengali": "নমস্কার। আমার নাম রিয়া।",
+          "romanized": "nomoskar. amar nam Riya",
+          "en": "Hello. My name is Riya."
+        }
+      ],
+      "question": {
+        "en": "Choose a natural reply."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "নমস্কার। ভালো লাগলো।",
+            "romanized": "nomoskar. bhalo laglo",
+            "en": "Hello. Nice to meet you."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "কত দাম?",
+            "romanized": "koto dam?",
+            "en": "How much?"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "এটা চাই।",
+            "romanized": "eta chai",
+            "en": "I want this."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S05_L04_ex02",
+      "type": "conversation",
+      "scenario": {
+        "en": "A friend shows a family card."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "bengali": "আমার ভাই আছে।",
+          "romanized": "amar bhai ache",
+          "en": "I have a brother."
+        }
+      ],
+      "question": {
+        "en": "What did they mention?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ভাই",
+            "romanized": "bhai",
+            "en": "brother"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "বাজার",
+            "romanized": "bajar",
+            "en": "market"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "চা",
+            "romanized": "cha",
+            "en": "tea"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S05_L04_ex03",
+      "type": "grammar-select",
+      "question": {
+        "en": "Best reply to: আপনার নাম কী?"
+      },
+      "options": [
+        {
+          "en": "আমার নাম মায়া।"
+        },
+        {
+          "en": "আমার বোন আছে।"
+        },
+        {
+          "en": "ঠিক আছে।"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L04_ex04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Best reply to: তোমার নাম কী? (friendly context)"
+      },
+      "options": [
+        {
+          "en": "আমার নাম রাহুল।"
+        },
+        {
+          "en": "মাফ করবেন।"
+        },
+        {
+          "en": "কত দাম?"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L04_ex05",
+      "type": "reading",
+      "passage": {
+        "en": "A: আপনার নাম কী?\nB: আমার নাম তানভীর।"
+      },
+      "question": {
+        "en": "What is B doing?"
+      },
+      "options": [
+        {
+          "en": "answering a name question"
+        },
+        {
+          "en": "asking for tea"
+        },
+        {
+          "en": "saying no"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L04_ex06",
+      "type": "reading",
+      "passage": {
+        "en": "A: আমার বোন আছে।\nB: ভালো।"
+      },
+      "question": {
+        "en": "What does A say?"
+      },
+      "options": [
+        {
+          "en": "I have a sister."
+        },
+        {
+          "en": "I have a father."
+        },
+        {
+          "en": "My name is Good."
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L04_ex07",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: My name is Riya."
+      },
+      "words": [
+        "আমার",
+        "রিয়া",
+        "নাম"
+      ],
+      "correctOrder": [
+        "আমার",
+        "নাম",
+        "রিয়া"
+      ],
+      "wordsRomanized": [
+        "amar",
+        "Riya",
+        "nam"
+      ]
+    },
+    {
+      "id": "CH05_S05_L04_ex08",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: I have a father."
+      },
+      "words": [
+        "বাবা",
+        "আছে",
+        "আমার"
+      ],
+      "correctOrder": [
+        "আমার",
+        "বাবা",
+        "আছে"
+      ],
+      "wordsRomanized": [
+        "baba",
+        "ache",
+        "amar"
+      ]
+    },
+    {
+      "id": "CH05_S05_L04_ex09",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s05_l04_choose_reply_name.mp3",
+      "question": {
+        "en": "What reply fits the question?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার নাম রিয়া।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আমার মা আছে।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ।"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S05_L04_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which is NOT a natural reply to “আপনার নাম কী?”"
+      },
+      "options": [
+        {
+          "en": "চা দিন।"
+        },
+        {
+          "en": "আমার নাম রিয়া।"
+        },
+        {
+          "en": "আমার নাম রাহুল।"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

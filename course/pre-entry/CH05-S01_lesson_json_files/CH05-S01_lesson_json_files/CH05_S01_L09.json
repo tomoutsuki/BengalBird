@@ -1,0 +1,282 @@
+{
+  "lesson_id": "CH05_S01_L09",
+  "title": {
+    "en": "Close Family: Read the Shape"
+  },
+  "description": {
+    "en": "Recognize the Bengali written shape for this section."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH05_S01_L09_ex01",
+      "type": "reading",
+      "passage": {
+        "en": "মা"
+      },
+      "question": {
+        "en": "Tap the meaning."
+      },
+      "options": [
+        {
+          "en": "mother / mom"
+        },
+        {
+          "en": "father / dad"
+        },
+        {
+          "en": "brother"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S01_L09_ex02",
+      "type": "reading",
+      "passage": {
+        "en": "বাবা"
+      },
+      "question": {
+        "en": "Tap the meaning."
+      },
+      "options": [
+        {
+          "en": "sister"
+        },
+        {
+          "en": "father / dad"
+        },
+        {
+          "en": "mother / mom"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH05_S01_L09_ex03",
+      "type": "reading",
+      "passage": {
+        "en": "ভাই"
+      },
+      "question": {
+        "en": "Tap the meaning."
+      },
+      "options": [
+        {
+          "en": "brother"
+        },
+        {
+          "en": "sister"
+        },
+        {
+          "en": "father / dad"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S01_L09_ex04",
+      "type": "reading",
+      "passage": {
+        "en": "বোন"
+      },
+      "question": {
+        "en": "Tap the meaning."
+      },
+      "options": [
+        {
+          "en": "mother / mom"
+        },
+        {
+          "en": "brother"
+        },
+        {
+          "en": "sister"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "CH05_S01_L09_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which written shape is “ma”?"
+      },
+      "options": [
+        {
+          "bengali": "মা",
+          "romanized": "ma",
+          "en": "mother / mom"
+        },
+        {
+          "bengali": "বাবা",
+          "romanized": "baba",
+          "en": "father / dad"
+        },
+        {
+          "bengali": "ভাই",
+          "romanized": "bhai",
+          "en": "brother"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S01_L09_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which written shape is “baba”?"
+      },
+      "options": [
+        {
+          "bengali": "বোন",
+          "romanized": "bon",
+          "en": "sister"
+        },
+        {
+          "bengali": "বাবা",
+          "romanized": "baba",
+          "en": "father / dad"
+        },
+        {
+          "bengali": "মা",
+          "romanized": "ma",
+          "en": "mother / mom"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH05_S01_L09_ex07",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which written shape is “bhai”?"
+      },
+      "options": [
+        {
+          "bengali": "ভাই",
+          "romanized": "bhai",
+          "en": "brother"
+        },
+        {
+          "bengali": "মা",
+          "romanized": "ma",
+          "en": "mother / mom"
+        },
+        {
+          "bengali": "বোন",
+          "romanized": "bon",
+          "en": "sister"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S01_L09_ex08",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which written shape is “bon”?"
+      },
+      "options": [
+        {
+          "bengali": "বাবা",
+          "romanized": "baba",
+          "en": "father / dad"
+        },
+        {
+          "bengali": "ভাই",
+          "romanized": "bhai",
+          "en": "brother"
+        },
+        {
+          "bengali": "বোন",
+          "romanized": "bon",
+          "en": "sister"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "CH05_S01_L09_ex09",
+      "type": "reading",
+      "passage": {
+        "en": "আমার মা"
+      },
+      "question": {
+        "en": "Which word means “mother”?"
+      },
+      "options": [
+        {
+          "en": "আমার"
+        },
+        {
+          "en": "মা"
+        },
+        {
+          "en": "বাবা"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH05_S01_L09_ex10",
+      "type": "reading",
+      "passage": {
+        "en": "আমার বোন"
+      },
+      "question": {
+        "en": "Which word means “sister”?"
+      },
+      "options": [
+        {
+          "en": "বোন"
+        },
+        {
+          "en": "আমার"
+        },
+        {
+          "en": "ভাই"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S01_L09_ex11",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the Bengali phrase."
+      },
+      "words": [
+        "মা",
+        "আমার"
+      ],
+      "wordsRomanized": [
+        "ma",
+        "amar"
+      ],
+      "correctOrder": [
+        "আমার",
+        "মা"
+      ]
+    },
+    {
+      "id": "CH05_S01_L09_ex12",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the Bengali phrase."
+      },
+      "words": [
+        "বাবা",
+        "আমার"
+      ],
+      "wordsRomanized": [
+        "baba",
+        "amar"
+      ],
+      "correctOrder": [
+        "আমার",
+        "বাবা"
+      ]
+    }
+  ]
+}

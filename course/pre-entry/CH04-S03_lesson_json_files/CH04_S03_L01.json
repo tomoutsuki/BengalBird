@@ -1,0 +1,342 @@
+{
+  "lesson_id": "CH04_S03_L01",
+  "title": {
+    "en": "My / Your: First Listen"
+  },
+  "description": {
+    "en": "Recognize আমার, আপনার, তোমার by sound."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "ch04_s03_l01_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s03_l01_ex01.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার",
+            "romanized": "amar",
+            "en": "my"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your (polite)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your (friendly)"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l01_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s03_l01_ex02.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your (polite)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমার",
+            "romanized": "amar",
+            "en": "my"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your (friendly)"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l01_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s03_l01_ex03.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your (friendly)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your (polite)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আমার",
+            "romanized": "amar",
+            "en": "my"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l01_ex04",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the icon for “my name.”"
+      },
+      "options": [
+        {
+          "image": "assets/illustrations/pronoun_speaker_name.png",
+          "label": {
+            "en": "My name"
+          }
+        },
+        {
+          "image": "assets/illustrations/pronoun_polite_listener_name.png",
+          "label": {
+            "en": "Your name — polite"
+          }
+        },
+        {
+          "image": "assets/illustrations/pronoun_friend_listener_name.png",
+          "label": {
+            "en": "Your name — friendly"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "bengali": "আমার নাম"
+    },
+    {
+      "id": "ch04_s03_l01_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which word means “my”?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার",
+            "romanized": "amar",
+            "en": "my"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your (polite)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your (friendly)"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen for amar."
+      }
+    },
+    {
+      "id": "ch04_s03_l01_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which word means “your” in a polite setting?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your (polite)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমার",
+            "romanized": "amar",
+            "en": "my"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your (friendly)"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "আপনার is the safer polite form."
+      }
+    },
+    {
+      "id": "ch04_s03_l01_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "আমার নাম।"
+      },
+      "question": {
+        "en": "What does আমার point to?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "my"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "your polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "your friendly"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l01_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "আপনার নাম?"
+      },
+      "question": {
+        "en": "Is this polite or friendly?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "polite"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "friendly"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "rude"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l01_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "A friend says “your name.” Choose the friendly word."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your (friendly)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your (polite)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আমার",
+            "romanized": "amar",
+            "en": "my"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l01_ex10",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s03_l01_ex10.mp3",
+      "question": {
+        "en": "Hear the phrase. Pick the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার নাম",
+            "romanized": "amar nam",
+            "en": "my name"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনার নাম",
+            "romanized": "apnar nam",
+            "en": "your name (polite)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তোমার নাম",
+            "romanized": "tomar nam",
+            "en": "your name (friendly)"
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

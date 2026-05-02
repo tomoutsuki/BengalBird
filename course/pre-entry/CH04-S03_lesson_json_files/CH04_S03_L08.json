@@ -1,0 +1,354 @@
+{
+  "lesson_id": "CH04_S03_L08",
+  "title": {
+    "en": "My / Your: Audio Sprint"
+  },
+  "description": {
+    "en": "Understand আমার, আপনার, তোমার in audio variation."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "ch04_s03_l08_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s03_l08_ex01.mp3",
+      "question": {
+        "en": "Quick audio: choose the word."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার",
+            "romanized": "amar",
+            "en": "my"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your (polite)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your (friendly)"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l08_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s03_l08_ex02.mp3",
+      "question": {
+        "en": "Quick audio: choose the word."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your (polite)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমার",
+            "romanized": "amar",
+            "en": "my"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your (friendly)"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l08_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s03_l08_ex03.mp3",
+      "question": {
+        "en": "Quick audio: choose the word."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your (friendly)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your (polite)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আমার",
+            "romanized": "amar",
+            "en": "my"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l08_ex04",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s03_l08_ex04.mp3",
+      "question": {
+        "en": "Quick audio: choose the phrase."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনার নাম",
+            "romanized": "apnar nam",
+            "en": "your name — polite"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তোমার নাম",
+            "romanized": "tomar nam",
+            "en": "your name — friendly"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আমার নাম",
+            "romanized": "amar nam",
+            "en": "my name"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l08_ex05",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s03_l08_ex05.mp3",
+      "question": {
+        "en": "Quick audio: choose the phrase."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তোমার নাম",
+            "romanized": "tomar nam",
+            "en": "your name — friendly"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনার নাম",
+            "romanized": "apnar nam",
+            "en": "your name — polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আমার নাম",
+            "romanized": "amar nam",
+            "en": "my name"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l08_ex06",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s03_l08_ex06.mp3",
+      "question": {
+        "en": "Quick audio: choose the phrase."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার ফোন",
+            "romanized": "amar phone",
+            "en": "my phone"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনার ফোন",
+            "romanized": "apnar phone",
+            "en": "your phone — polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তোমার ফোন",
+            "romanized": "tomar phone",
+            "en": "your phone — friendly"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l08_ex07",
+      "type": "grammar-select",
+      "question": {
+        "en": "No audio: choose “my.”"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার",
+            "romanized": "amar",
+            "en": "my"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your (polite)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your (friendly)"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l08_ex08",
+      "type": "grammar-select",
+      "question": {
+        "en": "No audio: choose polite “your.”"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your (polite)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমার",
+            "romanized": "amar",
+            "en": "my"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your (friendly)"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l08_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "No audio: choose friendly “your.”"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your (friendly)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your (polite)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আমার",
+            "romanized": "amar",
+            "en": "my"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l08_ex10",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Audio sprint: polite or friendly?"
+      },
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "আপনার নাম কী?",
+          "audio": "assets/audio/listening/ch04_s03_l08_ex10.mp3"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "Is this polite or friendly?"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "পলাইট",
+                "romanized": "polite",
+                "en": "polite"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "বন্ধুসুলভ",
+                "romanized": "bondhusulobh",
+                "en": "friendly"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "lesson_id": "CH05_S03_L10",
+  "title": {
+    "en": "Older/Younger: Check"
+  },
+  "description": {
+    "en": "Pass a short mixed check for older/younger."
+  },
+  "est_time_mins": 5,
+  "exercises": [
+    {
+      "id": "CH05_S03_L10_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s03_l10_boro_bhai.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "বড় ভাই — older brother"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ছোট বোন — younger sister"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভাই — brother"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "বড় ভাই means older brother."
+      }
+    },
+    {
+      "id": "CH05_S03_L10_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s03_l10_chhoto_bon.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ছোট বোন — younger sister"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "বড় ভাই — older brother"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "বোন — sister"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ছোট বোন means younger sister."
+      }
+    },
+    {
+      "id": "CH05_S03_L10_ex03",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the picture for: বড় ভাই"
+      },
+      "bengali": "বড় ভাই",
+      "options": [
+        {
+          "image": "assets/illustrations/family_older_brother.png",
+          "label": {
+            "en": "older brother"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_younger_sister.png",
+          "label": {
+            "en": "younger sister"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_sister.png",
+          "label": {
+            "en": "sister"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S03_L10_ex04",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the picture for: ছোট বোন"
+      },
+      "bengali": "ছোট বোন",
+      "options": [
+        {
+          "image": "assets/illustrations/family_brother.png",
+          "label": {
+            "en": "brother"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_younger_sister.png",
+          "label": {
+            "en": "younger sister"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_older_brother.png",
+          "label": {
+            "en": "older brother"
+          }
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH05_S03_L10_ex05",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Listen and complete the family reply."
+      },
+      "audio": "assets/audio/listening/ch05_s03_l10_check_conversation_boro.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "তোমার ভাই আছে?"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "How should B answer?"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "আমার বড় ভাই আছে।"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "আমার ছোট বোন আছে।"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "bengali": "ধন্যবাদ।"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CH05_S03_L10_ex06",
+      "type": "conversation",
+      "scenario": {
+        "en": "A friend points to a photo."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "এটা কে?"
+        },
+        {
+          "speaker": "B",
+          "text": "এটা আমার বড় ভাই।"
+        }
+      ],
+      "question": {
+        "en": "Who is in the photo?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "older brother"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "younger sister"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "father"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S03_L10_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "এটা আমার ছোট বোন।"
+      },
+      "question": {
+        "en": "Who is this?"
+      },
+      "options": [
+        {
+          "en": "my younger sister"
+        },
+        {
+          "en": "my older brother"
+        },
+        {
+          "en": "my mother"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S03_L10_ex08",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: This is my younger sister."
+      },
+      "words": [
+        "ছোট",
+        "এটা",
+        "বোন।",
+        "আমার"
+      ],
+      "correctOrder": [
+        "এটা",
+        "আমার",
+        "ছোট",
+        "বোন।"
+      ]
+    },
+    {
+      "id": "CH05_S03_L10_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the best Bengali for “my older brother.”"
+      },
+      "options": [
+        {
+          "en": "আমার বড় ভাই"
+        },
+        {
+          "en": "আমার ছোট বোন"
+        },
+        {
+          "en": "আমার ভাই ছোট"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S03_L10_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the best Bengali for “my younger sister.”"
+      },
+      "options": [
+        {
+          "en": "আমার ছোট বোন"
+        },
+        {
+          "en": "আমার বড় ভাই"
+        },
+        {
+          "en": "আমার বোন বড়"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

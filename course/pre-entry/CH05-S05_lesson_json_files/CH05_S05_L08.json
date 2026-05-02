@@ -1,0 +1,253 @@
+{
+  "lesson_id": "CH05_S05_L08",
+  "title": {
+    "en": "Family Profile: Audio Sprint"
+  },
+  "description": {
+    "en": "Understand short family profile cards in audio variation."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH05_S05_L08_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s05_l08_amar_nam_riya.mp3",
+      "question": {
+        "en": "Choose what you heard."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার নাম রিয়া। — My name is Riya."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আমার মা আছে।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "চা দিন।"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S05_L08_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s05_l08_amar_ma_ache.mp3",
+      "question": {
+        "en": "Choose what you heard."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার মা আছে। — I have a mother."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আমার নাম মায়া।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "চা দিন।"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S05_L08_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s05_l08_amar_baba_ache.mp3",
+      "question": {
+        "en": "Choose what you heard."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার বাবা আছে। — I have a father."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আমার নাম মায়া।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "চা দিন।"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S05_L08_ex04",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s05_l08_amar_bhai_ache.mp3",
+      "question": {
+        "en": "Choose what you heard."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার ভাই আছে। — I have a brother."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আমার নাম মায়া।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "চা দিন।"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S05_L08_ex05",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s05_l08_amar_bon_ache.mp3",
+      "question": {
+        "en": "Choose what you heard."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার বোন আছে। — I have a sister."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আমার নাম মায়া।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "চা দিন।"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S05_L08_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Fast match: মা"
+      },
+      "options": [
+        {
+          "en": "mother"
+        },
+        {
+          "en": "father"
+        },
+        {
+          "en": "sister"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L08_ex07",
+      "type": "grammar-select",
+      "question": {
+        "en": "Fast match: ভাই"
+      },
+      "options": [
+        {
+          "en": "brother"
+        },
+        {
+          "en": "sister"
+        },
+        {
+          "en": "name"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L08_ex08",
+      "type": "grammar-select",
+      "question": {
+        "en": "Fast match: বোন"
+      },
+      "options": [
+        {
+          "en": "sister"
+        },
+        {
+          "en": "mother"
+        },
+        {
+          "en": "father"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L08_ex09",
+      "type": "reading",
+      "passage": {
+        "en": "আমার নাম রাহুল। আমার বাবা আছে।"
+      },
+      "question": {
+        "en": "Pick the matching card."
+      },
+      "options": [
+        {
+          "en": "Rahul + father"
+        },
+        {
+          "en": "Riya + sister"
+        },
+        {
+          "en": "Maya + mother"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L08_ex10",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build after listening: I have a sister."
+      },
+      "words": [
+        "বোন",
+        "আছে",
+        "আমার"
+      ],
+      "correctOrder": [
+        "আমার",
+        "বোন",
+        "আছে"
+      ],
+      "wordsRomanized": [
+        "bon",
+        "ache",
+        "amar"
+      ]
+    }
+  ]
+}

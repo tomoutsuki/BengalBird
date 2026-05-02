@@ -1,0 +1,324 @@
+{
+  "lesson_id": "CH06_S03_L08",
+  "title": {
+    "en": "I Want This: Audio Sprint"
+  },
+  "description": {
+    "en": "Understand এটা চাই in audio variation."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH06_S03_L08_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s03_l08_eta_chai.mp3",
+      "question": {
+        "en": "Quick: what did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "এটা চাই"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভালো লাগে"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen for: এটা চাই."
+      }
+    },
+    {
+      "id": "CH06_S03_L08_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s03_l08_cha_chai.mp3",
+      "question": {
+        "en": "Quick: what did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "চা চাই"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভালো লাগে"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen for: চা চাই."
+      }
+    },
+    {
+      "id": "CH06_S03_L08_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s03_l08_pani_chai.mp3",
+      "question": {
+        "en": "Quick: what did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "পানি চাই"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভালো লাগে"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen for: পানি চাই."
+      }
+    },
+    {
+      "id": "CH06_S03_L08_ex04",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s03_l08_bhat_chai.mp3",
+      "question": {
+        "en": "Quick: what did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ভাত চাই"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভালো লাগে"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen for: ভাত চাই."
+      }
+    },
+    {
+      "id": "CH06_S03_L08_ex05",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s03_l08_dal_chai.mp3",
+      "question": {
+        "en": "Quick: what did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ডাল চাই"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভালো লাগে"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen for: ডাল চাই."
+      }
+    },
+    {
+      "id": "CH06_S03_L08_ex06",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s03_l08_eta_chai_fast.mp3",
+      "question": {
+        "en": "Quick: what did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "এটা চাই"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভালো লাগে"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen for: এটা চাই."
+      }
+    },
+    {
+      "id": "CH06_S03_L08_ex07",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Fast request recognition."
+      },
+      "audio": "assets/audio/listening/ch06_s03_l08_scene_07.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "এটা চাই।",
+          "romanized": "eta chai"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "Choose the meaning."
+          },
+          "options": [
+            {
+              "text": {
+                "en": "I want this."
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "en": "I am fine."
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CH06_S03_L08_ex08",
+      "type": "grammar-select",
+      "question": {
+        "en": "Quick match: ভাত চাই"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "want rice"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "say hello"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ask a name"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "চাই marks a want/request."
+      }
+    },
+    {
+      "id": "CH06_S03_L08_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Quick match: ডাল চাই"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "want dal / lentils"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "say hello"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ask a name"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "চাই marks a want/request."
+      }
+    },
+    {
+      "id": "CH06_S03_L08_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Quick match: মাছ চাই"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "want fish"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "say hello"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ask a name"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "চাই marks a want/request."
+      }
+    }
+  ]
+}

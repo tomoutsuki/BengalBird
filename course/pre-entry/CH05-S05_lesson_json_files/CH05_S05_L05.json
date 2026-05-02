@@ -1,0 +1,251 @@
+{
+  "lesson_id": "CH05_S05_L05",
+  "title": {
+    "en": "Family Profile: Build the Chunk"
+  },
+  "description": {
+    "en": "Build controlled family profile chunks."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH05_S05_L05_ex01",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: My name is Maya."
+      },
+      "words": [
+        "মায়া",
+        "আমার",
+        "নাম"
+      ],
+      "correctOrder": [
+        "আমার",
+        "নাম",
+        "মায়া"
+      ],
+      "wordsRomanized": [
+        "Maya",
+        "amar",
+        "nam"
+      ]
+    },
+    {
+      "id": "CH05_S05_L05_ex02",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: I have a mother."
+      },
+      "words": [
+        "আছে",
+        "আমার",
+        "মা"
+      ],
+      "correctOrder": [
+        "আমার",
+        "মা",
+        "আছে"
+      ],
+      "wordsRomanized": [
+        "ache",
+        "amar",
+        "ma"
+      ]
+    },
+    {
+      "id": "CH05_S05_L05_ex03",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: I have a brother."
+      },
+      "words": [
+        "ভাই",
+        "আছে",
+        "আমার"
+      ],
+      "correctOrder": [
+        "আমার",
+        "ভাই",
+        "আছে"
+      ],
+      "wordsRomanized": [
+        "bhai",
+        "ache",
+        "amar"
+      ]
+    },
+    {
+      "id": "CH05_S05_L05_ex04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which order is correct?"
+      },
+      "options": [
+        {
+          "en": "আমার বোন আছে"
+        },
+        {
+          "en": "বোন আছে আমার"
+        },
+        {
+          "en": "আছে আমার বোন"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L05_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which order is correct?"
+      },
+      "options": [
+        {
+          "en": "আমার নাম রিয়া"
+        },
+        {
+          "en": "নাম আমার রিয়া"
+        },
+        {
+          "en": "রিয়া নাম আমার"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L05_ex06",
+      "type": "reading",
+      "passage": {
+        "en": "আমার নাম রিয়া।\nআমার মা আছে।"
+      },
+      "question": {
+        "en": "Choose the matching English."
+      },
+      "options": [
+        {
+          "en": "My name is Riya. I have a mother."
+        },
+        {
+          "en": "My mother is Riya. I have a name."
+        },
+        {
+          "en": "Hello. I have tea."
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L05_ex07",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s05_l05_amar_baba_ache.mp3",
+      "question": {
+        "en": "Build the phrase you heard."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার বাবা আছে"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আমার নাম বাবা"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আপনার বাবা আছে"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S05_L05_ex08",
+      "type": "conversation",
+      "scenario": {
+        "en": "A friend asks in a friendly way."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "bengali": "তোমার নাম কী?",
+          "romanized": "tomar nam ki?",
+          "en": "What is your name?"
+        }
+      ],
+      "question": {
+        "en": "Build a safe answer."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার নাম মায়া।",
+            "romanized": "amar nam Maya",
+            "en": "My name is Maya."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তোমার নাম মায়া।",
+            "romanized": "tomar nam Maya",
+            "en": "Your name is Maya."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আপনার নাম কী?",
+            "romanized": "apnar nam ki?",
+            "en": "What is your name?"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S05_L05_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Pick the family profile sentence."
+      },
+      "options": [
+        {
+          "en": "আমার বাবা আছে।"
+        },
+        {
+          "en": "আপনি কেমন?"
+        },
+        {
+          "en": "মাফ করবেন।"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L05_ex10",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: I have a sister."
+      },
+      "words": [
+        "আছে",
+        "বোন",
+        "আমার"
+      ],
+      "correctOrder": [
+        "আমার",
+        "বোন",
+        "আছে"
+      ],
+      "wordsRomanized": [
+        "ache",
+        "bon",
+        "amar"
+      ]
+    }
+  ]
+}

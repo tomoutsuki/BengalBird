@@ -1,0 +1,324 @@
+{
+  "lesson_id": "CH05_S02_L06",
+  "title": {
+    "en": "I Have…: Mini Exchange"
+  },
+  "description": {
+    "en": "Complete a short exchange with আমার … আছে."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH05_S02_L06_ex01",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Listen to a short family exchange."
+      },
+      "audio": "assets/audio/listening/ch05_s02_l06_mini_exchange.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "নমস্কার।",
+          "romanized": "nomoskar",
+          "english": "Hello."
+        },
+        {
+          "type": "line",
+          "speaker": "B",
+          "bengali": "নমস্কার।",
+          "romanized": "nomoskar",
+          "english": "Hello."
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "How can B say “I have a sister”?"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "আমার বোন আছে।",
+                "romanized": "amar bon achhe",
+                "english": "I have a sister."
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "আপনার নাম কী?",
+                "romanized": "apnar nam ki?",
+                "english": "What is your name?"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L06_ex02",
+      "type": "conversation",
+      "scenario": {
+        "en": "You are looking at a family photo."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "bengali": "এটা কে?",
+          "romanized": "eta ke?",
+          "english": "Who is this?"
+        }
+      ],
+      "question": {
+        "en": "Choose a response with the target pattern."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার মা আছে।",
+            "romanized": "amar ma achhe",
+            "english": "I have a mother."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "ভালো আছি।",
+            "romanized": "bhalo achhi",
+            "english": "I am well."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "না।",
+            "romanized": "na",
+            "english": "No."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L06_ex03",
+      "type": "conversation",
+      "scenario": {
+        "en": "A classmate asks about family."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "bengali": "ভাই?",
+          "romanized": "bhai?",
+          "english": "Brother?"
+        }
+      ],
+      "question": {
+        "en": "Choose a short answer."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার ভাই আছে।",
+            "romanized": "amar bhai achhe",
+            "english": "I have a brother."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ।",
+            "romanized": "dhonnobad",
+            "english": "Thank you."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "হ্যালো।",
+            "romanized": "hello",
+            "english": "Hello."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L06_ex04",
+      "type": "reading",
+      "passage": {
+        "en": "আমার বাবা আছে।"
+      },
+      "question": {
+        "en": "Which family member?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "father"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "mother"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "sister"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L06_ex05",
+      "type": "reading",
+      "passage": {
+        "en": "আমার ভাই আছে।"
+      },
+      "question": {
+        "en": "Which family member?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "brother"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "sister"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "father"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L06_ex06",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s02_l06_reply_bon.mp3",
+      "question": {
+        "en": "What reply did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার বোন আছে।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আমার বাবা আছে।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আমার মা আছে।"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L06_ex07",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: I have a mother."
+      },
+      "words": [
+        "মা",
+        "আছে।",
+        "আমার"
+      ],
+      "wordsRomanized": [
+        "ma",
+        "achhe",
+        "amar"
+      ],
+      "correctOrder": [
+        "আমার",
+        "মা",
+        "আছে।"
+      ]
+    },
+    {
+      "id": "CH05_S02_L06_ex08",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the response that talks about family."
+      },
+      "options": [
+        {
+          "en": "আমার বাবা আছে।"
+        },
+        {
+          "en": "কেমন আছেন?"
+        },
+        {
+          "en": "ঠিক আছে।"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S02_L06_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which phrase uses a family word?"
+      },
+      "options": [
+        {
+          "en": "আমার ভাই আছে।"
+        },
+        {
+          "en": "আমার নাম আছে।"
+        },
+        {
+          "en": "আপনি কেমন?"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S02_L06_ex10",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s02_l06_mini_check.mp3",
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I have a father."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "I have a name."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "How are you?"
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

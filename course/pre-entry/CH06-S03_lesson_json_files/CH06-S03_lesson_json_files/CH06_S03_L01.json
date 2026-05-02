@@ -1,0 +1,398 @@
+{
+  "lesson_id": "CH06_S03_L01",
+  "title": {
+    "en": "I Want This: First Listen"
+  },
+  "description": {
+    "en": "Recognize এটা চাই by sound."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH06_S03_L01_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s03_l01_eta_chai.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "এটা চাই"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভালো লাগে"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "এটা চাই means “I want this.”"
+      }
+    },
+    {
+      "id": "CH06_S03_L01_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s03_l01_eta.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "এটা"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভালো লাগে"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "এটা means “this.”"
+      }
+    },
+    {
+      "id": "CH06_S03_L01_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s03_l01_chai.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "চাই"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভালো লাগে"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "চাই means “want.”"
+      }
+    },
+    {
+      "id": "CH06_S03_L01_ex04",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap what the learner wants: ভাত"
+      },
+      "bengali": "ভাত চাই",
+      "options": [
+        {
+          "image": "assets/illustrations/rice_bowl.png",
+          "label": {
+            "en": "ভাত — rice"
+          }
+        },
+        {
+          "image": "assets/illustrations/dal_bowl.png",
+          "label": {
+            "en": "ডাল — dal / lentils"
+          }
+        },
+        {
+          "image": "assets/illustrations/fish_plate.png",
+          "label": {
+            "en": "মাছ — fish"
+          }
+        },
+        {
+          "image": "assets/illustrations/tea_cup.png",
+          "label": {
+            "en": "চা — tea"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass.png",
+          "label": {
+            "en": "পানি — water (Bangladesh-common)"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass_wb.png",
+          "label": {
+            "en": "জল — water (West Bengal-common)"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "ভাত means rice."
+      }
+    },
+    {
+      "id": "CH06_S03_L01_ex05",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap what the learner wants: ডাল"
+      },
+      "bengali": "ডাল চাই",
+      "options": [
+        {
+          "image": "assets/illustrations/rice_bowl.png",
+          "label": {
+            "en": "ভাত — rice"
+          }
+        },
+        {
+          "image": "assets/illustrations/dal_bowl.png",
+          "label": {
+            "en": "ডাল — dal / lentils"
+          }
+        },
+        {
+          "image": "assets/illustrations/fish_plate.png",
+          "label": {
+            "en": "মাছ — fish"
+          }
+        },
+        {
+          "image": "assets/illustrations/tea_cup.png",
+          "label": {
+            "en": "চা — tea"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass.png",
+          "label": {
+            "en": "পানি — water (Bangladesh-common)"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass_wb.png",
+          "label": {
+            "en": "জল — water (West Bengal-common)"
+          }
+        }
+      ],
+      "correctIndex": 1,
+      "hint": {
+        "en": "ডাল means dal / lentils."
+      }
+    },
+    {
+      "id": "CH06_S03_L01_ex06",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap what the learner wants: মাছ"
+      },
+      "bengali": "মাছ চাই",
+      "options": [
+        {
+          "image": "assets/illustrations/rice_bowl.png",
+          "label": {
+            "en": "ভাত — rice"
+          }
+        },
+        {
+          "image": "assets/illustrations/dal_bowl.png",
+          "label": {
+            "en": "ডাল — dal / lentils"
+          }
+        },
+        {
+          "image": "assets/illustrations/fish_plate.png",
+          "label": {
+            "en": "মাছ — fish"
+          }
+        },
+        {
+          "image": "assets/illustrations/tea_cup.png",
+          "label": {
+            "en": "চা — tea"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass.png",
+          "label": {
+            "en": "পানি — water (Bangladesh-common)"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass_wb.png",
+          "label": {
+            "en": "জল — water (West Bengal-common)"
+          }
+        }
+      ],
+      "correctIndex": 2,
+      "hint": {
+        "en": "মাছ means fish."
+      }
+    },
+    {
+      "id": "CH06_S03_L01_ex07",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap what the learner wants: চা"
+      },
+      "bengali": "চা চাই",
+      "options": [
+        {
+          "image": "assets/illustrations/rice_bowl.png",
+          "label": {
+            "en": "ভাত — rice"
+          }
+        },
+        {
+          "image": "assets/illustrations/dal_bowl.png",
+          "label": {
+            "en": "ডাল — dal / lentils"
+          }
+        },
+        {
+          "image": "assets/illustrations/fish_plate.png",
+          "label": {
+            "en": "মাছ — fish"
+          }
+        },
+        {
+          "image": "assets/illustrations/tea_cup.png",
+          "label": {
+            "en": "চা — tea"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass.png",
+          "label": {
+            "en": "পানি — water (Bangladesh-common)"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass_wb.png",
+          "label": {
+            "en": "জল — water (West Bengal-common)"
+          }
+        }
+      ],
+      "correctIndex": 3,
+      "hint": {
+        "en": "চা means tea."
+      }
+    },
+    {
+      "id": "CH06_S03_L01_ex08",
+      "type": "grammar-select",
+      "question": {
+        "en": "What does এটা চাই mean?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I want this."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Thank you."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "How are you?"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Treat এটা চাই as one useful request chunk."
+      }
+    },
+    {
+      "id": "CH06_S03_L01_ex09",
+      "type": "reading",
+      "passage": {
+        "en": "এটা চাই"
+      },
+      "question": {
+        "en": "What is the meaning?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I want this."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "I like it."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Please forgive me."
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Whole phrase recognition only."
+      }
+    },
+    {
+      "id": "CH06_S03_L01_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which phrase is a request?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "এটা চাই"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভালো লাগে"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "এটা চাই is a simple “I want this” request."
+      }
+    }
+  ]
+}

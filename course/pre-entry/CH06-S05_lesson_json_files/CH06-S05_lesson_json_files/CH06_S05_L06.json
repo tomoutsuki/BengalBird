@@ -1,0 +1,380 @@
+{
+  "lesson_id": "CH06_S05_L06",
+  "title": {
+    "en": "Café Mini-Scene: Mini Exchange"
+  },
+  "description": {
+    "en": "Complete a short exchange with চা দিন—ঠিক আছে."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH06_S05_L06_ex01",
+      "type": "conversation",
+      "scenario": {
+        "en": "Mini café exchange."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "মাফ করবেন।",
+            "romanized": "maf korben"
+          }
+        },
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "চা দিন।",
+            "romanized": "cha din"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose B’s reply."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ঠিক আছে।",
+            "romanized": "thik ache",
+            "en": "Okay."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনার নাম কী?",
+            "romanized": "apnar nam ki?",
+            "en": "What is your name?"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ভাই।",
+            "romanized": "bhai",
+            "en": "Brother."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L06_ex02",
+      "type": "conversation",
+      "scenario": {
+        "en": "Water request."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "পানি দিন।",
+            "romanized": "pani din"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose B’s reply."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ঠিক আছে।",
+            "romanized": "thik ache",
+            "en": "Okay."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "না, ধন্যবাদ।",
+            "romanized": "na, dhonnobad",
+            "en": "No, thanks."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আমরা।",
+            "romanized": "amra",
+            "en": "We."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L06_ex03",
+      "type": "conversation",
+      "scenario": {
+        "en": "You are the customer."
+      },
+      "dialogue": [
+        {
+          "speaker": "Server",
+          "text": {
+            "bengali": "নমস্কার।",
+            "romanized": "nomoskar"
+          }
+        }
+      ],
+      "question": {
+        "en": "Ask for tea."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "চা দিন।",
+            "romanized": "cha din",
+            "en": "Tea, please."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তারা।",
+            "romanized": "tara",
+            "en": "They."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "খারাপ না।",
+            "romanized": "kharap na",
+            "en": "Not bad."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L06_ex04",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s05_cafe_full_01.mp3",
+      "question": {
+        "en": "What did the customer ask for?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Tea"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Fish"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "A name"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L06_ex05",
+      "type": "reading",
+      "passage": {
+        "en": "A: নমস্কার।\nB: মাফ করবেন, চা দিন।\nA: ঠিক আছে।"
+      },
+      "question": {
+        "en": "Which line is the request?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "মাফ করবেন, চা দিন।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "নমস্কার।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ঠিক আছে।"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L06_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which response is natural after a request?"
+      },
+      "options": [
+        {
+          "en": "ঠিক আছে।"
+        },
+        {
+          "en": "আপনি কেমন?"
+        },
+        {
+          "en": "আমার মা।"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S05_L06_ex07",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the request."
+      },
+      "words": [
+        "দিন",
+        "চা"
+      ],
+      "correctOrder": [
+        "চা",
+        "দিন"
+      ],
+      "wordsRomanized": [
+        "din",
+        "cha"
+      ]
+    },
+    {
+      "id": "CH06_S05_L06_ex08",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s05_thank_you.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "en": "Thank you."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "চা দিন",
+            "romanized": "cha din",
+            "en": "Tea, please."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ঠিক আছে",
+            "romanized": "thik ache",
+            "en": "Okay."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L06_ex09",
+      "type": "conversation",
+      "scenario": {
+        "en": "End the exchange."
+      },
+      "dialogue": [
+        {
+          "speaker": "Server",
+          "text": {
+            "bengali": "ঠিক আছে।",
+            "romanized": "thik ache"
+          }
+        }
+      ],
+      "question": {
+        "en": "Say thanks."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ধন্যবাদ।",
+            "romanized": "dhonnobad",
+            "en": "Thank you."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "না।",
+            "romanized": "na",
+            "en": "No."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "সে।",
+            "romanized": "she",
+            "en": "he/she"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L06_ex10",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Complete the café scene."
+      },
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "Server",
+          "bengali": "নমস্কার।"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "What does the customer say?"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "চা দিন।",
+                "romanized": "cha din",
+                "en": "Tea, please."
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "আমার নাম কী?",
+                "romanized": "amar nam ki?",
+                "en": "My name what?"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "bengali": "তারা।",
+                "romanized": "tara",
+                "en": "They."
+              },
+              "correct": false
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "Server",
+          "bengali": "ঠিক আছে।"
+        }
+      ]
+    }
+  ]
+}

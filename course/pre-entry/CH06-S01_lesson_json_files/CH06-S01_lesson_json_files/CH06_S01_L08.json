@@ -1,0 +1,326 @@
+{
+  "lesson_id": "CH06_S01_L08",
+  "title": {
+    "en": "Food Basics: Audio Sprint"
+  },
+  "description": {
+    "en": "Understand ভাত, ডাল, মাছ, চা in audio variation."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH06_S01_L08_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s01_l08_cha.mp3",
+      "question": {
+        "en": "Quick: what did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "চা — tea"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভাত — rice"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ডাল — lentils / dal"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "চা (cha) means tea."
+      }
+    },
+    {
+      "id": "CH06_S01_L08_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s01_l08_bhat.mp3",
+      "question": {
+        "en": "Quick: what did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ভাত — rice"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ডাল — lentils / dal"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মাছ — fish"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ভাত (bhat) means rice."
+      }
+    },
+    {
+      "id": "CH06_S01_L08_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s01_l08_dal.mp3",
+      "question": {
+        "en": "Quick: what did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ডাল — lentils / dal"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভাত — rice"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মাছ — fish"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ডাল (dal) means lentils / dal."
+      }
+    },
+    {
+      "id": "CH06_S01_L08_ex04",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s01_l08_machh.mp3",
+      "question": {
+        "en": "Quick: what did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "মাছ — fish"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভাত — rice"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ডাল — lentils / dal"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "মাছ (machh) means fish."
+      }
+    },
+    {
+      "id": "CH06_S01_L08_ex05",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s01_l08_cha.mp3",
+      "question": {
+        "en": "Quick: what did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "চা — tea"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভাত — rice"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ডাল — lentils / dal"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "চা (cha) means tea."
+      }
+    },
+    {
+      "id": "CH06_S01_L08_ex06",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s01_l08_machh.mp3",
+      "question": {
+        "en": "Quick: what did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "মাছ — fish"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভাত — rice"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ডাল — lentils / dal"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "মাছ (machh) means fish."
+      }
+    },
+    {
+      "id": "CH06_S01_L08_ex07",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Fast food-word scene."
+      },
+      "audio": "assets/audio/listening/ch06_s01_l08_scene_07.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "ডাল।",
+          "romanized": "dal"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "What did A say?"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "ডাল",
+                "en": "dal"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "ভাত",
+                "en": "rice"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CH06_S01_L08_ex08",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which word did you just practice for rice?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ভাত"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ভাত means rice."
+      }
+    },
+    {
+      "id": "CH06_S01_L08_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which word did you just practice for lentils / dal?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ডাল"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ডাল means lentils / dal."
+      }
+    },
+    {
+      "id": "CH06_S01_L08_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which word did you just practice for fish?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "মাছ"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "মাছ means fish."
+      }
+    }
+  ]
+}

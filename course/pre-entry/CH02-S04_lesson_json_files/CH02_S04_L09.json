@@ -1,0 +1,291 @@
+{
+  "lesson_id": "CH02_S04_L09",
+  "title": {
+    "en": "Hello Exchange: Read the Shape"
+  },
+  "description": {
+    "en": "Recognize the Bengali written shape for this section."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "ch02_s04_l09_ex01",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Checkpoint: polite hello exchange."
+      },
+      "audio": "assets/audio/listening/ch02_s04_hello_exchange.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "নমস্কার।",
+          "romanized": "nomoshkar"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "Choose the polite check-in."
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "কেমন আছেন?",
+                "romanized": "kemon achen?",
+                "en": "How are you?"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "কেমন আছো?",
+                "romanized": "kemon acho?",
+                "en": "How are you? (friendly)"
+              },
+              "correct": false
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "B",
+          "bengali": "ভালো আছি।",
+          "romanized": "bhalo achi"
+        }
+      ]
+    },
+    {
+      "id": "ch02_s04_l09_ex02",
+      "type": "conversation",
+      "scenario": {
+        "en": "Someone says: নমস্কার। কেমন আছেন?"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "নমস্কার। কেমন আছেন?",
+            "romanized": "nomoshkar. kemon achen?"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose the best reply."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ভালো আছি",
+            "romanized": "bhalo achi",
+            "en": "I’m fine"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "কেমন আছেন?",
+            "romanized": "kemon achen?",
+            "en": "How are you?"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "en": "Thank you"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch02_s04_l09_ex03",
+      "type": "reading",
+      "passage": {
+        "en": "নমস্কার। কেমন আছেন?"
+      },
+      "question": {
+        "en": "What does this mean?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Hello. How are you?"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Sorry. Excuse me."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Yes. Okay."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch02_s04_l09_ex04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which phrase is a question?"
+      },
+      "options": [
+        {
+          "en": "কেমন আছেন?"
+        },
+        {
+          "en": "ভালো আছি"
+        },
+        {
+          "en": "মোটামুটি"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ch02_s04_l09_ex05",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch02_s04_bhalo_achi.mp3",
+      "question": {
+        "en": "Choose the Bengali you heard."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ভালো আছি"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "কেমন আছেন?"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "নমস্কার"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch02_s04_l09_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which answer is safe after কেমন আছেন?"
+      },
+      "options": [
+        {
+          "en": "খারাপ না"
+        },
+        {
+          "en": "তুমি কেমন?"
+        },
+        {
+          "en": "কেমন আছো?"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ch02_s04_l09_ex07",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the check-in question."
+      },
+      "words": [
+        "আছেন?",
+        "কেমন"
+      ],
+      "correctOrder": [
+        "কেমন",
+        "আছেন?"
+      ]
+    },
+    {
+      "id": "ch02_s04_l09_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "A: নমস্কার।\nB: নমস্কার। কেমন আছেন?\nA: ভালো আছি।"
+      },
+      "question": {
+        "en": "What is A’s last answer?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I’m fine"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Hello"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Thank you"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch02_s04_l09_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Pick the whole dialogue shape."
+      },
+      "options": [
+        {
+          "en": "নমস্কার। কেমন আছেন? ভালো আছি।"
+        },
+        {
+          "en": "না। আচ্ছা। দুঃখিত।"
+        },
+        {
+          "en": "ধন্যবাদ। ঠিক আছে।"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ch02_s04_l09_ex10",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch02_s04_hello_exchange.mp3",
+      "question": {
+        "en": "What should this section help you understand?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "A tiny hello + how-are-you exchange"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "A food order"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "A number game"
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

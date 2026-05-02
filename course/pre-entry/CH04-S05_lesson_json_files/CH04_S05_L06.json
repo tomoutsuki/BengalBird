@@ -1,0 +1,371 @@
+{
+  "lesson_id": "CH04_S05_L06",
+  "title": {
+    "en": "Pronoun Review: Mini Exchange"
+  },
+  "description": {
+    "en": "Complete a short exchange with All CH04."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH04_S05_L06_ex01",
+      "type": "conversation",
+      "scenario": {
+        "en": "A polite greeting."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "নমস্কার।"
+          }
+        },
+        {
+          "speaker": "B",
+          "text": {
+            "bengali": "নমস্কার।"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose the polite question."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনার নাম কী?",
+            "romanized": "apnar nam ki",
+            "en": "What is your name? — polite"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তোমার নাম কী?",
+            "en": "What is your name? — friendly"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তুই আছিস?",
+            "en": "Risky/intimate form"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L06_ex02",
+      "type": "conversation",
+      "scenario": {
+        "en": "Two friends."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "হ্যালো!"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose a friendly question."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তোমার নাম কী?",
+            "romanized": "tomar nam ki",
+            "en": "What is your name? — friendly"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনার নাম কী?",
+            "en": "What is your name? — polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তারা নাম কী?",
+            "en": "Not natural"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L06_ex03",
+      "type": "conversation",
+      "scenario": {
+        "en": "You see two friends arriving."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "নমস্কার।"
+          }
+        }
+      ],
+      "question": {
+        "en": "Which word means “they”?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তারা",
+            "romanized": "tara",
+            "en": "they"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমরা",
+            "romanized": "amra",
+            "en": "we"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আমি",
+            "romanized": "ami",
+            "en": "I / me"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L06_ex04",
+      "type": "conversation",
+      "scenario": {
+        "en": "You and your friend answer together."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "কেমন?"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose “We are fine.”"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমরা ভালো আছি।",
+            "romanized": "amra bhalo achhi",
+            "en": "We are fine."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তারা ভালো আছে।",
+            "en": "They are fine."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "সে ভালো আছে।",
+            "en": "He/she is fine."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L06_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which is safest with someone older/new?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনি",
+            "romanized": "apni",
+            "en": "you — polite"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তুমি",
+            "romanized": "tumi",
+            "en": "you — friendly"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তুই",
+            "romanized": "tui",
+            "en": "you — very intimate/risky"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L06_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which means “my”?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার",
+            "romanized": "amar",
+            "en": "my"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your — polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your — friendly"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L06_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "আপনি কেমন?"
+      },
+      "question": {
+        "en": "What kind of “you” is used?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "polite"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "friendly"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "risky/intimate"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L06_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "তুমি কেমন?"
+      },
+      "question": {
+        "en": "What kind of “you” is used?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "friendly"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "they"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L06_ex09",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s05/achis.mp3",
+      "question": {
+        "en": "Which form did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আছিস",
+            "romanized": "achis",
+            "en": "are — very intimate/risky"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আছেন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আছি"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L06_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "In this course stage, what should you do with তুই/আছিস?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Recognize it, but avoid using it with strangers."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Use it with everyone."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Use it in polite meetings."
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

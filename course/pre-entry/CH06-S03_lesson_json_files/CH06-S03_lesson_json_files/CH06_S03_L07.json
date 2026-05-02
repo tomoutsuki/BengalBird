@@ -1,0 +1,426 @@
+{
+  "lesson_id": "CH06_S03_L07",
+  "title": {
+    "en": "I Want This: Review Mix"
+  },
+  "description": {
+    "en": "Recycle i want this with earlier course language."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH06_S03_L07_ex01",
+      "type": "reading",
+      "passage": {
+        "en": "চা ভালো লাগে। এটা চাই।"
+      },
+      "question": {
+        "en": "What does the learner want?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "tea"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "name"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "hello"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ভালো লাগে is review; এটা চাই is the request."
+      }
+    },
+    {
+      "id": "CH06_S03_L07_ex02",
+      "type": "reading",
+      "passage": {
+        "en": "পানি ভালো লাগে। এটা চাই।"
+      },
+      "question": {
+        "en": "What drink is in the context?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "name"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "hello"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ভালো লাগে is review; এটা চাই is the request."
+      }
+    },
+    {
+      "id": "CH06_S03_L07_ex03",
+      "type": "reading",
+      "passage": {
+        "en": "ভাত ভালো লাগে। এটা চাই।"
+      },
+      "question": {
+        "en": "What food is in the context?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "rice"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "name"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "hello"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ভালো লাগে is review; এটা চাই is the request."
+      }
+    },
+    {
+      "id": "CH06_S03_L07_ex04",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap what the learner wants: ভাত"
+      },
+      "bengali": "ভাত চাই",
+      "options": [
+        {
+          "image": "assets/illustrations/rice_bowl.png",
+          "label": {
+            "en": "ভাত — rice"
+          }
+        },
+        {
+          "image": "assets/illustrations/dal_bowl.png",
+          "label": {
+            "en": "ডাল — dal / lentils"
+          }
+        },
+        {
+          "image": "assets/illustrations/fish_plate.png",
+          "label": {
+            "en": "মাছ — fish"
+          }
+        },
+        {
+          "image": "assets/illustrations/tea_cup.png",
+          "label": {
+            "en": "চা — tea"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass.png",
+          "label": {
+            "en": "পানি — water (Bangladesh-common)"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass_wb.png",
+          "label": {
+            "en": "জল — water (West Bengal-common)"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "ভাত means rice."
+      }
+    },
+    {
+      "id": "CH06_S03_L07_ex05",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap what the learner wants: ডাল"
+      },
+      "bengali": "ডাল চাই",
+      "options": [
+        {
+          "image": "assets/illustrations/rice_bowl.png",
+          "label": {
+            "en": "ভাত — rice"
+          }
+        },
+        {
+          "image": "assets/illustrations/dal_bowl.png",
+          "label": {
+            "en": "ডাল — dal / lentils"
+          }
+        },
+        {
+          "image": "assets/illustrations/fish_plate.png",
+          "label": {
+            "en": "মাছ — fish"
+          }
+        },
+        {
+          "image": "assets/illustrations/tea_cup.png",
+          "label": {
+            "en": "চা — tea"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass.png",
+          "label": {
+            "en": "পানি — water (Bangladesh-common)"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass_wb.png",
+          "label": {
+            "en": "জল — water (West Bengal-common)"
+          }
+        }
+      ],
+      "correctIndex": 1,
+      "hint": {
+        "en": "ডাল means dal / lentils."
+      }
+    },
+    {
+      "id": "CH06_S03_L07_ex06",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap what the learner wants: মাছ"
+      },
+      "bengali": "মাছ চাই",
+      "options": [
+        {
+          "image": "assets/illustrations/rice_bowl.png",
+          "label": {
+            "en": "ভাত — rice"
+          }
+        },
+        {
+          "image": "assets/illustrations/dal_bowl.png",
+          "label": {
+            "en": "ডাল — dal / lentils"
+          }
+        },
+        {
+          "image": "assets/illustrations/fish_plate.png",
+          "label": {
+            "en": "মাছ — fish"
+          }
+        },
+        {
+          "image": "assets/illustrations/tea_cup.png",
+          "label": {
+            "en": "চা — tea"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass.png",
+          "label": {
+            "en": "পানি — water (Bangladesh-common)"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass_wb.png",
+          "label": {
+            "en": "জল — water (West Bengal-common)"
+          }
+        }
+      ],
+      "correctIndex": 2,
+      "hint": {
+        "en": "মাছ means fish."
+      }
+    },
+    {
+      "id": "CH06_S03_L07_ex07",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap what the learner wants: চা"
+      },
+      "bengali": "চা চাই",
+      "options": [
+        {
+          "image": "assets/illustrations/rice_bowl.png",
+          "label": {
+            "en": "ভাত — rice"
+          }
+        },
+        {
+          "image": "assets/illustrations/dal_bowl.png",
+          "label": {
+            "en": "ডাল — dal / lentils"
+          }
+        },
+        {
+          "image": "assets/illustrations/fish_plate.png",
+          "label": {
+            "en": "মাছ — fish"
+          }
+        },
+        {
+          "image": "assets/illustrations/tea_cup.png",
+          "label": {
+            "en": "চা — tea"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass.png",
+          "label": {
+            "en": "পানি — water (Bangladesh-common)"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass_wb.png",
+          "label": {
+            "en": "জল — water (West Bengal-common)"
+          }
+        }
+      ],
+      "correctIndex": 3,
+      "hint": {
+        "en": "চা means tea."
+      }
+    },
+    {
+      "id": "CH06_S03_L07_ex08",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap what the learner wants: পানি"
+      },
+      "bengali": "পানি চাই",
+      "options": [
+        {
+          "image": "assets/illustrations/rice_bowl.png",
+          "label": {
+            "en": "ভাত — rice"
+          }
+        },
+        {
+          "image": "assets/illustrations/dal_bowl.png",
+          "label": {
+            "en": "ডাল — dal / lentils"
+          }
+        },
+        {
+          "image": "assets/illustrations/fish_plate.png",
+          "label": {
+            "en": "মাছ — fish"
+          }
+        },
+        {
+          "image": "assets/illustrations/tea_cup.png",
+          "label": {
+            "en": "চা — tea"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass.png",
+          "label": {
+            "en": "পানি — water (Bangladesh-common)"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass_wb.png",
+          "label": {
+            "en": "জল — water (West Bengal-common)"
+          }
+        }
+      ],
+      "correctIndex": 4,
+      "hint": {
+        "en": "পানি means water (Bangladesh-common)."
+      }
+    },
+    {
+      "id": "CH06_S03_L07_ex09",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the Bengali phrase."
+      },
+      "words": [
+        "চাই",
+        "এটা"
+      ],
+      "correctOrder": [
+        "এটা",
+        "চাই"
+      ],
+      "hint": {
+        "en": "Build the request chunk."
+      }
+    },
+    {
+      "id": "CH06_S03_L07_ex10",
+      "type": "conversation",
+      "scenario": {
+        "en": "Review mix"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "en": "ধন্যবাদ।"
+          }
+        },
+        {
+          "speaker": "B",
+          "text": {
+            "en": "এটা চাই।"
+          }
+        }
+      ],
+      "question": {
+        "en": "Which line is a request?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "এটা চাই।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "নমস্কার।"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "এটা চাই asks for something."
+      }
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "lesson_id": "CH01_S01_L09",
+  "title": {
+    "en": "Hear Bengali, Tap Meaning: Read the Shape"
+  },
+  "description": {
+    "en": "Recognize the written shapes for নমস্কার, হ্যালো, ধন্যবাদ."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH01_S01_L09_E01",
+      "type": "reading",
+      "passage": {
+        "en": "নমস্কার"
+      },
+      "question": {
+        "en": "Which whole word shape is this?"
+      },
+      "hint": {
+        "en": "Recognize the whole word; do not try to decode every letter yet."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "নমস্কার (nomoshkar)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "হ্যালো (hyalo)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ (dhonnobad)"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S01_L09_E02",
+      "type": "reading",
+      "passage": {
+        "en": "হ্যালো"
+      },
+      "question": {
+        "en": "Which whole word shape is this?"
+      },
+      "hint": {
+        "en": "Recognize the whole word; do not try to decode every letter yet."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "নমস্কার (nomoshkar)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "হ্যালো (hyalo)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ (dhonnobad)"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S01_L09_E03",
+      "type": "reading",
+      "passage": {
+        "en": "ধন্যবাদ"
+      },
+      "question": {
+        "en": "Which whole word shape is this?"
+      },
+      "hint": {
+        "en": "Recognize the whole word; do not try to decode every letter yet."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "নমস্কার (nomoshkar)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "হ্যালো (hyalo)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ (dhonnobad)"
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "CH01_S01_L09_E04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Find নমস্কার."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "নমস্কার (nomoshkar)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "হ্যালো (hyalo)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ (dhonnobad)"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "No typing yet—just choose the chunk you recognize."
+      }
+    },
+    {
+      "id": "CH01_S01_L09_E05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Find হ্যালো."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "নমস্কার (nomoshkar)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "হ্যালো (hyalo)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ (dhonnobad)"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "No typing yet—just choose the chunk you recognize."
+      }
+    },
+    {
+      "id": "CH01_S01_L09_E06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Find ধন্যবাদ."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "নমস্কার (nomoshkar)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "হ্যালো (hyalo)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ (dhonnobad)"
+          },
+          "correct": true
+        }
+      ],
+      "hint": {
+        "en": "No typing yet—just choose the chunk you recognize."
+      }
+    },
+    {
+      "id": "CH01_S01_L09_E07",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch01_s01_nomoshkar.mp3",
+      "question": {
+        "en": "Listen, then choose the matching written shape."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "নমস্কার (nomoshkar)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "হ্যালো (hyalo)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ (dhonnobad)"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen first. Use the Bengali word shape only as support."
+      }
+    },
+    {
+      "id": "CH01_S01_L09_E08",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch01_s01_hyalo.mp3",
+      "question": {
+        "en": "Listen, then choose the matching written shape."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "নমস্কার (nomoshkar)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "হ্যালো (hyalo)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ (dhonnobad)"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen first. Use the Bengali word shape only as support."
+      }
+    },
+    {
+      "id": "CH01_S01_L09_E09",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch01_s01_dhonnobad.mp3",
+      "question": {
+        "en": "Listen, then choose the matching written shape."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "নমস্কার (nomoshkar)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "হ্যালো (hyalo)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ (dhonnobad)"
+          },
+          "correct": true
+        }
+      ],
+      "hint": {
+        "en": "Listen first. Use the Bengali word shape only as support."
+      }
+    },
+    {
+      "id": "CH01_S01_L09_E10",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Put greeting before thanks."
+      },
+      "words": [
+        "ধন্যবাদ",
+        "নমস্কার"
+      ],
+      "wordsRomanized": [
+        "dhonnobad",
+        "nomoshkar"
+      ],
+      "correctOrder": [
+        "নমস্কার",
+        "ধন্যবাদ"
+      ],
+      "hint": {
+        "en": "Build with whole chunks, not letters."
+      }
+    }
+  ]
+}

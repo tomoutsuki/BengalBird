@@ -1,0 +1,394 @@
+{
+  "lesson_id": "CH05_S01_L06",
+  "title": {
+    "en": "Close Family: Mini Exchange"
+  },
+  "description": {
+    "en": "Complete a short exchange with মা, বাবা, ভাই, বোন."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH05_S01_L06_ex01",
+      "type": "conversation",
+      "scenario": {
+        "en": "Photo sharing: mother."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "আমার মা",
+            "romanized": "amar ma",
+            "en": "my mother"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "my mother"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "my father"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "my brother"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S01_L06_ex02",
+      "type": "conversation",
+      "scenario": {
+        "en": "Photo sharing: father."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "আমার বাবা",
+            "romanized": "amar baba",
+            "en": "my father"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "my father"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "my sister"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "my mother"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S01_L06_ex03",
+      "type": "conversation",
+      "scenario": {
+        "en": "Photo sharing: brother."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "আমার ভাই",
+            "romanized": "amar bhai",
+            "en": "my brother"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "my sister"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "my brother"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "my father"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S01_L06_ex04",
+      "type": "conversation",
+      "scenario": {
+        "en": "Photo sharing: sister."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "আমার বোন",
+            "romanized": "amar bon",
+            "en": "my sister"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "my brother"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "my mother"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "my sister"
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "CH05_S01_L06_ex05",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Listen to a family photo mini-scene."
+      },
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "audio": "assets/audio/listening/ch05_s01/family_photo_amar_ma.mp3",
+          "bengali": "আমার পরিবার।",
+          "romanized": "amar poribar",
+          "meaning": {
+            "en": "My family."
+          }
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "Which word completes “আমার ___”?"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "মা",
+                "romanized": "ma",
+                "en": "mother / mom"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "বাবা",
+                "romanized": "baba",
+                "en": "father / dad"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "bengali": "ভাই",
+                "romanized": "bhai",
+                "en": "brother"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CH05_S01_L06_ex06",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Listen to a family photo mini-scene."
+      },
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "audio": "assets/audio/listening/ch05_s01/family_photo_amar_baba.mp3",
+          "bengali": "আমার পরিবার।",
+          "romanized": "amar poribar",
+          "meaning": {
+            "en": "My family."
+          }
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "Which word completes “আমার ___”?"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "বাবা",
+                "romanized": "baba",
+                "en": "father / dad"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "বোন",
+                "romanized": "bon",
+                "en": "sister"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "bengali": "মা",
+                "romanized": "ma",
+                "en": "mother / mom"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CH05_S01_L06_ex07",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the Bengali phrase."
+      },
+      "words": [
+        "ভাই",
+        "আমার"
+      ],
+      "wordsRomanized": [
+        "bhai",
+        "amar"
+      ],
+      "correctOrder": [
+        "আমার",
+        "ভাই"
+      ]
+    },
+    {
+      "id": "CH05_S01_L06_ex08",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the Bengali phrase."
+      },
+      "words": [
+        "বোন",
+        "আমার"
+      ],
+      "wordsRomanized": [
+        "bon",
+        "amar"
+      ],
+      "correctOrder": [
+        "আমার",
+        "বোন"
+      ]
+    },
+    {
+      "id": "CH05_S01_L06_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Pick the Bengali for “my father.”"
+      },
+      "options": [
+        {
+          "en": "আমার বাবা"
+        },
+        {
+          "en": "আমার মা"
+        },
+        {
+          "en": "আমার বোন"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S01_L06_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Pick the Bengali for “my brother.”"
+      },
+      "options": [
+        {
+          "en": "আমার বোন"
+        },
+        {
+          "en": "আমার ভাই"
+        },
+        {
+          "en": "আমার বাবা"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH05_S01_L06_ex11",
+      "type": "reading",
+      "passage": {
+        "en": "আমার মা। আমার বাবা।"
+      },
+      "question": {
+        "en": "Which two people are mentioned?"
+      },
+      "options": [
+        {
+          "en": "mother and father"
+        },
+        {
+          "en": "brother and sister"
+        },
+        {
+          "en": "mother and brother"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S01_L06_ex12",
+      "type": "reading",
+      "passage": {
+        "en": "আমার ভাই। আমার বোন।"
+      },
+      "question": {
+        "en": "Which two people are mentioned?"
+      },
+      "options": [
+        {
+          "en": "father and sister"
+        },
+        {
+          "en": "brother and sister"
+        },
+        {
+          "en": "mother and father"
+        }
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

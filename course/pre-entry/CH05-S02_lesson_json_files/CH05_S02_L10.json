@@ -1,0 +1,331 @@
+{
+  "lesson_id": "CH05_S02_L10",
+  "title": {
+    "en": "I Have…: Check"
+  },
+  "description": {
+    "en": "Pass a short mixed check for i have…."
+  },
+  "est_time_mins": 5,
+  "exercises": [
+    {
+      "id": "CH05_S02_L10_ex01",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Final mixed family check."
+      },
+      "audio": "assets/audio/listening/ch05_s02_l10_check_scene.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "নমস্কার।",
+          "romanized": "nomoskar",
+          "english": "Hello."
+        },
+        {
+          "type": "line",
+          "speaker": "B",
+          "bengali": "নমস্কার।",
+          "romanized": "nomoskar",
+          "english": "Hello."
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "Choose “I have a brother.”"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "আমার ভাই আছে।",
+                "romanized": "amar bhai achhe",
+                "english": "I have a brother."
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "আমার বোন আছে।",
+                "romanized": "amar bon achhe",
+                "english": "I have a sister."
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L10_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s02_l10_check_ma.mp3",
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I have a mother."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "I have a father."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "What is your name?"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L10_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s02_l10_check_baba.mp3",
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I have a father."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "I have a sister."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "I am fine."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L10_ex04",
+      "type": "reading",
+      "passage": {
+        "en": "আমার ভাই আছে।"
+      },
+      "question": {
+        "en": "What does this say?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I have a brother."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "I have a father."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "I have a mother."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L10_ex05",
+      "type": "reading",
+      "passage": {
+        "en": "আমার বোন আছে।"
+      },
+      "question": {
+        "en": "What does this say?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I have a sister."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "I have a brother."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "I have tea."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L10_ex06",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: I have a mother."
+      },
+      "words": [
+        "আছে।",
+        "মা",
+        "আমার"
+      ],
+      "wordsRomanized": [
+        "achhe",
+        "ma",
+        "amar"
+      ],
+      "correctOrder": [
+        "আমার",
+        "মা",
+        "আছে।"
+      ]
+    },
+    {
+      "id": "CH05_S02_L10_ex07",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: I have a sister."
+      },
+      "words": [
+        "বোন",
+        "আমার",
+        "আছে।"
+      ],
+      "wordsRomanized": [
+        "bon",
+        "amar",
+        "achhe"
+      ],
+      "correctOrder": [
+        "আমার",
+        "বোন",
+        "আছে।"
+      ]
+    },
+    {
+      "id": "CH05_S02_L10_ex08",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which phrase follows the pattern?"
+      },
+      "options": [
+        {
+          "en": "আমার বাবা আছে।"
+        },
+        {
+          "en": "আমার বাবা কী?"
+        },
+        {
+          "en": "বাবা আছে আমার।"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S02_L10_ex09",
+      "type": "figure_choice",
+      "question": {
+        "en": "Choose the image: আমার ভাই আছে।"
+      },
+      "bengali": "আমার ভাই আছে।",
+      "options": [
+        {
+          "image": "assets/illustrations/family_sister.png",
+          "label": {
+            "en": "sister"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_brother.png",
+          "label": {
+            "en": "brother"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_mother.png",
+          "label": {
+            "en": "mother"
+          }
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH05_S02_L10_ex10",
+      "type": "conversation",
+      "scenario": {
+        "en": "Checkpoint reply."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "bengali": "পরিবার?",
+          "romanized": "poribar?",
+          "english": "Family?"
+        }
+      ],
+      "question": {
+        "en": "Pick a correct CH05-S02 sentence."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার মা আছে।",
+            "romanized": "amar ma achhe",
+            "english": "I have a mother."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমার নাম কী?",
+            "romanized": "amar nam ki?",
+            "english": "What is my name?"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ঠিক আছে।",
+            "romanized": "thik achhe",
+            "english": "Okay."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L10_ex11",
+      "type": "grammar-select",
+      "question": {
+        "en": "What should this section feel like?"
+      },
+      "options": [
+        {
+          "en": "A useful whole phrase: আমার … আছে"
+        },
+        {
+          "en": "A grammar chart about existence"
+        },
+        {
+          "en": "Typing without support"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

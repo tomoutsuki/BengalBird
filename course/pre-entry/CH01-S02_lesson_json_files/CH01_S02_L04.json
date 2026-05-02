@@ -1,0 +1,343 @@
+{
+  "lesson_id": "CH01_S02_L04",
+  "title": {
+    "en": "Yes, Okay, Thanks: Choose the Reply"
+  },
+  "description": {
+    "en": "Pick the most natural reply in tiny exchanges."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH01_S02_L04_E01",
+      "type": "conversation",
+      "scenario": {
+        "en": "Someone asks if you want tea."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "bengali": "চা?"
+        }
+      ],
+      "question": {
+        "en": "Choose “yes.”"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "হ্যাঁ",
+            "romanized": "hyã",
+            "meaning": "yes"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "না",
+            "romanized": "na",
+            "meaning": "no"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "meaning": "thank you"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S02_L04_E02",
+      "type": "conversation",
+      "scenario": {
+        "en": "Someone asks if you want tea."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "bengali": "চা?"
+        }
+      ],
+      "question": {
+        "en": "Choose “no.”"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "না",
+            "romanized": "na",
+            "meaning": "no"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "হ্যাঁ",
+            "romanized": "hyã",
+            "meaning": "yes"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ঠিক আছে",
+            "romanized": "ṭhik ache",
+            "meaning": "okay"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S02_L04_E03",
+      "type": "conversation",
+      "scenario": {
+        "en": "Someone says: “Meet here?”"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "bengali": "এখানে?"
+        }
+      ],
+      "question": {
+        "en": "Choose a natural okay."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ঠিক আছে",
+            "romanized": "ṭhik ache",
+            "meaning": "okay / all right"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "না",
+            "romanized": "na",
+            "meaning": "no"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "meaning": "thank you"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S02_L04_E04",
+      "type": "conversation",
+      "scenario": {
+        "en": "Someone explains a simple instruction."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "bengali": "এখানে।"
+        }
+      ],
+      "question": {
+        "en": "Choose “I see / okay.”"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আচ্ছা",
+            "romanized": "achchha",
+            "meaning": "I see / okay"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "হ্যাঁ",
+            "romanized": "hyã",
+            "meaning": "yes"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "meaning": "thank you"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S02_L04_E05",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch01_s02_hya.mp3",
+      "question": {
+        "en": "Tap the reply you heard."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "yes",
+            "bengali": "হ্যাঁ",
+            "romanized": "hyã"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "no",
+            "bengali": "না",
+            "romanized": "na"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "okay / all right",
+            "bengali": "ঠিক আছে",
+            "romanized": "ṭhik ache"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "okay / I see",
+            "bengali": "আচ্ছা",
+            "romanized": "achchha"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S02_L04_E06",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch01_s02_thik_ache.mp3",
+      "question": {
+        "en": "Tap the reply you heard."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "yes",
+            "bengali": "হ্যাঁ",
+            "romanized": "hyã"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "no",
+            "bengali": "না",
+            "romanized": "na"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "okay / all right",
+            "bengali": "ঠিক আছে",
+            "romanized": "ṭhik ache"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "okay / I see",
+            "bengali": "আচ্ছা",
+            "romanized": "achchha"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S02_L04_E07",
+      "type": "grammar-select",
+      "question": {
+        "en": "Best reply to thanks: ধন্যবাদ."
+      },
+      "options": [
+        {
+          "en": "ঠিক আছে"
+        },
+        {
+          "en": "না"
+        },
+        {
+          "en": "হ্যাঁ"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "In this tiny app context, ঠিক আছে can be a simple okay response."
+      }
+    },
+    {
+      "id": "CH01_S02_L04_E08",
+      "type": "grammar-select",
+      "question": {
+        "en": "Best reply to “Tea?” when you do not want it."
+      },
+      "options": [
+        {
+          "en": "না"
+        },
+        {
+          "en": "হ্যাঁ"
+        },
+        {
+          "en": "আচ্ছা"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH01_S02_L04_E09",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build “okay / all right.”"
+      },
+      "words": [
+        "ঠিক",
+        "আছে"
+      ],
+      "correctOrder": [
+        "ঠিক",
+        "আছে"
+      ],
+      "wordsRomanized": [
+        "ṭhik",
+        "ache"
+      ]
+    },
+    {
+      "id": "CH01_S02_L04_E10",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build “thank you.”"
+      },
+      "words": [
+        "ধন্যবাদ",
+        "।"
+      ],
+      "correctOrder": [
+        "ধন্যবাদ",
+        "।"
+      ],
+      "wordsRomanized": [
+        "dhonnobad",
+        "."
+      ]
+    }
+  ]
+}

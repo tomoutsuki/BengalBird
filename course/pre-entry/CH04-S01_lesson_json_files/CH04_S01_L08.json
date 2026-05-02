@@ -1,0 +1,356 @@
+{
+  "lesson_id": "CH04_S01_L08",
+  "title": {
+    "en": "I / You / He-She: Audio Sprint"
+  },
+  "description": {
+    "en": "Practice fast audio recognition of the four pronouns in varied voices."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH04_S01_L08_E01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ami.mp3",
+      "question": {
+        "en": "Quick tap: meaning?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I / me"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "you polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "you friendly"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "he/she"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen for ami — আমি."
+      }
+    },
+    {
+      "id": "CH04_S01_L08_E02",
+      "type": "listening",
+      "audio": "assets/audio/listening/apni.mp3",
+      "question": {
+        "en": "Quick tap: meaning?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "you (polite)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "I/me"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "you friendly"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "he/she"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen for apni — আপনি."
+      }
+    },
+    {
+      "id": "CH04_S01_L08_E03",
+      "type": "listening",
+      "audio": "assets/audio/listening/tumi.mp3",
+      "question": {
+        "en": "Quick tap: meaning?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "you (friendly)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "you polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "I/me"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "he/she"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen for tumi — তুমি."
+      }
+    },
+    {
+      "id": "CH04_S01_L08_E04",
+      "type": "listening",
+      "audio": "assets/audio/listening/shey.mp3",
+      "question": {
+        "en": "Quick tap: meaning?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "he / she / that person"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "I/me"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "you polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "you friendly"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen for shey — সে."
+      }
+    },
+    {
+      "id": "CH04_S01_L08_E05",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Mini audio scene: polite."
+      },
+      "audio": "assets/audio/listening/CH04_S01_L08_E05.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "আপনি কেমন?",
+          "romanized": "Apni kemon?"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "Which pronoun did you hear?"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "আপনি",
+                "romanized": "apni"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "তুমি",
+                "romanized": "tumi"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "bengali": "সে",
+                "romanized": "shey"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "hint": {
+        "en": "Listen for the pronoun shape and the social context."
+      }
+    },
+    {
+      "id": "CH04_S01_L08_E06",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Mini audio scene: friendly."
+      },
+      "audio": "assets/audio/listening/CH04_S01_L08_E06.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "তুমি কেমন?",
+          "romanized": "Tumi kemon?"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "Which pronoun did you hear?"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "তুমি",
+                "romanized": "tumi"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "আপনি",
+                "romanized": "apni"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "bengali": "আমি",
+                "romanized": "ami"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "hint": {
+        "en": "Listen for the pronoun shape and the social context."
+      }
+    },
+    {
+      "id": "CH04_S01_L08_E07",
+      "type": "grammar-select",
+      "question": {
+        "en": "Audio meaning check: apni ="
+      },
+      "options": [
+        {
+          "en": "you polite"
+        },
+        {
+          "en": "you friendly"
+        },
+        {
+          "en": "I/me"
+        },
+        {
+          "en": "he/she"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Choose the pronoun that fits the context."
+      }
+    },
+    {
+      "id": "CH04_S01_L08_E08",
+      "type": "grammar-select",
+      "question": {
+        "en": "Audio meaning check: ami ="
+      },
+      "options": [
+        {
+          "en": "I/me"
+        },
+        {
+          "en": "you polite"
+        },
+        {
+          "en": "he/she"
+        },
+        {
+          "en": "name"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Choose the pronoun that fits the context."
+      }
+    },
+    {
+      "id": "CH04_S01_L08_E09",
+      "type": "reading",
+      "passage": {
+        "en": "সে"
+      },
+      "question": {
+        "en": "Read fast: choose meaning."
+      },
+      "options": [
+        {
+          "en": "he / she"
+        },
+        {
+          "en": "you polite"
+        },
+        {
+          "en": "I"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Whole-word shape."
+      }
+    },
+    {
+      "id": "CH04_S01_L08_E10",
+      "type": "reading",
+      "passage": {
+        "en": "তুমি"
+      },
+      "question": {
+        "en": "Read fast: choose register."
+      },
+      "options": [
+        {
+          "en": "friendly you"
+        },
+        {
+          "en": "polite you"
+        },
+        {
+          "en": "he/she"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Friendly context."
+      }
+    }
+  ]
+}

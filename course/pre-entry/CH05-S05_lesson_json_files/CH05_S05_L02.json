@@ -1,0 +1,233 @@
+{
+  "lesson_id": "CH05_S05_L02",
+  "title": {
+    "en": "Family Profile: Tap the Meaning"
+  },
+  "description": {
+    "en": "Match short family cards to meaning without production."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH05_S05_L02_ex01",
+      "type": "grammar-select",
+      "question": {
+        "en": "Tap the meaning: আমার নাম রিয়া"
+      },
+      "options": [
+        {
+          "en": "My name is Riya."
+        },
+        {
+          "en": "I have Riya."
+        },
+        {
+          "en": "Riya is my sister."
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L02_ex02",
+      "type": "grammar-select",
+      "question": {
+        "en": "Tap the meaning: আমার বাবা আছে"
+      },
+      "options": [
+        {
+          "en": "I have a father."
+        },
+        {
+          "en": "My father is named Baba."
+        },
+        {
+          "en": "I am fine."
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L02_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s05_l02_amar_bon_ache.mp3",
+      "question": {
+        "en": "Which profile did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার বোন আছে — I have a sister"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আমার ভাই আছে — I have a brother"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আমার নাম মায়া — My name is Maya"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S05_L02_ex04",
+      "type": "figure_choice",
+      "question": {
+        "en": "Which image matches ভাই?"
+      },
+      "bengali": "ভাই",
+      "options": [
+        {
+          "image": "assets/illustrations/brother.png",
+          "label": {
+            "en": "brother"
+          }
+        },
+        {
+          "image": "assets/illustrations/sister.png",
+          "label": {
+            "en": "sister"
+          }
+        },
+        {
+          "image": "assets/illustrations/mother.png",
+          "label": {
+            "en": "mother"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L02_ex05",
+      "type": "reading",
+      "passage": {
+        "en": "আমার নাম রাহুল।\nআমার ভাই আছে।"
+      },
+      "question": {
+        "en": "Who has a brother?"
+      },
+      "options": [
+        {
+          "en": "Rahul"
+        },
+        {
+          "en": "Riya"
+        },
+        {
+          "en": "Maya"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L02_ex06",
+      "type": "reading",
+      "passage": {
+        "en": "আমার নাম মায়া।\nআমার বোন আছে।"
+      },
+      "question": {
+        "en": "What does Maya have?"
+      },
+      "options": [
+        {
+          "en": "a sister"
+        },
+        {
+          "en": "a father"
+        },
+        {
+          "en": "a name question"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L02_ex07",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which phrase is a family profile sentence?"
+      },
+      "options": [
+        {
+          "en": "আমার মা আছে"
+        },
+        {
+          "en": "ধন্যবাদ"
+        },
+        {
+          "en": "কেমন আছেন?"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L02_ex08",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the Bengali for “my name.”"
+      },
+      "options": [
+        {
+          "en": "আমার নাম"
+        },
+        {
+          "en": "আপনার নাম কী?"
+        },
+        {
+          "en": "ভালো আছি"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L02_ex09",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: My name is Maya."
+      },
+      "words": [
+        "মায়া",
+        "নাম",
+        "আমার"
+      ],
+      "correctOrder": [
+        "আমার",
+        "নাম",
+        "মায়া"
+      ],
+      "wordsRomanized": [
+        "Maya",
+        "nam",
+        "amar"
+      ]
+    },
+    {
+      "id": "CH05_S05_L02_ex10",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: I have a sister."
+      },
+      "words": [
+        "বোন",
+        "আমার",
+        "আছে"
+      ],
+      "correctOrder": [
+        "আমার",
+        "বোন",
+        "আছে"
+      ],
+      "wordsRomanized": [
+        "bon",
+        "amar",
+        "ache"
+      ]
+    }
+  ]
+}

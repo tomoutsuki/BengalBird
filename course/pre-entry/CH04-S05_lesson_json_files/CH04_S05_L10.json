@@ -1,0 +1,383 @@
+{
+  "lesson_id": "CH04_S05_L10",
+  "title": {
+    "en": "Pronoun Review: Check"
+  },
+  "description": {
+    "en": "Pass a short mixed check for pronoun review."
+  },
+  "est_time_mins": 5,
+  "exercises": [
+    {
+      "id": "CH04_S05_L10_ex01",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Mixed pronoun checkpoint."
+      },
+      "audio": "assets/audio/listening/ch04_s05/CH04_S05_L10_ex01.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "নমস্কার।"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "Choose the safest “you” for a new person."
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "আপনি",
+                "romanized": "apni",
+                "en": "you — polite"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "তুমি",
+                "romanized": "tumi",
+                "en": "you — friendly"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "bengali": "তুই",
+                "romanized": "tui",
+                "en": "you — very intimate/risky"
+              },
+              "correct": false
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "B",
+          "bengali": "ভালো আছি।"
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L10_ex02",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose “I / me”."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমি",
+            "romanized": "ami",
+            "en": "I / me"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমরা",
+            "romanized": "amra",
+            "en": "we"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তারা",
+            "romanized": "tara",
+            "en": "they"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L10_ex03",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose “we”."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমরা",
+            "romanized": "amra",
+            "en": "we"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমি",
+            "romanized": "ami",
+            "en": "I / me"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "সে",
+            "romanized": "she",
+            "en": "he / she"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L10_ex04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose “they”."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তারা",
+            "romanized": "tara",
+            "en": "they"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমরা",
+            "romanized": "amra",
+            "en": "we"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তুমি",
+            "romanized": "tumi",
+            "en": "you — friendly"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L10_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose “my”."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার",
+            "romanized": "amar",
+            "en": "my"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your — polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your — friendly"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L10_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose polite “your”."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your — polite"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your — friendly"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তুই",
+            "romanized": "tui",
+            "en": "you — very intimate/risky"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L10_ex07",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose friendly “your”."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your — friendly"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your — polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তারা",
+            "romanized": "tara",
+            "en": "they"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L10_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "আমরা ভালো আছি।"
+      },
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "We are fine."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "They are fine."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "I am fine."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L10_ex09",
+      "type": "conversation",
+      "scenario": {
+        "en": "Final safety check."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "নমস্কার।"
+          }
+        }
+      ],
+      "question": {
+        "en": "Which option is safest with a stranger?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনি কেমন?",
+            "romanized": "apni kemon",
+            "en": "How are you? — polite"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তুই আছিস?",
+            "en": "Are you? — risky/intimate"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তারা কেমন?",
+            "en": "How are they?"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L10_ex10",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: “My name”"
+      },
+      "words": [
+        "নাম",
+        "আমার"
+      ],
+      "correctOrder": [
+        "আমার",
+        "নাম"
+      ]
+    },
+    {
+      "id": "CH04_S05_L10_ex11",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s05/tara.mp3",
+      "question": {
+        "en": "Final listen: which word did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তারা",
+            "romanized": "tara",
+            "en": "they"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমরা",
+            "romanized": "amra",
+            "en": "we"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তুমি",
+            "romanized": "tumi",
+            "en": "you — friendly"
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

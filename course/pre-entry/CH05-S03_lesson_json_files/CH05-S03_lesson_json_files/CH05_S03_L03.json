@@ -1,0 +1,270 @@
+{
+  "lesson_id": "CH05_S03_L03",
+  "title": {
+    "en": "Older/Younger: Hear It in Context"
+  },
+  "description": {
+    "en": "Notice বড় ভাই, ছোট বোন in a tiny context."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH05_S03_L03_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s03_l03_boro_bhai.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "বড় ভাই — older brother"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ছোট বোন — younger sister"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভাই — brother"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "বড় ভাই means older brother."
+      }
+    },
+    {
+      "id": "CH05_S03_L03_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s03_l03_chhoto_bon.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ছোট বোন — younger sister"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "বড় ভাই — older brother"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "বোন — sister"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ছোট বোন means younger sister."
+      }
+    },
+    {
+      "id": "CH05_S03_L03_ex03",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the picture for: বড় ভাই"
+      },
+      "bengali": "বড় ভাই",
+      "options": [
+        {
+          "image": "assets/illustrations/family_older_brother.png",
+          "label": {
+            "en": "older brother"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_younger_sister.png",
+          "label": {
+            "en": "younger sister"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_sister.png",
+          "label": {
+            "en": "sister"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S03_L03_ex04",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the picture for: ছোট বোন"
+      },
+      "bengali": "ছোট বোন",
+      "options": [
+        {
+          "image": "assets/illustrations/family_brother.png",
+          "label": {
+            "en": "brother"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_younger_sister.png",
+          "label": {
+            "en": "younger sister"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_older_brother.png",
+          "label": {
+            "en": "older brother"
+          }
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH05_S03_L03_ex05",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s03_l03_amar_boro_bhai_achhe.mp3",
+      "question": {
+        "en": "What family detail did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার বড় ভাই আছে। — I have an older brother."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আমার ছোট বোন আছে। — I have a younger sister."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আমার নাম ভাই। — My name is Bhai."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S03_L03_ex06",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s03_l03_amar_chhoto_bon_achhe.mp3",
+      "question": {
+        "en": "What family detail did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার ছোট বোন আছে। — I have a younger sister."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আমার বড় ভাই আছে। — I have an older brother."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আমার বোন কোথায়? — Where is my sister?"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S03_L03_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "আমার বড় ভাই আছে।"
+      },
+      "question": {
+        "en": "Who does the speaker have?"
+      },
+      "options": [
+        {
+          "en": "an older brother"
+        },
+        {
+          "en": "a younger sister"
+        },
+        {
+          "en": "a father"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S03_L03_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "আমার ছোট বোন আছে।"
+      },
+      "question": {
+        "en": "Who does the speaker have?"
+      },
+      "options": [
+        {
+          "en": "a younger sister"
+        },
+        {
+          "en": "an older brother"
+        },
+        {
+          "en": "a mother"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S03_L03_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "In “আমার বড় ভাই আছে”, what is the family detail?"
+      },
+      "options": [
+        {
+          "en": "বড় ভাই"
+        },
+        {
+          "en": "ছোট বোন"
+        },
+        {
+          "en": "ধন্যবাদ"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S03_L03_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "In “আমার ছোট বোন আছে”, what is the family detail?"
+      },
+      "options": [
+        {
+          "en": "ছোট বোন"
+        },
+        {
+          "en": "বড় ভাই"
+        },
+        {
+          "en": "নমস্কার"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

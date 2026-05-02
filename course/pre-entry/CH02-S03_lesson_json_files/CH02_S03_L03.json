@@ -1,0 +1,297 @@
+{
+  "lesson_id": "CH02_S03_L03",
+  "title": {
+    "en": "Fine, So-so, Not Bad: Hear It in Context"
+  },
+  "description": {
+    "en": "Notice মোটামুটি, খারাপ না in a tiny context."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH02_S03_L03_E01",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Listen to a tiny polite check-in."
+      },
+      "audio": "assets/audio/listening/ch02_s03_mini_scene.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "নমস্কার।",
+          "romanized": "nomoshkar"
+        },
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "কেমন আছেন?",
+          "romanized": "kemon achen?"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "Choose a natural answer."
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "মোটামুটি",
+                "en": "So-so"
+              },
+              "correct": true,
+              "romanized": "motamuti"
+            },
+            {
+              "text": {
+                "bengali": "ধন্যবাদ",
+                "en": "Thank you"
+              },
+              "correct": false,
+              "romanized": "dhonnobad"
+            },
+            {
+              "text": {
+                "bengali": "নমস্কার",
+                "en": "Hello"
+              },
+              "correct": false,
+              "romanized": "nomoshkar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CH02_S03_L03_E02",
+      "type": "conversation",
+      "scenario": {
+        "en": "A polite check-in."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "কেমন আছেন?",
+            "en": "How are you?"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose “Not bad.”"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "খারাপ না",
+            "en": "Not bad"
+          },
+          "correct": true,
+          "romanized": "kharap na"
+        },
+        {
+          "text": {
+            "bengali": "হ্যাঁ",
+            "en": "Yes"
+          },
+          "correct": false,
+          "romanized": "hya"
+        },
+        {
+          "text": {
+            "bengali": "আচ্ছা",
+            "en": "Okay / I see"
+          },
+          "correct": false,
+          "romanized": "achchha"
+        }
+      ]
+    },
+    {
+      "id": "CH02_S03_L03_E03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch02_s03_motamuti.mp3",
+      "question": {
+        "en": "In a check-in, this means…"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "So-so"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Thank you"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "No"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH02_S03_L03_E04",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch02_s03_kharap_na.mp3",
+      "question": {
+        "en": "In a check-in, this means…"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Not bad"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Yes"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Excuse me"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH02_S03_L03_E05",
+      "type": "grammar-select",
+      "question": {
+        "en": "What is the safest meaning of মোটামুটি here?"
+      },
+      "options": [
+        {
+          "en": "So-so"
+        },
+        {
+          "en": "Very bad"
+        },
+        {
+          "en": "Goodbye"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH02_S03_L03_E06",
+      "type": "grammar-select",
+      "question": {
+        "en": "What is the safest meaning of খারাপ না here?"
+      },
+      "options": [
+        {
+          "en": "Not bad"
+        },
+        {
+          "en": "No problem"
+        },
+        {
+          "en": "I’m sorry"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH02_S03_L03_E07",
+      "type": "reading",
+      "passage": {
+        "en": "কেমন আছেন? — মোটামুটি।"
+      },
+      "question": {
+        "en": "What happened?"
+      },
+      "options": [
+        {
+          "en": "Someone answered “So-so.”"
+        },
+        {
+          "en": "Someone said goodbye."
+        },
+        {
+          "en": "Someone asked for tea."
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH02_S03_L03_E08",
+      "type": "reading",
+      "passage": {
+        "en": "কেমন আছেন? — খারাপ না।"
+      },
+      "question": {
+        "en": "What happened?"
+      },
+      "options": [
+        {
+          "en": "Someone answered “Not bad.”"
+        },
+        {
+          "en": "Someone said sorry."
+        },
+        {
+          "en": "Someone said no."
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH02_S03_L03_E09",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the feeling for মোটামুটি."
+      },
+      "options": [
+        {
+          "image": "assets/illustrations/feeling_good.png",
+          "label": {
+            "en": "ভালো আছি — I’m fine"
+          }
+        },
+        {
+          "image": "assets/illustrations/feeling_so_so.png",
+          "label": {
+            "en": "মোটামুটি — So-so"
+          }
+        },
+        {
+          "image": "assets/illustrations/feeling_not_bad.png",
+          "label": {
+            "en": "খারাপ না — Not bad"
+          }
+        }
+      ],
+      "correctIndex": 1,
+      "bengali": "মোটামুটি"
+    },
+    {
+      "id": "CH02_S03_L03_E10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which answer fits a small check-in?"
+      },
+      "options": [
+        {
+          "en": "মোটামুটি"
+        },
+        {
+          "en": "বাজার কোথায়?"
+        },
+        {
+          "en": "চা দিন"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

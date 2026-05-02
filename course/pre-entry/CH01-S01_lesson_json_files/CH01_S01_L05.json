@@ -1,0 +1,322 @@
+{
+  "lesson_id": "CH01_S01_L05",
+  "title": {
+    "en": "Hear Bengali, Tap Meaning: Build the Chunk"
+  },
+  "description": {
+    "en": "Build simple greeting/thanks chunks without typing."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH01_S01_L05_E01",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: Hello + thank you."
+      },
+      "words": [
+        "ধন্যবাদ",
+        "হ্যালো"
+      ],
+      "wordsRomanized": [
+        "dhonnobad",
+        "hyalo"
+      ],
+      "correctOrder": [
+        "হ্যালো",
+        "ধন্যবাদ"
+      ],
+      "hint": {
+        "en": "Build with whole chunks, not letters."
+      }
+    },
+    {
+      "id": "CH01_S01_L05_E02",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: Respectful hello + thank you."
+      },
+      "words": [
+        "ধন্যবাদ",
+        "নমস্কার"
+      ],
+      "wordsRomanized": [
+        "dhonnobad",
+        "nomoshkar"
+      ],
+      "correctOrder": [
+        "নমস্কার",
+        "ধন্যবাদ"
+      ],
+      "hint": {
+        "en": "Build with whole chunks, not letters."
+      }
+    },
+    {
+      "id": "CH01_S01_L05_E03",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the chunk for a respectful hello."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "নমস্কার (nomoshkar)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "হ্যালো (hyalo)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ (dhonnobad)"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "No typing yet—just choose the chunk you recognize."
+      }
+    },
+    {
+      "id": "CH01_S01_L05_E04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the chunk for thanks."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "নমস্কার (nomoshkar)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "হ্যালো (hyalo)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ (dhonnobad)"
+          },
+          "correct": true
+        }
+      ],
+      "hint": {
+        "en": "No typing yet—just choose the chunk you recognize."
+      }
+    },
+    {
+      "id": "CH01_S01_L05_E05",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch01_s01_nomoshkar.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "নমস্কার (nomoshkar)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "হ্যালো (hyalo)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ (dhonnobad)"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen first. Use the Bengali word shape only as support."
+      }
+    },
+    {
+      "id": "CH01_S01_L05_E06",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch01_s01_hyalo.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "নমস্কার (nomoshkar)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "হ্যালো (hyalo)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ (dhonnobad)"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen first. Use the Bengali word shape only as support."
+      }
+    },
+    {
+      "id": "CH01_S01_L05_E07",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch01_s01_dhonnobad.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "নমস্কার (nomoshkar)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "হ্যালো (hyalo)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ (dhonnobad)"
+          },
+          "correct": true
+        }
+      ],
+      "hint": {
+        "en": "Listen first. Use the Bengali word shape only as support."
+      }
+    },
+    {
+      "id": "CH01_S01_L05_E08",
+      "type": "reading",
+      "passage": {
+        "en": "নমস্কার / হ্যালো / ধন্যবাদ"
+      },
+      "question": {
+        "en": "Which one means thank you?"
+      },
+      "hint": {
+        "en": "Recognize the whole word; do not try to decode every letter yet."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "নমস্কার (nomoshkar)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "হ্যালো (hyalo)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ (dhonnobad)"
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "CH01_S01_L05_E09",
+      "type": "conversation",
+      "scenario": {
+        "en": "You enter a small shop politely."
+      },
+      "dialogue": [],
+      "question": {
+        "en": "What is the safest first word?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "নমস্কার",
+            "romanized": "nomoshkar",
+            "en": "hello / respectful greeting"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "হ্যালো",
+            "romanized": "hyalo",
+            "en": "hello"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "en": "thank you"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Choose the natural short response."
+      }
+    },
+    {
+      "id": "CH01_S01_L05_E10",
+      "type": "conversation",
+      "scenario": {
+        "en": "Someone says thanks to you in Bengali."
+      },
+      "dialogue": [],
+      "question": {
+        "en": "Which word did they likely use?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "নমস্কার",
+            "romanized": "nomoshkar",
+            "en": "hello / respectful greeting"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "হ্যালো",
+            "romanized": "hyalo",
+            "en": "hello"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "en": "thank you"
+          },
+          "correct": true
+        }
+      ],
+      "hint": {
+        "en": "Choose the natural short response."
+      }
+    }
+  ]
+}

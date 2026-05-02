@@ -1,0 +1,323 @@
+{
+  "lesson_id": "CH01_S02_L03",
+  "title": {
+    "en": "Yes, Okay, Thanks: Hear It in Context"
+  },
+  "description": {
+    "en": "Use yes, no, okay, and I see in quick mini-scenes."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH01_S02_L03_E01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch01_s02_hya.mp3",
+      "question": {
+        "en": "A friend asks: “Tea?” What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "yes",
+            "bengali": "হ্যাঁ",
+            "romanized": "hyã"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "no",
+            "bengali": "না",
+            "romanized": "na"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "okay / all right",
+            "bengali": "ঠিক আছে",
+            "romanized": "ṭhik ache"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "okay / I see",
+            "bengali": "আচ্ছা",
+            "romanized": "achchha"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S02_L03_E02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch01_s02_na.mp3",
+      "question": {
+        "en": "A friend asks: “Tea?” What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "yes",
+            "bengali": "হ্যাঁ",
+            "romanized": "hyã"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "no",
+            "bengali": "না",
+            "romanized": "na"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "okay / all right",
+            "bengali": "ঠিক আছে",
+            "romanized": "ṭhik ache"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "okay / I see",
+            "bengali": "আচ্ছা",
+            "romanized": "achchha"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S02_L03_E03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch01_s02_thik_ache.mp3",
+      "question": {
+        "en": "Someone says: “Meet here?” What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "yes",
+            "bengali": "হ্যাঁ",
+            "romanized": "hyã"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "no",
+            "bengali": "না",
+            "romanized": "na"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "okay / all right",
+            "bengali": "ঠিক আছে",
+            "romanized": "ṭhik ache"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "okay / I see",
+            "bengali": "আচ্ছা",
+            "romanized": "achchha"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S02_L03_E04",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch01_s02_achchha.mp3",
+      "question": {
+        "en": "Someone explains something. What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "yes",
+            "bengali": "হ্যাঁ",
+            "romanized": "hyã"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "no",
+            "bengali": "না",
+            "romanized": "na"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "okay / all right",
+            "bengali": "ঠিক আছে",
+            "romanized": "ṭhik ache"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "okay / I see",
+            "bengali": "আচ্ছা",
+            "romanized": "achchha"
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "CH01_S02_L03_E05",
+      "type": "reading",
+      "passage": {
+        "en": "A: চা?\nB: হ্যাঁ"
+      },
+      "question": {
+        "en": "Did B say yes or no?"
+      },
+      "options": [
+        {
+          "en": "yes"
+        },
+        {
+          "en": "no"
+        },
+        {
+          "en": "thank you"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH01_S02_L03_E06",
+      "type": "reading",
+      "passage": {
+        "en": "A: চা?\nB: না"
+      },
+      "question": {
+        "en": "Did B say yes or no?"
+      },
+      "options": [
+        {
+          "en": "yes"
+        },
+        {
+          "en": "no"
+        },
+        {
+          "en": "okay"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH01_S02_L03_E07",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which Bengali reply means “okay / all right”?"
+      },
+      "options": [
+        {
+          "en": "ঠিক আছে"
+        },
+        {
+          "en": "না"
+        },
+        {
+          "en": "ধন্যবাদ"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH01_S02_L03_E08",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which Bengali reply means “I see / okay”?"
+      },
+      "options": [
+        {
+          "en": "আচ্ছা"
+        },
+        {
+          "en": "হ্যাঁ"
+        },
+        {
+          "en": "ধন্যবাদ"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH01_S02_L03_E09",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the picture for no."
+      },
+      "options": [
+        {
+          "image": "assets/illustrations/yes_nod.png",
+          "label": {
+            "en": "Yes",
+            "bengali": "হ্যাঁ"
+          }
+        },
+        {
+          "image": "assets/illustrations/no_shake_head.png",
+          "label": {
+            "en": "No",
+            "bengali": "না"
+          }
+        },
+        {
+          "image": "assets/illustrations/okay_thumb.png",
+          "label": {
+            "en": "Okay",
+            "bengali": "ঠিক আছে"
+          }
+        },
+        {
+          "image": "assets/illustrations/achchha_i_see.png",
+          "label": {
+            "en": "I see / okay",
+            "bengali": "আচ্ছা"
+          }
+        }
+      ],
+      "correctIndex": 1,
+      "bengali": "না"
+    },
+    {
+      "id": "CH01_S02_L03_E10",
+      "type": "reading",
+      "passage": {
+        "en": "ধন্যবাদ — ঠিক আছে"
+      },
+      "question": {
+        "en": "What is the mood of this tiny exchange?"
+      },
+      "options": [
+        {
+          "en": "Thanks — okay"
+        },
+        {
+          "en": "Hello — no"
+        },
+        {
+          "en": "Yes — no"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "lesson_id": "CH04_S03_L05",
+  "title": {
+    "en": "My / Your: Build the Chunk"
+  },
+  "description": {
+    "en": "Build the key chunk for my / your."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "ch04_s03_l05_ex01",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build “my name.”"
+      },
+      "words": [
+        "নাম",
+        "আমার"
+      ],
+      "correctOrder": [
+        "আমার",
+        "নাম"
+      ],
+      "wordsRomanized": [
+        "nam",
+        "amar"
+      ]
+    },
+    {
+      "id": "ch04_s03_l05_ex02",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build “your name” politely."
+      },
+      "words": [
+        "আপনার",
+        "নাম"
+      ],
+      "correctOrder": [
+        "আপনার",
+        "নাম"
+      ],
+      "wordsRomanized": [
+        "apnar",
+        "nam"
+      ]
+    },
+    {
+      "id": "ch04_s03_l05_ex03",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build “your name” for a friend."
+      },
+      "words": [
+        "নাম",
+        "তোমার"
+      ],
+      "correctOrder": [
+        "তোমার",
+        "নাম"
+      ],
+      "wordsRomanized": [
+        "nam",
+        "tomar"
+      ]
+    },
+    {
+      "id": "ch04_s03_l05_ex04",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build “my phone.”"
+      },
+      "words": [
+        "ফোন",
+        "আমার"
+      ],
+      "correctOrder": [
+        "আমার",
+        "ফোন"
+      ],
+      "wordsRomanized": [
+        "phone",
+        "amar"
+      ]
+    },
+    {
+      "id": "ch04_s03_l05_ex05",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build “your phone” politely."
+      },
+      "words": [
+        "ফোন",
+        "আপনার"
+      ],
+      "correctOrder": [
+        "আপনার",
+        "ফোন"
+      ],
+      "wordsRomanized": [
+        "phone",
+        "apnar"
+      ]
+    },
+    {
+      "id": "ch04_s03_l05_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which built chunk means “my name”?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার নাম",
+            "romanized": "amar nam",
+            "en": "my name"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনার নাম",
+            "romanized": "apnar nam",
+            "en": "your name — polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তোমার নাম",
+            "romanized": "tomar nam",
+            "en": "your name — friendly"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l05_ex07",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s03_l05_ex07.mp3",
+      "question": {
+        "en": "Which chunk did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তোমার নাম",
+            "romanized": "tomar nam",
+            "en": "your name — friendly"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমার নাম",
+            "romanized": "amar nam",
+            "en": "my name"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আপনার নাম",
+            "romanized": "apnar nam",
+            "en": "your name — polite"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l05_ex08",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which word goes before নাম to mean “my name”?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার",
+            "romanized": "amar",
+            "en": "my"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your (polite)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your (friendly)"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l05_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which word goes before নাম to mean polite “your name”?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your (polite)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমার",
+            "romanized": "amar",
+            "en": "my"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your (friendly)"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l05_ex10",
+      "type": "reading",
+      "passage": {
+        "en": "আমার ফোন।"
+      },
+      "question": {
+        "en": "What does this mean?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "my phone"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "your phone — polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "your phone — friendly"
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

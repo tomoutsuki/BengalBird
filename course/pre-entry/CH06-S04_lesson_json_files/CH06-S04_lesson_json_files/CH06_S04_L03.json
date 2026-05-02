@@ -1,0 +1,320 @@
+{
+  "lesson_id": "CH06_S04_L03",
+  "title": {
+    "en": "Give Tea, Please: Hear It in Context"
+  },
+  "description": {
+    "en": "Notice চা দিন and পানি দিন in tiny café contexts."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH06_S04_L03_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s04_l03_cha_din.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "পানি দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মাফ করবেন"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "চা দিন is a polite request for tea."
+      }
+    },
+    {
+      "id": "CH06_S04_L03_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s04_l03_pani_din.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "পানি দিন"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "পানি দিন is a polite request for water."
+      }
+    },
+    {
+      "id": "CH06_S04_L03_ex03",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which phrase asks for tea politely?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "পানি দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "না"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Treat দিন as a safe polite request chunk."
+      }
+    },
+    {
+      "id": "CH06_S04_L03_ex04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which phrase asks for water politely?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "পানি দিন"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "পানি"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "পানি দিন means “Please give water.”"
+      }
+    },
+    {
+      "id": "CH06_S04_L03_ex05",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the picture for চা দিন."
+      },
+      "bengali": "চা দিন",
+      "options": [
+        {
+          "image": "assets/illustrations/tea_cup.png",
+          "label": {
+            "en": "tea"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass.png",
+          "label": {
+            "en": "water"
+          }
+        },
+        {
+          "image": "assets/illustrations/rice_bowl.png",
+          "label": {
+            "en": "rice"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "চা means tea."
+      }
+    },
+    {
+      "id": "CH06_S04_L03_ex06",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the picture for পানি দিন."
+      },
+      "bengali": "পানি দিন",
+      "options": [
+        {
+          "image": "assets/illustrations/water_glass.png",
+          "label": {
+            "en": "water"
+          }
+        },
+        {
+          "image": "assets/illustrations/tea_cup.png",
+          "label": {
+            "en": "tea"
+          }
+        },
+        {
+          "image": "assets/illustrations/dal_bowl.png",
+          "label": {
+            "en": "dal"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "পানি means water."
+      }
+    },
+    {
+      "id": "CH06_S04_L03_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "A: মাফ করবেন।\nB: জি?\nA: চা দিন।"
+      },
+      "question": {
+        "en": "What does A ask for?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Tea"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Water"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Rice"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "চা দিন asks for tea politely."
+      }
+    },
+    {
+      "id": "CH06_S04_L03_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "A: মাফ করবেন।\nB: জি?\nA: পানি দিন।"
+      },
+      "question": {
+        "en": "What does A ask for?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Tea"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Dal"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "পানি দিন asks for water politely."
+      }
+    },
+    {
+      "id": "CH06_S04_L03_ex09",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: Please give tea."
+      },
+      "words": [
+        "দিন",
+        "চা"
+      ],
+      "wordsRomanized": [
+        "din",
+        "cha"
+      ],
+      "correctOrder": [
+        "চা",
+        "দিন"
+      ],
+      "hint": {
+        "en": "The drink comes before দিন."
+      }
+    },
+    {
+      "id": "CH06_S04_L03_ex10",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: Please give water."
+      },
+      "words": [
+        "দিন",
+        "পানি"
+      ],
+      "wordsRomanized": [
+        "din",
+        "pani"
+      ],
+      "correctOrder": [
+        "পানি",
+        "দিন"
+      ],
+      "hint": {
+        "en": "The drink comes before দিন."
+      }
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "lesson_id": "CH05_S02_L04",
+  "title": {
+    "en": "I Have…: Choose the Reply"
+  },
+  "description": {
+    "en": "Choose a natural response using আমার … আছে."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH05_S02_L04_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s02_l04_family_photo.mp3",
+      "question": {
+        "en": "In the audio, what does the speaker have?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "a brother"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "tea"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "a name question"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L04_ex02",
+      "type": "reading",
+      "passage": {
+        "en": "আমার ভাই আছে।"
+      },
+      "question": {
+        "en": "What does this mean?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I have a brother."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "I am a brother."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "My brother’s name?"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L04_ex03",
+      "type": "reading",
+      "passage": {
+        "en": "আমার বোন আছে।"
+      },
+      "question": {
+        "en": "What does this mean?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I have a sister."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "My name is sister."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Your sister is here."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L04_ex04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the phrase that means “I have a father.”"
+      },
+      "options": [
+        {
+          "en": "আমার বাবা আছে।"
+        },
+        {
+          "en": "আমার বাবা কী?"
+        },
+        {
+          "en": "বাবা ধন্যবাদ।"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S02_L04_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the phrase that means “I have a mother.”"
+      },
+      "options": [
+        {
+          "en": "আমার মা আছে।"
+        },
+        {
+          "en": "আমার মা নেই।"
+        },
+        {
+          "en": "মা নমস্কার।"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S02_L04_ex06",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: I have a father."
+      },
+      "words": [
+        "বাবা",
+        "আমার",
+        "আছে।"
+      ],
+      "wordsRomanized": [
+        "baba",
+        "amar",
+        "achhe"
+      ],
+      "correctOrder": [
+        "আমার",
+        "বাবা",
+        "আছে।"
+      ]
+    },
+    {
+      "id": "CH05_S02_L04_ex07",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: I have a brother."
+      },
+      "words": [
+        "আছে।",
+        "আমার",
+        "ভাই"
+      ],
+      "wordsRomanized": [
+        "achhe",
+        "amar",
+        "bhai"
+      ],
+      "correctOrder": [
+        "আমার",
+        "ভাই",
+        "আছে।"
+      ]
+    },
+    {
+      "id": "CH05_S02_L04_ex08",
+      "type": "conversation",
+      "scenario": {
+        "en": "Someone asks about your family."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "bengali": "ভাই?",
+          "romanized": "bhai?",
+          "english": "Brother?"
+        }
+      ],
+      "question": {
+        "en": "Choose the answer that fits."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার ভাই আছে।",
+            "romanized": "amar bhai achhe",
+            "english": "I have a brother."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমার নাম ভাই।",
+            "romanized": "amar nam bhai",
+            "english": "My name is Bhai."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "কেমন আছেন?",
+            "romanized": "kemon achhen?",
+            "english": "How are you?"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L04_ex09",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s02_l04_amar_bon_achhe.mp3",
+      "question": {
+        "en": "Choose the Bengali you heard."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার বোন আছে।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আমার ভাই আছে।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আমার নাম আছে।"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L04_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which is safest for this lesson’s meaning: “I have…”?"
+      },
+      "options": [
+        {
+          "en": "আমার … আছে"
+        },
+        {
+          "en": "আপনার নাম কী?"
+        },
+        {
+          "en": "কেমন আছেন?"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

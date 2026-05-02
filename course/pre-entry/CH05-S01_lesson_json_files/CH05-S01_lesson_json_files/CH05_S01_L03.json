@@ -1,0 +1,366 @@
+{
+  "lesson_id": "CH05_S01_L03",
+  "title": {
+    "en": "Close Family: Hear It in Context"
+  },
+  "description": {
+    "en": "Notice মা, বাবা, ভাই, বোন in a tiny context."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH05_S01_L03_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s01/ma.mp3",
+      "question": {
+        "en": "In a family photo, which word did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "মা",
+            "romanized": "ma",
+            "en": "mother / mom"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "বাবা",
+            "romanized": "baba",
+            "en": "father / dad"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ভাই",
+            "romanized": "bhai",
+            "en": "brother"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S01_L03_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s01/baba.mp3",
+      "question": {
+        "en": "In a family photo, which word did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "বাবা",
+            "romanized": "baba",
+            "en": "father / dad"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "মা",
+            "romanized": "ma",
+            "en": "mother / mom"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "বোন",
+            "romanized": "bon",
+            "en": "sister"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S01_L03_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s01/bhai.mp3",
+      "question": {
+        "en": "In a family photo, which word did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ভাই",
+            "romanized": "bhai",
+            "en": "brother"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "বোন",
+            "romanized": "bon",
+            "en": "sister"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "বাবা",
+            "romanized": "baba",
+            "en": "father / dad"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S01_L03_ex04",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s01/bon.mp3",
+      "question": {
+        "en": "In a family photo, which word did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "বোন",
+            "romanized": "bon",
+            "en": "sister"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "ভাই",
+            "romanized": "bhai",
+            "en": "brother"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "মা",
+            "romanized": "ma",
+            "en": "mother / mom"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S01_L03_ex05",
+      "type": "reading",
+      "passage": {
+        "en": "আমার মা"
+      },
+      "question": {
+        "en": "Who is mentioned?"
+      },
+      "options": [
+        {
+          "en": "my mother"
+        },
+        {
+          "en": "my father"
+        },
+        {
+          "en": "my sister"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S01_L03_ex06",
+      "type": "reading",
+      "passage": {
+        "en": "আমার ভাই"
+      },
+      "question": {
+        "en": "Who is mentioned?"
+      },
+      "options": [
+        {
+          "en": "my brother"
+        },
+        {
+          "en": "my sister"
+        },
+        {
+          "en": "my father"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S01_L03_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "আমার বোন"
+      },
+      "question": {
+        "en": "Who is mentioned?"
+      },
+      "options": [
+        {
+          "en": "my mother"
+        },
+        {
+          "en": "my sister"
+        },
+        {
+          "en": "my father"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH05_S01_L03_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "আমার বাবা"
+      },
+      "question": {
+        "en": "Who is mentioned?"
+      },
+      "options": [
+        {
+          "en": "my father"
+        },
+        {
+          "en": "my brother"
+        },
+        {
+          "en": "my mother"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S01_L03_ex09",
+      "type": "conversation",
+      "scenario": {
+        "en": "A learner is showing a family photo."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "আমার মা",
+            "romanized": "amar ma",
+            "en": "my mother"
+          }
+        }
+      ],
+      "question": {
+        "en": "What is A showing?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "মা",
+            "romanized": "ma",
+            "en": "mother / mom"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "বাবা",
+            "romanized": "baba",
+            "en": "father / dad"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ভাই",
+            "romanized": "bhai",
+            "en": "brother"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S01_L03_ex10",
+      "type": "conversation",
+      "scenario": {
+        "en": "A learner is showing a family photo."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "আমার বোন",
+            "romanized": "amar bon",
+            "en": "my sister"
+          }
+        }
+      ],
+      "question": {
+        "en": "What is A showing?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ভাই",
+            "romanized": "bhai",
+            "en": "brother"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "বোন",
+            "romanized": "bon",
+            "en": "sister"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "মা",
+            "romanized": "ma",
+            "en": "mother / mom"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S01_L03_ex11",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which phrase means “my father”?"
+      },
+      "options": [
+        {
+          "en": "আমার মা"
+        },
+        {
+          "en": "আমার বাবা"
+        },
+        {
+          "en": "আমার ভাই"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH05_S01_L03_ex12",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which phrase means “my sister”?"
+      },
+      "options": [
+        {
+          "en": "আমার বোন"
+        },
+        {
+          "en": "আমার বাবা"
+        },
+        {
+          "en": "আমার ভাই"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

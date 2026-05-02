@@ -1,0 +1,348 @@
+{
+  "lesson_id": "CH06_S01_L02",
+  "title": {
+    "en": "Food Basics: Tap the Meaning"
+  },
+  "description": {
+    "en": "Match ভাত, ডাল, মাছ, চা to meaning without production."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH06_S01_L02_ex01",
+      "type": "grammar-select",
+      "question": {
+        "en": "Tap the meaning of ভাত"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "rice"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "hello"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "thank you"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ভাত means rice."
+      }
+    },
+    {
+      "id": "CH06_S01_L02_ex02",
+      "type": "grammar-select",
+      "question": {
+        "en": "Tap the meaning of ডাল"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "lentils / dal"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "hello"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "thank you"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ডাল means lentils / dal."
+      }
+    },
+    {
+      "id": "CH06_S01_L02_ex03",
+      "type": "grammar-select",
+      "question": {
+        "en": "Tap the meaning of মাছ"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "fish"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "hello"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "thank you"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "মাছ means fish."
+      }
+    },
+    {
+      "id": "CH06_S01_L02_ex04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Tap the meaning of চা"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "tea"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "hello"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "thank you"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "চা means tea."
+      }
+    },
+    {
+      "id": "CH06_S01_L02_ex05",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the picture for: ভাত"
+      },
+      "bengali": "ভাত",
+      "options": [
+        {
+          "image": "assets/illustrations/rice_bowl.png",
+          "label": {
+            "en": "ভাত — rice"
+          }
+        },
+        {
+          "image": "assets/illustrations/dal_bowl.png",
+          "label": {
+            "en": "ডাল — lentils / dal"
+          }
+        },
+        {
+          "image": "assets/illustrations/fish_plate.png",
+          "label": {
+            "en": "মাছ — fish"
+          }
+        },
+        {
+          "image": "assets/illustrations/tea_cup.png",
+          "label": {
+            "en": "চা — tea"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Look for rice."
+      }
+    },
+    {
+      "id": "CH06_S01_L02_ex06",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the picture for: ডাল"
+      },
+      "bengali": "ডাল",
+      "options": [
+        {
+          "image": "assets/illustrations/rice_bowl.png",
+          "label": {
+            "en": "ভাত — rice"
+          }
+        },
+        {
+          "image": "assets/illustrations/dal_bowl.png",
+          "label": {
+            "en": "ডাল — lentils / dal"
+          }
+        },
+        {
+          "image": "assets/illustrations/fish_plate.png",
+          "label": {
+            "en": "মাছ — fish"
+          }
+        },
+        {
+          "image": "assets/illustrations/tea_cup.png",
+          "label": {
+            "en": "চা — tea"
+          }
+        }
+      ],
+      "correctIndex": 1,
+      "hint": {
+        "en": "Look for lentils / dal."
+      }
+    },
+    {
+      "id": "CH06_S01_L02_ex07",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the picture for: মাছ"
+      },
+      "bengali": "মাছ",
+      "options": [
+        {
+          "image": "assets/illustrations/rice_bowl.png",
+          "label": {
+            "en": "ভাত — rice"
+          }
+        },
+        {
+          "image": "assets/illustrations/dal_bowl.png",
+          "label": {
+            "en": "ডাল — lentils / dal"
+          }
+        },
+        {
+          "image": "assets/illustrations/fish_plate.png",
+          "label": {
+            "en": "মাছ — fish"
+          }
+        },
+        {
+          "image": "assets/illustrations/tea_cup.png",
+          "label": {
+            "en": "চা — tea"
+          }
+        }
+      ],
+      "correctIndex": 2,
+      "hint": {
+        "en": "Look for fish."
+      }
+    },
+    {
+      "id": "CH06_S01_L02_ex08",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the picture for: চা"
+      },
+      "bengali": "চা",
+      "options": [
+        {
+          "image": "assets/illustrations/rice_bowl.png",
+          "label": {
+            "en": "ভাত — rice"
+          }
+        },
+        {
+          "image": "assets/illustrations/dal_bowl.png",
+          "label": {
+            "en": "ডাল — lentils / dal"
+          }
+        },
+        {
+          "image": "assets/illustrations/fish_plate.png",
+          "label": {
+            "en": "মাছ — fish"
+          }
+        },
+        {
+          "image": "assets/illustrations/tea_cup.png",
+          "label": {
+            "en": "চা — tea"
+          }
+        }
+      ],
+      "correctIndex": 3,
+      "hint": {
+        "en": "Look for tea."
+      }
+    },
+    {
+      "id": "CH06_S01_L02_ex09",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s01_l02_machh.mp3",
+      "question": {
+        "en": "Tap the food you hear."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "মাছ — fish"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভাত — rice"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ডাল — lentils / dal"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "মাছ (machh) means fish."
+      }
+    },
+    {
+      "id": "CH06_S01_L02_ex10",
+      "type": "reading",
+      "passage": {
+        "en": "চা"
+      },
+      "question": {
+        "en": "What does this word mean?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "tea"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "fish"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "lentils"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "চা means tea."
+      }
+    }
+  ]
+}

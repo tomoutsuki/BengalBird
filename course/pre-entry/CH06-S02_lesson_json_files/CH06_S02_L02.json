@@ -1,0 +1,262 @@
+{
+  "lesson_id": "CH06_S02_L02",
+  "title": {
+    "en": "Water: Tap the Meaning"
+  },
+  "description": {
+    "en": "Recognize water words in Bengali: পানি and জল, with regional context."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH06_S02_L02_ex01",
+      "type": "grammar-select",
+      "question": {
+        "en": "Tap the Bangladesh-common word for water."
+      },
+      "options": [
+        {
+          "en": "পানি"
+        },
+        {
+          "en": "চা"
+        },
+        {
+          "en": "ভাত"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S02_L02_ex02",
+      "type": "grammar-select",
+      "question": {
+        "en": "Tap the West Bengal-common word for water."
+      },
+      "options": [
+        {
+          "en": "জল"
+        },
+        {
+          "en": "মাছ"
+        },
+        {
+          "en": "ডাল"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S02_L02_ex03",
+      "type": "figure_choice",
+      "question": {
+        "en": "Match পানি to the image."
+      },
+      "bengali": "পানি",
+      "options": [
+        {
+          "image": "assets/illustrations/water_glass.png.png",
+          "label": {
+            "en": "water"
+          }
+        },
+        {
+          "image": "assets/illustrations/tea_cup.png.png",
+          "label": {
+            "en": "tea"
+          }
+        },
+        {
+          "image": "assets/illustrations/lentils_bowl.png.png",
+          "label": {
+            "en": "dal"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S02_L02_ex04",
+      "type": "figure_choice",
+      "question": {
+        "en": "Match জল to the image."
+      },
+      "bengali": "জল",
+      "options": [
+        {
+          "image": "assets/illustrations/water_bottle.png.png",
+          "label": {
+            "en": "water"
+          }
+        },
+        {
+          "image": "assets/illustrations/fish_plate.png.png",
+          "label": {
+            "en": "fish"
+          }
+        },
+        {
+          "image": "assets/illustrations/rice_bowl.png.png",
+          "label": {
+            "en": "rice"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S02_L02_ex05",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s02_pani_word.mp3",
+      "question": {
+        "en": "Which meaning fits the audio?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "tea"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "thanks"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L02_ex06",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s02_jol_word.mp3",
+      "question": {
+        "en": "Which meaning fits the audio?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "rice"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "hello"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L02_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "পানি / জল"
+      },
+      "question": {
+        "en": "What do both words mean?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "tea"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "rice"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L02_ex08",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which is NOT water?"
+      },
+      "options": [
+        {
+          "en": "চা"
+        },
+        {
+          "en": "পানি"
+        },
+        {
+          "en": "জল"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S02_L02_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the pair with the same meaning."
+      },
+      "options": [
+        {
+          "en": "পানি / জল"
+        },
+        {
+          "en": "চা / মাছ"
+        },
+        {
+          "en": "ভাত / ডাল"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S02_L02_ex10",
+      "type": "reading",
+      "passage": {
+        "en": "In Bangladesh, you often hear পানি. In West Bengal, you often hear জল."
+      },
+      "question": {
+        "en": "Pick the West Bengal-common word."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "জল"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "পানি"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "চা"
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

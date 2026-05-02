@@ -1,0 +1,300 @@
+{
+  "lesson_id": "CH06_S02_L01",
+  "title": {
+    "en": "Water: First Listen"
+  },
+  "description": {
+    "en": "Recognize water words in Bengali: পানি and জল, with regional context."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH06_S02_L01_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s02_pani_word.mp3",
+      "question": {
+        "en": "Tap the word you hear."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "পানি",
+            "romanized": "pani",
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "চা",
+            "romanized": "cha",
+            "en": "tea"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "en": "thank you"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L01_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s02_jol_word.mp3",
+      "question": {
+        "en": "Tap the word you hear."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "জল",
+            "romanized": "jol",
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "চা",
+            "romanized": "cha",
+            "en": "tea"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "না",
+            "romanized": "na",
+            "en": "no"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L01_ex03",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the water."
+      },
+      "bengali": "পানি",
+      "options": [
+        {
+          "image": "assets/illustrations/water_glass.png.png",
+          "label": {
+            "en": "water"
+          }
+        },
+        {
+          "image": "assets/illustrations/tea_cup.png.png",
+          "label": {
+            "en": "tea"
+          }
+        },
+        {
+          "image": "assets/illustrations/rice_bowl.png.png",
+          "label": {
+            "en": "rice"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S02_L01_ex04",
+      "type": "grammar-select",
+      "question": {
+        "en": "What does পানি mean?"
+      },
+      "options": [
+        {
+          "en": "water"
+        },
+        {
+          "en": "tea"
+        },
+        {
+          "en": "rice"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "পানি is a common Bangladesh word for water."
+      }
+    },
+    {
+      "id": "CH06_S02_L01_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "What does জল mean?"
+      },
+      "options": [
+        {
+          "en": "water"
+        },
+        {
+          "en": "tea"
+        },
+        {
+          "en": "fish"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "জল is a common West Bengal word for water."
+      }
+    },
+    {
+      "id": "CH06_S02_L01_ex06",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s02_cha_word.mp3",
+      "question": {
+        "en": "Which word is tea?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "চা",
+            "romanized": "cha",
+            "en": "tea"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "পানি",
+            "romanized": "pani",
+            "en": "water"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "জল",
+            "romanized": "jol",
+            "en": "water"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L01_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "পানি = water"
+      },
+      "question": {
+        "en": "Choose the meaning of পানি."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "hello"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "thanks"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L01_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "জল = water"
+      },
+      "question": {
+        "en": "Choose the meaning of জল."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "tea"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "okay"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L01_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which two Bengali words can mean water?"
+      },
+      "options": [
+        {
+          "en": "পানি + জল"
+        },
+        {
+          "en": "চা + ভাত"
+        },
+        {
+          "en": "মাছ + ডাল"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S02_L01_ex10",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s02_pani_jol_pair.mp3",
+      "question": {
+        "en": "You hear two water words. Pick them."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "পানি, জল",
+            "romanized": "pani, jol",
+            "en": "water, water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "চা, ভাত",
+            "romanized": "cha, bhat",
+            "en": "tea, rice"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "না, ধন্যবাদ",
+            "romanized": "na, dhonnobad",
+            "en": "no, thank you"
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

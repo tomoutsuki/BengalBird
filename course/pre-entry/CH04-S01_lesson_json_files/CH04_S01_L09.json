@@ -1,0 +1,274 @@
+{
+  "lesson_id": "CH04_S01_L09",
+  "title": {
+    "en": "I / You / He-She: Read the Shape"
+  },
+  "description": {
+    "en": "Recognize the written shapes of আমি, আপনি, তুমি, and সে as whole words."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH04_S01_L09_E01",
+      "type": "reading",
+      "passage": {
+        "en": "আমি"
+      },
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "en": "I / me"
+        },
+        {
+          "en": "you polite"
+        },
+        {
+          "en": "he/she"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Look at the full word shape."
+      }
+    },
+    {
+      "id": "CH04_S01_L09_E02",
+      "type": "reading",
+      "passage": {
+        "en": "আপনি"
+      },
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "en": "you polite"
+        },
+        {
+          "en": "you friendly"
+        },
+        {
+          "en": "I/me"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Polite whole word."
+      }
+    },
+    {
+      "id": "CH04_S01_L09_E03",
+      "type": "reading",
+      "passage": {
+        "en": "তুমি"
+      },
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "en": "you friendly"
+        },
+        {
+          "en": "you polite"
+        },
+        {
+          "en": "he/she"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Friendly whole word."
+      }
+    },
+    {
+      "id": "CH04_S01_L09_E04",
+      "type": "reading",
+      "passage": {
+        "en": "সে"
+      },
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "en": "he / she"
+        },
+        {
+          "en": "I / me"
+        },
+        {
+          "en": "you friendly"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Short word shape."
+      }
+    },
+    {
+      "id": "CH04_S01_L09_E05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which word shape is polite “you”?"
+      },
+      "options": [
+        {
+          "en": "আপনি"
+        },
+        {
+          "en": "তুমি"
+        },
+        {
+          "en": "আমি"
+        },
+        {
+          "en": "সে"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Choose the pronoun that fits the context."
+      }
+    },
+    {
+      "id": "CH04_S01_L09_E06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which word shape is friendly “you”?"
+      },
+      "options": [
+        {
+          "en": "আপনি"
+        },
+        {
+          "en": "সে"
+        },
+        {
+          "en": "তুমি"
+        },
+        {
+          "en": "আমি"
+        }
+      ],
+      "correctIndex": 2,
+      "hint": {
+        "en": "Choose the pronoun that fits the context."
+      }
+    },
+    {
+      "id": "CH04_S01_L09_E07",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which word shape is “I”?"
+      },
+      "options": [
+        {
+          "en": "তুমি"
+        },
+        {
+          "en": "আমি"
+        },
+        {
+          "en": "আপনি"
+        },
+        {
+          "en": "সে"
+        }
+      ],
+      "correctIndex": 1,
+      "hint": {
+        "en": "Choose the pronoun that fits the context."
+      }
+    },
+    {
+      "id": "CH04_S01_L09_E08",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which word shape is “he/she”?"
+      },
+      "options": [
+        {
+          "en": "সে"
+        },
+        {
+          "en": "আমি"
+        },
+        {
+          "en": "তুমি"
+        },
+        {
+          "en": "আপনি"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Choose the pronoun that fits the context."
+      }
+    },
+    {
+      "id": "CH04_S01_L09_E09",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: “I am well.”"
+      },
+      "words": [
+        "আমি",
+        "আছি",
+        "ভালো"
+      ],
+      "wordsRomanized": [
+        "ami",
+        "achi",
+        "bhalo"
+      ],
+      "correctOrder": [
+        "আমি",
+        "ভালো",
+        "আছি"
+      ],
+      "hint": {
+        "en": "Build the familiar chunk. No spelling from memory needed."
+      }
+    },
+    {
+      "id": "CH04_S01_L09_E10",
+      "type": "listening",
+      "audio": "assets/audio/listening/apni.mp3",
+      "question": {
+        "en": "Listen and choose the written shape."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "you (polite)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "তুমি"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আমি"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "সে"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen for apni — আপনি."
+      }
+    }
+  ]
+}

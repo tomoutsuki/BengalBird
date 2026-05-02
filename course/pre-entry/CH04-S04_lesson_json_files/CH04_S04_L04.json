@@ -1,0 +1,300 @@
+{
+  "lesson_id": "CH04_S04_L04",
+  "title": {
+    "en": "The Risky “তুই”: Choose the Reply"
+  },
+  "description": {
+    "en": "Choose safe replies when unsure about formality."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH04_S04_L04_ex01",
+      "type": "conversation",
+      "scenario": {
+        "en": "You meet an older neighbor."
+      },
+      "dialogue": [
+        {
+          "speaker": "Neighbor",
+          "text": {
+            "bengali": "নমস্কার।",
+            "romanized": "nomoshkar.",
+            "en": "Hello."
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose the safest reply."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "নমস্কার। আপনি কেমন আছেন?",
+            "romanized": "nomoshkar. apni kemon achen?",
+            "en": "Hello. How are you? — polite"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তুই কেমন আছিস?",
+            "romanized": "tui kemon achish?",
+            "en": "How are you? — risky"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আছিস?",
+            "romanized": "achish?",
+            "en": "Are you? — risky"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S04_L04_ex02",
+      "type": "grammar-select",
+      "question": {
+        "en": "With a stranger, choose the safe “you.”"
+      },
+      "options": [
+        {
+          "en": "আপনি"
+        },
+        {
+          "en": "তুই"
+        },
+        {
+          "en": "আছিস"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH04_S04_L04_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s04/tui_kemon_achish.mp3",
+      "question": {
+        "en": "Which response is safer than repeating the risky form?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনি কেমন আছেন?",
+            "romanized": "apni kemon achen?",
+            "en": "polite question"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তুই কেমন আছিস?",
+            "romanized": "tui kemon achish?",
+            "en": "risky question"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আছিস",
+            "romanized": "achish",
+            "en": "risky are"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S04_L04_ex04",
+      "type": "conversation",
+      "scenario": {
+        "en": "A classmate you do not know well asks your name."
+      },
+      "dialogue": [
+        {
+          "speaker": "Classmate",
+          "text": {
+            "bengali": "তোমার নাম কী?",
+            "romanized": "tomar nam ki?",
+            "en": "What is your name?"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose a friendly safe reply."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার নাম রিয়া।",
+            "romanized": "amar nam Riya.",
+            "en": "My name is Riya."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তুই আছিস।",
+            "romanized": "tui achish.",
+            "en": "Risky/intimate phrase"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আছিস?",
+            "romanized": "achish?",
+            "en": "Risky question"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S04_L04_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which word should beginners avoid producing unless very sure?"
+      },
+      "options": [
+        {
+          "en": "তুই"
+        },
+        {
+          "en": "আপনি"
+        },
+        {
+          "en": "আমি"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH04_S04_L04_ex06",
+      "type": "reading",
+      "passage": {
+        "en": "Rule of thumb: When unsure, choose আপনি."
+      },
+      "question": {
+        "en": "What does this mean?"
+      },
+      "options": [
+        {
+          "en": "Use polite speech when unsure"
+        },
+        {
+          "en": "Use তুই with everyone"
+        },
+        {
+          "en": "Avoid saying hello"
+        }
+      ]
+    },
+    {
+      "id": "CH04_S04_L04_ex07",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the polite question."
+      },
+      "words": [
+        "আছেন?",
+        "কেমন",
+        "আপনি"
+      ],
+      "correctOrder": [
+        "আপনি",
+        "কেমন",
+        "আছেন?"
+      ],
+      "wordsRomanized": [
+        "achen?",
+        "kemon",
+        "apni"
+      ],
+      "hint": {
+        "en": "Safe polite form."
+      }
+    },
+    {
+      "id": "CH04_S04_L04_ex08",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Recognize the risky question shape."
+      },
+      "words": [
+        "আছিস?",
+        "কেমন",
+        "তুই"
+      ],
+      "correctOrder": [
+        "তুই",
+        "কেমন",
+        "আছিস?"
+      ],
+      "wordsRomanized": [
+        "achish?",
+        "kemon",
+        "tui"
+      ],
+      "hint": {
+        "en": "Recognition only — do not use as default."
+      }
+    },
+    {
+      "id": "CH04_S04_L04_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Best beginner reply to a shopkeeper?"
+      },
+      "options": [
+        {
+          "en": "আপনি কেমন আছেন?"
+        },
+        {
+          "en": "তুই কেমন আছিস?"
+        },
+        {
+          "en": "আছিস"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH04_S04_L04_ex10",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s04/apni_tumi_tui_choices.mp3",
+      "question": {
+        "en": "Which choice is polite?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনি",
+            "romanized": "apni",
+            "en": "polite you"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তুমি",
+            "romanized": "tumi",
+            "en": "friendly you"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তুই",
+            "romanized": "tui",
+            "en": "very close/risky you"
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

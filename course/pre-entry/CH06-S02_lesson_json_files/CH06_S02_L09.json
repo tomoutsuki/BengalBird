@@ -1,0 +1,282 @@
+{
+  "lesson_id": "CH06_S02_L09",
+  "title": {
+    "en": "Water: Read the Shape"
+  },
+  "description": {
+    "en": "Recognize water words in Bengali: পানি and জল, with regional context."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH06_S02_L09_ex01",
+      "type": "reading",
+      "passage": {
+        "en": "পানি"
+      },
+      "question": {
+        "en": "Tap the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "tea"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "rice"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Treat this as a whole word shape."
+      }
+    },
+    {
+      "id": "CH06_S02_L09_ex02",
+      "type": "reading",
+      "passage": {
+        "en": "জল"
+      },
+      "question": {
+        "en": "Tap the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "fish"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "thanks"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Treat this as a whole word shape."
+      }
+    },
+    {
+      "id": "CH06_S02_L09_ex03",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which written shape is pani?"
+      },
+      "options": [
+        {
+          "en": "পানি"
+        },
+        {
+          "en": "জল"
+        },
+        {
+          "en": "চা"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S02_L09_ex04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which written shape is jol?"
+      },
+      "options": [
+        {
+          "en": "জল"
+        },
+        {
+          "en": "পানি"
+        },
+        {
+          "en": "ভাত"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S02_L09_ex05",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s02_pani_word.mp3",
+      "question": {
+        "en": "Hear it, then choose the written shape."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "পানি",
+            "romanized": "pani",
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "জল",
+            "romanized": "jol",
+            "en": "water"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "চা",
+            "romanized": "cha",
+            "en": "tea"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L09_ex06",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s02_jol_word.mp3",
+      "question": {
+        "en": "Hear it, then choose the written shape."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "জল",
+            "romanized": "jol",
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "পানি",
+            "romanized": "pani",
+            "en": "water"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ডাল",
+            "romanized": "dal",
+            "en": "dal"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L09_ex07",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: পানি দিন"
+      },
+      "words": [
+        "দিন",
+        "পানি"
+      ],
+      "correctOrder": [
+        "পানি",
+        "দিন"
+      ],
+      "wordsRomanized": [
+        "din",
+        "pani"
+      ]
+    },
+    {
+      "id": "CH06_S02_L09_ex08",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: জল দিন"
+      },
+      "words": [
+        "দিন",
+        "জল"
+      ],
+      "correctOrder": [
+        "জল",
+        "দিন"
+      ],
+      "wordsRomanized": [
+        "din",
+        "jol"
+      ]
+    },
+    {
+      "id": "CH06_S02_L09_ex09",
+      "type": "reading",
+      "passage": {
+        "en": "পানি দিন। ধন্যবাদ।"
+      },
+      "question": {
+        "en": "What is requested?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "tea"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "fish"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L09_ex10",
+      "type": "reading",
+      "passage": {
+        "en": "জল দিন। ধন্যবাদ।"
+      },
+      "question": {
+        "en": "What is requested?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "rice"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "dal"
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

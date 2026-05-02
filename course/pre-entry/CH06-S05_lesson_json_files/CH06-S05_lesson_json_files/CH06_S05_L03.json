@@ -1,0 +1,303 @@
+{
+  "lesson_id": "CH06_S05_L03",
+  "title": {
+    "en": "Café Mini-Scene: Hear It in Context"
+  },
+  "description": {
+    "en": "Notice চা দিন—ঠিক আছে in a tiny context."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH06_S05_L03_ex01",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Listen to a tiny café exchange."
+      },
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "Customer",
+          "bengali": "মাফ করবেন।",
+          "romanized": "maf korben"
+        },
+        {
+          "type": "line",
+          "speaker": "Customer",
+          "bengali": "চা দিন।",
+          "romanized": "cha din"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "What should the server say?"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "ঠিক আছে।",
+                "romanized": "thik ache",
+                "en": "Okay."
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "না।",
+                "romanized": "na",
+                "en": "No."
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "bengali": "আমার নাম…",
+                "romanized": "amar nam…",
+                "en": "My name is…"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L03_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s05_cafe_excuse_tea.mp3",
+      "question": {
+        "en": "What is the customer asking for?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Tea"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "A name"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "A family member"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L03_ex03",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which phrase sounds polite before a request?"
+      },
+      "options": [
+        {
+          "en": "মাফ করবেন"
+        },
+        {
+          "en": "তুমি"
+        },
+        {
+          "en": "না"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S05_L03_ex04",
+      "type": "reading",
+      "passage": {
+        "en": "মাফ করবেন।\nচা দিন।\nঠিক আছে।"
+      },
+      "question": {
+        "en": "Where could this happen?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "A café or tea stall"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "A name introduction"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "A family photo"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L03_ex05",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s05_pani_din_thik_ache.mp3",
+      "question": {
+        "en": "What request do you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "পানি দিন",
+            "romanized": "pani din",
+            "en": "Water, please."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "চা দিন",
+            "romanized": "cha din",
+            "en": "Tea, please."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ডাল",
+            "romanized": "dal",
+            "en": "lentils"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L03_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "After “পানি দিন,” choose a natural server response."
+      },
+      "options": [
+        {
+          "en": "ঠিক আছে।"
+        },
+        {
+          "en": "আপনার নাম কী?"
+        },
+        {
+          "en": "দুঃখিত।"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S05_L03_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "চা দিন। ধন্যবাদ।"
+      },
+      "question": {
+        "en": "Which word is review from earlier?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "দিন"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L03_ex08",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the thing requested: “পানি দিন.”"
+      },
+      "bengali": "পানি দিন",
+      "options": [
+        {
+          "image": "assets/illustrations/tea_cup.png",
+          "label": {
+            "en": "tea"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass.png",
+          "label": {
+            "en": "water"
+          }
+        },
+        {
+          "image": "assets/illustrations/rice_bowl.png",
+          "label": {
+            "en": "rice"
+          }
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH06_S05_L03_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the café line, not a name line."
+      },
+      "options": [
+        {
+          "en": "চা দিন।"
+        },
+        {
+          "en": "আমার নাম মিনা।"
+        },
+        {
+          "en": "আপনার নাম কী?"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S05_L03_ex10",
+      "type": "reading",
+      "passage": {
+        "en": "চা দিন—ঠিক আছে"
+      },
+      "question": {
+        "en": "Choose the best meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Tea, please—okay"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "How are you—I am fine"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "My name—your name"
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

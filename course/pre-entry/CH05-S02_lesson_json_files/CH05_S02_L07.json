@@ -1,0 +1,297 @@
+{
+  "lesson_id": "CH05_S02_L07",
+  "title": {
+    "en": "I Have…: Review Mix"
+  },
+  "description": {
+    "en": "Recycle i have… with earlier course language."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH05_S02_L07_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s02_l07_audio_sprint_ma.mp3",
+      "question": {
+        "en": "Choose what you heard."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার মা আছে।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আমার বাবা আছে।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আমার বোন আছে।"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L07_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s02_l07_audio_sprint_bhai.mp3",
+      "question": {
+        "en": "Choose what you heard."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার ভাই আছে।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আমার বোন আছে।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আমার মা আছে।"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L07_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s02_l07_audio_sprint_bon.mp3",
+      "question": {
+        "en": "Choose what you heard."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার বোন আছে।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আমার বাবা আছে।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আমার ভাই আছে।"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L07_ex04",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s02_l07_audio_sprint_baba.mp3",
+      "question": {
+        "en": "Choose what you heard."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার বাবা আছে।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আমার মা আছে।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আমার নাম কী?"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L07_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which is a safe, useful “I have…” chunk?"
+      },
+      "options": [
+        {
+          "en": "আমার মা আছে।"
+        },
+        {
+          "en": "তুই আছিস?"
+        },
+        {
+          "en": "আপনার নাম কী?"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S02_L07_ex06",
+      "type": "figure_choice",
+      "question": {
+        "en": "Choose the image: আমার বাবা আছে।"
+      },
+      "bengali": "আমার বাবা আছে।",
+      "options": [
+        {
+          "image": "assets/illustrations/family_mother.png",
+          "label": {
+            "en": "mother"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_father.png",
+          "label": {
+            "en": "father"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_sister.png",
+          "label": {
+            "en": "sister"
+          }
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH05_S02_L07_ex07",
+      "type": "figure_choice",
+      "question": {
+        "en": "Choose the image: আমার বোন আছে।"
+      },
+      "bengali": "আমার বোন আছে।",
+      "options": [
+        {
+          "image": "assets/illustrations/family_brother.png",
+          "label": {
+            "en": "brother"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_father.png",
+          "label": {
+            "en": "father"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_sister.png",
+          "label": {
+            "en": "sister"
+          }
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "CH05_S02_L07_ex08",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: I have a brother."
+      },
+      "words": [
+        "ভাই",
+        "আমার",
+        "আছে।"
+      ],
+      "wordsRomanized": [
+        "bhai",
+        "amar",
+        "achhe"
+      ],
+      "correctOrder": [
+        "আমার",
+        "ভাই",
+        "আছে।"
+      ]
+    },
+    {
+      "id": "CH05_S02_L07_ex09",
+      "type": "reading",
+      "passage": {
+        "en": "আমার মা আছে। আমার বোন আছে।"
+      },
+      "question": {
+        "en": "Who is mentioned?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "mother and sister"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "father and brother"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "name and thanks"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L07_ex10",
+      "type": "conversation",
+      "scenario": {
+        "en": "Quick review."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "bengali": "পরিবার?",
+          "romanized": "poribar?",
+          "english": "Family?"
+        }
+      ],
+      "question": {
+        "en": "Choose a family answer."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার ভাই আছে।",
+            "romanized": "amar bhai achhe",
+            "english": "I have a brother."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমি ভালো আছি।",
+            "romanized": "ami bhalo achhi",
+            "english": "I am well."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আচ্ছা।",
+            "romanized": "achha",
+            "english": "Okay."
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

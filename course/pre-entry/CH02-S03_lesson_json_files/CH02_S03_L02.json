@@ -1,0 +1,255 @@
+{
+  "lesson_id": "CH02_S03_L02",
+  "title": {
+    "en": "Fine, So-so, Not Bad: Tap the Meaning"
+  },
+  "description": {
+    "en": "Match মোটামুটি, খারাপ না to meaning without production."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH02_S03_L02_E01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch02_s03_motamuti.mp3",
+      "question": {
+        "en": "Tap the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "So-so"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Not bad"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "I’m fine"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH02_S03_L02_E02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch02_s03_kharap_na.mp3",
+      "question": {
+        "en": "Tap the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Not bad"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "So-so"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Hello"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH02_S03_L02_E03",
+      "type": "figure_choice",
+      "question": {
+        "en": "Which image matches খারাপ না?"
+      },
+      "options": [
+        {
+          "image": "assets/illustrations/feeling_good.png",
+          "label": {
+            "en": "ভালো আছি — I’m fine"
+          }
+        },
+        {
+          "image": "assets/illustrations/feeling_so_so.png",
+          "label": {
+            "en": "মোটামুটি — So-so"
+          }
+        },
+        {
+          "image": "assets/illustrations/feeling_not_bad.png",
+          "label": {
+            "en": "খারাপ না — Not bad"
+          }
+        }
+      ],
+      "correctIndex": 2,
+      "bengali": "খারাপ না"
+    },
+    {
+      "id": "CH02_S03_L02_E04",
+      "type": "figure_choice",
+      "question": {
+        "en": "Which image matches ভালো আছি?"
+      },
+      "options": [
+        {
+          "image": "assets/illustrations/feeling_good.png",
+          "label": {
+            "en": "ভালো আছি — I’m fine"
+          }
+        },
+        {
+          "image": "assets/illustrations/feeling_so_so.png",
+          "label": {
+            "en": "মোটামুটি — So-so"
+          }
+        },
+        {
+          "image": "assets/illustrations/feeling_not_bad.png",
+          "label": {
+            "en": "খারাপ না — Not bad"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "bengali": "ভালো আছি"
+    },
+    {
+      "id": "CH02_S03_L02_E05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the Bengali for “So-so.”"
+      },
+      "options": [
+        {
+          "en": "ভালো আছি"
+        },
+        {
+          "en": "মোটামুটি"
+        },
+        {
+          "en": "না"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH02_S03_L02_E06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the Bengali for “Not bad.”"
+      },
+      "options": [
+        {
+          "en": "খারাপ না"
+        },
+        {
+          "en": "ধন্যবাদ"
+        },
+        {
+          "en": "হ্যাঁ"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH02_S03_L02_E07",
+      "type": "reading",
+      "passage": {
+        "en": "ভালো আছি"
+      },
+      "question": {
+        "en": "What does this mean?"
+      },
+      "options": [
+        {
+          "en": "I’m fine"
+        },
+        {
+          "en": "So-so"
+        },
+        {
+          "en": "Sorry"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH02_S03_L02_E08",
+      "type": "reading",
+      "passage": {
+        "en": "মোটামুটি"
+      },
+      "question": {
+        "en": "What does this mean?"
+      },
+      "options": [
+        {
+          "en": "Okay / so-so"
+        },
+        {
+          "en": "Excuse me"
+        },
+        {
+          "en": "No"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH02_S03_L02_E09",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch02_s03_kemon_achen.mp3",
+      "question": {
+        "en": "What question did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "How are you? (polite)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "I’m fine"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Not bad"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH02_S03_L02_E10",
+      "type": "grammar-select",
+      "question": {
+        "en": "A polite answer to কেমন আছেন? can be…"
+      },
+      "options": [
+        {
+          "en": "খারাপ না"
+        },
+        {
+          "en": "মাফ করবেন"
+        },
+        {
+          "en": "হ্যালো"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

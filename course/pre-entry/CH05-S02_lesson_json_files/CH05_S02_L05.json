@@ -1,0 +1,259 @@
+{
+  "lesson_id": "CH05_S02_L05",
+  "title": {
+    "en": "I Have…: Build the Chunk"
+  },
+  "description": {
+    "en": "Build the key chunk for i have…."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH05_S02_L05_ex01",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: I have a mother."
+      },
+      "words": [
+        "আমার",
+        "মা",
+        "আছে।"
+      ],
+      "wordsRomanized": [
+        "amar",
+        "ma",
+        "achhe"
+      ],
+      "correctOrder": [
+        "আমার",
+        "মা",
+        "আছে।"
+      ]
+    },
+    {
+      "id": "CH05_S02_L05_ex02",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: I have a father."
+      },
+      "words": [
+        "আমার",
+        "বাবা",
+        "আছে।"
+      ],
+      "wordsRomanized": [
+        "amar",
+        "baba",
+        "achhe"
+      ],
+      "correctOrder": [
+        "আমার",
+        "বাবা",
+        "আছে।"
+      ]
+    },
+    {
+      "id": "CH05_S02_L05_ex03",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: I have a brother."
+      },
+      "words": [
+        "আমার",
+        "ভাই",
+        "আছে।"
+      ],
+      "wordsRomanized": [
+        "amar",
+        "bhai",
+        "achhe"
+      ],
+      "correctOrder": [
+        "আমার",
+        "ভাই",
+        "আছে।"
+      ]
+    },
+    {
+      "id": "CH05_S02_L05_ex04",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: I have a sister."
+      },
+      "words": [
+        "আমার",
+        "বোন",
+        "আছে।"
+      ],
+      "wordsRomanized": [
+        "amar",
+        "bon",
+        "achhe"
+      ],
+      "correctOrder": [
+        "আমার",
+        "বোন",
+        "আছে।"
+      ]
+    },
+    {
+      "id": "CH05_S02_L05_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which word means “my”?"
+      },
+      "options": [
+        {
+          "en": "আমার"
+        },
+        {
+          "en": "আপনি"
+        },
+        {
+          "en": "সে"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S02_L05_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which word completes: আমার মা ___।"
+      },
+      "options": [
+        {
+          "en": "আছে"
+        },
+        {
+          "en": "নাম"
+        },
+        {
+          "en": "কী"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S02_L05_ex07",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s02_l05_build_baba.mp3",
+      "question": {
+        "en": "Which built phrase matches the audio?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার বাবা আছে।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আমার ভাই আছে।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আমার বোন আছে।"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L05_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "আমার মা আছে।\nআমার বাবা আছে।"
+      },
+      "question": {
+        "en": "What is the pattern?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার + family word + আছে"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "name + কী"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "hello + thanks"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L05_ex09",
+      "type": "conversation",
+      "scenario": {
+        "en": "A simple family-card task."
+      },
+      "dialogue": [
+        {
+          "speaker": "Card",
+          "bengali": "আমার মা আছে।",
+          "romanized": "amar ma achhe",
+          "english": "I have a mother."
+        }
+      ],
+      "question": {
+        "en": "Choose the matching card label."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "mother",
+            "romanized": "ma",
+            "english": "mother"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "brother",
+            "romanized": "bhai",
+            "english": "brother"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "sister",
+            "romanized": "bon",
+            "english": "sister"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L05_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which sentence is natural?"
+      },
+      "options": [
+        {
+          "en": "আমার বোন আছে।"
+        },
+        {
+          "en": "আমার আছে বোন।"
+        },
+        {
+          "en": "বোন আমার আছে?"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

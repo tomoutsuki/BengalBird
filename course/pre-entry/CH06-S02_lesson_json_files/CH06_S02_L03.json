@@ -1,0 +1,320 @@
+{
+  "lesson_id": "CH06_S02_L03",
+  "title": {
+    "en": "Water: Hear It in Context"
+  },
+  "description": {
+    "en": "Recognize water words in Bengali: পানি and জল, with regional context."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH06_S02_L03_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s02_pani_din.mp3",
+      "question": {
+        "en": "Someone asks for পানি. What do they want?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "tea"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "fish"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L03_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s02_jol_din.mp3",
+      "question": {
+        "en": "Someone asks for জল. What do they want?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "rice"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "lentils"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L03_ex03",
+      "type": "conversation",
+      "scenario": {
+        "en": "At a small shop in Dhaka."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "পানি?",
+            "romanized": "pani?",
+            "en": "Water?"
+          }
+        },
+        {
+          "speaker": "B",
+          "text": {
+            "bengali": "হ্যাঁ।",
+            "romanized": "hyã",
+            "en": "Yes."
+          }
+        }
+      ],
+      "question": {
+        "en": "What did A ask about?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "tea"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "rice"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L03_ex04",
+      "type": "conversation",
+      "scenario": {
+        "en": "At a café in Kolkata."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "জল?",
+            "romanized": "jol?",
+            "en": "Water?"
+          }
+        },
+        {
+          "speaker": "B",
+          "text": {
+            "bengali": "হ্যাঁ।",
+            "romanized": "hyã",
+            "en": "Yes."
+          }
+        }
+      ],
+      "question": {
+        "en": "What did A ask about?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "fish"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "hello"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L03_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which word fits a Bangladesh setting?"
+      },
+      "options": [
+        {
+          "en": "পানি"
+        },
+        {
+          "en": "জল"
+        },
+        {
+          "en": "ভাত"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Both পানি and জল mean water; this lesson marks common regional use."
+      }
+    },
+    {
+      "id": "CH06_S02_L03_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which word fits a West Bengal setting?"
+      },
+      "options": [
+        {
+          "en": "জল"
+        },
+        {
+          "en": "পানি"
+        },
+        {
+          "en": "চা"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Both are understood in many contexts, but জল is common in West Bengal."
+      }
+    },
+    {
+      "id": "CH06_S02_L03_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "A: পানি?\nB: ঠিক আছে।"
+      },
+      "question": {
+        "en": "What does A want?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "tea"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "thanks"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L03_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "A: জল?\nB: ঠিক আছে।"
+      },
+      "question": {
+        "en": "What does A want?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "rice"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "no"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L03_ex09",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s02_pani_cha.mp3",
+      "question": {
+        "en": "Which word means water?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "পানি",
+            "romanized": "pani",
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "চা",
+            "romanized": "cha",
+            "en": "tea"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L03_ex10",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s02_jol_cha.mp3",
+      "question": {
+        "en": "Which word means water?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "জল",
+            "romanized": "jol",
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "চা",
+            "romanized": "cha",
+            "en": "tea"
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

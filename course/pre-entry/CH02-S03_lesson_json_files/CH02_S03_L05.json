@@ -1,0 +1,249 @@
+{
+  "lesson_id": "CH02_S03_L05",
+  "title": {
+    "en": "Fine, So-so, Not Bad: Build the Chunk"
+  },
+  "description": {
+    "en": "Build the key chunk for fine, so-so, not bad."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH02_S03_L05_E01",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: মোটামুটি"
+      },
+      "words": [
+        "মোটামুটি"
+      ],
+      "correctOrder": [
+        "মোটামুটি"
+      ],
+      "wordsRomanized": [
+        "motamuti"
+      ]
+    },
+    {
+      "id": "CH02_S03_L05_E02",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: খারাপ না"
+      },
+      "words": [
+        "না",
+        "খারাপ"
+      ],
+      "correctOrder": [
+        "খারাপ",
+        "না"
+      ],
+      "wordsRomanized": [
+        "na",
+        "kharap"
+      ]
+    },
+    {
+      "id": "CH02_S03_L05_E03",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: ভালো আছি"
+      },
+      "words": [
+        "আছি",
+        "ভালো"
+      ],
+      "correctOrder": [
+        "ভালো",
+        "আছি"
+      ],
+      "wordsRomanized": [
+        "achi",
+        "bhalo"
+      ]
+    },
+    {
+      "id": "CH02_S03_L05_E04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which chunk means “So-so”?"
+      },
+      "options": [
+        {
+          "en": "মোটামুটি"
+        },
+        {
+          "en": "খারাপ না"
+        },
+        {
+          "en": "ভালো আছি"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH02_S03_L05_E05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which chunk means “Not bad”?"
+      },
+      "options": [
+        {
+          "en": "খারাপ না"
+        },
+        {
+          "en": "মোটামুটি"
+        },
+        {
+          "en": "ধন্যবাদ"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH02_S03_L05_E06",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch02_s03_motamuti.mp3",
+      "question": {
+        "en": "Choose the Bengali you heard."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "মোটামুটি"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভালো আছি"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "খারাপ না"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH02_S03_L05_E07",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch02_s03_kharap_na.mp3",
+      "question": {
+        "en": "Choose the Bengali you heard."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "খারাপ না"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "কেমন আছেন?"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মোটামুটি"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH02_S03_L05_E08",
+      "type": "conversation",
+      "scenario": {
+        "en": "Tiny polite exchange."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "কেমন আছেন?",
+            "en": "How are you?"
+          }
+        }
+      ],
+      "question": {
+        "en": "Build the best short reply from this section."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "মোটামুটি",
+            "en": "So-so"
+          },
+          "correct": true,
+          "romanized": "motamuti"
+        },
+        {
+          "text": {
+            "bengali": "আপনি",
+            "en": "You (formal)"
+          },
+          "correct": false,
+          "romanized": "apni"
+        },
+        {
+          "text": {
+            "bengali": "নাম",
+            "en": "Name"
+          },
+          "correct": false,
+          "romanized": "nam"
+        }
+      ]
+    },
+    {
+      "id": "CH02_S03_L05_E09",
+      "type": "reading",
+      "passage": {
+        "en": "খারাপ না"
+      },
+      "question": {
+        "en": "Tap the meaning."
+      },
+      "options": [
+        {
+          "en": "Not bad"
+        },
+        {
+          "en": "So-so"
+        },
+        {
+          "en": "I’m fine"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH02_S03_L05_E10",
+      "type": "reading",
+      "passage": {
+        "en": "মোটামুটি"
+      },
+      "question": {
+        "en": "Tap the meaning."
+      },
+      "options": [
+        {
+          "en": "So-so"
+        },
+        {
+          "en": "Not bad"
+        },
+        {
+          "en": "How are you?"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

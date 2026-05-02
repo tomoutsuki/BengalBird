@@ -1,0 +1,277 @@
+{
+  "lesson_id": "CH03_S03_L05",
+  "title": {
+    "en": "Friendly Names: Build the Chunk"
+  },
+  "description": {
+    "en": "Build the key chunk for friendly names."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH03_S03_L05_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch03_s03_l05_tomar_nam_ki.mp3",
+      "question": {
+        "en": "Listen. What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "তোমার নাম কী?"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আপনার নাম কী?"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আমার নাম মায়া।"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH03_S03_L05_ex02",
+      "type": "grammar-select",
+      "question": {
+        "en": "What does তোমার নাম কী? mean?"
+      },
+      "options": [
+        {
+          "en": "What is your name? (friendly)"
+        },
+        {
+          "en": "What is my name?"
+        },
+        {
+          "en": "Thank you"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH03_S03_L05_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch03_s03_l05_apnar_vs_tomar.mp3",
+      "question": {
+        "en": "Which one is the friendly version?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "তোমার নাম কী?"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আপনার নাম কী?"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH03_S03_L05_ex04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which one is safer with a stranger or adult?"
+      },
+      "options": [
+        {
+          "en": "আপনার নাম কী?"
+        },
+        {
+          "en": "তোমার নাম কী?"
+        },
+        {
+          "en": "হ্যালো"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH03_S03_L05_ex05",
+      "type": "reading",
+      "passage": {
+        "en": "তোমার নাম কী?"
+      },
+      "question": {
+        "en": "Read the whole phrase. What is it?"
+      },
+      "options": [
+        {
+          "en": "Friendly: What is your name?"
+        },
+        {
+          "en": "Formal: What is your name?"
+        },
+        {
+          "en": "My name is…"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Treat the phrase as a whole chunk."
+      }
+    },
+    {
+      "id": "CH03_S03_L05_ex06",
+      "type": "figure_choice",
+      "question": {
+        "en": "Choose the friendly name question."
+      },
+      "bengali": "তোমার নাম কী?",
+      "options": [
+        {
+          "image": "assets/illustrations/friends_talking.png",
+          "label": {
+            "en": "Two friends talking"
+          }
+        },
+        {
+          "image": "assets/illustrations/formal_introduction.png",
+          "label": {
+            "en": "Polite formal introduction"
+          }
+        },
+        {
+          "image": "assets/illustrations/thank_you_scene.png",
+          "label": {
+            "en": "Saying thanks"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH03_S03_L05_ex07",
+      "type": "conversation",
+      "scenario": {
+        "en": "Two teens meet at a club."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "হ্যালো।",
+            "romanized": "hyalo.",
+            "en": "Hello."
+          }
+        },
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "তোমার নাম কী?",
+            "romanized": "tomar nam ki?",
+            "en": "What is your name?"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose a natural answer."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার নাম মায়া।",
+            "romanized": "amar nam Maya.",
+            "en": "My name is Maya."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "না।",
+            "romanized": "na.",
+            "en": "No."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ।",
+            "romanized": "dhonnobad.",
+            "en": "Thank you."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH03_S03_L05_ex08",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the friendly name question."
+      },
+      "words": [
+        "নাম",
+        "কী?",
+        "তোমার"
+      ],
+      "wordsRomanized": [
+        "nam",
+        "ki?",
+        "tomar"
+      ],
+      "correctOrder": [
+        "তোমার",
+        "নাম",
+        "কী?"
+      ]
+    },
+    {
+      "id": "CH03_S03_L05_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "When should you use তোমার নাম কী?"
+      },
+      "options": [
+        {
+          "en": "With a friend or peer"
+        },
+        {
+          "en": "With a shopkeeper you just met"
+        },
+        {
+          "en": "With an older stranger"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH03_S03_L05_ex10",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the formal review phrase."
+      },
+      "words": [
+        "নাম",
+        "কী?",
+        "আপনার"
+      ],
+      "wordsRomanized": [
+        "nam",
+        "ki?",
+        "apnar"
+      ],
+      "correctOrder": [
+        "আপনার",
+        "নাম",
+        "কী?"
+      ]
+    }
+  ]
+}

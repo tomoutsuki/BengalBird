@@ -1,0 +1,556 @@
+{
+  "lesson_id": "CH01_S04_L10",
+  "title": {
+    "en": "Review: Check"
+  },
+  "description": {
+    "en": "Pass a short mixed checkpoint for Chapter 1 phrases."
+  },
+  "est_time_mins": 5,
+  "exercises": [
+    {
+      "id": "ch01_s04_l10_ex01",
+      "type": "conversation_listening",
+      "audio": "assets/audio/listening/ch01_s04_check_scene_01.mp3",
+      "scenario": {
+        "en": "Checkpoint: first greeting."
+      },
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "নমস্কার।"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "Choose a matching reply."
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "নমস্কার",
+                "romanized": "nomoshkar",
+                "meaning": {
+                  "en": "hello / polite greeting"
+                }
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "না",
+                "romanized": "na",
+                "meaning": {
+                  "en": "no"
+                }
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "bengali": "দুঃখিত",
+                "romanized": "dukkhito",
+                "meaning": {
+                  "en": "sorry"
+                }
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "bengali": "ধন্যবাদ",
+                "romanized": "dhonnobad",
+                "meaning": {
+                  "en": "thank you"
+                }
+              },
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "hint": {
+        "en": "Listen for the situation, then choose the best phrase."
+      }
+    },
+    {
+      "id": "ch01_s04_l10_ex02",
+      "type": "conversation_listening",
+      "audio": "assets/audio/listening/ch01_s04_check_scene_02.mp3",
+      "scenario": {
+        "en": "Checkpoint: helped by someone."
+      },
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "Here you go."
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "What should you say?"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "মাফ করবেন",
+                "romanized": "maf korben",
+                "meaning": {
+                  "en": "excuse me / pardon me"
+                }
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "bengali": "হ্যালো",
+                "romanized": "hyalo",
+                "meaning": {
+                  "en": "hello / phone hello"
+                }
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "bengali": "না",
+                "romanized": "na",
+                "meaning": {
+                  "en": "no"
+                }
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "bengali": "ধন্যবাদ",
+                "romanized": "dhonnobad",
+                "meaning": {
+                  "en": "thank you"
+                }
+              },
+              "correct": true
+            }
+          ]
+        }
+      ],
+      "hint": {
+        "en": "Listen for the situation, then choose the best phrase."
+      }
+    },
+    {
+      "id": "ch01_s04_l10_ex03",
+      "type": "conversation",
+      "scenario": {
+        "en": "Checkpoint: yes/no"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "Ready?"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose yes."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "না",
+            "romanized": "na",
+            "meaning": {
+              "en": "no"
+            }
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আচ্ছা",
+            "romanized": "achchha",
+            "meaning": {
+              "en": "okay / I see"
+            }
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "হ্যাঁ",
+            "romanized": "hya",
+            "meaning": {
+              "en": "yes"
+            }
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "দুঃখিত",
+            "romanized": "dukkhito",
+            "meaning": {
+              "en": "sorry"
+            }
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Pick the phrase that fits the social moment."
+      }
+    },
+    {
+      "id": "ch01_s04_l10_ex04",
+      "type": "conversation",
+      "scenario": {
+        "en": "Checkpoint: polite attention"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "You need to ask something."
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose the safe opener."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "না",
+            "romanized": "na",
+            "meaning": {
+              "en": "no"
+            }
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "meaning": {
+              "en": "thank you"
+            }
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "হ্যালো",
+            "romanized": "hyalo",
+            "meaning": {
+              "en": "hello / phone hello"
+            }
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "মাফ করবেন",
+            "romanized": "maf korben",
+            "meaning": {
+              "en": "excuse me / pardon me"
+            }
+          },
+          "correct": true
+        }
+      ],
+      "hint": {
+        "en": "Pick the phrase that fits the social moment."
+      }
+    },
+    {
+      "id": "ch01_s04_l10_ex05",
+      "type": "conversation",
+      "scenario": {
+        "en": "Checkpoint: apology"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "You made a small mistake."
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose sorry."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ঠিক আছে",
+            "romanized": "thik ache",
+            "meaning": {
+              "en": "okay / all right"
+            }
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "হ্যাঁ",
+            "romanized": "hya",
+            "meaning": {
+              "en": "yes"
+            }
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "meaning": {
+              "en": "thank you"
+            }
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "দুঃখিত",
+            "romanized": "dukkhito",
+            "meaning": {
+              "en": "sorry"
+            }
+          },
+          "correct": true
+        }
+      ],
+      "hint": {
+        "en": "Pick the phrase that fits the social moment."
+      }
+    },
+    {
+      "id": "ch01_s04_l10_ex06",
+      "type": "reading",
+      "passage": {
+        "en": "আচ্ছা"
+      },
+      "question": {
+        "en": "Which meaning matches?"
+      },
+      "options": [
+        {
+          "bengali": "ধন্যবাদ",
+          "romanized": "dhonnobad",
+          "meaning": {
+            "en": "thank you"
+          }
+        },
+        {
+          "bengali": "আচ্ছা",
+          "romanized": "achchha",
+          "meaning": {
+            "en": "okay / I see"
+          }
+        },
+        {
+          "bengali": "দুঃখিত",
+          "romanized": "dukkhito",
+          "meaning": {
+            "en": "sorry"
+          }
+        },
+        {
+          "bengali": "না",
+          "romanized": "na",
+          "meaning": {
+            "en": "no"
+          }
+        }
+      ],
+      "correctIndex": 1,
+      "hint": {
+        "en": "Read the whole word shape."
+      }
+    },
+    {
+      "id": "ch01_s04_l10_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "না"
+      },
+      "question": {
+        "en": "Which meaning matches?"
+      },
+      "options": [
+        {
+          "bengali": "না",
+          "romanized": "na",
+          "meaning": {
+            "en": "no"
+          }
+        },
+        {
+          "bengali": "হ্যাঁ",
+          "romanized": "hya",
+          "meaning": {
+            "en": "yes"
+          }
+        },
+        {
+          "bengali": "নমস্কার",
+          "romanized": "nomoshkar",
+          "meaning": {
+            "en": "hello / polite greeting"
+          }
+        },
+        {
+          "bengali": "ঠিক আছে",
+          "romanized": "thik ache",
+          "meaning": {
+            "en": "okay / all right"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Read the whole word shape."
+      }
+    },
+    {
+      "id": "ch01_s04_l10_ex08",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which phrase can mean “okay / all right”?"
+      },
+      "options": [
+        {
+          "bengali": "ঠিক আছে",
+          "romanized": "thik ache",
+          "meaning": {
+            "en": "okay / all right"
+          }
+        },
+        {
+          "bengali": "না",
+          "romanized": "na",
+          "meaning": {
+            "en": "no"
+          }
+        },
+        {
+          "bengali": "ধন্যবাদ",
+          "romanized": "dhonnobad",
+          "meaning": {
+            "en": "thank you"
+          }
+        },
+        {
+          "bengali": "দুঃখিত",
+          "romanized": "dukkhito",
+          "meaning": {
+            "en": "sorry"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Choose the natural whole phrase."
+      }
+    },
+    {
+      "id": "ch01_s04_l10_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which phrase is a casual/phone hello?"
+      },
+      "options": [
+        {
+          "bengali": "ধন্যবাদ",
+          "romanized": "dhonnobad",
+          "meaning": {
+            "en": "thank you"
+          }
+        },
+        {
+          "bengali": "মাফ করবেন",
+          "romanized": "maf korben",
+          "meaning": {
+            "en": "excuse me / pardon me"
+          }
+        },
+        {
+          "bengali": "না",
+          "romanized": "na",
+          "meaning": {
+            "en": "no"
+          }
+        },
+        {
+          "bengali": "হ্যালো",
+          "romanized": "hyalo",
+          "meaning": {
+            "en": "hello / phone hello"
+          }
+        }
+      ],
+      "correctIndex": 3,
+      "hint": {
+        "en": "Choose the natural whole phrase."
+      }
+    },
+    {
+      "id": "ch01_s04_l10_ex10",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch01_dhonnobad.mp3",
+      "question": {
+        "en": "Final listen: what did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "meaning": {
+              "en": "thank you"
+            }
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "মাফ করবেন",
+            "romanized": "maf korben",
+            "meaning": {
+              "en": "excuse me / pardon me"
+            }
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "হ্যাঁ",
+            "romanized": "hya",
+            "meaning": {
+              "en": "yes"
+            }
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "নমস্কার",
+            "romanized": "nomoshkar",
+            "meaning": {
+              "en": "hello / polite greeting"
+            }
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen for the whole phrase. No spelling needed yet."
+      }
+    }
+  ]
+}

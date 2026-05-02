@@ -1,0 +1,305 @@
+{
+  "lesson_id": "CH02_S03_L06",
+  "title": {
+    "en": "Fine, So-so, Not Bad: Mini Exchange"
+  },
+  "description": {
+    "en": "Complete a short exchange with মোটামুটি, খারাপ না."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH02_S03_L06_E01",
+      "type": "conversation",
+      "scenario": {
+        "en": "Mini exchange."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "নমস্কার।",
+            "en": "Hello."
+          }
+        },
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "কেমন আছেন?",
+            "en": "How are you?"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose a natural answer."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "মোটামুটি",
+            "en": "So-so"
+          },
+          "correct": true,
+          "romanized": "motamuti"
+        },
+        {
+          "text": {
+            "bengali": "নমস্কার",
+            "en": "Hello"
+          },
+          "correct": false,
+          "romanized": "nomoshkar"
+        },
+        {
+          "text": {
+            "bengali": "কেমন আছেন?",
+            "en": "How are you?"
+          },
+          "correct": false,
+          "romanized": "kemon achen?"
+        }
+      ]
+    },
+    {
+      "id": "CH02_S03_L06_E02",
+      "type": "conversation",
+      "scenario": {
+        "en": "Mini exchange."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "কেমন আছেন?",
+            "en": "How are you?"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose a natural answer."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "খারাপ না",
+            "en": "Not bad"
+          },
+          "correct": true,
+          "romanized": "kharap na"
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "en": "Thank you"
+          },
+          "correct": false,
+          "romanized": "dhonnobad"
+        },
+        {
+          "text": {
+            "bengali": "মাফ করবেন",
+            "en": "Excuse me"
+          },
+          "correct": false,
+          "romanized": "maf korben"
+        }
+      ]
+    },
+    {
+      "id": "CH02_S03_L06_E03",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Listen and answer."
+      },
+      "audio": "assets/audio/listening/ch02_s03_mini_scene.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "নমস্কার। কেমন আছেন?",
+          "romanized": "nomoshkar. kemon achen?"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "Pick “I’m fine.”"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "ভালো আছি",
+                "en": "I’m fine"
+              },
+              "correct": true,
+              "romanized": "bhalo achi"
+            },
+            {
+              "text": {
+                "bengali": "না",
+                "en": "No"
+              },
+              "correct": false,
+              "romanized": "na"
+            },
+            {
+              "text": {
+                "bengali": "হ্যালো",
+                "en": "Hello"
+              },
+              "correct": false,
+              "romanized": "hyalo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CH02_S03_L06_E04",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch02_s03_kemon_achen.mp3",
+      "question": {
+        "en": "What should come after this?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "A check-in answer"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "A food order"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "A name question"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH02_S03_L06_E05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which answer is mild, not too strong?"
+      },
+      "options": [
+        {
+          "en": "মোটামুটি"
+        },
+        {
+          "en": "দুঃখিত"
+        },
+        {
+          "en": "হ্যাঁ"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH02_S03_L06_E06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which answer is positive?"
+      },
+      "options": [
+        {
+          "en": "ভালো আছি"
+        },
+        {
+          "en": "মোটামুটি"
+        },
+        {
+          "en": "খারাপ না"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH02_S03_L06_E07",
+      "type": "reading",
+      "passage": {
+        "en": "নমস্কার। কেমন আছেন? — খারাপ না।"
+      },
+      "question": {
+        "en": "Which reply did you read?"
+      },
+      "options": [
+        {
+          "en": "Not bad"
+        },
+        {
+          "en": "So-so"
+        },
+        {
+          "en": "Thank you"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH02_S03_L06_E08",
+      "type": "reading",
+      "passage": {
+        "en": "নমস্কার। কেমন আছেন? — মোটামুটি।"
+      },
+      "question": {
+        "en": "Which reply did you read?"
+      },
+      "options": [
+        {
+          "en": "So-so"
+        },
+        {
+          "en": "Not bad"
+        },
+        {
+          "en": "No"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH02_S03_L06_E09",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the reply: খারাপ না"
+      },
+      "words": [
+        "না",
+        "খারাপ"
+      ],
+      "correctOrder": [
+        "খারাপ",
+        "না"
+      ],
+      "wordsRomanized": [
+        "na",
+        "kharap"
+      ]
+    },
+    {
+      "id": "CH02_S03_L06_E10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which is a natural mini exchange?"
+      },
+      "options": [
+        {
+          "en": "কেমন আছেন? — মোটামুটি।"
+        },
+        {
+          "en": "কেমন আছেন? — হ্যালো।"
+        },
+        {
+          "en": "কেমন আছেন? — নাম।"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

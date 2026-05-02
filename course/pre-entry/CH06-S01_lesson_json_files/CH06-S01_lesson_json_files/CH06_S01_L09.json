@@ -1,0 +1,330 @@
+{
+  "lesson_id": "CH06_S01_L09",
+  "title": {
+    "en": "Food Basics: Read the Shape"
+  },
+  "description": {
+    "en": "Recognize the Bengali written shape for this section."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH06_S01_L09_ex01",
+      "type": "reading",
+      "passage": {
+        "en": "ভাত"
+      },
+      "question": {
+        "en": "What word is this?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "rice"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "hello"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "thank you"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Read the whole word shape: ভাত."
+      }
+    },
+    {
+      "id": "CH06_S01_L09_ex02",
+      "type": "reading",
+      "passage": {
+        "en": "ডাল"
+      },
+      "question": {
+        "en": "What word is this?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "lentils / dal"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "hello"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "thank you"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Read the whole word shape: ডাল."
+      }
+    },
+    {
+      "id": "CH06_S01_L09_ex03",
+      "type": "reading",
+      "passage": {
+        "en": "মাছ"
+      },
+      "question": {
+        "en": "What word is this?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "fish"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "hello"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "thank you"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Read the whole word shape: মাছ."
+      }
+    },
+    {
+      "id": "CH06_S01_L09_ex04",
+      "type": "reading",
+      "passage": {
+        "en": "চা"
+      },
+      "question": {
+        "en": "What word is this?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "tea"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "hello"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "thank you"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Read the whole word shape: চা."
+      }
+    },
+    {
+      "id": "CH06_S01_L09_ex05",
+      "type": "reading",
+      "passage": {
+        "en": "ভাত  চা"
+      },
+      "question": {
+        "en": "Which word is tea?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "চা"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভাত"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ডাল"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "চা has one short word shape."
+      }
+    },
+    {
+      "id": "CH06_S01_L09_ex06",
+      "type": "reading",
+      "passage": {
+        "en": "ডাল  মাছ"
+      },
+      "question": {
+        "en": "Which word is fish?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "মাছ"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ডাল"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "চা"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "মাছ means fish."
+      }
+    },
+    {
+      "id": "CH06_S01_L09_ex07",
+      "type": "grammar-select",
+      "question": {
+        "en": "Match the Bengali shape: ভাত"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "bhat — rice"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "namaskar — hello"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "dhonnobad — thanks"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Use whole-word recognition."
+      }
+    },
+    {
+      "id": "CH06_S01_L09_ex08",
+      "type": "grammar-select",
+      "question": {
+        "en": "Match the Bengali shape: ডাল"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "dal — lentils / dal"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "namaskar — hello"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "dhonnobad — thanks"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Use whole-word recognition."
+      }
+    },
+    {
+      "id": "CH06_S01_L09_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Match the Bengali shape: মাছ"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "machh — fish"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "namaskar — hello"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "dhonnobad — thanks"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Use whole-word recognition."
+      }
+    },
+    {
+      "id": "CH06_S01_L09_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Match the Bengali shape: চা"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "cha — tea"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "namaskar — hello"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "dhonnobad — thanks"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Use whole-word recognition."
+      }
+    }
+  ]
+}

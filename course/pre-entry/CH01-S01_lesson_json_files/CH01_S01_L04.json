@@ -1,0 +1,385 @@
+{
+  "lesson_id": "CH01_S01_L04",
+  "title": {
+    "en": "Hear Bengali, Tap Meaning: Choose the Reply"
+  },
+  "description": {
+    "en": "Choose a natural response using the first three Bengali chunks."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH01_S01_L04_E01",
+      "type": "conversation",
+      "scenario": {
+        "en": "Two people meet politely."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "নমস্কার।",
+            "romanized": "nomoshkar.",
+            "en": "Hello."
+          }
+        }
+      ],
+      "question": {
+        "en": "How should B reply?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "নমস্কার",
+            "romanized": "nomoshkar",
+            "en": "hello / respectful greeting"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "হ্যালো",
+            "romanized": "hyalo",
+            "en": "hello"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "en": "thank you"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Choose the natural short response."
+      }
+    },
+    {
+      "id": "CH01_S01_L04_E02",
+      "type": "conversation",
+      "scenario": {
+        "en": "A friend calls you."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "হ্যালো।",
+            "romanized": "hyalo.",
+            "en": "Hello."
+          }
+        }
+      ],
+      "question": {
+        "en": "How can B reply?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "নমস্কার",
+            "romanized": "nomoshkar",
+            "en": "hello / respectful greeting"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "হ্যালো",
+            "romanized": "hyalo",
+            "en": "hello"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "en": "thank you"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Choose the natural short response."
+      }
+    },
+    {
+      "id": "CH01_S01_L04_E03",
+      "type": "conversation",
+      "scenario": {
+        "en": "Someone helps you."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "en": "Here you go."
+          }
+        }
+      ],
+      "question": {
+        "en": "What should B say?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "নমস্কার",
+            "romanized": "nomoshkar",
+            "en": "hello / respectful greeting"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "হ্যালো",
+            "romanized": "hyalo",
+            "en": "hello"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "en": "thank you"
+          },
+          "correct": true
+        }
+      ],
+      "hint": {
+        "en": "Choose the natural short response."
+      }
+    },
+    {
+      "id": "CH01_S01_L04_E04",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch01_s01_nomoshkar.mp3",
+      "question": {
+        "en": "Choose the best response to the greeting you hear."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "নমস্কার (nomoshkar)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "হ্যালো (hyalo)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ (dhonnobad)"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen first. Use the Bengali word shape only as support."
+      }
+    },
+    {
+      "id": "CH01_S01_L04_E05",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch01_s01_dhonnobad.mp3",
+      "question": {
+        "en": "Choose the word you hear."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "নমস্কার (nomoshkar)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "হ্যালো (hyalo)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ (dhonnobad)"
+          },
+          "correct": true
+        }
+      ],
+      "hint": {
+        "en": "Listen first. Use the Bengali word shape only as support."
+      }
+    },
+    {
+      "id": "CH01_S01_L04_E06",
+      "type": "grammar-select",
+      "question": {
+        "en": "A polite reply to নমস্কার is…"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "নমস্কার (nomoshkar)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "হ্যালো (hyalo)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ (dhonnobad)"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "No typing yet—just choose the chunk you recognize."
+      }
+    },
+    {
+      "id": "CH01_S01_L04_E07",
+      "type": "grammar-select",
+      "question": {
+        "en": "After help, choose…"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "নমস্কার (nomoshkar)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "হ্যালো (hyalo)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ (dhonnobad)"
+          },
+          "correct": true
+        }
+      ],
+      "hint": {
+        "en": "No typing yet—just choose the chunk you recognize."
+      }
+    },
+    {
+      "id": "CH01_S01_L04_E08",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build a tiny polite exchange."
+      },
+      "words": [
+        "ধন্যবাদ",
+        "নমস্কার"
+      ],
+      "wordsRomanized": [
+        "dhonnobad",
+        "nomoshkar"
+      ],
+      "correctOrder": [
+        "নমস্কার",
+        "ধন্যবাদ"
+      ],
+      "hint": {
+        "en": "Build with whole chunks, not letters."
+      }
+    },
+    {
+      "id": "CH01_S01_L04_E09",
+      "type": "reading",
+      "passage": {
+        "en": "A: নমস্কার। B: নমস্কার।"
+      },
+      "question": {
+        "en": "What kind of exchange is this?"
+      },
+      "hint": {
+        "en": "Recognize the whole word; do not try to decode every letter yet."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "নমস্কার (nomoshkar)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "হ্যালো (hyalo)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ (dhonnobad)"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S01_L04_E10",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Listen to a tiny greeting scene."
+      },
+      "audio": "assets/audio/listening/ch01_s01_tiny_scene.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "নমস্কার।",
+          "romanized": "nomoshkar."
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "How can B reply politely?"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "নমস্কার।",
+                "romanized": "nomoshkar.",
+                "en": "Hello."
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "ধন্যবাদ।",
+                "romanized": "dhonnobad.",
+                "en": "Thank you."
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "bengali": "হ্যালো।",
+                "romanized": "hyalo.",
+                "en": "Hello."
+              },
+              "correct": true
+            }
+          ]
+        }
+      ],
+      "hint": {
+        "en": "Both নমস্কার and হ্যালো can greet; নমস্কার is the safer polite choice."
+      }
+    }
+  ]
+}

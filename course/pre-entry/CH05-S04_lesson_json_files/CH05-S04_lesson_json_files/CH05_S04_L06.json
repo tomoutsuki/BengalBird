@@ -1,0 +1,358 @@
+{
+  "lesson_id": "CH05_S04_L06",
+  "title": {
+    "en": "Bangladesh & West Bengal Terms: Mini Exchange"
+  },
+  "description": {
+    "en": "Complete a short exchange with আব্বা, আম্মা, দাদা, দিদি."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH05_S04_L06_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s04_l06_abba.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আব্বা — father/dad in some families"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আম্মা — mother/mom"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "দাদা — older brother in some contexts"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "বাবা — father"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "আব্বা is a family/context word, often heard in Bangladesh and Muslim Bengali families."
+      }
+    },
+    {
+      "id": "CH05_S04_L06_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s04_l06_amma.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আম্মা — mother/mom in some families"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আব্বা — father/dad"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "দিদি — older sister"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মা — mother"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "আম্মা is a family/context word, often heard in Bangladesh and Muslim Bengali families."
+      }
+    },
+    {
+      "id": "CH05_S04_L06_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s04_l06_dada.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "দাদা — older brother in some contexts"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "দিদি — older sister"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আব্বা — father/dad"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "বাবা — father"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "দাদা can vary by family and region; here it is practiced as older brother."
+      }
+    },
+    {
+      "id": "CH05_S04_L06_ex04",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s04_l06_didi.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "দিদি — older sister"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "দাদা — older brother"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আম্মা — mother/mom"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মা — mother"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "দিদি is a common respectful/family word for older sister."
+      }
+    },
+    {
+      "id": "CH05_S04_L06_ex05",
+      "type": "conversation",
+      "scenario": {
+        "en": "A friend shows a family photo."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "এটা কে?"
+        },
+        {
+          "speaker": "B",
+          "text": "এটা আমার আব্বা।"
+        }
+      ],
+      "question": {
+        "en": "Who is in the photo?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "dad/father"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "older sister"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "older brother"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S04_L06_ex06",
+      "type": "conversation",
+      "scenario": {
+        "en": "A friend shows another photo."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "এটা কে?"
+        },
+        {
+          "speaker": "B",
+          "text": "এটা আমার আম্মা।"
+        }
+      ],
+      "question": {
+        "en": "Who is in the photo?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "mom/mother"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "dad/father"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "older brother"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S04_L06_ex07",
+      "type": "conversation",
+      "scenario": {
+        "en": "Two friends talk about older siblings."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "তোমার দাদা আছে?"
+        },
+        {
+          "speaker": "B",
+          "text": "হ্যাঁ।"
+        }
+      ],
+      "question": {
+        "en": "Best simple reply?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার দাদা আছে।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আমার আব্বা আছে।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ।"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S04_L06_ex08",
+      "type": "conversation",
+      "scenario": {
+        "en": "A friend asks about an older sister."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": "তোমার দিদি আছে?"
+        },
+        {
+          "speaker": "B",
+          "text": "হ্যাঁ।"
+        }
+      ],
+      "question": {
+        "en": "Best simple reply?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার দিদি আছে।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আমার আম্মা আছে।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "নমস্কার।"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S04_L06_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the safe note for আব্বা/আম্মা."
+      },
+      "options": [
+        {
+          "en": "Family/context words"
+        },
+        {
+          "en": "Street-food words"
+        },
+        {
+          "en": "Numbers"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S04_L06_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the safe note for দাদা/দিদি."
+      },
+      "options": [
+        {
+          "en": "Older sibling words in this lesson"
+        },
+        {
+          "en": "Formal greetings"
+        },
+        {
+          "en": "Price words"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

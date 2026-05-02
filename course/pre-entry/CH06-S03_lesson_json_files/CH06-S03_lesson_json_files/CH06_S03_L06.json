@@ -1,0 +1,371 @@
+{
+  "lesson_id": "CH06_S03_L06",
+  "title": {
+    "en": "I Want This: Mini Exchange"
+  },
+  "description": {
+    "en": "Complete a short exchange with এটা চাই."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH06_S03_L06_ex01",
+      "type": "conversation",
+      "scenario": {
+        "en": "Tiny food exchange"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "en": "চা?"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose the best reply."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "হ্যাঁ, এটা চাই।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আপনার নাম কী?"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভালো লাগলো।"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Reply with এটা চাই when you want it; no when you do not."
+      }
+    },
+    {
+      "id": "CH06_S03_L06_ex02",
+      "type": "conversation",
+      "scenario": {
+        "en": "Tiny food exchange"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "en": "পানি?"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose the best reply."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "হ্যাঁ, এটা চাই।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আপনার নাম কী?"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভালো লাগলো।"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Reply with এটা চাই when you want it; no when you do not."
+      }
+    },
+    {
+      "id": "CH06_S03_L06_ex03",
+      "type": "conversation",
+      "scenario": {
+        "en": "Tiny food exchange"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "en": "ভাত?"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose the best reply."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "হ্যাঁ, এটা চাই।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আপনার নাম কী?"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভালো লাগলো।"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Reply with এটা চাই when you want it; no when you do not."
+      }
+    },
+    {
+      "id": "CH06_S03_L06_ex04",
+      "type": "conversation",
+      "scenario": {
+        "en": "Tiny food exchange"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "en": "মাছ?"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose the best reply."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "না, ধন্যবাদ।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আপনার নাম কী?"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভালো লাগলো।"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Reply with এটা চাই when you want it; no when you do not."
+      }
+    },
+    {
+      "id": "CH06_S03_L06_ex05",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s03_l06_bhat_chai.mp3",
+      "question": {
+        "en": "What is being requested?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ভাত চাই"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভালো লাগে"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ভাত is the item; চাই marks wanting."
+      }
+    },
+    {
+      "id": "CH06_S03_L06_ex06",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s03_l06_dal_chai.mp3",
+      "question": {
+        "en": "What is being requested?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ডাল চাই"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভালো লাগে"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ডাল is the item; চাই marks wanting."
+      }
+    },
+    {
+      "id": "CH06_S03_L06_ex07",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s03_l06_machh_chai.mp3",
+      "question": {
+        "en": "What is being requested?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "মাছ চাই"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভালো লাগে"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "মাছ is the item; চাই marks wanting."
+      }
+    },
+    {
+      "id": "CH06_S03_L06_ex08",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s03_l06_cha_chai.mp3",
+      "question": {
+        "en": "What is being requested?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "চা চাই"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভালো লাগে"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "চা is the item; চাই marks wanting."
+      }
+    },
+    {
+      "id": "CH06_S03_L06_ex09",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Complete the request exchange."
+      },
+      "audio": "assets/audio/listening/ch06_s03_l06_scene_09.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "চা?",
+          "romanized": "cha?"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "You want it. What do you say?"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "হ্যাঁ, এটা চাই।",
+                "en": "Yes, I want this."
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "না, ধন্যবাদ।",
+                "en": "No, thank you."
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CH06_S03_L06_ex10",
+      "type": "reading",
+      "passage": {
+        "en": "হ্যাঁ, এটা চাই।"
+      },
+      "question": {
+        "en": "Does the speaker want it?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Yes"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "No"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Unknown name"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "হ্যাঁ + এটা চাই = yes, I want this."
+      }
+    }
+  ]
+}

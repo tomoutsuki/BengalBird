@@ -1,0 +1,341 @@
+{
+  "lesson_id": "CH06_S05_L10",
+  "title": {
+    "en": "Café Mini-Scene: Check"
+  },
+  "description": {
+    "en": "Pass a short mixed check for café mini-scene."
+  },
+  "est_time_mins": 5,
+  "exercises": [
+    {
+      "id": "CH06_S05_L10_ex01",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Checkpoint: café scene."
+      },
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "Customer",
+          "bengali": "মাফ করবেন।"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "What should the customer ask for?"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "চা দিন।",
+                "romanized": "cha din",
+                "en": "Tea, please."
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "আমার নাম কী?",
+                "romanized": "amar nam ki?",
+                "en": "My name what?"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "bengali": "তারা।",
+                "romanized": "tara",
+                "en": "They."
+              },
+              "correct": false
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "speaker": "Server",
+          "bengali": "ঠিক আছে।"
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L10_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s05_cha_din.mp3",
+      "question": {
+        "en": "Checkpoint: what did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "চা দিন",
+            "romanized": "cha din",
+            "en": "Tea, please."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "পানি",
+            "romanized": "pani",
+            "en": "water"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "en": "Thank you"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L10_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s05_thik_ache.mp3",
+      "question": {
+        "en": "Checkpoint: what did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ঠিক আছে",
+            "romanized": "thik ache",
+            "en": "Okay."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "না",
+            "romanized": "na",
+            "en": "No."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "হ্যালো",
+            "romanized": "hello",
+            "en": "Hello"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L10_ex04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the best response to “চা দিন।”"
+      },
+      "options": [
+        {
+          "en": "ঠিক আছে।"
+        },
+        {
+          "en": "আপনার নাম কী?"
+        },
+        {
+          "en": "সে।"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S05_L10_ex05",
+      "type": "reading",
+      "passage": {
+        "en": "Customer: মাফ করবেন, পানি দিন।\nServer: ঠিক আছে।"
+      },
+      "question": {
+        "en": "What did the customer ask for?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Tea"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Rice"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L10_ex06",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: “Water, please.”"
+      },
+      "words": [
+        "দিন",
+        "পানি"
+      ],
+      "correctOrder": [
+        "পানি",
+        "দিন"
+      ],
+      "wordsRomanized": [
+        "din",
+        "pani"
+      ]
+    },
+    {
+      "id": "CH06_S05_L10_ex07",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: “Tea, please.”"
+      },
+      "words": [
+        "চা",
+        "দিন"
+      ],
+      "correctOrder": [
+        "চা",
+        "দিন"
+      ],
+      "wordsRomanized": [
+        "cha",
+        "din"
+      ]
+    },
+    {
+      "id": "CH06_S05_L10_ex08",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which phrase is a polite request?"
+      },
+      "options": [
+        {
+          "en": "চা দিন"
+        },
+        {
+          "en": "ভাই"
+        },
+        {
+          "en": "সে"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S05_L10_ex09",
+      "type": "conversation",
+      "scenario": {
+        "en": "Checkpoint café reply."
+      },
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": {
+            "bengali": "মাফ করবেন, চা দিন।",
+            "romanized": "maf korben, cha din"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose the natural reply."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ঠিক আছে।",
+            "romanized": "thik ache",
+            "en": "Okay."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "দুঃখিত।",
+            "romanized": "dukkhito",
+            "en": "Sorry."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আপনি।",
+            "romanized": "apni",
+            "en": "You/formal."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L10_ex10",
+      "type": "reading",
+      "passage": {
+        "en": "মাফ করবেন।\nচা দিন।\nঠিক আছে।\nধন্যবাদ।"
+      },
+      "question": {
+        "en": "What is the best summary?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "A polite café order: tea, okay, thank you."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "A name and family introduction."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "A pronoun review."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L10_ex11",
+      "type": "figure_choice",
+      "question": {
+        "en": "Final tap: what was ordered?"
+      },
+      "bengali": "চা দিন",
+      "options": [
+        {
+          "image": "assets/illustrations/tea_cup.png",
+          "label": {
+            "en": "tea"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass.png",
+          "label": {
+            "en": "water"
+          }
+        },
+        {
+          "image": "assets/illustrations/dal_bowl.png",
+          "label": {
+            "en": "dal"
+          }
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

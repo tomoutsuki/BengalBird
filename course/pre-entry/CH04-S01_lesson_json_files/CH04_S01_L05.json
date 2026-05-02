@@ -1,0 +1,287 @@
+{
+  "lesson_id": "CH04_S01_L05",
+  "title": {
+    "en": "I / You / He-She: Build the Chunk"
+  },
+  "description": {
+    "en": "Build tiny pronoun chunks from known words, with no open spelling."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH04_S01_L05_E01",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: “I am well.”"
+      },
+      "words": [
+        "আছি",
+        "আমি",
+        "ভালো"
+      ],
+      "wordsRomanized": [
+        "achi",
+        "ami",
+        "bhalo"
+      ],
+      "correctOrder": [
+        "আমি",
+        "ভালো",
+        "আছি"
+      ],
+      "hint": {
+        "en": "Build the familiar chunk. No spelling from memory needed."
+      }
+    },
+    {
+      "id": "CH04_S01_L05_E02",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: “Your name?” polite chunk."
+      },
+      "words": [
+        "নাম",
+        "কী?",
+        "আপনি"
+      ],
+      "wordsRomanized": [
+        "nam",
+        "ki?",
+        "apni"
+      ],
+      "correctOrder": [
+        "আপনি",
+        "নাম",
+        "কী?"
+      ],
+      "hint": {
+        "en": "Build the familiar chunk. No spelling from memory needed."
+      }
+    },
+    {
+      "id": "CH04_S01_L05_E03",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: “You” friendly + name + what?"
+      },
+      "words": [
+        "তুমি",
+        "কী?",
+        "নাম"
+      ],
+      "wordsRomanized": [
+        "tumi",
+        "ki?",
+        "nam"
+      ],
+      "correctOrder": [
+        "তুমি",
+        "নাম",
+        "কী?"
+      ],
+      "hint": {
+        "en": "Build the familiar chunk. No spelling from memory needed."
+      }
+    },
+    {
+      "id": "CH04_S01_L05_E04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which word starts a sentence about yourself?"
+      },
+      "options": [
+        {
+          "en": "আমি"
+        },
+        {
+          "en": "আপনি"
+        },
+        {
+          "en": "সে"
+        },
+        {
+          "en": "তুমি"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Choose the pronoun that fits the context."
+      }
+    },
+    {
+      "id": "CH04_S01_L05_E05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which word can point to “that person”?"
+      },
+      "options": [
+        {
+          "en": "আমি"
+        },
+        {
+          "en": "সে"
+        },
+        {
+          "en": "আপনি"
+        },
+        {
+          "en": "তুমি"
+        }
+      ],
+      "correctIndex": 1,
+      "hint": {
+        "en": "Choose the pronoun that fits the context."
+      }
+    },
+    {
+      "id": "CH04_S01_L05_E06",
+      "type": "reading",
+      "passage": {
+        "en": "আপনি নাম কী?"
+      },
+      "question": {
+        "en": "What register is this?"
+      },
+      "options": [
+        {
+          "en": "polite"
+        },
+        {
+          "en": "friendly"
+        },
+        {
+          "en": "third person"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "This uses আপনি."
+      }
+    },
+    {
+      "id": "CH04_S01_L05_E07",
+      "type": "reading",
+      "passage": {
+        "en": "তুমি নাম কী?"
+      },
+      "question": {
+        "en": "What register is this?"
+      },
+      "options": [
+        {
+          "en": "friendly"
+        },
+        {
+          "en": "polite"
+        },
+        {
+          "en": "third person"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "This uses তুমি. Later you will learn a more natural possessive form."
+      }
+    },
+    {
+      "id": "CH04_S01_L05_E08",
+      "type": "listening",
+      "audio": "assets/audio/listening/tumi.mp3",
+      "question": {
+        "en": "Which word did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "you (friendly)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আপনি"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আমি"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "সে"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen for tumi — তুমি."
+      }
+    },
+    {
+      "id": "CH04_S01_L05_E09",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the “he/she” pronoun."
+      },
+      "bengali": "সে",
+      "options": [
+        {
+          "image": "assets/illustrations/person_me.png",
+          "label": {
+            "en": "আমি (ami)"
+          }
+        },
+        {
+          "image": "assets/illustrations/person_you_polite.png",
+          "label": {
+            "en": "আপনি (apni)"
+          }
+        },
+        {
+          "image": "assets/illustrations/person_you_friendly.png",
+          "label": {
+            "en": "তুমি (tumi)"
+          }
+        },
+        {
+          "image": "assets/illustrations/person_third.png",
+          "label": {
+            "en": "সে (shey)"
+          }
+        }
+      ],
+      "correctIndex": 3,
+      "hint": {
+        "en": "Use the people icon and pronoun shape."
+      }
+    },
+    {
+      "id": "CH04_S01_L05_E10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the polite pronoun shape."
+      },
+      "options": [
+        {
+          "en": "তুমি"
+        },
+        {
+          "en": "আপনি"
+        },
+        {
+          "en": "আমি"
+        },
+        {
+          "en": "সে"
+        }
+      ],
+      "correctIndex": 1,
+      "hint": {
+        "en": "Choose the pronoun that fits the context."
+      }
+    }
+  ]
+}

@@ -1,0 +1,430 @@
+{
+  "lesson_id": "CH01_S04_L09",
+  "title": {
+    "en": "Review: Read the Shape"
+  },
+  "description": {
+    "en": "Recognize Bengali written shapes for Chapter 1 phrases."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "ch01_s04_l09_ex01",
+      "type": "reading",
+      "passage": {
+        "en": "নমস্কার"
+      },
+      "question": {
+        "en": "Recognize this Bengali shape."
+      },
+      "options": [
+        {
+          "bengali": "না",
+          "romanized": "na",
+          "meaning": {
+            "en": "no"
+          }
+        },
+        {
+          "bengali": "ঠিক আছে",
+          "romanized": "thik ache",
+          "meaning": {
+            "en": "okay / all right"
+          }
+        },
+        {
+          "bengali": "হ্যাঁ",
+          "romanized": "hya",
+          "meaning": {
+            "en": "yes"
+          }
+        },
+        {
+          "bengali": "নমস্কার",
+          "romanized": "nomoshkar",
+          "meaning": {
+            "en": "hello / polite greeting"
+          }
+        }
+      ],
+      "correctIndex": 3,
+      "hint": {
+        "en": "Whole-word recognition only."
+      }
+    },
+    {
+      "id": "ch01_s04_l09_ex02",
+      "type": "reading",
+      "passage": {
+        "en": "হ্যালো"
+      },
+      "question": {
+        "en": "Recognize this Bengali shape."
+      },
+      "options": [
+        {
+          "bengali": "হ্যালো",
+          "romanized": "hyalo",
+          "meaning": {
+            "en": "hello / phone hello"
+          }
+        },
+        {
+          "bengali": "ধন্যবাদ",
+          "romanized": "dhonnobad",
+          "meaning": {
+            "en": "thank you"
+          }
+        },
+        {
+          "bengali": "দুঃখিত",
+          "romanized": "dukkhito",
+          "meaning": {
+            "en": "sorry"
+          }
+        },
+        {
+          "bengali": "নমস্কার",
+          "romanized": "nomoshkar",
+          "meaning": {
+            "en": "hello / polite greeting"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Whole-word recognition only."
+      }
+    },
+    {
+      "id": "ch01_s04_l09_ex03",
+      "type": "reading",
+      "passage": {
+        "en": "ধন্যবাদ"
+      },
+      "question": {
+        "en": "Recognize this Bengali shape."
+      },
+      "options": [
+        {
+          "bengali": "মাফ করবেন",
+          "romanized": "maf korben",
+          "meaning": {
+            "en": "excuse me / pardon me"
+          }
+        },
+        {
+          "bengali": "ঠিক আছে",
+          "romanized": "thik ache",
+          "meaning": {
+            "en": "okay / all right"
+          }
+        },
+        {
+          "bengali": "না",
+          "romanized": "na",
+          "meaning": {
+            "en": "no"
+          }
+        },
+        {
+          "bengali": "ধন্যবাদ",
+          "romanized": "dhonnobad",
+          "meaning": {
+            "en": "thank you"
+          }
+        }
+      ],
+      "correctIndex": 3,
+      "hint": {
+        "en": "Whole-word recognition only."
+      }
+    },
+    {
+      "id": "ch01_s04_l09_ex04",
+      "type": "reading",
+      "passage": {
+        "en": "হ্যাঁ"
+      },
+      "question": {
+        "en": "Recognize this Bengali shape."
+      },
+      "options": [
+        {
+          "bengali": "হ্যাঁ",
+          "romanized": "hya",
+          "meaning": {
+            "en": "yes"
+          }
+        },
+        {
+          "bengali": "দুঃখিত",
+          "romanized": "dukkhito",
+          "meaning": {
+            "en": "sorry"
+          }
+        },
+        {
+          "bengali": "ঠিক আছে",
+          "romanized": "thik ache",
+          "meaning": {
+            "en": "okay / all right"
+          }
+        },
+        {
+          "bengali": "হ্যালো",
+          "romanized": "hyalo",
+          "meaning": {
+            "en": "hello / phone hello"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Whole-word recognition only."
+      }
+    },
+    {
+      "id": "ch01_s04_l09_ex05",
+      "type": "reading",
+      "passage": {
+        "en": "না"
+      },
+      "question": {
+        "en": "Recognize this Bengali shape."
+      },
+      "options": [
+        {
+          "bengali": "হ্যালো",
+          "romanized": "hyalo",
+          "meaning": {
+            "en": "hello / phone hello"
+          }
+        },
+        {
+          "bengali": "না",
+          "romanized": "na",
+          "meaning": {
+            "en": "no"
+          }
+        },
+        {
+          "bengali": "দুঃখিত",
+          "romanized": "dukkhito",
+          "meaning": {
+            "en": "sorry"
+          }
+        },
+        {
+          "bengali": "নমস্কার",
+          "romanized": "nomoshkar",
+          "meaning": {
+            "en": "hello / polite greeting"
+          }
+        }
+      ],
+      "correctIndex": 1,
+      "hint": {
+        "en": "Whole-word recognition only."
+      }
+    },
+    {
+      "id": "ch01_s04_l09_ex06",
+      "type": "reading",
+      "passage": {
+        "en": "ঠিক আছে"
+      },
+      "question": {
+        "en": "Recognize this Bengali shape."
+      },
+      "options": [
+        {
+          "bengali": "হ্যালো",
+          "romanized": "hyalo",
+          "meaning": {
+            "en": "hello / phone hello"
+          }
+        },
+        {
+          "bengali": "দুঃখিত",
+          "romanized": "dukkhito",
+          "meaning": {
+            "en": "sorry"
+          }
+        },
+        {
+          "bengali": "না",
+          "romanized": "na",
+          "meaning": {
+            "en": "no"
+          }
+        },
+        {
+          "bengali": "ঠিক আছে",
+          "romanized": "thik ache",
+          "meaning": {
+            "en": "okay / all right"
+          }
+        }
+      ],
+      "correctIndex": 3,
+      "hint": {
+        "en": "Whole-word recognition only."
+      }
+    },
+    {
+      "id": "ch01_s04_l09_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "আচ্ছা"
+      },
+      "question": {
+        "en": "Recognize this Bengali shape."
+      },
+      "options": [
+        {
+          "bengali": "না",
+          "romanized": "na",
+          "meaning": {
+            "en": "no"
+          }
+        },
+        {
+          "bengali": "ঠিক আছে",
+          "romanized": "thik ache",
+          "meaning": {
+            "en": "okay / all right"
+          }
+        },
+        {
+          "bengali": "আচ্ছা",
+          "romanized": "achchha",
+          "meaning": {
+            "en": "okay / I see"
+          }
+        },
+        {
+          "bengali": "হ্যাঁ",
+          "romanized": "hya",
+          "meaning": {
+            "en": "yes"
+          }
+        }
+      ],
+      "correctIndex": 2,
+      "hint": {
+        "en": "Whole-word recognition only."
+      }
+    },
+    {
+      "id": "ch01_s04_l09_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "মাফ করবেন"
+      },
+      "question": {
+        "en": "Recognize this Bengali shape."
+      },
+      "options": [
+        {
+          "bengali": "হ্যালো",
+          "romanized": "hyalo",
+          "meaning": {
+            "en": "hello / phone hello"
+          }
+        },
+        {
+          "bengali": "মাফ করবেন",
+          "romanized": "maf korben",
+          "meaning": {
+            "en": "excuse me / pardon me"
+          }
+        },
+        {
+          "bengali": "ধন্যবাদ",
+          "romanized": "dhonnobad",
+          "meaning": {
+            "en": "thank you"
+          }
+        },
+        {
+          "bengali": "না",
+          "romanized": "na",
+          "meaning": {
+            "en": "no"
+          }
+        }
+      ],
+      "correctIndex": 1,
+      "hint": {
+        "en": "Whole-word recognition only."
+      }
+    },
+    {
+      "id": "ch01_s04_l09_ex09",
+      "type": "reading",
+      "passage": {
+        "en": "দুঃখিত"
+      },
+      "question": {
+        "en": "Recognize this Bengali shape."
+      },
+      "options": [
+        {
+          "bengali": "না",
+          "romanized": "na",
+          "meaning": {
+            "en": "no"
+          }
+        },
+        {
+          "bengali": "দুঃখিত",
+          "romanized": "dukkhito",
+          "meaning": {
+            "en": "sorry"
+          }
+        },
+        {
+          "bengali": "আচ্ছা",
+          "romanized": "achchha",
+          "meaning": {
+            "en": "okay / I see"
+          }
+        },
+        {
+          "bengali": "ধন্যবাদ",
+          "romanized": "dhonnobad",
+          "meaning": {
+            "en": "thank you"
+          }
+        }
+      ],
+      "correctIndex": 1,
+      "hint": {
+        "en": "Whole-word recognition only."
+      }
+    },
+    {
+      "id": "ch01_s04_l09_ex10",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Put the two parts of “okay” in order."
+      },
+      "words": [
+        "আছে",
+        "ঠিক"
+      ],
+      "wordsRomanized": [
+        "ache",
+        "thik"
+      ],
+      "correctOrder": [
+        "ঠিক",
+        "আছে"
+      ],
+      "hint": {
+        "en": "Build: okay / all right"
+      }
+    }
+  ]
+}

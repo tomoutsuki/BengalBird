@@ -1,0 +1,252 @@
+{
+  "lesson_id": "CH05_S05_L01",
+  "title": {
+    "en": "Family Profile: First Listen"
+  },
+  "description": {
+    "en": "Recognize short family cards by sound."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH05_S05_L01_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s05_l01_amar_ma_ache.mp3",
+      "question": {
+        "en": "What family profile did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার মা আছে — I have a mother"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আমার নাম রিয়া — My name is Riya"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আপনার নাম কী? — What is your name?"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S05_L01_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s05_l01_amar_baba_ache.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার বাবা আছে — I have a father"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আমার ভাই আছে — I have a brother"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভালো লাগলো — Nice to meet you"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S05_L01_ex03",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the meaning of: আমার মা আছে"
+      },
+      "options": [
+        {
+          "en": "I have a mother."
+        },
+        {
+          "en": "My name is Mother."
+        },
+        {
+          "en": "Mother, thank you."
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L01_ex04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the meaning of: আমার ভাই আছে"
+      },
+      "options": [
+        {
+          "en": "I have a brother."
+        },
+        {
+          "en": "I am a brother."
+        },
+        {
+          "en": "Your brother is here."
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L01_ex05",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the matching family picture."
+      },
+      "bengali": "মা",
+      "options": [
+        {
+          "image": "assets/illustrations/mother.png",
+          "label": {
+            "en": "mother"
+          }
+        },
+        {
+          "image": "assets/illustrations/father.png",
+          "label": {
+            "en": "father"
+          }
+        },
+        {
+          "image": "assets/illustrations/brother.png",
+          "label": {
+            "en": "brother"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L01_ex06",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the matching family picture."
+      },
+      "bengali": "বোন",
+      "options": [
+        {
+          "image": "assets/illustrations/brother.png",
+          "label": {
+            "en": "brother"
+          }
+        },
+        {
+          "image": "assets/illustrations/sister.png",
+          "label": {
+            "en": "sister"
+          }
+        },
+        {
+          "image": "assets/illustrations/father.png",
+          "label": {
+            "en": "father"
+          }
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH05_S05_L01_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "আমার মা আছে।"
+      },
+      "question": {
+        "en": "What does the profile say?"
+      },
+      "options": [
+        {
+          "en": "I have a mother."
+        },
+        {
+          "en": "I have a sister."
+        },
+        {
+          "en": "My name is Mother."
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Whole phrase reading only."
+      }
+    },
+    {
+      "id": "CH05_S05_L01_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "আমার বাবা আছে।"
+      },
+      "question": {
+        "en": "What does the profile say?"
+      },
+      "options": [
+        {
+          "en": "I have a father."
+        },
+        {
+          "en": "I have a brother."
+        },
+        {
+          "en": "Father says hello."
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L01_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which Bengali phrase means “I have a sister”?"
+      },
+      "options": [
+        {
+          "en": "আমার বোন আছে"
+        },
+        {
+          "en": "আমার ভাই আছে"
+        },
+        {
+          "en": "আমার নাম বোন"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L01_ex10",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: I have a brother."
+      },
+      "words": [
+        "আছে",
+        "ভাই",
+        "আমার"
+      ],
+      "correctOrder": [
+        "আমার",
+        "ভাই",
+        "আছে"
+      ],
+      "wordsRomanized": [
+        "ache",
+        "bhai",
+        "amar"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "lesson_id": "CH05_S03_L09",
+  "title": {
+    "en": "Older/Younger: Read the Shape"
+  },
+  "description": {
+    "en": "Recognize the Bengali written shape for this section."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH05_S03_L09_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s03_l09_boro_bhai.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "বড় ভাই — older brother"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ছোট বোন — younger sister"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভাই — brother"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "বড় ভাই means older brother."
+      }
+    },
+    {
+      "id": "CH05_S03_L09_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s03_l09_chhoto_bon.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ছোট বোন — younger sister"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "বড় ভাই — older brother"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "বোন — sister"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ছোট বোন means younger sister."
+      }
+    },
+    {
+      "id": "CH05_S03_L09_ex03",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the picture for: বড় ভাই"
+      },
+      "bengali": "বড় ভাই",
+      "options": [
+        {
+          "image": "assets/illustrations/family_older_brother.png",
+          "label": {
+            "en": "older brother"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_younger_sister.png",
+          "label": {
+            "en": "younger sister"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_sister.png",
+          "label": {
+            "en": "sister"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S03_L09_ex04",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the picture for: ছোট বোন"
+      },
+      "bengali": "ছোট বোন",
+      "options": [
+        {
+          "image": "assets/illustrations/family_brother.png",
+          "label": {
+            "en": "brother"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_younger_sister.png",
+          "label": {
+            "en": "younger sister"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_older_brother.png",
+          "label": {
+            "en": "older brother"
+          }
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH05_S03_L09_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which written shape is বড় ভাই?"
+      },
+      "options": [
+        {
+          "en": "বড় ভাই"
+        },
+        {
+          "en": "ছোট বোন"
+        },
+        {
+          "en": "ভাই"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S03_L09_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which written shape is ছোট বোন?"
+      },
+      "options": [
+        {
+          "en": "বোন"
+        },
+        {
+          "en": "বড় ভাই"
+        },
+        {
+          "en": "ছোট বোন"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "CH05_S03_L09_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "বড় ভাই"
+      },
+      "question": {
+        "en": "Choose the romanization."
+      },
+      "options": [
+        {
+          "en": "boro bhai"
+        },
+        {
+          "en": "chhoto bon"
+        },
+        {
+          "en": "dhonnobad"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S03_L09_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "ছোট বোন"
+      },
+      "question": {
+        "en": "Choose the romanization."
+      },
+      "options": [
+        {
+          "en": "chhoto bon"
+        },
+        {
+          "en": "boro bhai"
+        },
+        {
+          "en": "nomoskar"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S03_L09_ex09",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the written shape: বড় ভাই"
+      },
+      "words": [
+        "ভাই",
+        "বড়"
+      ],
+      "correctOrder": [
+        "বড়",
+        "ভাই"
+      ],
+      "wordsRomanized": [
+        "bhai",
+        "boro"
+      ]
+    },
+    {
+      "id": "CH05_S03_L09_ex10",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the written shape: ছোট বোন"
+      },
+      "words": [
+        "বোন",
+        "ছোট"
+      ],
+      "correctOrder": [
+        "ছোট",
+        "বোন"
+      ],
+      "wordsRomanized": [
+        "bon",
+        "chhoto"
+      ]
+    }
+  ]
+}

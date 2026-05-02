@@ -1,0 +1,324 @@
+{
+  "lesson_id": "CH01_S02_L06",
+  "title": {
+    "en": "Yes, Okay, Thanks: Mini Exchange"
+  },
+  "description": {
+    "en": "Complete short audio-first exchanges."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH01_S02_L06_E01",
+      "type": "conversation_listening",
+      "audio": "assets/audio/listening/ch01_s02_mini_exchange.mp3",
+      "scenario": {
+        "en": "Listen to a tiny yes/no exchange."
+      },
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "চা?"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "Choose “yes.”"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "হ্যাঁ",
+                "romanized": "hyã",
+                "meaning": "yes"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "না",
+                "romanized": "na",
+                "meaning": "no"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CH01_S02_L06_E02",
+      "type": "conversation_listening",
+      "audio": "assets/audio/listening/ch01_s02_mini_exchange.mp3",
+      "scenario": {
+        "en": "Listen to a tiny yes/no exchange."
+      },
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "চা?"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "Choose “no.”"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "না",
+                "romanized": "na",
+                "meaning": "no"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "হ্যাঁ",
+                "romanized": "hyã",
+                "meaning": "yes"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CH01_S02_L06_E03",
+      "type": "conversation",
+      "scenario": {
+        "en": "You hear a plan."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "bengali": "এখানে।"
+        }
+      ],
+      "question": {
+        "en": "Choose “I see / okay.”"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আচ্ছা",
+            "romanized": "achchha",
+            "meaning": "I see / okay"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "না",
+            "romanized": "na",
+            "meaning": "no"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S02_L06_E04",
+      "type": "conversation",
+      "scenario": {
+        "en": "You agree to a simple plan."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "bengali": "এখানে?"
+        }
+      ],
+      "question": {
+        "en": "Choose “okay / all right.”"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ঠিক আছে",
+            "romanized": "ṭhik ache",
+            "meaning": "okay / all right"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "meaning": "thank you"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S02_L06_E05",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch01_s02_hya.mp3",
+      "question": {
+        "en": "What reply did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "yes",
+            "bengali": "হ্যাঁ",
+            "romanized": "hyã"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "no",
+            "bengali": "না",
+            "romanized": "na"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "okay / all right",
+            "bengali": "ঠিক আছে",
+            "romanized": "ṭhik ache"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "okay / I see",
+            "bengali": "আচ্ছা",
+            "romanized": "achchha"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S02_L06_E06",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch01_s02_na.mp3",
+      "question": {
+        "en": "What reply did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "yes",
+            "bengali": "হ্যাঁ",
+            "romanized": "hyã"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "no",
+            "bengali": "না",
+            "romanized": "na"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "okay / all right",
+            "bengali": "ঠিক আছে",
+            "romanized": "ṭhik ache"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "okay / I see",
+            "bengali": "আচ্ছা",
+            "romanized": "achchha"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S02_L06_E07",
+      "type": "reading",
+      "passage": {
+        "en": "A: ধন্যবাদ\nB: ঠিক আছে"
+      },
+      "question": {
+        "en": "What did B say?"
+      },
+      "options": [
+        {
+          "en": "okay / all right"
+        },
+        {
+          "en": "no"
+        },
+        {
+          "en": "yes"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH01_S02_L06_E08",
+      "type": "reading",
+      "passage": {
+        "en": "A: এখানে?\nB: আচ্ছা"
+      },
+      "question": {
+        "en": "What did B say?"
+      },
+      "options": [
+        {
+          "en": "I see / okay"
+        },
+        {
+          "en": "thank you"
+        },
+        {
+          "en": "no"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH01_S02_L06_E09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Pick the natural short response to “চা?” if you want it."
+      },
+      "options": [
+        {
+          "en": "হ্যাঁ"
+        },
+        {
+          "en": "না"
+        },
+        {
+          "en": "ধন্যবাদ"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH01_S02_L06_E10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Pick the natural short response to “চা?” if you do not want it."
+      },
+      "options": [
+        {
+          "en": "না"
+        },
+        {
+          "en": "হ্যাঁ"
+        },
+        {
+          "en": "আচ্ছা"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "lesson_id": "CH06_S04_L08",
+  "title": {
+    "en": "Give Tea, Please: Audio Sprint"
+  },
+  "description": {
+    "en": "Understand চা দিন and পানি দিন in audio variation."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH06_S04_L08_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s04_l08_cha_din.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "পানি দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মাফ করবেন"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "চা দিন is a polite request for tea."
+      }
+    },
+    {
+      "id": "CH06_S04_L08_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s04_l08_pani_din.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "পানি দিন"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "পানি দিন is a polite request for water."
+      }
+    },
+    {
+      "id": "CH06_S04_L08_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s04_l08_maf_korben.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "মাফ করবেন"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ঠিক আছে"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "মাফ করবেন is a polite opener."
+      }
+    },
+    {
+      "id": "CH06_S04_L08_ex04",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s04_l08_thanks.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "পানি দিন"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ধন্যবাদ is thank you, not a request."
+      }
+    },
+    {
+      "id": "CH06_S04_L08_ex05",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the picture for চা দিন."
+      },
+      "bengali": "চা দিন",
+      "options": [
+        {
+          "image": "assets/illustrations/tea_cup.png",
+          "label": {
+            "en": "tea"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass.png",
+          "label": {
+            "en": "water"
+          }
+        },
+        {
+          "image": "assets/illustrations/rice_bowl.png",
+          "label": {
+            "en": "rice"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "চা means tea."
+      }
+    },
+    {
+      "id": "CH06_S04_L08_ex06",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the picture for পানি দিন."
+      },
+      "bengali": "পানি দিন",
+      "options": [
+        {
+          "image": "assets/illustrations/water_glass.png",
+          "label": {
+            "en": "water"
+          }
+        },
+        {
+          "image": "assets/illustrations/tea_cup.png",
+          "label": {
+            "en": "tea"
+          }
+        },
+        {
+          "image": "assets/illustrations/dal_bowl.png",
+          "label": {
+            "en": "dal"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "পানি means water."
+      }
+    },
+    {
+      "id": "CH06_S04_L08_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "মাফ করবেন। চা দিন।"
+      },
+      "question": {
+        "en": "What is happening?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Someone politely asks for tea."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Someone says no."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Someone asks a name."
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "মাফ করবেন can open a polite request."
+      }
+    },
+    {
+      "id": "CH06_S04_L08_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "মাফ করবেন। পানি দিন।"
+      },
+      "question": {
+        "en": "What is happening?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Someone politely asks for water."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Someone says thank you."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Someone says hello."
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "The request is পানি দিন."
+      }
+    },
+    {
+      "id": "CH06_S04_L08_ex09",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: Please give tea."
+      },
+      "words": [
+        "দিন",
+        "চা"
+      ],
+      "wordsRomanized": [
+        "din",
+        "cha"
+      ],
+      "correctOrder": [
+        "চা",
+        "দিন"
+      ],
+      "hint": {
+        "en": "The drink comes before দিন."
+      }
+    },
+    {
+      "id": "CH06_S04_L08_ex10",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: Please give water."
+      },
+      "words": [
+        "দিন",
+        "পানি"
+      ],
+      "wordsRomanized": [
+        "din",
+        "pani"
+      ],
+      "correctOrder": [
+        "পানি",
+        "দিন"
+      ],
+      "hint": {
+        "en": "The drink comes before দিন."
+      }
+    }
+  ]
+}

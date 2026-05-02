@@ -1,0 +1,282 @@
+{
+  "lesson_id": "CH05_S02_L02",
+  "title": {
+    "en": "I Have…: Tap the Meaning"
+  },
+  "description": {
+    "en": "Match আমার … আছে to meaning without production."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH05_S02_L02_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s02_l02_amar_ma_achhe.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার মা আছে। — I have a mother."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আমার নাম মা। — My name is Ma."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মা ভালো আছেন। — Mother is well."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L02_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s02_l02_amar_baba_achhe.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার বাবা আছে। — I have a father."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "বাবা কোথায়? — Where is father?"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আমার বাবা নাম। — My father name."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L02_ex03",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the picture for: আমার ভাই আছে।"
+      },
+      "bengali": "আমার ভাই আছে।",
+      "options": [
+        {
+          "image": "assets/illustrations/family_brother.png",
+          "label": {
+            "en": "brother"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_sister.png",
+          "label": {
+            "en": "sister"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_mother.png",
+          "label": {
+            "en": "mother"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S02_L02_ex04",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the picture for: আমার বোন আছে।"
+      },
+      "bengali": "আমার বোন আছে।",
+      "options": [
+        {
+          "image": "assets/illustrations/family_father.png",
+          "label": {
+            "en": "father"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_sister.png",
+          "label": {
+            "en": "sister"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_brother.png",
+          "label": {
+            "en": "brother"
+          }
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH05_S02_L02_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "What does আছে mean in this chunk?"
+      },
+      "options": [
+        {
+          "en": "have / has"
+        },
+        {
+          "en": "name"
+        },
+        {
+          "en": "hello"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S02_L02_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the Bengali for “I have a mother.”"
+      },
+      "options": [
+        {
+          "en": "আমার মা আছে।"
+        },
+        {
+          "en": "আমার মা নাম।"
+        },
+        {
+          "en": "আপনার মা আছে।"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S02_L02_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "আমার বাবা আছে।\nআমার মা আছে।"
+      },
+      "question": {
+        "en": "Which two family words appear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "বাবা and মা"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভাই and বোন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "নাম and কী"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Read whole words; no spelling decoding needed."
+      }
+    },
+    {
+      "id": "CH05_S02_L02_ex08",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: I have a sister."
+      },
+      "words": [
+        "আছে।",
+        "বোন",
+        "আমার"
+      ],
+      "wordsRomanized": [
+        "achhe",
+        "bon",
+        "amar"
+      ],
+      "correctOrder": [
+        "আমার",
+        "বোন",
+        "আছে।"
+      ]
+    },
+    {
+      "id": "CH05_S02_L02_ex09",
+      "type": "conversation",
+      "scenario": {
+        "en": "A friend shows a family photo."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "bengali": "এটা কে?",
+          "romanized": "eta ke?",
+          "english": "Who is this?"
+        }
+      ],
+      "question": {
+        "en": "Choose a natural answer."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার ভাই আছে।",
+            "romanized": "amar bhai achhe",
+            "english": "I have a brother."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ।",
+            "romanized": "dhonnobad",
+            "english": "Thank you."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "না।",
+            "romanized": "na",
+            "english": "No."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S02_L02_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which one uses the section pattern?"
+      },
+      "options": [
+        {
+          "en": "আমার বোন আছে।"
+        },
+        {
+          "en": "নমস্কার।"
+        },
+        {
+          "en": "আপনার নাম কী?"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

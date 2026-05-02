@@ -1,0 +1,306 @@
+{
+  "lesson_id": "CH06_S05_L04",
+  "title": {
+    "en": "Café Mini-Scene: Choose the Reply"
+  },
+  "description": {
+    "en": "Choose a natural response using চা দিন—ঠিক আছে."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH06_S05_L04_ex01",
+      "type": "conversation",
+      "scenario": {
+        "en": "At a tea stall."
+      },
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": {
+            "bengali": "চা দিন।",
+            "romanized": "cha din"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose the best reply."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ঠিক আছে।",
+            "romanized": "thik ache",
+            "en": "Okay."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমার নাম…",
+            "romanized": "amar nam…",
+            "en": "My name is…"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "না।",
+            "romanized": "na",
+            "en": "No."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L04_ex02",
+      "type": "conversation",
+      "scenario": {
+        "en": "At a café."
+      },
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": {
+            "bengali": "পানি দিন।",
+            "romanized": "pani din"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose the best reply."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ঠিক আছে।",
+            "romanized": "thik ache",
+            "en": "Okay."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "কেমন আছেন?",
+            "romanized": "kemon achhen?",
+            "en": "How are you?"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "বাবা।",
+            "romanized": "baba",
+            "en": "Father."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L04_ex03",
+      "type": "grammar-select",
+      "question": {
+        "en": "You want tea. What do you say?"
+      },
+      "options": [
+        {
+          "en": "চা দিন।"
+        },
+        {
+          "en": "না।"
+        },
+        {
+          "en": "আমার নাম।"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S05_L04_ex04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Someone says “চা দিন।” What response accepts it?"
+      },
+      "options": [
+        {
+          "en": "ঠিক আছে।"
+        },
+        {
+          "en": "দুঃখিত।"
+        },
+        {
+          "en": "নমস্কার।"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S05_L04_ex05",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s05_cha_din.mp3",
+      "question": {
+        "en": "Choose the natural reply to the audio."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ঠিক আছে।",
+            "romanized": "thik ache",
+            "en": "Okay."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনি।",
+            "romanized": "apni",
+            "en": "you, formal"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আমরা।",
+            "romanized": "amra",
+            "en": "we"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L04_ex06",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: “Tea, please.”"
+      },
+      "words": [
+        "দিন",
+        "চা"
+      ],
+      "correctOrder": [
+        "চা",
+        "দিন"
+      ],
+      "wordsRomanized": [
+        "din",
+        "cha"
+      ]
+    },
+    {
+      "id": "CH06_S05_L04_ex07",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: “Okay.”"
+      },
+      "words": [
+        "আছে",
+        "ঠিক"
+      ],
+      "correctOrder": [
+        "ঠিক",
+        "আছে"
+      ],
+      "wordsRomanized": [
+        "ache",
+        "thik"
+      ]
+    },
+    {
+      "id": "CH06_S05_L04_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "Customer: চা দিন।\nServer: ঠিক আছে।"
+      },
+      "question": {
+        "en": "Who says “ঠিক আছে”?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "The server"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "The customer"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "A family member"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L04_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the polite request line."
+      },
+      "options": [
+        {
+          "en": "মাফ করবেন, চা দিন।"
+        },
+        {
+          "en": "তুই আছিস?"
+        },
+        {
+          "en": "আমার ভাই।"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S05_L04_ex10",
+      "type": "conversation",
+      "scenario": {
+        "en": "Quick café reply."
+      },
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": {
+            "bengali": "মাফ করবেন, চা দিন।",
+            "romanized": "maf korben, cha din"
+          }
+        }
+      ],
+      "question": {
+        "en": "Pick the safe response."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ঠিক আছে।",
+            "romanized": "thik ache",
+            "en": "Okay."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "না, আপনি।",
+            "romanized": "na, apni",
+            "en": "No, you."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তুমি কেমন?",
+            "romanized": "tumi kemon?",
+            "en": "How are you?"
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "lesson_id": "CH06_S01_L05",
+  "title": {
+    "en": "Food Basics: Build the Chunk"
+  },
+  "description": {
+    "en": "Build the key chunk for food basics."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH06_S01_L05_ex01",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the Bengali phrase."
+      },
+      "words": [
+        "ভাত",
+        "ভালো",
+        "লাগে"
+      ],
+      "correctOrder": [
+        "ভাত",
+        "ভালো",
+        "লাগে"
+      ],
+      "hint": {
+        "en": "Build: ভাত ভালো লাগে."
+      }
+    },
+    {
+      "id": "CH06_S01_L05_ex02",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the Bengali phrase."
+      },
+      "words": [
+        "ডাল",
+        "ভালো",
+        "লাগে"
+      ],
+      "correctOrder": [
+        "ডাল",
+        "ভালো",
+        "লাগে"
+      ],
+      "hint": {
+        "en": "Build: ডাল ভালো লাগে."
+      }
+    },
+    {
+      "id": "CH06_S01_L05_ex03",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the Bengali phrase."
+      },
+      "words": [
+        "মাছ",
+        "ভালো",
+        "লাগে"
+      ],
+      "correctOrder": [
+        "মাছ",
+        "ভালো",
+        "লাগে"
+      ],
+      "hint": {
+        "en": "Build: মাছ ভালো লাগে."
+      }
+    },
+    {
+      "id": "CH06_S01_L05_ex04",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the Bengali phrase."
+      },
+      "words": [
+        "চা",
+        "ভালো",
+        "লাগে"
+      ],
+      "correctOrder": [
+        "চা",
+        "ভালো",
+        "লাগে"
+      ],
+      "hint": {
+        "en": "Build: চা ভালো লাগে."
+      }
+    },
+    {
+      "id": "CH06_S01_L05_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the Bengali word for rice."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ভাত"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ডাল"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মাছ"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ভাত = rice"
+      }
+    },
+    {
+      "id": "CH06_S01_L05_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the Bengali word for lentils / dal."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ডাল"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভাত"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মাছ"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ডাল = lentils / dal"
+      }
+    },
+    {
+      "id": "CH06_S01_L05_ex07",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the Bengali word for fish."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "মাছ"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভাত"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ডাল"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "মাছ = fish"
+      }
+    },
+    {
+      "id": "CH06_S01_L05_ex08",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the Bengali word for tea."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "চা"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভাত"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ডাল"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "চা = tea"
+      }
+    },
+    {
+      "id": "CH06_S01_L05_ex09",
+      "type": "reading",
+      "passage": {
+        "en": "ভাত / ডাল / মাছ / চা"
+      },
+      "question": {
+        "en": "Which one is a drink?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "চা"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ডাল"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মাছ"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "চা means tea."
+      }
+    },
+    {
+      "id": "CH06_S01_L05_ex10",
+      "type": "conversation",
+      "scenario": {
+        "en": "At a meal"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "en": "ভাত?"
+          }
+        },
+        {
+          "speaker": "B",
+          "text": {
+            "en": "হ্যাঁ, ভাত।"
+          }
+        }
+      ],
+      "question": {
+        "en": "What does B choose?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ভাত"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ডাল"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "B repeats ভাত."
+      }
+    }
+  ]
+}

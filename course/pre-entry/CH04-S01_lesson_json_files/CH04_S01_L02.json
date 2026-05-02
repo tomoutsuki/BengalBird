@@ -1,0 +1,312 @@
+{
+  "lesson_id": "CH04_S01_L02",
+  "title": {
+    "en": "I / You / He-She: Tap the Meaning"
+  },
+  "description": {
+    "en": "Match each Bengali pronoun to its meaning without producing new sentences."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH04_S01_L02_E01",
+      "type": "grammar-select",
+      "question": {
+        "en": "Tap “I / me.”"
+      },
+      "options": [
+        {
+          "en": "আমি"
+        },
+        {
+          "en": "আপনি"
+        },
+        {
+          "en": "তুমি"
+        },
+        {
+          "en": "সে"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Choose the pronoun that fits the context."
+      }
+    },
+    {
+      "id": "CH04_S01_L02_E02",
+      "type": "grammar-select",
+      "question": {
+        "en": "Tap polite “you.”"
+      },
+      "options": [
+        {
+          "en": "সে"
+        },
+        {
+          "en": "তুমি"
+        },
+        {
+          "en": "আপনি"
+        },
+        {
+          "en": "আমি"
+        }
+      ],
+      "correctIndex": 2,
+      "hint": {
+        "en": "Choose the pronoun that fits the context."
+      }
+    },
+    {
+      "id": "CH04_S01_L02_E03",
+      "type": "grammar-select",
+      "question": {
+        "en": "Tap friendly “you.”"
+      },
+      "options": [
+        {
+          "en": "আপনি"
+        },
+        {
+          "en": "তুমি"
+        },
+        {
+          "en": "আমি"
+        },
+        {
+          "en": "সে"
+        }
+      ],
+      "correctIndex": 1,
+      "hint": {
+        "en": "Choose the pronoun that fits the context."
+      }
+    },
+    {
+      "id": "CH04_S01_L02_E04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Tap “he / she.”"
+      },
+      "options": [
+        {
+          "en": "আমি"
+        },
+        {
+          "en": "সে"
+        },
+        {
+          "en": "তুমি"
+        },
+        {
+          "en": "আপনি"
+        }
+      ],
+      "correctIndex": 1,
+      "hint": {
+        "en": "Choose the pronoun that fits the context."
+      }
+    },
+    {
+      "id": "CH04_S01_L02_E05",
+      "type": "figure_choice",
+      "question": {
+        "en": "Which word matches this “me” icon?"
+      },
+      "bengali": "আমি",
+      "options": [
+        {
+          "image": "assets/illustrations/person_you_polite.png",
+          "label": {
+            "en": "আপনি (apni)"
+          }
+        },
+        {
+          "image": "assets/illustrations/person_me.png",
+          "label": {
+            "en": "আমি (ami)"
+          }
+        },
+        {
+          "image": "assets/illustrations/person_third.png",
+          "label": {
+            "en": "সে (shey)"
+          }
+        },
+        {
+          "image": "assets/illustrations/person_you_friendly.png",
+          "label": {
+            "en": "তুমি (tumi)"
+          }
+        }
+      ],
+      "correctIndex": 1,
+      "hint": {
+        "en": "Use the people icon and pronoun shape."
+      }
+    },
+    {
+      "id": "CH04_S01_L02_E06",
+      "type": "figure_choice",
+      "question": {
+        "en": "Which word matches a polite “you” icon?"
+      },
+      "bengali": "আপনি",
+      "options": [
+        {
+          "image": "assets/illustrations/person_me.png",
+          "label": {
+            "en": "আমি (ami)"
+          }
+        },
+        {
+          "image": "assets/illustrations/person_you_friendly.png",
+          "label": {
+            "en": "তুমি (tumi)"
+          }
+        },
+        {
+          "image": "assets/illustrations/person_you_polite.png",
+          "label": {
+            "en": "আপনি (apni)"
+          }
+        },
+        {
+          "image": "assets/illustrations/person_third.png",
+          "label": {
+            "en": "সে (shey)"
+          }
+        }
+      ],
+      "correctIndex": 2,
+      "hint": {
+        "en": "Use the people icon and pronoun shape."
+      }
+    },
+    {
+      "id": "CH04_S01_L02_E07",
+      "type": "reading",
+      "passage": {
+        "en": "আপনি — apni"
+      },
+      "question": {
+        "en": "Choose the safest meaning."
+      },
+      "options": [
+        {
+          "en": "you, polite"
+        },
+        {
+          "en": "you, risky"
+        },
+        {
+          "en": "I / me"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Polite first is safest."
+      }
+    },
+    {
+      "id": "CH04_S01_L02_E08",
+      "type": "reading",
+      "passage": {
+        "en": "তুমি — tumi"
+      },
+      "question": {
+        "en": "Choose the best context."
+      },
+      "options": [
+        {
+          "en": "friend / younger person"
+        },
+        {
+          "en": "stranger at a counter"
+        },
+        {
+          "en": "elder you just met"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Friendly, not rude, but not always safe."
+      }
+    },
+    {
+      "id": "CH04_S01_L02_E09",
+      "type": "listening",
+      "audio": "assets/audio/listening/apni.mp3",
+      "question": {
+        "en": "You hear a polite “you.” Which is it?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "you (polite)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "তুমি"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আমি"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "সে"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen for apni — আপনি."
+      }
+    },
+    {
+      "id": "CH04_S01_L02_E10",
+      "type": "listening",
+      "audio": "assets/audio/listening/tumi.mp3",
+      "question": {
+        "en": "You hear friendly “you.” Which is it?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "you (friendly)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আপনি"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আমি"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "সে"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen for tumi — তুমি."
+      }
+    }
+  ]
+}

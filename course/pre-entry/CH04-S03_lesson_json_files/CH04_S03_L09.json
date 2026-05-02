@@ -1,0 +1,310 @@
+{
+  "lesson_id": "CH04_S03_L09",
+  "title": {
+    "en": "My / Your: Read the Shape"
+  },
+  "description": {
+    "en": "Recognize the Bengali written shape for this section."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "ch04_s03_l09_ex01",
+      "type": "reading",
+      "passage": {
+        "en": "আমার"
+      },
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "my"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "your — polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "your — friendly"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l09_ex02",
+      "type": "reading",
+      "passage": {
+        "en": "আপনার"
+      },
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "your — polite"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "my"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "your — friendly"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l09_ex03",
+      "type": "reading",
+      "passage": {
+        "en": "তোমার"
+      },
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "your — friendly"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "your — polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "my"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l09_ex04",
+      "type": "reading",
+      "passage": {
+        "en": "আমার নাম"
+      },
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "my name"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "your name — polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "your name — friendly"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l09_ex05",
+      "type": "reading",
+      "passage": {
+        "en": "আপনার নাম"
+      },
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "your name — polite"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "my name"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "your name — friendly"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l09_ex06",
+      "type": "reading",
+      "passage": {
+        "en": "তোমার নাম"
+      },
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "your name — friendly"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "your name — polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "my name"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l09_ex07",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which written shape is আমার?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার",
+            "romanized": "amar",
+            "en": "my"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমরা",
+            "romanized": "amra",
+            "en": "we"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তারা",
+            "romanized": "tara",
+            "en": "they"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l09_ex08",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which written shape is আপনার?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your — polite"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনি",
+            "romanized": "apni",
+            "en": "you — polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আমার",
+            "romanized": "amar",
+            "en": "my"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l09_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which written shape is তোমার?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your — friendly"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তুমি",
+            "romanized": "tumi",
+            "en": "you — friendly"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তার",
+            "romanized": "tar",
+            "en": "his/her"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l09_ex10",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build “your name” for a friend."
+      },
+      "words": [
+        "নাম",
+        "তোমার"
+      ],
+      "correctOrder": [
+        "তোমার",
+        "নাম"
+      ],
+      "wordsRomanized": [
+        "nam",
+        "tomar"
+      ]
+    }
+  ]
+}

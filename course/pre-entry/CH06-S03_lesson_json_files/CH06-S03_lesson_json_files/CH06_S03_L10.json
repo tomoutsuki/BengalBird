@@ -1,0 +1,401 @@
+{
+  "lesson_id": "CH06_S03_L10",
+  "title": {
+    "en": "I Want This: Check"
+  },
+  "description": {
+    "en": "Pass a short mixed check for i want this."
+  },
+  "est_time_mins": 5,
+  "exercises": [
+    {
+      "id": "CH06_S03_L10_ex01",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Mixed request check."
+      },
+      "audio": "assets/audio/listening/ch06_s03_l10_scene_01.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "এটা চাই।",
+          "romanized": "eta chai"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "What did A say?"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "এটা চাই",
+                "en": "I want this."
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "ভালো আছি",
+                "en": "I am fine."
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CH06_S03_L10_ex02",
+      "type": "grammar-select",
+      "question": {
+        "en": "What does এটা চাই mean?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I want this."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "কেমন আছেন?"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Keep this as a practical request chunk."
+      }
+    },
+    {
+      "id": "CH06_S03_L10_ex03",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which word means “this”?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "এটা"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "কেমন আছেন?"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Keep this as a practical request chunk."
+      }
+    },
+    {
+      "id": "CH06_S03_L10_ex04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which word means “want”?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "চাই"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "কেমন আছেন?"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Keep this as a practical request chunk."
+      }
+    },
+    {
+      "id": "CH06_S03_L10_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which is a request?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "পানি চাই"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "কেমন আছেন?"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Keep this as a practical request chunk."
+      }
+    },
+    {
+      "id": "CH06_S03_L10_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "You point to tea. What can you say?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "এটা চাই।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "কেমন আছেন?"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Keep this as a practical request chunk."
+      }
+    },
+    {
+      "id": "CH06_S03_L10_ex07",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap what the learner wants: ভাত"
+      },
+      "bengali": "ভাত চাই",
+      "options": [
+        {
+          "image": "assets/illustrations/rice_bowl.png",
+          "label": {
+            "en": "ভাত — rice"
+          }
+        },
+        {
+          "image": "assets/illustrations/dal_bowl.png",
+          "label": {
+            "en": "ডাল — dal / lentils"
+          }
+        },
+        {
+          "image": "assets/illustrations/fish_plate.png",
+          "label": {
+            "en": "মাছ — fish"
+          }
+        },
+        {
+          "image": "assets/illustrations/tea_cup.png",
+          "label": {
+            "en": "চা — tea"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass.png",
+          "label": {
+            "en": "পানি — water (Bangladesh-common)"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass_wb.png",
+          "label": {
+            "en": "জল — water (West Bengal-common)"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "ভাত means rice."
+      }
+    },
+    {
+      "id": "CH06_S03_L10_ex08",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap what the learner wants: ডাল"
+      },
+      "bengali": "ডাল চাই",
+      "options": [
+        {
+          "image": "assets/illustrations/rice_bowl.png",
+          "label": {
+            "en": "ভাত — rice"
+          }
+        },
+        {
+          "image": "assets/illustrations/dal_bowl.png",
+          "label": {
+            "en": "ডাল — dal / lentils"
+          }
+        },
+        {
+          "image": "assets/illustrations/fish_plate.png",
+          "label": {
+            "en": "মাছ — fish"
+          }
+        },
+        {
+          "image": "assets/illustrations/tea_cup.png",
+          "label": {
+            "en": "চা — tea"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass.png",
+          "label": {
+            "en": "পানি — water (Bangladesh-common)"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass_wb.png",
+          "label": {
+            "en": "জল — water (West Bengal-common)"
+          }
+        }
+      ],
+      "correctIndex": 1,
+      "hint": {
+        "en": "ডাল means dal / lentils."
+      }
+    },
+    {
+      "id": "CH06_S03_L10_ex09",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap what the learner wants: মাছ"
+      },
+      "bengali": "মাছ চাই",
+      "options": [
+        {
+          "image": "assets/illustrations/rice_bowl.png",
+          "label": {
+            "en": "ভাত — rice"
+          }
+        },
+        {
+          "image": "assets/illustrations/dal_bowl.png",
+          "label": {
+            "en": "ডাল — dal / lentils"
+          }
+        },
+        {
+          "image": "assets/illustrations/fish_plate.png",
+          "label": {
+            "en": "মাছ — fish"
+          }
+        },
+        {
+          "image": "assets/illustrations/tea_cup.png",
+          "label": {
+            "en": "চা — tea"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass.png",
+          "label": {
+            "en": "পানি — water (Bangladesh-common)"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass_wb.png",
+          "label": {
+            "en": "জল — water (West Bengal-common)"
+          }
+        }
+      ],
+      "correctIndex": 2,
+      "hint": {
+        "en": "মাছ means fish."
+      }
+    },
+    {
+      "id": "CH06_S03_L10_ex10",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the Bengali phrase."
+      },
+      "words": [
+        "চাই",
+        "এটা"
+      ],
+      "correctOrder": [
+        "এটা",
+        "চাই"
+      ],
+      "hint": {
+        "en": "Build: এটা চাই."
+      }
+    },
+    {
+      "id": "CH06_S03_L10_ex11",
+      "type": "reading",
+      "passage": {
+        "en": "চা। এটা চাই।"
+      },
+      "question": {
+        "en": "What is wanted?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "tea"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "name"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "hello"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "চা sets the item; এটা চাই is the request."
+      }
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "lesson_id": "CH02_S04_L03",
+  "title": {
+    "en": "Hello Exchange: Hear It in Context"
+  },
+  "description": {
+    "en": "Notice নমস্কার—কেমন আছেন? in a tiny context."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "ch02_s04_l03_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch02_s04_hello_exchange.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Hello — how are you?"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Thank you — okay"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "No — sorry"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch02_s04_l03_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch02_s04_kemon_achen.mp3",
+      "question": {
+        "en": "Tap the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "How are you? (polite)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "I’m fine"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Hello"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch02_s04_l03_ex03",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the scene for নমস্কার—কেমন আছেন?"
+      },
+      "options": [
+        {
+          "image": "assets/illustrations/polite_checkin.png",
+          "label": {
+            "en": "polite hello + check-in"
+          }
+        },
+        {
+          "image": "assets/illustrations/thank_you_hands.png",
+          "label": {
+            "en": "thank you"
+          }
+        },
+        {
+          "image": "assets/illustrations/feeling_soso.png",
+          "label": {
+            "en": "so-so"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ch02_s04_l03_ex04",
+      "type": "grammar-select",
+      "question": {
+        "en": "What does ভালো আছি mean?"
+      },
+      "options": [
+        {
+          "en": "I’m fine"
+        },
+        {
+          "en": "How are you?"
+        },
+        {
+          "en": "Hello"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ch02_s04_l03_ex05",
+      "type": "reading",
+      "passage": {
+        "en": "নমস্কার। কেমন আছেন?"
+      },
+      "question": {
+        "en": "What is this tiny exchange doing?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Greeting and asking how someone is"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Ordering tea"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Saying goodbye"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Read the whole phrase shape; no letter decoding needed."
+      }
+    },
+    {
+      "id": "ch02_s04_l03_ex06",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch02_s04_bhalo_achi.mp3",
+      "question": {
+        "en": "Choose the response you heard."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ভালো আছি — I’m fine"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "কেমন আছেন? — How are you?"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "নমস্কার — Hello"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch02_s04_l03_ex07",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which Bengali means “How are you?” politely?"
+      },
+      "options": [
+        {
+          "en": "কেমন আছেন?"
+        },
+        {
+          "en": "ভালো আছি"
+        },
+        {
+          "en": "মোটামুটি"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ch02_s04_l03_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "A: নমস্কার।\nB: নমস্কার।"
+      },
+      "question": {
+        "en": "What is B doing?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Greeting back"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Saying not bad"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Asking a name"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch02_s04_l03_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which answer is a natural reply to কেমন আছেন?"
+      },
+      "options": [
+        {
+          "en": "ভালো আছি"
+        },
+        {
+          "en": "নমস্কার?"
+        },
+        {
+          "en": "ধন্যবাদ?"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ch02_s04_l03_ex10",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch02_s04_hello_exchange_alt.mp3",
+      "question": {
+        "en": "What is the best next tap?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ভালো আছি"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "না"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "হ্যালো?"
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

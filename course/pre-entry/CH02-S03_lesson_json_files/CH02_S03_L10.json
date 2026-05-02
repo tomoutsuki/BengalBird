@@ -1,0 +1,296 @@
+{
+  "lesson_id": "CH02_S03_L10",
+  "title": {
+    "en": "Fine, So-so, Not Bad: Check"
+  },
+  "description": {
+    "en": "Pass a short mixed check for fine, so-so, not bad."
+  },
+  "est_time_mins": 5,
+  "exercises": [
+    {
+      "id": "CH02_S03_L10_E01",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Checkpoint: polite check-in."
+      },
+      "audio": "assets/audio/listening/ch02_s03_mini_scene.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "নমস্কার।",
+          "romanized": "nomoshkar"
+        },
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "কেমন আছেন?",
+          "romanized": "kemon achen?"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "Choose “Not bad.”"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "খারাপ না",
+                "en": "Not bad"
+              },
+              "correct": true,
+              "romanized": "kharap na"
+            },
+            {
+              "text": {
+                "bengali": "ধন্যবাদ",
+                "en": "Thank you"
+              },
+              "correct": false,
+              "romanized": "dhonnobad"
+            },
+            {
+              "text": {
+                "bengali": "হ্যালো",
+                "en": "Hello"
+              },
+              "correct": false,
+              "romanized": "hyalo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CH02_S03_L10_E02",
+      "type": "conversation",
+      "scenario": {
+        "en": "Checkpoint conversation."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "কেমন আছেন?",
+            "en": "How are you?"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose “So-so.”"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "মোটামুটি",
+            "en": "So-so"
+          },
+          "correct": true,
+          "romanized": "motamuti"
+        },
+        {
+          "text": {
+            "bengali": "আচ্ছা",
+            "en": "Okay / I see"
+          },
+          "correct": false,
+          "romanized": "achchha"
+        },
+        {
+          "text": {
+            "bengali": "মাফ করবেন",
+            "en": "Excuse me"
+          },
+          "correct": false,
+          "romanized": "maf korben"
+        }
+      ]
+    },
+    {
+      "id": "CH02_S03_L10_E03",
+      "type": "reading",
+      "passage": {
+        "en": "মোটামুটি"
+      },
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "en": "So-so"
+        },
+        {
+          "en": "Not bad"
+        },
+        {
+          "en": "I’m fine"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH02_S03_L10_E04",
+      "type": "reading",
+      "passage": {
+        "en": "খারাপ না"
+      },
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "en": "Not bad"
+        },
+        {
+          "en": "So-so"
+        },
+        {
+          "en": "Thank you"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH02_S03_L10_E05",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch02_s03_bhalo_achi.mp3",
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I’m fine"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "So-so"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Not bad"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH02_S03_L10_E06",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch02_s03_motamuti.mp3",
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "So-so"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "I’m fine"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Not bad"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH02_S03_L10_E07",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch02_s03_kharap_na.mp3",
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Not bad"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "So-so"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Excuse me"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH02_S03_L10_E08",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which three are check-in answers?"
+      },
+      "options": [
+        {
+          "en": "ভালো আছি / মোটামুটি / খারাপ না"
+        },
+        {
+          "en": "নমস্কার / মাফ করবেন / নাম"
+        },
+        {
+          "en": "হ্যাঁ / না / চা"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH02_S03_L10_E09",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: খারাপ না"
+      },
+      "words": [
+        "না",
+        "খারাপ"
+      ],
+      "correctOrder": [
+        "খারাপ",
+        "না"
+      ],
+      "wordsRomanized": [
+        "na",
+        "kharap"
+      ]
+    },
+    {
+      "id": "CH02_S03_L10_E10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Best answer after কেমন আছেন?"
+      },
+      "options": [
+        {
+          "en": "মোটামুটি"
+        },
+        {
+          "en": "কী নাম?"
+        },
+        {
+          "en": "চা দিন"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

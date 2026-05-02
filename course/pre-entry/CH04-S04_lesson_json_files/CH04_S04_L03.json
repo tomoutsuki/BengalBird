@@ -1,0 +1,297 @@
+{
+  "lesson_id": "CH04_S04_L03",
+  "title": {
+    "en": "The Risky “তুই”: Hear It in Context"
+  },
+  "description": {
+    "en": "Notice তুই and আছিস in tiny close-friend/rude contexts."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH04_S04_L03_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s04/close_friend_tui.mp3",
+      "question": {
+        "en": "In a close-friend scene, which word appears?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তুই",
+            "romanized": "tui",
+            "en": "you — very close/risky"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনি",
+            "romanized": "apni",
+            "en": "you — polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আমরা",
+            "romanized": "amra",
+            "en": "we"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S04_L03_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s04/rude_tui.mp3",
+      "question": {
+        "en": "In an angry/rude scene, which word appears?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তুই",
+            "romanized": "tui",
+            "en": "you — can sound rude"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "en": "thank you"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ভালো",
+            "romanized": "bhalo",
+            "en": "good"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S04_L03_ex03",
+      "type": "grammar-select",
+      "question": {
+        "en": "Why is তুই tricky?"
+      },
+      "options": [
+        {
+          "en": "It is always polite"
+        },
+        {
+          "en": "It depends heavily on relationship and tone"
+        },
+        {
+          "en": "It means water"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH04_S04_L03_ex04",
+      "type": "reading",
+      "passage": {
+        "en": "Friend A: তুই কেমন আছিস?"
+      },
+      "question": {
+        "en": "What does this signal?"
+      },
+      "options": [
+        {
+          "en": "Very close or risky speech"
+        },
+        {
+          "en": "Formal speech"
+        },
+        {
+          "en": "A food order"
+        }
+      ]
+    },
+    {
+      "id": "CH04_S04_L03_ex05",
+      "type": "conversation",
+      "scenario": {
+        "en": "You hear someone use তুই with a close friend."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "তুই কেমন আছিস?",
+            "romanized": "tui kemon achish?"
+          }
+        }
+      ],
+      "question": {
+        "en": "What should you do as a beginner?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তুমি কেমন?",
+            "romanized": "tumi kemon?",
+            "en": "Use safer friendly speech"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তুই কেমন আছিস?",
+            "romanized": "tui kemon achish?",
+            "en": "Use risky speech"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "দাম কত?",
+            "romanized": "dam koto?",
+            "en": "Ask price"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S04_L03_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which context is safest for আপনি?"
+      },
+      "options": [
+        {
+          "en": "stranger/elder/service worker"
+        },
+        {
+          "en": "only a very close sibling"
+        },
+        {
+          "en": "insulting someone"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH04_S04_L03_ex07",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s04/achish_in_context.mp3",
+      "question": {
+        "en": "Which risky ending did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আছিস",
+            "romanized": "achish",
+            "en": "risky/intimate are"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আছেন",
+            "romanized": "achen",
+            "en": "polite are"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আছি",
+            "romanized": "achi",
+            "en": "am"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S04_L03_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "আপনি কেমন আছেন? = polite\nতুই কেমন আছিস? = very close / risky"
+      },
+      "question": {
+        "en": "Which is safer with a new person?"
+      },
+      "options": [
+        {
+          "en": "আপনি কেমন আছেন?"
+        },
+        {
+          "en": "তুই কেমন আছিস?"
+        },
+        {
+          "en": "তুই"
+        }
+      ]
+    },
+    {
+      "id": "CH04_S04_L03_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the safest beginner habit."
+      },
+      "options": [
+        {
+          "en": "Recognize তুই, but use আপনি/তুমি when appropriate"
+        },
+        {
+          "en": "Use তুই with everyone"
+        },
+        {
+          "en": "Never learn what তুই means"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH04_S04_L03_ex10",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Listen for the risky form."
+      },
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "তুই কেমন আছিস?",
+          "audio": "assets/audio/listening/ch04_s04/line_tui_kemon_achish.mp3"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "What did you hear?"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "তুই",
+                "romanized": "tui",
+                "en": "risky/intimate you"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "আপনি",
+                "romanized": "apni",
+                "en": "polite you"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

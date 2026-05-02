@@ -1,0 +1,330 @@
+{
+  "lesson_id": "CH02_S01_L05",
+  "title": {
+    "en": "How Are You?: Build the Chunk"
+  },
+  "description": {
+    "en": "Build the key chunk for how are you?."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "ch02_s01_l05_ex01",
+      "type": "conversation",
+      "scenario": {
+        "en": "A polite greeting."
+      },
+      "dialogue": "A: নমস্কার।\nB: নমস্কার।\nA: কেমন আছেন?",
+      "question": {
+        "en": "Choose B’s reply."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ভালো আছি",
+            "romanized": "bhalo achi",
+            "en": "I’m fine"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "নমস্কার",
+            "romanized": "nomoshkar",
+            "en": "Hello"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "কেমন আছেন?",
+            "romanized": "kemon achen?",
+            "en": "How are you?"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch02_s01_l05_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch02_s01_mini_exchange.mp3",
+      "question": {
+        "en": "Listen to the exchange. What does B say?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ভালো আছি",
+            "romanized": "bhalo achi",
+            "en": "I’m fine"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "নমস্কার",
+            "romanized": "nomoshkar",
+            "en": "Hello"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "কেমন আছেন?",
+            "romanized": "kemon achen?",
+            "en": "How are you?"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch02_s01_l05_ex03",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the polite question."
+      },
+      "words": [
+        "আছেন?",
+        "কেমন"
+      ],
+      "wordsRomanized": [
+        "achen?",
+        "kemon"
+      ],
+      "correctOrder": [
+        "কেমন",
+        "আছেন?"
+      ]
+    },
+    {
+      "id": "ch02_s01_l05_ex04",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the reply."
+      },
+      "words": [
+        "আছি",
+        "ভালো"
+      ],
+      "wordsRomanized": [
+        "achi",
+        "bhalo"
+      ],
+      "correctOrder": [
+        "ভালো",
+        "আছি"
+      ]
+    },
+    {
+      "id": "ch02_s01_l05_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the polite question."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "কেমন আছেন?",
+            "romanized": "kemon achen?",
+            "en": "How are you?"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "ভালো আছি",
+            "romanized": "bhalo achi",
+            "en": "I’m fine"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "নমস্কার",
+            "romanized": "nomoshkar",
+            "en": "Hello"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Think of the formal greeting exchange."
+      }
+    },
+    {
+      "id": "ch02_s01_l05_ex06",
+      "type": "conversation",
+      "scenario": {
+        "en": "A neighbor greets you politely."
+      },
+      "dialogue": "A: নমস্কার। কেমন আছেন?",
+      "question": {
+        "en": "Tap the natural short answer."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ভালো আছি",
+            "romanized": "bhalo achi",
+            "en": "I’m fine"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "কেমন আছেন?",
+            "romanized": "kemon achen?",
+            "en": "How are you?"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "নমস্কার",
+            "romanized": "nomoshkar",
+            "en": "Hello"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch02_s01_l05_ex07",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch02_s01_kemon_achen.mp3",
+      "question": {
+        "en": "Which phrase is the polite question?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "কেমন আছেন?",
+            "romanized": "kemon achen?",
+            "en": "How are you?"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "ভালো আছি",
+            "romanized": "bhalo achi",
+            "en": "I’m fine"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "নমস্কার",
+            "romanized": "nomoshkar",
+            "en": "Hello"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch02_s01_l05_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "ভালো আছি"
+      },
+      "question": {
+        "en": "Choose the matching sound/meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "bhalo achi — I’m fine"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "kemon achen? — How are you?"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "nomoshkar — Hello"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Read the whole phrase shape; no decoding needed yet."
+      }
+    },
+    {
+      "id": "ch02_s01_l05_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "What comes after নমস্কার in a tiny polite check-in?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "কেমন আছেন?",
+            "romanized": "kemon achen?",
+            "en": "How are you?"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "ভালো আছি",
+            "romanized": "bhalo achi",
+            "en": "I’m fine"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "en": "Thank you"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Think of the formal greeting exchange."
+      }
+    },
+    {
+      "id": "ch02_s01_l05_ex10",
+      "type": "reading",
+      "passage": {
+        "en": "নমস্কার।\nকেমন আছেন?\nভালো আছি।"
+      },
+      "question": {
+        "en": "What kind of exchange is this?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "A polite hello + how-are-you exchange"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "A price question"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "A food order"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Read the whole phrase shape; no decoding needed yet."
+      }
+    }
+  ]
+}

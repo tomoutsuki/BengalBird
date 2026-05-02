@@ -1,0 +1,414 @@
+{
+  "lesson_id": "CH05_S01_L01",
+  "title": {
+    "en": "Close Family: First Listen"
+  },
+  "description": {
+    "en": "Recognize মা, বাবা, ভাই, বোন by sound."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH05_S01_L01_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s01/ma.mp3",
+      "question": {
+        "en": "Which word did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "মা",
+            "romanized": "ma",
+            "en": "mother / mom"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "বাবা",
+            "romanized": "baba",
+            "en": "father / dad"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ভাই",
+            "romanized": "bhai",
+            "en": "brother"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S01_L01_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s01/baba.mp3",
+      "question": {
+        "en": "Which word did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "বাবা",
+            "romanized": "baba",
+            "en": "father / dad"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "মা",
+            "romanized": "ma",
+            "en": "mother / mom"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ভাই",
+            "romanized": "bhai",
+            "en": "brother"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S01_L01_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s01/bhai.mp3",
+      "question": {
+        "en": "Which word did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ভাই",
+            "romanized": "bhai",
+            "en": "brother"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "মা",
+            "romanized": "ma",
+            "en": "mother / mom"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "বাবা",
+            "romanized": "baba",
+            "en": "father / dad"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S01_L01_ex04",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s01/bon.mp3",
+      "question": {
+        "en": "Which word did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "বোন",
+            "romanized": "bon",
+            "en": "sister"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "মা",
+            "romanized": "ma",
+            "en": "mother / mom"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "বাবা",
+            "romanized": "baba",
+            "en": "father / dad"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S01_L01_ex05",
+      "type": "figure_choice",
+      "question": {
+        "en": "Which picture matches the word?"
+      },
+      "bengali": "মা",
+      "options": [
+        {
+          "image": "assets/illustrations/family_mother.png",
+          "label": {
+            "bengali": "মা",
+            "romanized": "ma",
+            "en": "mother / mom"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_father.png",
+          "label": {
+            "bengali": "বাবা",
+            "romanized": "baba",
+            "en": "father / dad"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_brother.png",
+          "label": {
+            "bengali": "ভাই",
+            "romanized": "bhai",
+            "en": "brother"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_sister.png",
+          "label": {
+            "bengali": "বোন",
+            "romanized": "bon",
+            "en": "sister"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S01_L01_ex06",
+      "type": "figure_choice",
+      "question": {
+        "en": "Which picture matches the word?"
+      },
+      "bengali": "বাবা",
+      "options": [
+        {
+          "image": "assets/illustrations/family_father.png",
+          "label": {
+            "bengali": "বাবা",
+            "romanized": "baba",
+            "en": "father / dad"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_mother.png",
+          "label": {
+            "bengali": "মা",
+            "romanized": "ma",
+            "en": "mother / mom"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_brother.png",
+          "label": {
+            "bengali": "ভাই",
+            "romanized": "bhai",
+            "en": "brother"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_sister.png",
+          "label": {
+            "bengali": "বোন",
+            "romanized": "bon",
+            "en": "sister"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S01_L01_ex07",
+      "type": "figure_choice",
+      "question": {
+        "en": "Which picture matches the word?"
+      },
+      "bengali": "ভাই",
+      "options": [
+        {
+          "image": "assets/illustrations/family_brother.png",
+          "label": {
+            "bengali": "ভাই",
+            "romanized": "bhai",
+            "en": "brother"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_mother.png",
+          "label": {
+            "bengali": "মা",
+            "romanized": "ma",
+            "en": "mother / mom"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_father.png",
+          "label": {
+            "bengali": "বাবা",
+            "romanized": "baba",
+            "en": "father / dad"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_sister.png",
+          "label": {
+            "bengali": "বোন",
+            "romanized": "bon",
+            "en": "sister"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S01_L01_ex08",
+      "type": "figure_choice",
+      "question": {
+        "en": "Which picture matches the word?"
+      },
+      "bengali": "বোন",
+      "options": [
+        {
+          "image": "assets/illustrations/family_sister.png",
+          "label": {
+            "bengali": "বোন",
+            "romanized": "bon",
+            "en": "sister"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_mother.png",
+          "label": {
+            "bengali": "মা",
+            "romanized": "ma",
+            "en": "mother / mom"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_father.png",
+          "label": {
+            "bengali": "বাবা",
+            "romanized": "baba",
+            "en": "father / dad"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_brother.png",
+          "label": {
+            "bengali": "ভাই",
+            "romanized": "bhai",
+            "en": "brother"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S01_L01_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "What does মা mean?"
+      },
+      "options": [
+        {
+          "bengali": "মা",
+          "romanized": "ma",
+          "en": "mother / mom"
+        },
+        {
+          "bengali": "বাবা",
+          "romanized": "baba",
+          "en": "father / dad"
+        },
+        {
+          "bengali": "ভাই",
+          "romanized": "bhai",
+          "en": "brother"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S01_L01_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "What does ভাই mean?"
+      },
+      "options": [
+        {
+          "bengali": "বোন",
+          "romanized": "bon",
+          "en": "sister"
+        },
+        {
+          "bengali": "ভাই",
+          "romanized": "bhai",
+          "en": "brother"
+        },
+        {
+          "bengali": "মা",
+          "romanized": "ma",
+          "en": "mother / mom"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH05_S01_L01_ex11",
+      "type": "reading",
+      "passage": {
+        "en": "মা  বাবা  ভাই  বোন"
+      },
+      "question": {
+        "en": "Which word means “sister”?"
+      },
+      "options": [
+        {
+          "en": "মা"
+        },
+        {
+          "en": "বাবা"
+        },
+        {
+          "en": "বোন"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "CH05_S01_L01_ex12",
+      "type": "reading",
+      "passage": {
+        "en": "মা"
+      },
+      "question": {
+        "en": "Tap the meaning."
+      },
+      "options": [
+        {
+          "en": "mother / mom"
+        },
+        {
+          "en": "father / dad"
+        },
+        {
+          "en": "brother"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

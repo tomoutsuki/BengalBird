@@ -1,0 +1,376 @@
+{
+  "lesson_id": "CH04_S01_L10",
+  "title": {
+    "en": "I / You / He-She: Check"
+  },
+  "description": {
+    "en": "Pass a short mixed check on pronoun meanings, register, and whole-word shapes."
+  },
+  "est_time_mins": 5,
+  "exercises": [
+    {
+      "id": "CH04_S01_L10_E01",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Final mini-check: polite greeting."
+      },
+      "audio": "assets/audio/listening/CH04_S01_L10_E01.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "নমস্কার।",
+          "romanized": "Nomoskar."
+        },
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "আপনি কেমন?",
+          "romanized": "Apni kemon?"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "Which pronoun made this polite?"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "আপনি",
+                "romanized": "apni"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "তুমি",
+                "romanized": "tumi"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "bengali": "সে",
+                "romanized": "shey"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "hint": {
+        "en": "Listen for the pronoun shape and the social context."
+      }
+    },
+    {
+      "id": "CH04_S01_L10_E02",
+      "type": "grammar-select",
+      "question": {
+        "en": "আমি means…"
+      },
+      "options": [
+        {
+          "en": "I / me"
+        },
+        {
+          "en": "you polite"
+        },
+        {
+          "en": "you friendly"
+        },
+        {
+          "en": "he/she"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Choose the pronoun that fits the context."
+      }
+    },
+    {
+      "id": "CH04_S01_L10_E03",
+      "type": "grammar-select",
+      "question": {
+        "en": "আপনি means…"
+      },
+      "options": [
+        {
+          "en": "you polite"
+        },
+        {
+          "en": "you friendly"
+        },
+        {
+          "en": "I/me"
+        },
+        {
+          "en": "he/she"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Choose the pronoun that fits the context."
+      }
+    },
+    {
+      "id": "CH04_S01_L10_E04",
+      "type": "grammar-select",
+      "question": {
+        "en": "তুমি means…"
+      },
+      "options": [
+        {
+          "en": "you friendly"
+        },
+        {
+          "en": "you polite"
+        },
+        {
+          "en": "he/she"
+        },
+        {
+          "en": "I/me"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Choose the pronoun that fits the context."
+      }
+    },
+    {
+      "id": "CH04_S01_L10_E05",
+      "type": "grammar-select",
+      "question": {
+        "en": "সে means…"
+      },
+      "options": [
+        {
+          "en": "he / she / that person"
+        },
+        {
+          "en": "I/me"
+        },
+        {
+          "en": "you polite"
+        },
+        {
+          "en": "you friendly"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Choose the pronoun that fits the context."
+      }
+    },
+    {
+      "id": "CH04_S01_L10_E06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Best pronoun for a stranger or elder:"
+      },
+      "options": [
+        {
+          "en": "আপনি"
+        },
+        {
+          "en": "তুমি"
+        },
+        {
+          "en": "সে"
+        },
+        {
+          "en": "আমি"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Choose the pronoun that fits the context."
+      }
+    },
+    {
+      "id": "CH04_S01_L10_E07",
+      "type": "grammar-select",
+      "question": {
+        "en": "Best pronoun for yourself:"
+      },
+      "options": [
+        {
+          "en": "আমি"
+        },
+        {
+          "en": "আপনি"
+        },
+        {
+          "en": "সে"
+        },
+        {
+          "en": "তুমি"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Choose the pronoun that fits the context."
+      }
+    },
+    {
+      "id": "CH04_S01_L10_E08",
+      "type": "reading",
+      "passage": {
+        "en": "তুমি কেমন?"
+      },
+      "question": {
+        "en": "What is the likely context?"
+      },
+      "options": [
+        {
+          "en": "friend / familiar person"
+        },
+        {
+          "en": "formal stranger"
+        },
+        {
+          "en": "talking about another person"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Friendly “you.”"
+      }
+    },
+    {
+      "id": "CH04_S01_L10_E09",
+      "type": "reading",
+      "passage": {
+        "en": "সে মিনা।"
+      },
+      "question": {
+        "en": "Who is Mina?"
+      },
+      "options": [
+        {
+          "en": "another person / she"
+        },
+        {
+          "en": "the listener"
+        },
+        {
+          "en": "the speaker"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "সে points to another person."
+      }
+    },
+    {
+      "id": "CH04_S01_L10_E10",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: “Hello, I am well.”"
+      },
+      "words": [
+        "ভালো",
+        "আমি",
+        "নমস্কার,",
+        "আছি"
+      ],
+      "wordsRomanized": [
+        "bhalo",
+        "ami",
+        "nomoskar,",
+        "achi"
+      ],
+      "correctOrder": [
+        "নমস্কার,",
+        "আমি",
+        "ভালো",
+        "আছি"
+      ],
+      "hint": {
+        "en": "Build the familiar chunk. No spelling from memory needed."
+      }
+    },
+    {
+      "id": "CH04_S01_L10_E11",
+      "type": "listening",
+      "audio": "assets/audio/listening/tumi.mp3",
+      "question": {
+        "en": "Listen and choose meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "you (friendly)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "you polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "I/me"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "he/she"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen for tumi — তুমি."
+      }
+    },
+    {
+      "id": "CH04_S01_L10_E12",
+      "type": "conversation",
+      "scenario": {
+        "en": "You meet someone new at a café."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "নমস্কার।",
+            "romanized": "Nomoskar."
+          }
+        }
+      ],
+      "question": {
+        "en": "Which “you” is safest if you need to address them?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনি",
+            "romanized": "apni"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তুমি",
+            "romanized": "tumi"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "সে",
+            "romanized": "shey"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Pick the natural, safe pronoun for the scene."
+      }
+    }
+  ]
+}

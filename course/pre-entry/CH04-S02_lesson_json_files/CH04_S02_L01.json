@@ -1,0 +1,388 @@
+{
+  "lesson_id": "CH04_S02_L01",
+  "title": {
+    "en": "We / They: First Listen"
+  },
+  "description": {
+    "en": "Recognize আমরা, তারা by sound."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "ch04_s02_l01_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s02_l01_ex01.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমরা",
+            "romanized": "amra",
+            "en": "we"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তারা",
+            "romanized": "tara",
+            "en": "they"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আমি",
+            "romanized": "ami",
+            "en": "I"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s02_l01_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s02_l01_ex02.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "সে",
+            "romanized": "se",
+            "en": "he/she"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তারা",
+            "romanized": "tara",
+            "en": "they"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমরা",
+            "romanized": "amra",
+            "en": "we"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s02_l01_ex03",
+      "type": "grammar-select",
+      "question": {
+        "en": "Tap the meaning of আমরা."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমরা",
+            "romanized": "amra",
+            "en": "we"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমি",
+            "romanized": "ami",
+            "en": "I"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "সে",
+            "romanized": "se",
+            "en": "he/she"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s02_l01_ex04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Tap the meaning of তারা."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "সে",
+            "romanized": "se",
+            "en": "he/she"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তারা",
+            "romanized": "tara",
+            "en": "they"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তুমি",
+            "romanized": "tumi",
+            "en": "you (friendly)"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s02_l01_ex05",
+      "type": "figure_choice",
+      "question": {
+        "en": "Choose the image for আমরা."
+      },
+      "options": [
+        {
+          "image": "assets/illustrations/pronoun_we_group.png",
+          "label": {
+            "en": "we / our group"
+          }
+        },
+        {
+          "image": "assets/illustrations/pronoun_one_person.png",
+          "label": {
+            "en": "one person"
+          }
+        },
+        {
+          "image": "assets/illustrations/pronoun_they_group.png",
+          "label": {
+            "en": "they / that group"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "bengali": "আমরা"
+    },
+    {
+      "id": "ch04_s02_l01_ex06",
+      "type": "figure_choice",
+      "question": {
+        "en": "Choose the image for তারা."
+      },
+      "options": [
+        {
+          "image": "assets/illustrations/pronoun_speaker.png",
+          "label": {
+            "en": "I"
+          }
+        },
+        {
+          "image": "assets/illustrations/pronoun_they_group.png",
+          "label": {
+            "en": "they / that group"
+          }
+        },
+        {
+          "image": "assets/illustrations/pronoun_listener_polite.png",
+          "label": {
+            "en": "you (polite)"
+          }
+        }
+      ],
+      "correctIndex": 1,
+      "bengali": "তারা"
+    },
+    {
+      "id": "ch04_s02_l01_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "আমরা = amra = we\nতারা = tara = they"
+      },
+      "question": {
+        "en": "Which word means “we”?"
+      },
+      "options": [
+        {
+          "en": "আমরা"
+        },
+        {
+          "en": "তারা"
+        },
+        {
+          "en": "সে"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Look for amra."
+      }
+    },
+    {
+      "id": "ch04_s02_l01_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "আমি = I\nসে = he/she\nআমরা = we\nতারা = they"
+      },
+      "question": {
+        "en": "Which word means “they”?"
+      },
+      "options": [
+        {
+          "en": "আমি"
+        },
+        {
+          "en": "সে"
+        },
+        {
+          "en": "তারা"
+        }
+      ],
+      "correctIndex": 2,
+      "hint": {
+        "en": "They = tara."
+      }
+    },
+    {
+      "id": "ch04_s02_l01_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "A group includes the speaker. Choose the best Bengali word."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমরা",
+            "romanized": "amra",
+            "en": "we"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তারা",
+            "romanized": "tara",
+            "en": "they"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "সে",
+            "romanized": "se",
+            "en": "he/she"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s02_l01_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "A group is over there, not including the speaker. Choose the best Bengali word."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমরা",
+            "romanized": "amra",
+            "en": "we"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তারা",
+            "romanized": "tara",
+            "en": "they"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমি",
+            "romanized": "ami",
+            "en": "I"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s02_l01_ex11",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s02_l01_ex11.mp3",
+      "question": {
+        "en": "Listen again: which pronoun is it?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমরা",
+            "romanized": "amra",
+            "en": "we"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমি",
+            "romanized": "ami",
+            "en": "I"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তারা",
+            "romanized": "tara",
+            "en": "they"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s02_l01_ex12",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s02_l01_ex12.mp3",
+      "question": {
+        "en": "Listen again: which pronoun is it?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "সে",
+            "romanized": "se",
+            "en": "he/she"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তারা",
+            "romanized": "tara",
+            "en": "they"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনি",
+            "romanized": "apni",
+            "en": "you (polite)"
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "lesson_id": "CH01_S02_L07",
+  "title": {
+    "en": "Yes, Okay, Thanks: Review Mix"
+  },
+  "description": {
+    "en": "Review with ধন্যবাদ and earlier first words."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH01_S02_L07_E01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch01_s02_dhonnobad_review.mp3",
+      "question": {
+        "en": "Review: what did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "yes",
+            "bengali": "হ্যাঁ",
+            "romanized": "hyã"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "no",
+            "bengali": "না",
+            "romanized": "na"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "okay / all right",
+            "bengali": "ঠিক আছে",
+            "romanized": "ṭhik ache"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "okay / I see",
+            "bengali": "আচ্ছা",
+            "romanized": "achchha"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "thank you",
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad"
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "CH01_S02_L07_E02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch01_s02_hya.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "yes",
+            "bengali": "হ্যাঁ",
+            "romanized": "hyã"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "no",
+            "bengali": "না",
+            "romanized": "na"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "okay / all right",
+            "bengali": "ঠিক আছে",
+            "romanized": "ṭhik ache"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "okay / I see",
+            "bengali": "আচ্ছা",
+            "romanized": "achchha"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "thank you",
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S02_L07_E03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch01_s02_na.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "yes",
+            "bengali": "হ্যাঁ",
+            "romanized": "hyã"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "no",
+            "bengali": "না",
+            "romanized": "na"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "okay / all right",
+            "bengali": "ঠিক আছে",
+            "romanized": "ṭhik ache"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "okay / I see",
+            "bengali": "আচ্ছা",
+            "romanized": "achchha"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "thank you",
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S02_L07_E04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which Bengali means “thank you”?"
+      },
+      "options": [
+        {
+          "en": "ধন্যবাদ"
+        },
+        {
+          "en": "না"
+        },
+        {
+          "en": "আচ্ছা"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH01_S02_L07_E05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which Bengali means “yes”?"
+      },
+      "options": [
+        {
+          "en": "হ্যাঁ"
+        },
+        {
+          "en": "না"
+        },
+        {
+          "en": "ধন্যবাদ"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH01_S02_L07_E06",
+      "type": "conversation",
+      "scenario": {
+        "en": "Someone gives you help."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "bengali": "ঠিক আছে।"
+        }
+      ],
+      "question": {
+        "en": "Choose “thank you.”"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "meaning": "thank you"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "না",
+            "romanized": "na",
+            "meaning": "no"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "হ্যাঁ",
+            "romanized": "hyã",
+            "meaning": "yes"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S02_L07_E07",
+      "type": "conversation",
+      "scenario": {
+        "en": "Someone asks: “Ready?”"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "bengali": "ঠিক আছে?"
+        }
+      ],
+      "question": {
+        "en": "Choose “yes.”"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "হ্যাঁ",
+            "romanized": "hyã",
+            "meaning": "yes"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "meaning": "thank you"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S02_L07_E08",
+      "type": "reading",
+      "passage": {
+        "en": "ধন্যবাদ"
+      },
+      "question": {
+        "en": "Review word shape: meaning?"
+      },
+      "options": [
+        {
+          "en": "thank you"
+        },
+        {
+          "en": "okay"
+        },
+        {
+          "en": "no"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH01_S02_L07_E09",
+      "type": "reading",
+      "passage": {
+        "en": "আচ্ছা"
+      },
+      "question": {
+        "en": "Meaning in this context?"
+      },
+      "options": [
+        {
+          "en": "I see / okay"
+        },
+        {
+          "en": "no"
+        },
+        {
+          "en": "thank you"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH01_S02_L07_E10",
+      "type": "conversation_listening",
+      "audio": "assets/audio/listening/ch01_s02_mini_exchange.mp3",
+      "scenario": {
+        "en": "Tiny review scene."
+      },
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "ধন্যবাদ।"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "Choose a simple okay response."
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "ঠিক আছে",
+                "romanized": "ṭhik ache",
+                "meaning": "okay / all right"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "না",
+                "romanized": "na",
+                "meaning": "no"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

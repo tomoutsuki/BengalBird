@@ -1,0 +1,264 @@
+{
+  "lesson_id": "CH06_S03_L05",
+  "title": {
+    "en": "I Want This: Build the Chunk"
+  },
+  "description": {
+    "en": "Build the key chunk for i want this."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH06_S03_L05_ex01",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the Bengali phrase."
+      },
+      "words": [
+        "চাই",
+        "এটা"
+      ],
+      "correctOrder": [
+        "এটা",
+        "চাই"
+      ],
+      "hint": {
+        "en": "Build: এটা চাই."
+      }
+    },
+    {
+      "id": "CH06_S03_L05_ex02",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the Bengali phrase."
+      },
+      "words": [
+        "চাই",
+        "চা"
+      ],
+      "correctOrder": [
+        "চা",
+        "চাই"
+      ],
+      "hint": {
+        "en": "Build: চা চাই."
+      }
+    },
+    {
+      "id": "CH06_S03_L05_ex03",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the Bengali phrase."
+      },
+      "words": [
+        "পানি",
+        "চাই"
+      ],
+      "correctOrder": [
+        "পানি",
+        "চাই"
+      ],
+      "hint": {
+        "en": "Build: পানি চাই."
+      }
+    },
+    {
+      "id": "CH06_S03_L05_ex04",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the Bengali phrase."
+      },
+      "words": [
+        "ভাত",
+        "চাই"
+      ],
+      "correctOrder": [
+        "ভাত",
+        "চাই"
+      ],
+      "hint": {
+        "en": "Build: ভাত চাই."
+      }
+    },
+    {
+      "id": "CH06_S03_L05_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which request means “I want rice”?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ভাত চাই"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "নমস্কার"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ভাত চাই = want rice."
+      }
+    },
+    {
+      "id": "CH06_S03_L05_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which request means “I want dal / lentils”?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ডাল চাই"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "নমস্কার"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ডাল চাই = want dal / lentils."
+      }
+    },
+    {
+      "id": "CH06_S03_L05_ex07",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which request means “I want fish”?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "মাছ চাই"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "নমস্কার"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "মাছ চাই = want fish."
+      }
+    },
+    {
+      "id": "CH06_S03_L05_ex08",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which request means “I want tea”?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "চা চাই"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "নমস্কার"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "চা চাই = want tea."
+      }
+    },
+    {
+      "id": "CH06_S03_L05_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which request means “I want water (Bangladesh-common)”?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "পানি চাই"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "নমস্কার"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "পানি চাই = want water (Bangladesh-common)."
+      }
+    },
+    {
+      "id": "CH06_S03_L05_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which request means “I want water (West Bengal-common)”?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "জল চাই"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "নমস্কার"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "জল চাই = want water (West Bengal-common)."
+      }
+    }
+  ]
+}

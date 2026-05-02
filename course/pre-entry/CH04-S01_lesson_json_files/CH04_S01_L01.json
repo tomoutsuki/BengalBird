@@ -1,0 +1,323 @@
+{
+  "lesson_id": "CH04_S01_L01",
+  "title": {
+    "en": "I / You / He-She: First Listen"
+  },
+  "description": {
+    "en": "Hear the Bengali pronouns আমি, আপনি, তুমি, and সে, then tap the meaning."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH04_S01_L01_E01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ami.mp3",
+      "question": {
+        "en": "Who is speaking about themselves?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I / me"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "you (polite)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "you (friendly)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "he / she"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen for ami — আমি."
+      }
+    },
+    {
+      "id": "CH04_S01_L01_E02",
+      "type": "listening",
+      "audio": "assets/audio/listening/apni.mp3",
+      "question": {
+        "en": "Which pronoun did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "you (polite)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "I / me"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "you (friendly)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "he / she"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen for apni — আপনি."
+      }
+    },
+    {
+      "id": "CH04_S01_L01_E03",
+      "type": "listening",
+      "audio": "assets/audio/listening/tumi.mp3",
+      "question": {
+        "en": "Which pronoun means friendly “you”?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "you (friendly)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "I / me"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "you (polite)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "he / she"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen for tumi — তুমি."
+      }
+    },
+    {
+      "id": "CH04_S01_L01_E04",
+      "type": "listening",
+      "audio": "assets/audio/listening/shey.mp3",
+      "question": {
+        "en": "Which pronoun points to another person?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "he / she / that person"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "I / me"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "you (polite)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "you (friendly)"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen for shey — সে."
+      }
+    },
+    {
+      "id": "CH04_S01_L01_E05",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the icon for আমি."
+      },
+      "bengali": "আমি",
+      "options": [
+        {
+          "image": "assets/illustrations/person_me.png",
+          "label": {
+            "en": "আমি (ami)"
+          }
+        },
+        {
+          "image": "assets/illustrations/person_you_polite.png",
+          "label": {
+            "en": "আপনি (apni)"
+          }
+        },
+        {
+          "image": "assets/illustrations/person_you_friendly.png",
+          "label": {
+            "en": "তুমি (tumi)"
+          }
+        },
+        {
+          "image": "assets/illustrations/person_third.png",
+          "label": {
+            "en": "সে (shey)"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Use the people icon and pronoun shape."
+      }
+    },
+    {
+      "id": "CH04_S01_L01_E06",
+      "type": "grammar-select",
+      "question": {
+        "en": "What does আপনি mean?"
+      },
+      "options": [
+        {
+          "en": "I / me"
+        },
+        {
+          "en": "you (polite)"
+        },
+        {
+          "en": "you (friendly)"
+        },
+        {
+          "en": "he / she"
+        }
+      ],
+      "correctIndex": 1,
+      "hint": {
+        "en": "আপনি is the safe polite “you.”"
+      }
+    },
+    {
+      "id": "CH04_S01_L01_E07",
+      "type": "grammar-select",
+      "question": {
+        "en": "What does তুমি mean?"
+      },
+      "options": [
+        {
+          "en": "you (friendly)"
+        },
+        {
+          "en": "you (polite)"
+        },
+        {
+          "en": "I / me"
+        },
+        {
+          "en": "they"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "তুমি is friendly, not the default for strangers."
+      }
+    },
+    {
+      "id": "CH04_S01_L01_E08",
+      "type": "reading",
+      "passage": {
+        "en": "আমি — ami"
+      },
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "en": "I / me"
+        },
+        {
+          "en": "you polite"
+        },
+        {
+          "en": "he / she"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Recognize the whole word shape."
+      }
+    },
+    {
+      "id": "CH04_S01_L01_E09",
+      "type": "reading",
+      "passage": {
+        "en": "সে — shey"
+      },
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "en": "I / me"
+        },
+        {
+          "en": "you friendly"
+        },
+        {
+          "en": "he / she"
+        }
+      ],
+      "correctIndex": 2,
+      "hint": {
+        "en": "সে can mean he or she depending on context."
+      }
+    },
+    {
+      "id": "CH04_S01_L01_E10",
+      "type": "grammar-select",
+      "question": {
+        "en": "In a polite first meeting, which “you” is safest?"
+      },
+      "options": [
+        {
+          "en": "তুমি"
+        },
+        {
+          "en": "আপনি"
+        },
+        {
+          "en": "আমি"
+        },
+        {
+          "en": "সে"
+        }
+      ],
+      "correctIndex": 1,
+      "hint": {
+        "en": "Use আপনি with strangers or elders."
+      }
+    }
+  ]
+}

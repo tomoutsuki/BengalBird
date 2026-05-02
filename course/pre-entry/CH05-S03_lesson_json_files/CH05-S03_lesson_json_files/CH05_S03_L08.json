@@ -1,0 +1,270 @@
+{
+  "lesson_id": "CH05_S03_L08",
+  "title": {
+    "en": "Older/Younger: Audio Sprint"
+  },
+  "description": {
+    "en": "Understand বড় ভাই, ছোট বোন in audio variation."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH05_S03_L08_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s03_l08_boro_bhai.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "বড় ভাই — older brother"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ছোট বোন — younger sister"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভাই — brother"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "বড় ভাই means older brother."
+      }
+    },
+    {
+      "id": "CH05_S03_L08_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s03_l08_chhoto_bon.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ছোট বোন — younger sister"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "বড় ভাই — older brother"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "বোন — sister"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ছোট বোন means younger sister."
+      }
+    },
+    {
+      "id": "CH05_S03_L08_ex03",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the picture for: বড় ভাই"
+      },
+      "bengali": "বড় ভাই",
+      "options": [
+        {
+          "image": "assets/illustrations/family_older_brother.png",
+          "label": {
+            "en": "older brother"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_younger_sister.png",
+          "label": {
+            "en": "younger sister"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_sister.png",
+          "label": {
+            "en": "sister"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S03_L08_ex04",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the picture for: ছোট বোন"
+      },
+      "bengali": "ছোট বোন",
+      "options": [
+        {
+          "image": "assets/illustrations/family_brother.png",
+          "label": {
+            "en": "brother"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_younger_sister.png",
+          "label": {
+            "en": "younger sister"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_older_brother.png",
+          "label": {
+            "en": "older brother"
+          }
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH05_S03_L08_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Quick tap: older brother"
+      },
+      "options": [
+        {
+          "en": "বড় ভাই"
+        },
+        {
+          "en": "ছোট বোন"
+        },
+        {
+          "en": "ভাই"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S03_L08_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Quick tap: younger sister"
+      },
+      "options": [
+        {
+          "en": "বোন"
+        },
+        {
+          "en": "বড় ভাই"
+        },
+        {
+          "en": "ছোট বোন"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "CH05_S03_L08_ex07",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s03_l08_review_boro_bhai.mp3",
+      "question": {
+        "en": "Audio sprint: choose the chunk."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "বড় ভাই"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ছোট বোন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "বোন"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S03_L08_ex08",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s03_l08_review_chhoto_bon.mp3",
+      "question": {
+        "en": "Audio sprint: choose the chunk."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ছোট বোন"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "বড় ভাই"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভাই"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S03_L08_ex09",
+      "type": "reading",
+      "passage": {
+        "en": "আমার বড় ভাই আছে।"
+      },
+      "question": {
+        "en": "What does this say?"
+      },
+      "options": [
+        {
+          "en": "I have an older brother."
+        },
+        {
+          "en": "I have a younger sister."
+        },
+        {
+          "en": "My name is brother."
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S03_L08_ex10",
+      "type": "reading",
+      "passage": {
+        "en": "আমার ছোট বোন আছে।"
+      },
+      "question": {
+        "en": "What does this say?"
+      },
+      "options": [
+        {
+          "en": "I have a younger sister."
+        },
+        {
+          "en": "I have an older brother."
+        },
+        {
+          "en": "My sister is okay."
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

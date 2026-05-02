@@ -1,0 +1,395 @@
+{
+  "lesson_id": "CH06_S01_L07",
+  "title": {
+    "en": "Food Basics: Review Mix"
+  },
+  "description": {
+    "en": "Recycle food basics with earlier course language."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH06_S01_L07_ex01",
+      "type": "reading",
+      "passage": {
+        "en": "আমার চা ভালো লাগে।"
+      },
+      "question": {
+        "en": "What is liked?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "চা"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভাত"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ডাল"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "চা is tea."
+      }
+    },
+    {
+      "id": "CH06_S01_L07_ex02",
+      "type": "reading",
+      "passage": {
+        "en": "আমার ভাত ভালো লাগে।"
+      },
+      "question": {
+        "en": "What is liked?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ভাত"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "মাছ"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "চা"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ভাত is rice."
+      }
+    },
+    {
+      "id": "CH06_S01_L07_ex03",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the picture for: ভাত"
+      },
+      "bengali": "ভাত",
+      "options": [
+        {
+          "image": "assets/illustrations/rice_bowl.png",
+          "label": {
+            "en": "ভাত — rice"
+          }
+        },
+        {
+          "image": "assets/illustrations/dal_bowl.png",
+          "label": {
+            "en": "ডাল — lentils / dal"
+          }
+        },
+        {
+          "image": "assets/illustrations/fish_plate.png",
+          "label": {
+            "en": "মাছ — fish"
+          }
+        },
+        {
+          "image": "assets/illustrations/tea_cup.png",
+          "label": {
+            "en": "চা — tea"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Look for rice."
+      }
+    },
+    {
+      "id": "CH06_S01_L07_ex04",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the picture for: ডাল"
+      },
+      "bengali": "ডাল",
+      "options": [
+        {
+          "image": "assets/illustrations/rice_bowl.png",
+          "label": {
+            "en": "ভাত — rice"
+          }
+        },
+        {
+          "image": "assets/illustrations/dal_bowl.png",
+          "label": {
+            "en": "ডাল — lentils / dal"
+          }
+        },
+        {
+          "image": "assets/illustrations/fish_plate.png",
+          "label": {
+            "en": "মাছ — fish"
+          }
+        },
+        {
+          "image": "assets/illustrations/tea_cup.png",
+          "label": {
+            "en": "চা — tea"
+          }
+        }
+      ],
+      "correctIndex": 1,
+      "hint": {
+        "en": "Look for lentils / dal."
+      }
+    },
+    {
+      "id": "CH06_S01_L07_ex05",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the picture for: মাছ"
+      },
+      "bengali": "মাছ",
+      "options": [
+        {
+          "image": "assets/illustrations/rice_bowl.png",
+          "label": {
+            "en": "ভাত — rice"
+          }
+        },
+        {
+          "image": "assets/illustrations/dal_bowl.png",
+          "label": {
+            "en": "ডাল — lentils / dal"
+          }
+        },
+        {
+          "image": "assets/illustrations/fish_plate.png",
+          "label": {
+            "en": "মাছ — fish"
+          }
+        },
+        {
+          "image": "assets/illustrations/tea_cup.png",
+          "label": {
+            "en": "চা — tea"
+          }
+        }
+      ],
+      "correctIndex": 2,
+      "hint": {
+        "en": "Look for fish."
+      }
+    },
+    {
+      "id": "CH06_S01_L07_ex06",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the picture for: চা"
+      },
+      "bengali": "চা",
+      "options": [
+        {
+          "image": "assets/illustrations/rice_bowl.png",
+          "label": {
+            "en": "ভাত — rice"
+          }
+        },
+        {
+          "image": "assets/illustrations/dal_bowl.png",
+          "label": {
+            "en": "ডাল — lentils / dal"
+          }
+        },
+        {
+          "image": "assets/illustrations/fish_plate.png",
+          "label": {
+            "en": "মাছ — fish"
+          }
+        },
+        {
+          "image": "assets/illustrations/tea_cup.png",
+          "label": {
+            "en": "চা — tea"
+          }
+        }
+      ],
+      "correctIndex": 3,
+      "hint": {
+        "en": "Look for tea."
+      }
+    },
+    {
+      "id": "CH06_S01_L07_ex07",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s01_l07_bhat.mp3",
+      "question": {
+        "en": "Choose the food or drink you hear."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ভাত — rice"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ডাল — lentils / dal"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মাছ — fish"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ভাত (bhat) means rice."
+      }
+    },
+    {
+      "id": "CH06_S01_L07_ex08",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s01_l07_dal.mp3",
+      "question": {
+        "en": "Choose the food or drink you hear."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ডাল — lentils / dal"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভাত — rice"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মাছ — fish"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ডাল (dal) means lentils / dal."
+      }
+    },
+    {
+      "id": "CH06_S01_L07_ex09",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s01_l07_machh.mp3",
+      "question": {
+        "en": "Choose the food or drink you hear."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "মাছ — fish"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভাত — rice"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ডাল — lentils / dal"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "মাছ (machh) means fish."
+      }
+    },
+    {
+      "id": "CH06_S01_L07_ex10",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s01_l07_cha.mp3",
+      "question": {
+        "en": "Choose the food or drink you hear."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "চা — tea"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভাত — rice"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ডাল — lentils / dal"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "চা (cha) means tea."
+      }
+    },
+    {
+      "id": "CH06_S01_L07_ex11",
+      "type": "conversation",
+      "scenario": {
+        "en": "Review phrase"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "en": "চা ভালো লাগে।"
+          }
+        }
+      ],
+      "question": {
+        "en": "Which known review phrase appears?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ভালো লাগে"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "মাফ করবেন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আপনার নাম কী?"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ভালো লাগে is the review phrase."
+      }
+    }
+  ]
+}

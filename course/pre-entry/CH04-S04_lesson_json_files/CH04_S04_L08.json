@@ -1,0 +1,302 @@
+{
+  "lesson_id": "CH04_S04_L08",
+  "title": {
+    "en": "The Risky “তুই”: Audio Sprint"
+  },
+  "description": {
+    "en": "Identify risky address forms in varied short audio."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH04_S04_L08_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s04/tui.mp3",
+      "question": {
+        "en": "Audio sprint: what did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তুই",
+            "romanized": "tui",
+            "en": "risky/intimate you"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তুমি",
+            "en": "distractor"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আপনি",
+            "en": "distractor"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S04_L08_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s04/achish.mp3",
+      "question": {
+        "en": "Audio sprint: what did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আছিস",
+            "romanized": "achish",
+            "en": "risky/intimate are"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আছেন",
+            "en": "distractor"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আছি",
+            "en": "distractor"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S04_L08_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s04/tumi.mp3",
+      "question": {
+        "en": "Audio sprint: what did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তুমি",
+            "romanized": "tumi",
+            "en": "friendly you"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তুই",
+            "en": "distractor"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আপনি",
+            "en": "distractor"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S04_L08_ex04",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s04/apni.mp3",
+      "question": {
+        "en": "Audio sprint: what did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনি",
+            "romanized": "apni",
+            "en": "polite you"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তুই",
+            "en": "distractor"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আছিস",
+            "en": "distractor"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S04_L08_ex05",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s04/tui_kemon_achish.mp3",
+      "question": {
+        "en": "Audio sprint: what did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তুই কেমন আছিস?",
+            "romanized": "tui kemon achish?",
+            "en": "very close/risky question"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনি কেমন আছেন?",
+            "en": "distractor"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তুমি কেমন?",
+            "en": "distractor"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S04_L08_ex06",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s04/apni_kemon_achen.mp3",
+      "question": {
+        "en": "Audio sprint: what did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনি কেমন আছেন?",
+            "romanized": "apni kemon achen?",
+            "en": "polite question"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তুই কেমন আছিস?",
+            "en": "distractor"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আছিস?",
+            "en": "distractor"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S04_L08_ex07",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which one is risky/intimate?"
+      },
+      "options": [
+        {
+          "en": "তুই"
+        },
+        {
+          "en": "আপনি"
+        },
+        {
+          "en": "আমি"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH04_S04_L08_ex08",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which one is polite?"
+      },
+      "options": [
+        {
+          "en": "আপনি"
+        },
+        {
+          "en": "তুই"
+        },
+        {
+          "en": "আছিস"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH04_S04_L08_ex09",
+      "type": "reading",
+      "passage": {
+        "en": "তুই / আছিস"
+      },
+      "question": {
+        "en": "What label fits both?"
+      },
+      "options": [
+        {
+          "en": "risky/intimate"
+        },
+        {
+          "en": "polite default"
+        },
+        {
+          "en": "market words"
+        }
+      ]
+    },
+    {
+      "id": "CH04_S04_L08_ex10",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Fast review scene."
+      },
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "তুই কেমন আছিস?",
+          "audio": "assets/audio/listening/ch04_s04/line_tui_kemon_achish_fast.mp3"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "Choose the correct label."
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "ঝুঁকিপূর্ণ / খুব ঘনিষ্ঠ",
+                "romanized": "jhunki-purno / khub ghonishtho",
+                "en": "risky / very close"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "ভদ্র",
+                "romanized": "bhodro",
+                "en": "polite"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

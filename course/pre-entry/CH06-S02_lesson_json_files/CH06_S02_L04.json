@@ -1,0 +1,296 @@
+{
+  "lesson_id": "CH06_S02_L04",
+  "title": {
+    "en": "Water: Choose the Reply"
+  },
+  "description": {
+    "en": "Recognize water words in Bengali: পানি and জল, with regional context."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH06_S02_L04_ex01",
+      "type": "conversation",
+      "scenario": {
+        "en": "A friend asks what you want."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "চা?",
+            "romanized": "cha?",
+            "en": "Tea?"
+          }
+        }
+      ],
+      "question": {
+        "en": "You want water. Choose a Bangladesh-style answer."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "পানি।",
+            "romanized": "pani.",
+            "en": "Water."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "চা।",
+            "romanized": "cha.",
+            "en": "Tea."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ।",
+            "romanized": "dhonnobad.",
+            "en": "Thank you."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L04_ex02",
+      "type": "conversation",
+      "scenario": {
+        "en": "A friend asks what you want."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "চা?",
+            "romanized": "cha?",
+            "en": "Tea?"
+          }
+        }
+      ],
+      "question": {
+        "en": "You want water. Choose a West Bengal-style answer."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "জল।",
+            "romanized": "jol.",
+            "en": "Water."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "ভাত।",
+            "romanized": "bhat.",
+            "en": "Rice."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "না।",
+            "romanized": "na.",
+            "en": "No."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L04_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s02_want_water_pani.mp3",
+      "question": {
+        "en": "What does the speaker want?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "tea"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "rice"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L04_ex04",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s02_want_water_jol.mp3",
+      "question": {
+        "en": "What does the speaker want?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "fish"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "hello"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L04_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the water word."
+      },
+      "options": [
+        {
+          "en": "পানি"
+        },
+        {
+          "en": "চা"
+        },
+        {
+          "en": "মাছ"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S02_L04_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the water word."
+      },
+      "options": [
+        {
+          "en": "জল"
+        },
+        {
+          "en": "ডাল"
+        },
+        {
+          "en": "ভাত"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S02_L04_ex07",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: water, please. (Bangladesh word)"
+      },
+      "words": [
+        "দিন",
+        "পানি"
+      ],
+      "correctOrder": [
+        "পানি",
+        "দিন"
+      ],
+      "wordsRomanized": [
+        "din",
+        "pani"
+      ]
+    },
+    {
+      "id": "CH06_S02_L04_ex08",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: water, please. (West Bengal word)"
+      },
+      "words": [
+        "দিন",
+        "জল"
+      ],
+      "correctOrder": [
+        "জল",
+        "দিন"
+      ],
+      "wordsRomanized": [
+        "din",
+        "jol"
+      ]
+    },
+    {
+      "id": "CH06_S02_L04_ex09",
+      "type": "reading",
+      "passage": {
+        "en": "পানি দিন"
+      },
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Please give water."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Please give tea."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Thank you."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L04_ex10",
+      "type": "reading",
+      "passage": {
+        "en": "জল দিন"
+      },
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Please give water."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Please give rice."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "No, thanks."
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

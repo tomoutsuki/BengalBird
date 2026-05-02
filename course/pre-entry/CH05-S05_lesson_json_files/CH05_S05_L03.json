@@ -1,0 +1,264 @@
+{
+  "lesson_id": "CH05_S05_L03",
+  "title": {
+    "en": "Family Profile: Hear It in Context"
+  },
+  "description": {
+    "en": "Notice short family cards in a tiny context."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH05_S05_L03_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s05_l03_riya_profile.mp3",
+      "question": {
+        "en": "Listen to the profile. What is true?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "রিয়া has a mother."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "রিয়া asks your name."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "রিয়া says thank you."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S05_L03_ex02",
+      "type": "reading",
+      "passage": {
+        "en": "নমস্কার। আমার নাম রিয়া। আমার মা আছে।"
+      },
+      "question": {
+        "en": "What is Riya saying?"
+      },
+      "options": [
+        {
+          "en": "Her name and family."
+        },
+        {
+          "en": "A food order."
+        },
+        {
+          "en": "A price question."
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L03_ex03",
+      "type": "conversation",
+      "scenario": {
+        "en": "A new friend shares a tiny family card."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "bengali": "আমার নাম রাহুল।",
+          "romanized": "amar nam Rahul",
+          "en": "My name is Rahul."
+        }
+      ],
+      "question": {
+        "en": "What response fits?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ভালো লাগলো।",
+            "romanized": "bhalo laglo",
+            "en": "Nice to meet you."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "না।",
+            "romanized": "na",
+            "en": "No."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "কত দাম?",
+            "romanized": "koto dam?",
+            "en": "How much?"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S05_L03_ex04",
+      "type": "grammar-select",
+      "question": {
+        "en": "In this card, what does আছে mean in the chunk?"
+      },
+      "options": [
+        {
+          "en": "have / has"
+        },
+        {
+          "en": "name"
+        },
+        {
+          "en": "thank you"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L03_ex05",
+      "type": "reading",
+      "passage": {
+        "en": "আমার নাম তানভীর।\nআমার বাবা আছে।"
+      },
+      "question": {
+        "en": "What family word appears?"
+      },
+      "options": [
+        {
+          "en": "বাবা"
+        },
+        {
+          "en": "বোন"
+        },
+        {
+          "en": "দাদা"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L03_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the safe meaning: আপনার নাম কী?"
+      },
+      "options": [
+        {
+          "en": "What is your name?"
+        },
+        {
+          "en": "My name is…"
+        },
+        {
+          "en": "I have a brother."
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L03_ex07",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the image that matches the card: আমার ভাই আছে"
+      },
+      "bengali": "ভাই",
+      "options": [
+        {
+          "image": "assets/illustrations/brother.png",
+          "label": {
+            "en": "brother"
+          }
+        },
+        {
+          "image": "assets/illustrations/sister.png",
+          "label": {
+            "en": "sister"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_profile_card.png",
+          "label": {
+            "en": "profile card"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L03_ex08",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: I have a mother."
+      },
+      "words": [
+        "মা",
+        "আছে",
+        "আমার"
+      ],
+      "correctOrder": [
+        "আমার",
+        "মা",
+        "আছে"
+      ],
+      "wordsRomanized": [
+        "ma",
+        "ache",
+        "amar"
+      ]
+    },
+    {
+      "id": "CH05_S05_L03_ex09",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s05_l03_amar_nam_maya.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার নাম মায়া — My name is Maya"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আমার মা আছে — I have a mother"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "তোমার নাম কী? — What is your name? friendly"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S05_L03_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which sentence belongs in a family profile?"
+      },
+      "options": [
+        {
+          "en": "আমার বোন আছে।"
+        },
+        {
+          "en": "চা দিন।"
+        },
+        {
+          "en": "কত দাম?"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

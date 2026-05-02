@@ -1,0 +1,321 @@
+{
+  "lesson_id": "CH06_S02_L07",
+  "title": {
+    "en": "Water: Review Mix"
+  },
+  "description": {
+    "en": "Recognize water words in Bengali: পানি and জল, with regional context."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH06_S02_L07_ex01",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Listen to a Bangladesh-style mini order."
+      },
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "মাফ করবেন।",
+          "romanized": "maf korben.",
+          "audio": "assets/audio/listening/ch06_s02_maf_korben.mp3"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "Ask for water."
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "পানি দিন।",
+                "romanized": "pani din.",
+                "en": "Please give water."
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "চা দিন।",
+                "romanized": "cha din.",
+                "en": "Please give tea."
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L07_ex02",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Listen to a West Bengal-style mini order."
+      },
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "মাফ করবেন।",
+          "romanized": "maf korben.",
+          "audio": "assets/audio/listening/ch06_s02_maf_korben.mp3"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "Ask for water."
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "জল দিন।",
+                "romanized": "jol din.",
+                "en": "Please give water."
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "ভাত দিন।",
+                "romanized": "bhat din.",
+                "en": "Please give rice."
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L07_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s02_pani_word.mp3",
+      "question": {
+        "en": "Which word did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "পানি",
+            "romanized": "pani",
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "চা",
+            "romanized": "cha",
+            "en": "tea"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "en": "thank you"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L07_ex04",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s02_jol_word.mp3",
+      "question": {
+        "en": "Which word did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "জল",
+            "romanized": "jol",
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "চা",
+            "romanized": "cha",
+            "en": "tea"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "না",
+            "romanized": "na",
+            "en": "no"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L07_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which means water?"
+      },
+      "options": [
+        {
+          "en": "পানি"
+        },
+        {
+          "en": "চা"
+        },
+        {
+          "en": "মাছ"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S02_L07_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which means water?"
+      },
+      "options": [
+        {
+          "en": "জল"
+        },
+        {
+          "en": "ভাত"
+        },
+        {
+          "en": "ডাল"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S02_L07_ex07",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which word was review from the last section?"
+      },
+      "options": [
+        {
+          "en": "চা"
+        },
+        {
+          "en": "আপনি"
+        },
+        {
+          "en": "তারা"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S02_L07_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "চা / পানি / জল"
+      },
+      "question": {
+        "en": "Which two are water words?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "পানি and জল"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা and জল"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "চা and পানি"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L07_ex09",
+      "type": "conversation",
+      "scenario": {
+        "en": "Someone asks, “পানি?”"
+      },
+      "dialogue": [],
+      "question": {
+        "en": "Choose a natural yes/no answer."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "হ্যাঁ।",
+            "romanized": "hyã.",
+            "en": "Yes."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমার নাম।",
+            "romanized": "amar nam.",
+            "en": "My name."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "বোন।",
+            "romanized": "bon.",
+            "en": "Sister."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L07_ex10",
+      "type": "conversation",
+      "scenario": {
+        "en": "Someone asks, “জল?”"
+      },
+      "dialogue": [],
+      "question": {
+        "en": "Choose a natural yes/no answer."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "হ্যাঁ।",
+            "romanized": "hyã.",
+            "en": "Yes."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "বড় ভাই।",
+            "romanized": "boro bhai.",
+            "en": "Older brother."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তারা।",
+            "romanized": "tara.",
+            "en": "They."
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

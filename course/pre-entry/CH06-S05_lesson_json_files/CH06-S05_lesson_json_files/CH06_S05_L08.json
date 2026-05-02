@@ -1,0 +1,307 @@
+{
+  "lesson_id": "CH06_S05_L08",
+  "title": {
+    "en": "Café Mini-Scene: Audio Sprint"
+  },
+  "description": {
+    "en": "Understand চা দিন—ঠিক আছে in audio variation."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH06_S05_L08_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s05_cha_din_fast.mp3",
+      "question": {
+        "en": "Fast audio: choose the phrase."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "চা দিন",
+            "romanized": "cha din",
+            "en": "Tea, please."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "ঠিক আছে",
+            "romanized": "thik ache",
+            "en": "Okay."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "en": "Thank you."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L08_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s05_thik_ache_fast.mp3",
+      "question": {
+        "en": "Fast audio: choose the phrase."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ঠিক আছে",
+            "romanized": "thik ache",
+            "en": "Okay."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "চা দিন",
+            "romanized": "cha din",
+            "en": "Tea, please."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "না",
+            "romanized": "na",
+            "en": "No."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L08_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s05_pani_din_fast.mp3",
+      "question": {
+        "en": "Fast audio: choose the phrase."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "পানি দিন",
+            "romanized": "pani din",
+            "en": "Water, please."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "ভাত",
+            "romanized": "bhat",
+            "en": "rice"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ডাল",
+            "romanized": "dal",
+            "en": "lentils"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L08_ex04",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s05_maf_korben_fast.mp3",
+      "question": {
+        "en": "Fast audio: choose the phrase."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "মাফ করবেন",
+            "romanized": "maf korben",
+            "en": "Excuse me."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "en": "Thank you."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ভালো আছি",
+            "romanized": "bhalo achhi",
+            "en": "I am fine."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L08_ex05",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s05_cafe_full_fast.mp3",
+      "question": {
+        "en": "What is the mini-scene?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Excuse me → tea, please → okay"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Hello → name → fine"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "No → sorry → they"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L08_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which phrase did NOT belong in the café scene?"
+      },
+      "options": [
+        {
+          "en": "আপনার নাম কী?"
+        },
+        {
+          "en": "চা দিন"
+        },
+        {
+          "en": "ঠিক আছে"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S05_L08_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "চা দিন।\nঠিক আছে।"
+      },
+      "question": {
+        "en": "Read quickly: what is the response?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ঠিক আছে"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L08_ex08",
+      "type": "conversation",
+      "scenario": {
+        "en": "Audio sprint response."
+      },
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": {
+            "bengali": "পানি দিন।"
+          }
+        }
+      ],
+      "question": {
+        "en": "Pick the quick response."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ঠিক আছে।",
+            "romanized": "thik ache",
+            "en": "Okay."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "না।",
+            "romanized": "na",
+            "en": "No."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আমার নাম।",
+            "romanized": "amar nam",
+            "en": "My name."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L08_ex09",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Quick build: “Okay.”"
+      },
+      "words": [
+        "আছে",
+        "ঠিক"
+      ],
+      "correctOrder": [
+        "ঠিক",
+        "আছে"
+      ],
+      "wordsRomanized": [
+        "ache",
+        "thik"
+      ]
+    },
+    {
+      "id": "CH06_S05_L08_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "In the scene “চা দিন—ঠিক আছে”, who likely says “চা দিন”?"
+      },
+      "options": [
+        {
+          "en": "customer"
+        },
+        {
+          "en": "server"
+        },
+        {
+          "en": "family member"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

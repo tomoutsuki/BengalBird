@@ -1,0 +1,264 @@
+{
+  "lesson_id": "CH05_S05_L07",
+  "title": {
+    "en": "Family Profile: Review Mix"
+  },
+  "description": {
+    "en": "Recycle family profile with earlier course language."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH05_S05_L07_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s05_l07_review_name.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার নাম রিয়া।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আমার মা আছে।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "নমস্কার।"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S05_L07_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s05_l07_review_family.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার ভাই আছে।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আপনার নাম কী?"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভালো আছি।"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S05_L07_ex03",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the meaning: ভালো লাগলো"
+      },
+      "options": [
+        {
+          "en": "Nice to meet you."
+        },
+        {
+          "en": "I have a sister."
+        },
+        {
+          "en": "What is your name?"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L07_ex04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the meaning: আমার নাম রাহুল"
+      },
+      "options": [
+        {
+          "en": "My name is Rahul."
+        },
+        {
+          "en": "Rahul has a brother."
+        },
+        {
+          "en": "Your name is Rahul?"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L07_ex05",
+      "type": "reading",
+      "passage": {
+        "en": "নমস্কার।\nআমার নাম মায়া।\nআমার বোন আছে।"
+      },
+      "question": {
+        "en": "Which profile is correct?"
+      },
+      "options": [
+        {
+          "en": "Maya has a sister."
+        },
+        {
+          "en": "Maya has a father."
+        },
+        {
+          "en": "Maya wants tea."
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L07_ex06",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the matching image."
+      },
+      "bengali": "বাবা",
+      "options": [
+        {
+          "image": "assets/illustrations/father.png",
+          "label": {
+            "en": "father"
+          }
+        },
+        {
+          "image": "assets/illustrations/sister.png",
+          "label": {
+            "en": "sister"
+          }
+        },
+        {
+          "image": "assets/illustrations/brother.png",
+          "label": {
+            "en": "brother"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L07_ex07",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: What is your name? (formal)"
+      },
+      "words": [
+        "কী?",
+        "নাম",
+        "আপনার"
+      ],
+      "correctOrder": [
+        "আপনার",
+        "নাম",
+        "কী?"
+      ],
+      "wordsRomanized": [
+        "ki?",
+        "nam",
+        "apnar"
+      ]
+    },
+    {
+      "id": "CH05_S05_L07_ex08",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: I have a father."
+      },
+      "words": [
+        "আমার",
+        "বাবা",
+        "আছে"
+      ],
+      "correctOrder": [
+        "আমার",
+        "বাবা",
+        "আছে"
+      ],
+      "wordsRomanized": [
+        "amar",
+        "baba",
+        "ache"
+      ]
+    },
+    {
+      "id": "CH05_S05_L07_ex09",
+      "type": "conversation",
+      "scenario": {
+        "en": "Review exchange."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "bengali": "আপনার নাম কী?",
+          "romanized": "apnar nam ki?",
+          "en": "What is your name?"
+        }
+      ],
+      "question": {
+        "en": "Best answer?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার নাম রাহুল।",
+            "romanized": "amar nam Rahul",
+            "en": "My name is Rahul."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমার ভাই আছে।",
+            "romanized": "amar bhai ache",
+            "en": "I have a brother."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "হ্যাঁ।",
+            "romanized": "hya",
+            "en": "Yes."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S05_L07_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which line is about family, not name?"
+      },
+      "options": [
+        {
+          "en": "আমার মা আছে।"
+        },
+        {
+          "en": "আমার নাম রিয়া।"
+        },
+        {
+          "en": "আপনার নাম কী?"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

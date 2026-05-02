@@ -1,0 +1,255 @@
+{
+  "lesson_id": "CH04_S05_L05",
+  "title": {
+    "en": "Pronoun Review: Build the Chunk"
+  },
+  "description": {
+    "en": "Build the key chunk for pronoun review."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH04_S05_L05_ex01",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: “My name …”"
+      },
+      "words": [
+        "নাম",
+        "আমার"
+      ],
+      "correctOrder": [
+        "আমার",
+        "নাম"
+      ]
+    },
+    {
+      "id": "CH04_S05_L05_ex02",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: “Your name?” — polite"
+      },
+      "words": [
+        "নাম",
+        "কী?",
+        "আপনার"
+      ],
+      "correctOrder": [
+        "আপনার",
+        "নাম",
+        "কী?"
+      ]
+    },
+    {
+      "id": "CH04_S05_L05_ex03",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: “Your name?” — friendly"
+      },
+      "words": [
+        "কী?",
+        "তোমার",
+        "নাম"
+      ],
+      "correctOrder": [
+        "তোমার",
+        "নাম",
+        "কী?"
+      ]
+    },
+    {
+      "id": "CH04_S05_L05_ex04",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: “We are fine.”"
+      },
+      "words": [
+        "ভালো",
+        "আমরা",
+        "আছি"
+      ],
+      "correctOrder": [
+        "আমরা",
+        "ভালো",
+        "আছি"
+      ]
+    },
+    {
+      "id": "CH04_S05_L05_ex05",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: “They are fine.”"
+      },
+      "words": [
+        "তারা",
+        "আছে",
+        "ভালো"
+      ],
+      "correctOrder": [
+        "তারা",
+        "ভালো",
+        "আছে"
+      ]
+    },
+    {
+      "id": "CH04_S05_L05_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which chunk is polite?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনার নাম কী?",
+            "romanized": "apnar nam ki",
+            "en": "What is your name? — polite"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তোমার নাম কী?",
+            "en": "What is your name? — friendly"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তুই আছিস?",
+            "en": "Are you? — risky/intimate"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L05_ex07",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which chunk uses “we”?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমরা ভালো আছি।",
+            "romanized": "amra bhalo achhi",
+            "en": "We are fine."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তারা ভালো আছে।",
+            "en": "They are fine."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আমি ভালো আছি।",
+            "en": "I am fine."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L05_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "সে।"
+      },
+      "question": {
+        "en": "Tap the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "he / she"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "we"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "you — polite"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L05_ex09",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s05/apnar.mp3",
+      "question": {
+        "en": "Which possessive did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your — polite"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your — friendly"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আমার",
+            "romanized": "amar",
+            "en": "my"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L05_ex10",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s05/tomar.mp3",
+      "question": {
+        "en": "Which possessive did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your — friendly"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your — polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তারা",
+            "romanized": "tara",
+            "en": "they"
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

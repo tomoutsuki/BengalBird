@@ -1,0 +1,293 @@
+{
+  "lesson_id": "CH02_S04_L06",
+  "title": {
+    "en": "Hello Exchange: Mini Exchange"
+  },
+  "description": {
+    "en": "Complete a short exchange with নমস্কার—কেমন আছেন?."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "ch02_s04_l06_ex01",
+      "type": "conversation",
+      "scenario": {
+        "en": "A polite first meeting."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "নমস্কার।",
+            "romanized": "nomoshkar"
+          }
+        },
+        {
+          "speaker": "B",
+          "text": {
+            "bengali": "নমস্কার।",
+            "romanized": "nomoshkar"
+          }
+        }
+      ],
+      "question": {
+        "en": "What should A ask next?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "কেমন আছেন?",
+            "romanized": "kemon achen?",
+            "en": "How are you?"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "en": "Thank you"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "না",
+            "romanized": "na",
+            "en": "No"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch02_s04_l06_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch02_s04_kemon_achen.mp3",
+      "question": {
+        "en": "Choose the best reply."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ভালো আছি"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "কেমন আছেন?"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "নমস্কার"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch02_s04_l06_ex03",
+      "type": "grammar-select",
+      "question": {
+        "en": "Pick the polite check-in."
+      },
+      "options": [
+        {
+          "en": "কেমন আছেন?"
+        },
+        {
+          "en": "কেমন আছো?"
+        },
+        {
+          "en": "তুমি কেমন?"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ch02_s04_l06_ex04",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the polite hello exchange."
+      },
+      "words": [
+        "কেমন আছেন?",
+        "নমস্কার।"
+      ],
+      "correctOrder": [
+        "নমস্কার।",
+        "কেমন আছেন?"
+      ]
+    },
+    {
+      "id": "ch02_s04_l06_ex05",
+      "type": "reading",
+      "passage": {
+        "en": "A: নমস্কার। কেমন আছেন?\nB: ভালো আছি।"
+      },
+      "question": {
+        "en": "How is B feeling?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Fine"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "So-so"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Not bad"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch02_s04_l06_ex06",
+      "type": "conversation",
+      "scenario": {
+        "en": "Someone asks politely: কেমন আছেন?"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "কেমন আছেন?",
+            "romanized": "kemon achen?"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose a safe short answer."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ভালো আছি",
+            "romanized": "bhalo achi",
+            "en": "I’m fine"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "নমস্কার",
+            "romanized": "nomoshkar",
+            "en": "Hello"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "মাফ করবেন",
+            "romanized": "maf korben",
+            "en": "Excuse me"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch02_s04_l06_ex07",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which one starts a tiny polite exchange?"
+      },
+      "options": [
+        {
+          "en": "নমস্কার।"
+        },
+        {
+          "en": "খারাপ না।"
+        },
+        {
+          "en": "না।"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ch02_s04_l06_ex08",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch02_s04_bhalo_achi.mp3",
+      "question": {
+        "en": "What did the person answer?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I’m fine"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "How are you?"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Thank you"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch02_s04_l06_ex09",
+      "type": "reading",
+      "passage": {
+        "en": "নমস্কার → কেমন আছেন? → ভালো আছি"
+      },
+      "question": {
+        "en": "What order is shown?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Hello → How are you? → I’m fine"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Thanks → Okay → Bye"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "No → Sorry → Yes"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch02_s04_l06_ex10",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Put the reply in order."
+      },
+      "words": [
+        "আছি",
+        "ভালো"
+      ],
+      "correctOrder": [
+        "ভালো",
+        "আছি"
+      ]
+    }
+  ]
+}

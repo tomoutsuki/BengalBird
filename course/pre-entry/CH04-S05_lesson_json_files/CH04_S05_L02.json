@@ -1,0 +1,313 @@
+{
+  "lesson_id": "CH04_S05_L02",
+  "title": {
+    "en": "Pronoun Review: Tap the Meaning"
+  },
+  "description": {
+    "en": "Match All CH04 to meaning without production."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH04_S05_L02_ex01",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the meaning of “আমি”."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I / me"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "my"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "they"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L02_ex02",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the meaning of “আপনি”."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "you — polite"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "my"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "they"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L02_ex03",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the meaning of “তুমি”."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "you — friendly"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "my"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "they"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L02_ex04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the meaning of “সে”."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "he / she"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "my"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "they"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L02_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the meaning of “আমরা”."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "we"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "my"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "they"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L02_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the meaning of “তারা”."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "they"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "my"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "they"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L02_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "আপনার নাম কী?"
+      },
+      "question": {
+        "en": "Which word means “your” politely?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your — polite"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your — friendly"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তুই",
+            "romanized": "tui",
+            "en": "you — very intimate/risky"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L02_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "তোমার নাম কী?"
+      },
+      "question": {
+        "en": "Who is this best for?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "A friend or peer"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "A stranger"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "A formal elder"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "তোমার is friendly/casual."
+      }
+    },
+    {
+      "id": "CH04_S05_L02_ex09",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the picture for তারা."
+      },
+      "options": [
+        {
+          "image": "assets/illustrations/people_group_us.png",
+          "label": {
+            "bengali": "আমরা",
+            "romanized": "amra",
+            "en": "we"
+          }
+        },
+        {
+          "image": "assets/illustrations/people_group_them.png",
+          "label": {
+            "bengali": "তারা",
+            "romanized": "tara",
+            "en": "they"
+          }
+        },
+        {
+          "image": "assets/illustrations/person_one.png",
+          "label": {
+            "bengali": "আমি",
+            "romanized": "ami",
+            "en": "I / me"
+          }
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH04_S05_L02_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which word should stay recognition-only in this lesson?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তুই",
+            "romanized": "tui",
+            "en": "you — very intimate/risky"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনি",
+            "romanized": "apni",
+            "en": "you — polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আমি",
+            "romanized": "ami",
+            "en": "I / me"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "তুই can sound intimate or rude outside very close contexts."
+      }
+    }
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "lesson_id": "CH03_S05_L07",
+  "title": {
+    "en": "Name Review Sprint: Review Mix"
+  },
+  "description": {
+    "en": "Review CH01–CH03 language in mixed app tasks."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "ch03_s05_l07_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch03_s02_apnar_nam_ki.mp3",
+      "question": {
+        "en": "Listen. What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনার নাম কী?",
+            "romanized": "apnar nam ki?",
+            "en": "What is your name? formal"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তোমার নাম কী?",
+            "romanized": "tomar nam ki?",
+            "en": "What is your name? friendly"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ভালো আছি",
+            "romanized": "bhalo achhi",
+            "en": "I’m fine"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "en": "thank you"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch03_s05_l07_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch03_s01_amar_nam.mp3",
+      "question": {
+        "en": "Listen. Pick the matching phrase."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার নাম…",
+            "romanized": "amar nam…",
+            "en": "my name is…"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনার নাম কী?",
+            "romanized": "apnar nam ki?",
+            "en": "What is your name? formal"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ভালো আছি",
+            "romanized": "bhalo achhi",
+            "en": "I’m fine"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ভালো লাগলো",
+            "romanized": "bhalo laglo",
+            "en": "nice to meet you"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch03_s05_l07_ex03",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which phrase means “My name is…”?"
+      },
+      "options": [
+        {
+          "en": "my name is…",
+          "bengali": "আমার নাম…",
+          "romanized": "amar nam…"
+        },
+        {
+          "en": "What is your name? formal",
+          "bengali": "আপনার নাম কী?",
+          "romanized": "apnar nam ki?"
+        },
+        {
+          "en": "I’m fine",
+          "bengali": "ভালো আছি",
+          "romanized": "bhalo achhi"
+        },
+        {
+          "en": "nice to meet you",
+          "bengali": "ভালো লাগলো",
+          "romanized": "bhalo laglo"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Look for আমার নাম."
+      }
+    },
+    {
+      "id": "ch03_s05_l07_ex04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which question is safer with an adult or stranger?"
+      },
+      "options": [
+        {
+          "en": "What is your name? formal",
+          "bengali": "আপনার নাম কী?",
+          "romanized": "apnar nam ki?"
+        },
+        {
+          "en": "What is your name? formal",
+          "bengali": "আপনার নাম কী?",
+          "romanized": "apnar nam ki?"
+        },
+        {
+          "en": "How are you? formal",
+          "bengali": "কেমন আছেন?",
+          "romanized": "kemon achhen?"
+        },
+        {
+          "en": "not bad",
+          "bengali": "খারাপ না",
+          "romanized": "kharap na"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "আপনার is the polite/formal form."
+      }
+    },
+    {
+      "id": "ch03_s05_l07_ex05",
+      "type": "reading",
+      "passage": {
+        "en": "রিয়া: নমস্কার।\nআরিফ: নমস্কার।"
+      },
+      "question": {
+        "en": "What is happening?"
+      },
+      "options": [
+        {
+          "en": "hello / polite greeting",
+          "bengali": "নমস্কার",
+          "romanized": "nomoshkar",
+          "correct": true
+        },
+        {
+          "en": "thank you",
+          "bengali": "ধন্যবাদ",
+          "romanized": "dhonnobad",
+          "correct": false
+        },
+        {
+          "en": "so-so",
+          "bengali": "মোটামুটি",
+          "romanized": "motamuti",
+          "correct": false
+        },
+        {
+          "en": "not bad",
+          "bengali": "খারাপ না",
+          "romanized": "kharap na",
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "This is a greeting exchange."
+      }
+    },
+    {
+      "id": "ch03_s05_l07_ex06",
+      "type": "conversation",
+      "scenario": {
+        "en": "You meet someone politely."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "bengali": "নমস্কার।",
+          "romanized": "nomoshkar"
+        },
+        {
+          "speaker": "B",
+          "bengali": "নমস্কার।",
+          "romanized": "nomoshkar"
+        },
+        {
+          "speaker": "A",
+          "bengali": "আপনার নাম কী?",
+          "romanized": "apnar nam ki?"
+        }
+      ],
+      "question": {
+        "en": "Choose a good answer."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার নাম রিয়া।",
+            "romanized": "amar nam Riya.",
+            "en": "My name is Riya."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "en": "thank you"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "খারাপ না",
+            "romanized": "kharap na",
+            "en": "not bad"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "কেমন আছেন?",
+            "romanized": "kemon achhen?",
+            "en": "How are you? formal"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch03_s05_l07_ex07",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: আমার নাম রিয়া।"
+      },
+      "words": [
+        "রিয়া।",
+        "নাম",
+        "আমার"
+      ],
+      "correctOrder": [
+        "আমার",
+        "নাম",
+        "রিয়া।"
+      ],
+      "wordsRomanized": [
+        "Riya.",
+        "nam",
+        "amar"
+      ]
+    },
+    {
+      "id": "ch03_s05_l07_ex08",
+      "type": "conversation_listening",
+      "audio": "assets/audio/listening/ch03_s05_name_review_scene.mp3",
+      "scenario": {
+        "en": "Listen to a tiny name exchange."
+      },
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "নমস্কার।",
+          "romanized": "nomoshkar"
+        },
+        {
+          "type": "line",
+          "speaker": "B",
+          "bengali": "নমস্কার।",
+          "romanized": "nomoshkar"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "How does A ask politely for a name?"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "আপনার নাম কী?",
+                "romanized": "apnar nam ki?",
+                "en": "What is your name? formal"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "তোমার নাম কী?",
+                "romanized": "tomar nam ki?",
+                "en": "What is your name? friendly"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "bengali": "ধন্যবাদ",
+                "romanized": "dhonnobad",
+                "en": "thank you"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch03_s05_l07_ex09",
+      "type": "figure_choice",
+      "question": {
+        "en": "Which picture fits a name intro?"
+      },
+      "bengali": "আমার নাম…",
+      "options": [
+        {
+          "image": "assets/illustrations/name_intro_card.png",
+          "label": {
+            "en": "Name intro"
+          }
+        },
+        {
+          "image": "assets/illustrations/thank_you_hands.png",
+          "label": {
+            "en": "Thank you"
+          }
+        },
+        {
+          "image": "assets/illustrations/greeting_wave.png",
+          "label": {
+            "en": "Greeting"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ch03_s05_l07_ex10",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch03_s04_bhalo_laglo.mp3",
+      "question": {
+        "en": "Listen. What phrase closes a first meeting?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ভালো লাগলো",
+            "romanized": "bhalo laglo",
+            "en": "nice to meet you"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "en": "thank you"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "খারাপ না",
+            "romanized": "kharap na",
+            "en": "not bad"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "কেমন আছেন?",
+            "romanized": "kemon achhen?",
+            "en": "How are you? formal"
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

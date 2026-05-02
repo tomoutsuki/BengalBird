@@ -1,0 +1,324 @@
+{
+  "lesson_id": "CH05_S04_L10",
+  "title": {
+    "en": "Bangladesh & West Bengal Terms: Check"
+  },
+  "description": {
+    "en": "Pass a short mixed check for bangladesh & west bengal terms."
+  },
+  "est_time_mins": 5,
+  "exercises": [
+    {
+      "id": "CH05_S04_L10_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s04_l10_abba.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আব্বা — father/dad in some families"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আম্মা — mother/mom"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "দাদা — older brother in some contexts"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "বাবা — father"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "আব্বা is a family/context word, often heard in Bangladesh and Muslim Bengali families."
+      }
+    },
+    {
+      "id": "CH05_S04_L10_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s04_l10_amma.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আম্মা — mother/mom in some families"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আব্বা — father/dad"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "দিদি — older sister"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মা — mother"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "আম্মা is a family/context word, often heard in Bangladesh and Muslim Bengali families."
+      }
+    },
+    {
+      "id": "CH05_S04_L10_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s04_l10_dada.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "দাদা — older brother in some contexts"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "দিদি — older sister"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আব্বা — father/dad"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "বাবা — father"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "দাদা can vary by family and region; here it is practiced as older brother."
+      }
+    },
+    {
+      "id": "CH05_S04_L10_ex04",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s04_l10_didi.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "দিদি — older sister"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "দাদা — older brother"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আম্মা — mother/mom"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মা — mother"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "দিদি is a common respectful/family word for older sister."
+      }
+    },
+    {
+      "id": "CH05_S04_L10_ex05",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Listen to a family photo line."
+      },
+      "audio": "assets/audio/listening/ch05_s04_l10_check_abba.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "এটা আমার পরিবার।"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "Choose the matching family word."
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "এটা আমার আব্বা।"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "এটা আমার দিদি।"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "bengali": "এটা আমার দাদা।"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CH05_S04_L10_ex06",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Listen to another family photo line."
+      },
+      "audio": "assets/audio/listening/ch05_s04_l10_check_didi.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "এটা আমার পরিবার।"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "Choose the matching family word."
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "এটা আমার দিদি।"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "এটা আমার আম্মা।"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "bengali": "এটা আমার আব্বা।"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CH05_S04_L10_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "আমার আম্মা।"
+      },
+      "question": {
+        "en": "Who is this?"
+      },
+      "options": [
+        {
+          "en": "my mom/mother"
+        },
+        {
+          "en": "my dad/father"
+        },
+        {
+          "en": "my older brother"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S04_L10_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "আমার দাদা।"
+      },
+      "question": {
+        "en": "Who is this in the lesson context?"
+      },
+      "options": [
+        {
+          "en": "my older brother"
+        },
+        {
+          "en": "my older sister"
+        },
+        {
+          "en": "my mother"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S04_L10_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which answer marks these as context-sensitive?"
+      },
+      "options": [
+        {
+          "en": "Different families/regions use different words."
+        },
+        {
+          "en": "They are always the only correct words."
+        },
+        {
+          "en": "They are numbers."
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S04_L10_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the Bengali for “older sister.”"
+      },
+      "options": [
+        {
+          "en": "দিদি"
+        },
+        {
+          "en": "দাদা"
+        },
+        {
+          "en": "আব্বা"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

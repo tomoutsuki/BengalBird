@@ -1,0 +1,367 @@
+{
+  "lesson_id": "CH06_S04_L06",
+  "title": {
+    "en": "Give Tea, Please: Mini Exchange"
+  },
+  "description": {
+    "en": "Complete short polite exchanges with চা দিন and পানি দিন."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH06_S04_L06_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s04_l06_cha_din.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "পানি দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মাফ করবেন"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "চা দিন is a polite request for tea."
+      }
+    },
+    {
+      "id": "CH06_S04_L06_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s04_l06_pani_din.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "পানি দিন"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "পানি দিন is a polite request for water."
+      }
+    },
+    {
+      "id": "CH06_S04_L06_ex03",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which phrase asks for tea politely?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "পানি দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "না"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Treat দিন as a safe polite request chunk."
+      }
+    },
+    {
+      "id": "CH06_S04_L06_ex04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which phrase asks for water politely?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "পানি দিন"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "পানি"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "পানি দিন means “Please give water.”"
+      }
+    },
+    {
+      "id": "CH06_S04_L06_ex05",
+      "type": "conversation",
+      "scenario": {
+        "en": "At a café."
+      },
+      "dialogue": [
+        {
+          "speaker": "Server",
+          "text": {
+            "en": "জি?"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose a polite tea request."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "না"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "তুমি কেমন?"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Use চা দিন with staff."
+      }
+    },
+    {
+      "id": "CH06_S04_L06_ex06",
+      "type": "conversation",
+      "scenario": {
+        "en": "At a café."
+      },
+      "dialogue": [
+        {
+          "speaker": "Server",
+          "text": {
+            "en": "জি?"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose a polite water request."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "পানি দিন"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আমার নাম…"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Use পানি দিন with staff."
+      }
+    },
+    {
+      "id": "CH06_S04_L06_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "মাফ করবেন। চা দিন।"
+      },
+      "question": {
+        "en": "What is happening?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Someone politely asks for tea."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Someone says no."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Someone asks a name."
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "মাফ করবেন can open a polite request."
+      }
+    },
+    {
+      "id": "CH06_S04_L06_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "মাফ করবেন। পানি দিন।"
+      },
+      "question": {
+        "en": "What is happening?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Someone politely asks for water."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Someone says thank you."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Someone says hello."
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "The request is পানি দিন."
+      }
+    },
+    {
+      "id": "CH06_S04_L06_ex09",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: Please give tea."
+      },
+      "words": [
+        "দিন",
+        "চা"
+      ],
+      "wordsRomanized": [
+        "din",
+        "cha"
+      ],
+      "correctOrder": [
+        "চা",
+        "দিন"
+      ],
+      "hint": {
+        "en": "The drink comes before দিন."
+      }
+    },
+    {
+      "id": "CH06_S04_L06_ex10",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Listen to a café mini-scene."
+      },
+      "audio": "assets/audio/listening/CH06_S04_L06_ex10.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "Customer",
+          "bengali": "মাফ করবেন।",
+          "romanized": "maf korben"
+        },
+        {
+          "type": "line",
+          "speaker": "Server",
+          "bengali": "জি?",
+          "romanized": "ji?"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "Ask for water politely."
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "পানি দিন",
+                "romanized": "pani din"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "চা",
+                "romanized": "cha"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "bengali": "না",
+                "romanized": "না"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

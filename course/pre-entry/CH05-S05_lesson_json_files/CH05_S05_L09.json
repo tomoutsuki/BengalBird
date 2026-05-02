@@ -1,0 +1,232 @@
+{
+  "lesson_id": "CH05_S05_L09",
+  "title": {
+    "en": "Family Profile: Read the Shape"
+  },
+  "description": {
+    "en": "Recognize the Bengali written shape for family profile cards."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH05_S05_L09_ex01",
+      "type": "reading",
+      "passage": {
+        "en": "আমার নাম রিয়া।"
+      },
+      "question": {
+        "en": "Which word means “name”?"
+      },
+      "options": [
+        {
+          "en": "নাম"
+        },
+        {
+          "en": "আমার"
+        },
+        {
+          "en": "রিয়া"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Look at whole word shapes."
+      }
+    },
+    {
+      "id": "CH05_S05_L09_ex02",
+      "type": "reading",
+      "passage": {
+        "en": "আমার মা আছে।"
+      },
+      "question": {
+        "en": "Which word means “mother”?"
+      },
+      "options": [
+        {
+          "en": "মা"
+        },
+        {
+          "en": "আছে"
+        },
+        {
+          "en": "আমার"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L09_ex03",
+      "type": "reading",
+      "passage": {
+        "en": "আমার বাবা আছে।"
+      },
+      "question": {
+        "en": "Which word means “father”?"
+      },
+      "options": [
+        {
+          "en": "বাবা"
+        },
+        {
+          "en": "মা"
+        },
+        {
+          "en": "ভাই"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L09_ex04",
+      "type": "reading",
+      "passage": {
+        "en": "আমার ভাই আছে।"
+      },
+      "question": {
+        "en": "Which word means “brother”?"
+      },
+      "options": [
+        {
+          "en": "ভাই"
+        },
+        {
+          "en": "বোন"
+        },
+        {
+          "en": "নাম"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L09_ex05",
+      "type": "reading",
+      "passage": {
+        "en": "আমার বোন আছে।"
+      },
+      "question": {
+        "en": "Which word means “sister”?"
+      },
+      "options": [
+        {
+          "en": "বোন"
+        },
+        {
+          "en": "ভাই"
+        },
+        {
+          "en": "বাবা"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L09_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which Bengali shape is “my”?"
+      },
+      "options": [
+        {
+          "en": "আমার"
+        },
+        {
+          "en": "আপনার"
+        },
+        {
+          "en": "তোমার"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L09_ex07",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which phrase means “my name”?"
+      },
+      "options": [
+        {
+          "en": "আমার নাম"
+        },
+        {
+          "en": "আমার মা"
+        },
+        {
+          "en": "আমার ভাই"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L09_ex08",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: My name is Tanvir."
+      },
+      "words": [
+        "তানভীর",
+        "নাম",
+        "আমার"
+      ],
+      "correctOrder": [
+        "আমার",
+        "নাম",
+        "তানভীর"
+      ],
+      "wordsRomanized": [
+        "Tanvir",
+        "nam",
+        "amar"
+      ]
+    },
+    {
+      "id": "CH05_S05_L09_ex09",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s05_l09_read_shape_bon.mp3",
+      "question": {
+        "en": "Tap the written shape you heard."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "বোন"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভাই"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "বাবা"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S05_L09_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which full card says “I have a mother”?"
+      },
+      "options": [
+        {
+          "en": "আমার মা আছে।"
+        },
+        {
+          "en": "আমার নাম মা।"
+        },
+        {
+          "en": "মা আমার নাম।"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

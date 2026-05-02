@@ -1,0 +1,354 @@
+{
+  "lesson_id": "CH04_S05_L01",
+  "title": {
+    "en": "Pronoun Review: First Listen"
+  },
+  "description": {
+    "en": "Recognize All CH04 by sound."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH04_S05_L01_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s05/ami.mp3",
+      "question": {
+        "en": "Which word means “I”?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমি",
+            "romanized": "ami",
+            "en": "I / me"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমরা",
+            "romanized": "amra",
+            "en": "we"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তারা",
+            "romanized": "tara",
+            "en": "they"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L01_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s05/amra.mp3",
+      "question": {
+        "en": "Which word means “we”?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমরা",
+            "romanized": "amra",
+            "en": "we"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমি",
+            "romanized": "ami",
+            "en": "I / me"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "সে",
+            "romanized": "she",
+            "en": "he / she"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L01_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s05/tara.mp3",
+      "question": {
+        "en": "Which word means “they”?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তারা",
+            "romanized": "tara",
+            "en": "they"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তুমি",
+            "romanized": "tumi",
+            "en": "you — friendly"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আমার",
+            "romanized": "amar",
+            "en": "my"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L01_ex04",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s05/apni.mp3",
+      "question": {
+        "en": "Which word is the polite “you”?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনি",
+            "romanized": "apni",
+            "en": "you — polite"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তুমি",
+            "romanized": "tumi",
+            "en": "you — friendly"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তুই",
+            "romanized": "tui",
+            "en": "you — very intimate/risky"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L01_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Tap the friendly “you”."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তুমি",
+            "romanized": "tumi",
+            "en": "you — friendly"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনি",
+            "romanized": "apni",
+            "en": "you — polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "সে",
+            "romanized": "she",
+            "en": "he / she"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Use তুমি with friends/peers, not strangers."
+      }
+    },
+    {
+      "id": "CH04_S05_L01_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Tap “he / she”."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "সে",
+            "romanized": "she",
+            "en": "he / she"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তারা",
+            "romanized": "tara",
+            "en": "they"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আমরা",
+            "romanized": "amra",
+            "en": "we"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L01_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "আমি"
+      },
+      "question": {
+        "en": "What does this word mean?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "I / me",
+            "romanized": "ami",
+            "en": "I / me"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "we",
+            "en": "we"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "they",
+            "en": "they"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L01_ex08",
+      "type": "figure_choice",
+      "question": {
+        "en": "Which image matches আমরা?"
+      },
+      "options": [
+        {
+          "image": "assets/illustrations/person_one.png",
+          "label": {
+            "bengali": "আমি",
+            "romanized": "ami",
+            "en": "I / me"
+          }
+        },
+        {
+          "image": "assets/illustrations/people_group_us.png",
+          "label": {
+            "bengali": "আমরা",
+            "romanized": "amra",
+            "en": "we"
+          }
+        },
+        {
+          "image": "assets/illustrations/people_group_them.png",
+          "label": {
+            "bengali": "তারা",
+            "romanized": "tara",
+            "en": "they"
+          }
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH04_S05_L01_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which Bengali word means “my”?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার",
+            "romanized": "amar",
+            "en": "my"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your — polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your — friendly"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L01_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which form is risky/intimate and mostly for recognition here?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তুই",
+            "romanized": "tui",
+            "en": "you — very intimate/risky"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনি",
+            "romanized": "apni",
+            "en": "you — polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আমরা",
+            "romanized": "amra",
+            "en": "we"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Recognize তুই, but do not use it with strangers."
+      }
+    }
+  ]
+}

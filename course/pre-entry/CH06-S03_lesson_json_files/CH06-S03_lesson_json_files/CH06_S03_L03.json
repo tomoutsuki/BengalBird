@@ -1,0 +1,336 @@
+{
+  "lesson_id": "CH06_S03_L03",
+  "title": {
+    "en": "I Want This: Hear It in Context"
+  },
+  "description": {
+    "en": "Notice এটা চাই in a tiny context."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH06_S03_L03_ex01",
+      "type": "reading",
+      "passage": {
+        "en": "A points at tea and says: এটা চাই।"
+      },
+      "question": {
+        "en": "What does A want?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "tea"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "No"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Hello"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Use the context plus the chunk এটা চাই."
+      }
+    },
+    {
+      "id": "CH06_S03_L03_ex02",
+      "type": "reading",
+      "passage": {
+        "en": "A points at rice and says: এটা চাই।"
+      },
+      "question": {
+        "en": "What does A want?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "rice"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "No"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Hello"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Use the context plus the chunk এটা চাই."
+      }
+    },
+    {
+      "id": "CH06_S03_L03_ex03",
+      "type": "reading",
+      "passage": {
+        "en": "A points at water and says: এটা চাই।"
+      },
+      "question": {
+        "en": "What does A say?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I want this."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "No"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Hello"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Use the context plus the chunk এটা চাই."
+      }
+    },
+    {
+      "id": "CH06_S03_L03_ex04",
+      "type": "reading",
+      "passage": {
+        "en": "At a café: এটা চাই।"
+      },
+      "question": {
+        "en": "Is this a request?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Yes"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "No"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Thank you"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Use the context plus the chunk এটা চাই."
+      }
+    },
+    {
+      "id": "CH06_S03_L03_ex05",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s03_l03_bhat_chai.mp3",
+      "question": {
+        "en": "What item is wanted?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ভাত চাই"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভালো লাগে"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen for ভাত plus চাই."
+      }
+    },
+    {
+      "id": "CH06_S03_L03_ex06",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s03_l03_dal_chai.mp3",
+      "question": {
+        "en": "What item is wanted?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ডাল চাই"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভালো লাগে"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen for ডাল plus চাই."
+      }
+    },
+    {
+      "id": "CH06_S03_L03_ex07",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s03_l03_machh_chai.mp3",
+      "question": {
+        "en": "What item is wanted?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "মাছ চাই"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভালো লাগে"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen for মাছ plus চাই."
+      }
+    },
+    {
+      "id": "CH06_S03_L03_ex08",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s03_l03_cha_chai.mp3",
+      "question": {
+        "en": "What item is wanted?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "চা চাই"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভালো লাগে"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen for চা plus চাই."
+      }
+    },
+    {
+      "id": "CH06_S03_L03_ex09",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Listen to a tiny café request."
+      },
+      "audio": "assets/audio/listening/ch06_s03_l03_scene_09.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "এটা চাই।",
+          "romanized": "eta chai"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "What did A say?"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "এটা চাই",
+                "en": "I want this."
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "ভালো লাগে",
+                "en": "I like it."
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CH06_S03_L03_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which word in এটা চাই means “this”?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "এটা"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চাই"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "চা"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "No decoding needed: recognize the chunk."
+      }
+    }
+  ]
+}

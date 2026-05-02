@@ -1,0 +1,347 @@
+{
+  "lesson_id": "CH06_S03_L04",
+  "title": {
+    "en": "I Want This: Choose the Reply"
+  },
+  "description": {
+    "en": "Choose a natural response using এটা চাই."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH06_S03_L04_ex01",
+      "type": "conversation",
+      "scenario": {
+        "en": "Food stall"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "en": "A points to tea: “What do you say?”"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose the natural reply."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "এটা চাই।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আপনার নাম কী?"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Use এটা চাই only when you want the pointed item."
+      }
+    },
+    {
+      "id": "CH06_S03_L04_ex02",
+      "type": "conversation",
+      "scenario": {
+        "en": "Food stall"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "en": "A points to rice: “What do you say?”"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose the natural reply."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "এটা চাই।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আপনার নাম কী?"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Use এটা চাই only when you want the pointed item."
+      }
+    },
+    {
+      "id": "CH06_S03_L04_ex03",
+      "type": "conversation",
+      "scenario": {
+        "en": "Food stall"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "en": "You want the item on the counter."
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose the natural reply."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "এটা চাই।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আপনার নাম কী?"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Use এটা চাই only when you want the pointed item."
+      }
+    },
+    {
+      "id": "CH06_S03_L04_ex04",
+      "type": "conversation",
+      "scenario": {
+        "en": "Food stall"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "en": "You do not want it."
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose the natural reply."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "না।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আপনার নাম কী?"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Use এটা চাই only when you want the pointed item."
+      }
+    },
+    {
+      "id": "CH06_S03_L04_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "You want rice. Which Bengali request works with pointing?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "এটা চাই।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভালো আছি।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "কেমন আছেন?"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "এটা চাই works when “this” is clear from pointing/context."
+      }
+    },
+    {
+      "id": "CH06_S03_L04_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "You want dal / lentils. Which Bengali request works with pointing?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "এটা চাই।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভালো আছি।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "কেমন আছেন?"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "এটা চাই works when “this” is clear from pointing/context."
+      }
+    },
+    {
+      "id": "CH06_S03_L04_ex07",
+      "type": "grammar-select",
+      "question": {
+        "en": "You want fish. Which Bengali request works with pointing?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "এটা চাই।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভালো আছি।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "কেমন আছেন?"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "এটা চাই works when “this” is clear from pointing/context."
+      }
+    },
+    {
+      "id": "CH06_S03_L04_ex08",
+      "type": "grammar-select",
+      "question": {
+        "en": "You want tea. Which Bengali request works with pointing?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "এটা চাই।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভালো আছি।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "কেমন আছেন?"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "এটা চাই works when “this” is clear from pointing/context."
+      }
+    },
+    {
+      "id": "CH06_S03_L04_ex09",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the Bengali phrase."
+      },
+      "words": [
+        "চাই",
+        "এটা"
+      ],
+      "correctOrder": [
+        "এটা",
+        "চাই"
+      ],
+      "hint": {
+        "en": "Build: এটা চাই."
+      }
+    },
+    {
+      "id": "CH06_S03_L04_ex10",
+      "type": "reading",
+      "passage": {
+        "en": "এটা চাই। ধন্যবাদ।"
+      },
+      "question": {
+        "en": "What comes first?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "The request: এটা চাই।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "The name question."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "The apology."
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "First request, then thanks."
+      }
+    }
+  ]
+}

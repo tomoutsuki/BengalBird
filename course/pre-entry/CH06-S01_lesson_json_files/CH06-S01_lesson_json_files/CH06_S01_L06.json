@@ -1,0 +1,371 @@
+{
+  "lesson_id": "CH06_S01_L06",
+  "title": {
+    "en": "Food Basics: Mini Exchange"
+  },
+  "description": {
+    "en": "Complete a short exchange with ভাত, ডাল, মাছ, চা."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH06_S01_L06_ex01",
+      "type": "conversation",
+      "scenario": {
+        "en": "Tiny food exchange"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "en": "চা?"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose a matching reply."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "হ্যাঁ, চা।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "না, ভাত।"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Repeat the same item: চা."
+      }
+    },
+    {
+      "id": "CH06_S01_L06_ex02",
+      "type": "conversation",
+      "scenario": {
+        "en": "Tiny food exchange"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "en": "ভাত?"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose a matching reply."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "হ্যাঁ, ভাত।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "না, চা।"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Repeat the same item: ভাত."
+      }
+    },
+    {
+      "id": "CH06_S01_L06_ex03",
+      "type": "conversation",
+      "scenario": {
+        "en": "Tiny food exchange"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "en": "ডাল?"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose a matching reply."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "হ্যাঁ, ডাল।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "না, চা।"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Repeat the same item: ডাল."
+      }
+    },
+    {
+      "id": "CH06_S01_L06_ex04",
+      "type": "conversation",
+      "scenario": {
+        "en": "Tiny food exchange"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "en": "মাছ?"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose a matching reply."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "হ্যাঁ, মাছ।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "না, চা।"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Repeat the same item: মাছ."
+      }
+    },
+    {
+      "id": "CH06_S01_L06_ex05",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s01_l06_bhat.mp3",
+      "question": {
+        "en": "Which word completes the exchange?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ভাত — rice"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ডাল — lentils / dal"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মাছ — fish"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ভাত (bhat) means rice."
+      }
+    },
+    {
+      "id": "CH06_S01_L06_ex06",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s01_l06_dal.mp3",
+      "question": {
+        "en": "Which word completes the exchange?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ডাল — lentils / dal"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভাত — rice"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মাছ — fish"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ডাল (dal) means lentils / dal."
+      }
+    },
+    {
+      "id": "CH06_S01_L06_ex07",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s01_l06_machh.mp3",
+      "question": {
+        "en": "Which word completes the exchange?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "মাছ — fish"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভাত — rice"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ডাল — lentils / dal"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "মাছ (machh) means fish."
+      }
+    },
+    {
+      "id": "CH06_S01_L06_ex08",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s01_l06_cha.mp3",
+      "question": {
+        "en": "Which word completes the exchange?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "চা — tea"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভাত — rice"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ডাল — lentils / dal"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "চা (cha) means tea."
+      }
+    },
+    {
+      "id": "CH06_S01_L06_ex09",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Complete the café-style exchange."
+      },
+      "audio": "assets/audio/listening/ch06_s01_l06_scene_09.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "চা?",
+          "romanized": "cha?"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "Choose the matching reply."
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "হ্যাঁ, চা।",
+                "en": "Yes, tea."
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "হ্যাঁ, মাছ।",
+                "en": "Yes, fish."
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CH06_S01_L06_ex10",
+      "type": "reading",
+      "passage": {
+        "en": "মাছ ভালো লাগে।"
+      },
+      "question": {
+        "en": "What food is mentioned?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "মাছ"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "চা"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভাত"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Look for মাছ."
+      }
+    }
+  ]
+}

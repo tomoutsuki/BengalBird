@@ -1,0 +1,292 @@
+{
+  "lesson_id": "CH05_S04_L09",
+  "title": {
+    "en": "Bangladesh & West Bengal Terms: Read the Shape"
+  },
+  "description": {
+    "en": "Recognize the Bengali written shape for this section."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH05_S04_L09_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s04_l09_abba.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আব্বা — father/dad in some families"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আম্মা — mother/mom"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "দাদা — older brother in some contexts"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "বাবা — father"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "আব্বা is a family/context word, often heard in Bangladesh and Muslim Bengali families."
+      }
+    },
+    {
+      "id": "CH05_S04_L09_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s04_l09_amma.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আম্মা — mother/mom in some families"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আব্বা — father/dad"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "দিদি — older sister"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মা — mother"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "আম্মা is a family/context word, often heard in Bangladesh and Muslim Bengali families."
+      }
+    },
+    {
+      "id": "CH05_S04_L09_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s04_l09_dada.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "দাদা — older brother in some contexts"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "দিদি — older sister"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আব্বা — father/dad"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "বাবা — father"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "দাদা can vary by family and region; here it is practiced as older brother."
+      }
+    },
+    {
+      "id": "CH05_S04_L09_ex04",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s04_l09_didi.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "দিদি — older sister"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "দাদা — older brother"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আম্মা — mother/mom"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মা — mother"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "দিদি is a common respectful/family word for older sister."
+      }
+    },
+    {
+      "id": "CH05_S04_L09_ex05",
+      "type": "reading",
+      "passage": {
+        "en": "আব্বা\nabba"
+      },
+      "question": {
+        "en": "Choose the learner meaning."
+      },
+      "options": [
+        {
+          "en": "dad/father in some families"
+        },
+        {
+          "en": "older sister"
+        },
+        {
+          "en": "rice"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S04_L09_ex06",
+      "type": "reading",
+      "passage": {
+        "en": "আম্মা\namma"
+      },
+      "question": {
+        "en": "Choose the learner meaning."
+      },
+      "options": [
+        {
+          "en": "mom/mother in some families"
+        },
+        {
+          "en": "older brother"
+        },
+        {
+          "en": "tea"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S04_L09_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "দাদা\ndada"
+      },
+      "question": {
+        "en": "Choose the learner meaning for this lesson."
+      },
+      "options": [
+        {
+          "en": "older brother"
+        },
+        {
+          "en": "mother"
+        },
+        {
+          "en": "water"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S04_L09_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "দিদি\ndidi"
+      },
+      "question": {
+        "en": "Choose the learner meaning."
+      },
+      "options": [
+        {
+          "en": "older sister"
+        },
+        {
+          "en": "father"
+        },
+        {
+          "en": "okay"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S04_L09_ex09",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the written shape: আব্বা"
+      },
+      "words": [
+        "ব্বা",
+        "আ"
+      ],
+      "correctOrder": [
+        "আ",
+        "ব্বা"
+      ],
+      "wordsRomanized": [
+        "bba",
+        "a"
+      ],
+      "hint": {
+        "en": "Treat this as a whole word shape for now."
+      }
+    },
+    {
+      "id": "CH05_S04_L09_ex10",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the written shape: আম্মা"
+      },
+      "words": [
+        "ম্মা",
+        "আ"
+      ],
+      "correctOrder": [
+        "আ",
+        "ম্মা"
+      ],
+      "wordsRomanized": [
+        "mma",
+        "a"
+      ],
+      "hint": {
+        "en": "Treat this as a whole word shape for now."
+      }
+    }
+  ]
+}

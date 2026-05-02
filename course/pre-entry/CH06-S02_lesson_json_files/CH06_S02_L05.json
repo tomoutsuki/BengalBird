@@ -1,0 +1,243 @@
+{
+  "lesson_id": "CH06_S02_L05",
+  "title": {
+    "en": "Water: Build the Chunk"
+  },
+  "description": {
+    "en": "Recognize water words in Bengali: পানি and জল, with regional context."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH06_S02_L05_ex01",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the chunk: পানি দিন"
+      },
+      "words": [
+        "দিন",
+        "পানি"
+      ],
+      "correctOrder": [
+        "পানি",
+        "দিন"
+      ],
+      "wordsRomanized": [
+        "din",
+        "pani"
+      ]
+    },
+    {
+      "id": "CH06_S02_L05_ex02",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the chunk: জল দিন"
+      },
+      "words": [
+        "দিন",
+        "জল"
+      ],
+      "correctOrder": [
+        "জল",
+        "দিন"
+      ],
+      "wordsRomanized": [
+        "din",
+        "jol"
+      ]
+    },
+    {
+      "id": "CH06_S02_L05_ex03",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the chunk: পানি চাই"
+      },
+      "words": [
+        "চাই",
+        "পানি"
+      ],
+      "correctOrder": [
+        "পানি",
+        "চাই"
+      ],
+      "wordsRomanized": [
+        "chai",
+        "pani"
+      ]
+    },
+    {
+      "id": "CH06_S02_L05_ex04",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the chunk: জল চাই"
+      },
+      "words": [
+        "চাই",
+        "জল"
+      ],
+      "correctOrder": [
+        "জল",
+        "চাই"
+      ],
+      "wordsRomanized": [
+        "chai",
+        "jol"
+      ]
+    },
+    {
+      "id": "CH06_S02_L05_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which chunk means “I want water”?"
+      },
+      "options": [
+        {
+          "en": "পানি চাই"
+        },
+        {
+          "en": "চা দিন"
+        },
+        {
+          "en": "ধন্যবাদ"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S02_L05_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which chunk means “Please give water”?"
+      },
+      "options": [
+        {
+          "en": "জল দিন"
+        },
+        {
+          "en": "ভাত চাই"
+        },
+        {
+          "en": "না"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S02_L05_ex07",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s02_pani_din.mp3",
+      "question": {
+        "en": "Tap what you hear."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "পানি দিন",
+            "romanized": "pani din",
+            "en": "Please give water."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "চা দিন",
+            "romanized": "cha din",
+            "en": "Please give tea."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ঠিক আছে",
+            "romanized": "thik ache",
+            "en": "Okay."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L05_ex08",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s02_jol_din.mp3",
+      "question": {
+        "en": "Tap what you hear."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "জল দিন",
+            "romanized": "jol din",
+            "en": "Please give water."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "ডাল দিন",
+            "romanized": "dal din",
+            "en": "Please give dal."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "en": "Thank you."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L05_ex09",
+      "type": "reading",
+      "passage": {
+        "en": "পানি / জল"
+      },
+      "question": {
+        "en": "Both words can mean:"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "tea"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "rice"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L05_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Pick the safe meaning of জল."
+      },
+      "options": [
+        {
+          "en": "water"
+        },
+        {
+          "en": "tea"
+        },
+        {
+          "en": "family"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

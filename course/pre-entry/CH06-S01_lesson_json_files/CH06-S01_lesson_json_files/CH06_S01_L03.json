@@ -1,0 +1,336 @@
+{
+  "lesson_id": "CH06_S01_L03",
+  "title": {
+    "en": "Food Basics: Hear It in Context"
+  },
+  "description": {
+    "en": "Notice ভাত, ডাল, মাছ, চা in a tiny context."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH06_S01_L03_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s01_l03_bhat.mp3",
+      "question": {
+        "en": "Which food/drink word did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ভাত — rice"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ডাল — lentils / dal"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মাছ — fish"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ভাত (bhat) means rice."
+      }
+    },
+    {
+      "id": "CH06_S01_L03_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s01_l03_dal.mp3",
+      "question": {
+        "en": "Which food/drink word did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ডাল — lentils / dal"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভাত — rice"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মাছ — fish"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ডাল (dal) means lentils / dal."
+      }
+    },
+    {
+      "id": "CH06_S01_L03_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s01_l03_machh.mp3",
+      "question": {
+        "en": "Which food/drink word did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "মাছ — fish"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভাত — rice"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ডাল — lentils / dal"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "মাছ (machh) means fish."
+      }
+    },
+    {
+      "id": "CH06_S01_L03_ex04",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s01_l03_cha.mp3",
+      "question": {
+        "en": "Which food/drink word did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "চা — tea"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভাত — rice"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ডাল — lentils / dal"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "চা (cha) means tea."
+      }
+    },
+    {
+      "id": "CH06_S01_L03_ex05",
+      "type": "reading",
+      "passage": {
+        "en": "ভাত ভালো লাগে।"
+      },
+      "question": {
+        "en": "What food is mentioned?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ভাত"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ডাল"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মাছ"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Find ভাত in the sentence."
+      }
+    },
+    {
+      "id": "CH06_S01_L03_ex06",
+      "type": "reading",
+      "passage": {
+        "en": "ডাল ভালো লাগে।"
+      },
+      "question": {
+        "en": "What food is mentioned?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ডাল"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভাত"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মাছ"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Find ডাল in the sentence."
+      }
+    },
+    {
+      "id": "CH06_S01_L03_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "মাছ ভালো লাগে।"
+      },
+      "question": {
+        "en": "What food is mentioned?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "মাছ"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভাত"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ডাল"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Find মাছ in the sentence."
+      }
+    },
+    {
+      "id": "CH06_S01_L03_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "চা ভালো লাগে।"
+      },
+      "question": {
+        "en": "What drink is mentioned?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "চা"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভাত"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ডাল"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Find চা in the sentence."
+      }
+    },
+    {
+      "id": "CH06_S01_L03_ex09",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Listen for the food word."
+      },
+      "audio": "assets/audio/listening/ch06_s01_l03_scene_09.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "ভাত।",
+          "romanized": "bhat"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "What did A say?"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "ভাত",
+                "en": "rice"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "চা",
+                "en": "tea"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CH06_S01_L03_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which phrase means “I like tea” / “Tea feels good”?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "চা ভালো লাগে।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "মাছ"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "ভালো লাগে is review language."
+      }
+    }
+  ]
+}

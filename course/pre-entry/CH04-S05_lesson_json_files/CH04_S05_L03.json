@@ -1,0 +1,367 @@
+{
+  "lesson_id": "CH04_S05_L03",
+  "title": {
+    "en": "Pronoun Review: Hear It in Context"
+  },
+  "description": {
+    "en": "Notice All CH04 in a tiny context."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH04_S05_L03_ex01",
+      "type": "reading",
+      "passage": {
+        "en": "আমি ভালো আছি।"
+      },
+      "question": {
+        "en": "Who is fine?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমি",
+            "romanized": "ami",
+            "en": "I / me"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমি",
+            "romanized": "ami",
+            "en": "I / me"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তারা",
+            "romanized": "tara",
+            "en": "they"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L03_ex02",
+      "type": "reading",
+      "passage": {
+        "en": "সে ভালো আছে।"
+      },
+      "question": {
+        "en": "Who is fine?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "সে",
+            "romanized": "she",
+            "en": "he / she"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমি",
+            "romanized": "ami",
+            "en": "I / me"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তারা",
+            "romanized": "tara",
+            "en": "they"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L03_ex03",
+      "type": "reading",
+      "passage": {
+        "en": "আমরা ভালো আছি।"
+      },
+      "question": {
+        "en": "Who is fine?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমরা",
+            "romanized": "amra",
+            "en": "we"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমি",
+            "romanized": "ami",
+            "en": "I / me"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তারা",
+            "romanized": "tara",
+            "en": "they"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L03_ex04",
+      "type": "reading",
+      "passage": {
+        "en": "তারা ভালো আছে।"
+      },
+      "question": {
+        "en": "Who is fine?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তারা",
+            "romanized": "tara",
+            "en": "they"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমি",
+            "romanized": "ami",
+            "en": "I / me"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তারা",
+            "romanized": "tara",
+            "en": "they"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L03_ex05",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s05/amar_nam.mp3",
+      "question": {
+        "en": "In “আমার নাম…”, which word means “my”?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার",
+            "romanized": "amar",
+            "en": "my"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমরা",
+            "romanized": "amra",
+            "en": "we"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আপনি",
+            "romanized": "apni",
+            "en": "you — polite"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L03_ex06",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s05/apnar_nam_ki.mp3",
+      "question": {
+        "en": "In “আপনার নাম কী?”, which word means polite “your”?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your — polite"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your — friendly"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তুই",
+            "romanized": "tui",
+            "en": "you — very intimate/risky"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L03_ex07",
+      "type": "grammar-select",
+      "question": {
+        "en": "A new older person asks your name. Which “your” is safer?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your — polite"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your — friendly"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তুই",
+            "romanized": "tui",
+            "en": "you — very intimate/risky"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L03_ex08",
+      "type": "grammar-select",
+      "question": {
+        "en": "A close friend asks your name. Which is friendly?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your — friendly"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your — polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তারা",
+            "romanized": "tara",
+            "en": "they"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L03_ex09",
+      "type": "conversation",
+      "scenario": {
+        "en": "A polite first meeting."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "নমস্কার।",
+            "romanized": "nomoskar",
+            "en": "Hello."
+          }
+        },
+        {
+          "speaker": "B",
+          "text": {
+            "bengali": "নমস্কার।"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose a safe next question."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনার নাম কী?",
+            "romanized": "apnar nam ki",
+            "en": "What is your name? — polite"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তুই কেমন?",
+            "en": "How are you? — risky/intimate"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তারা ভালো আছে।",
+            "en": "They are fine."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S05_L03_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "What does তারা mean?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "they"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "we"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "I"
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

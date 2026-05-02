@@ -1,0 +1,341 @@
+{
+  "lesson_id": "CH04_S03_L07",
+  "title": {
+    "en": "My / Your: Review Mix"
+  },
+  "description": {
+    "en": "Recycle my / your with earlier course language."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "ch04_s03_l07_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s03_l07_ex01.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার নাম",
+            "romanized": "amar nam",
+            "en": "my name"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনার নাম",
+            "romanized": "apnar nam",
+            "en": "your name — polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তোমার নাম",
+            "romanized": "tomar nam",
+            "en": "your name — friendly"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l07_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s03_l07_ex02.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনার নাম",
+            "romanized": "apnar nam",
+            "en": "your name — polite"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমার নাম",
+            "romanized": "amar nam",
+            "en": "my name"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তোমার নাম",
+            "romanized": "tomar nam",
+            "en": "your name — friendly"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l07_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s03_l07_ex03.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তোমার নাম",
+            "romanized": "tomar nam",
+            "en": "your name — friendly"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনার নাম",
+            "romanized": "apnar nam",
+            "en": "your name — polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আমার নাম",
+            "romanized": "amar nam",
+            "en": "my name"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l07_ex04",
+      "type": "conversation",
+      "scenario": {
+        "en": "Review: greeting + name."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "bengali": "নমস্কার। আপনার নাম কী?"
+        }
+      ],
+      "question": {
+        "en": "Choose the reply."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার নাম রবি।",
+            "romanized": "amar nam Robi.",
+            "en": "My name is Robi."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনার নাম রবি।",
+            "romanized": "apnar nam Robi.",
+            "en": "Your name is Robi."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তোমার নাম কী?",
+            "romanized": "tomar nam ki?",
+            "en": "What is your name? (friendly)"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l07_ex05",
+      "type": "conversation",
+      "scenario": {
+        "en": "Review: friend context."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "bengali": "হ্যালো। তোমার নাম কী?"
+        }
+      ],
+      "question": {
+        "en": "Choose the reply."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার নাম মীরা।",
+            "romanized": "amar nam Mira.",
+            "en": "My name is Mira."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনার নাম কী?",
+            "romanized": "apnar nam ki?",
+            "en": "What is your name? (polite)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তোমার নাম মীরা।",
+            "romanized": "tomar nam Mira.",
+            "en": "Your name is Mira."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l07_ex06",
+      "type": "reading",
+      "passage": {
+        "en": "ধন্যবাদ। আমার নাম অনি।"
+      },
+      "question": {
+        "en": "Which part means “my”?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আমার"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আপনার"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "তোমার"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l07_ex07",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the polite question."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনার নাম কী?",
+            "romanized": "apnar nam ki?",
+            "en": "What is your name? (polite)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তোমার নাম কী?",
+            "romanized": "tomar nam ki?",
+            "en": "What is your name? (friendly)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আমার নাম কী?",
+            "romanized": "amar nam ki?",
+            "en": "What is my name?"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l07_ex08",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the friendly question."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তোমার নাম কী?",
+            "romanized": "tomar nam ki?",
+            "en": "What is your name? (friendly)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনার নাম কী?",
+            "romanized": "apnar nam ki?",
+            "en": "What is your name? (polite)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আমার নাম কী?",
+            "romanized": "amar nam ki?",
+            "en": "What is my name?"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l07_ex09",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap “my phone.”"
+      },
+      "options": [
+        {
+          "image": "assets/illustrations/pronoun_speaker_phone.png",
+          "label": {
+            "en": "আমার ফোন"
+          }
+        },
+        {
+          "image": "assets/illustrations/pronoun_polite_listener_phone.png",
+          "label": {
+            "en": "আপনার ফোন"
+          }
+        },
+        {
+          "image": "assets/illustrations/pronoun_friend_listener_phone.png",
+          "label": {
+            "en": "তোমার ফোন"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ch04_s03_l07_ex10",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build “my name is…” starter."
+      },
+      "words": [
+        "নাম",
+        "আমার"
+      ],
+      "correctOrder": [
+        "আমার",
+        "নাম"
+      ],
+      "wordsRomanized": [
+        "nam",
+        "amar"
+      ]
+    }
+  ]
+}

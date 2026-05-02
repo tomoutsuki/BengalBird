@@ -1,0 +1,296 @@
+{
+  "lesson_id": "CH06_S02_L08",
+  "title": {
+    "en": "Water: Audio Sprint"
+  },
+  "description": {
+    "en": "Recognize water words in Bengali: পানি and জল, with regional context."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH06_S02_L08_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s02_pani_fast_1.mp3",
+      "question": {
+        "en": "Audio sprint: tap the word."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "পানি",
+            "romanized": "pani",
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "চা",
+            "romanized": "cha",
+            "en": "tea"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "en": "thank you"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L08_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s02_jol_fast_1.mp3",
+      "question": {
+        "en": "Audio sprint: tap the word."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "জল",
+            "romanized": "jol",
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "চা",
+            "romanized": "cha",
+            "en": "tea"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "না",
+            "romanized": "na",
+            "en": "no"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L08_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s02_cha_fast_1.mp3",
+      "question": {
+        "en": "Audio sprint: tap the word."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "চা",
+            "romanized": "cha",
+            "en": "tea"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "পানি",
+            "romanized": "pani",
+            "en": "water"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "জল",
+            "romanized": "jol",
+            "en": "water"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L08_ex04",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s02_pani_din_fast.mp3",
+      "question": {
+        "en": "Audio sprint: choose the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Please give water."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Please give tea."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Thank you."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L08_ex05",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s02_jol_din_fast.mp3",
+      "question": {
+        "en": "Audio sprint: choose the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Please give water."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Please give rice."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "No."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L08_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Fast tap: Bangladesh-common water word."
+      },
+      "options": [
+        {
+          "en": "পানি"
+        },
+        {
+          "en": "চা"
+        },
+        {
+          "en": "ভাত"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S02_L08_ex07",
+      "type": "grammar-select",
+      "question": {
+        "en": "Fast tap: West Bengal-common water word."
+      },
+      "options": [
+        {
+          "en": "জল"
+        },
+        {
+          "en": "ডাল"
+        },
+        {
+          "en": "মাছ"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S02_L08_ex08",
+      "type": "figure_choice",
+      "question": {
+        "en": "Fast tap: পানি"
+      },
+      "bengali": "পানি",
+      "options": [
+        {
+          "image": "assets/illustrations/water_glass.png.png",
+          "label": {
+            "en": "water"
+          }
+        },
+        {
+          "image": "assets/illustrations/tea_cup.png.png",
+          "label": {
+            "en": "tea"
+          }
+        },
+        {
+          "image": "assets/illustrations/fish_plate.png.png",
+          "label": {
+            "en": "fish"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S02_L08_ex09",
+      "type": "figure_choice",
+      "question": {
+        "en": "Fast tap: জল"
+      },
+      "bengali": "জল",
+      "options": [
+        {
+          "image": "assets/illustrations/water_bottle.png.png",
+          "label": {
+            "en": "water"
+          }
+        },
+        {
+          "image": "assets/illustrations/rice_bowl.png.png",
+          "label": {
+            "en": "rice"
+          }
+        },
+        {
+          "image": "assets/illustrations/lentils_bowl.png.png",
+          "label": {
+            "en": "dal"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S02_L08_ex10",
+      "type": "reading",
+      "passage": {
+        "en": "পানি জল চা"
+      },
+      "question": {
+        "en": "Which word is tea?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "চা"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "পানি"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "জল"
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

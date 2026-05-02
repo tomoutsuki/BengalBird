@@ -1,0 +1,349 @@
+{
+  "lesson_id": "CH06_S01_L04",
+  "title": {
+    "en": "Food Basics: Choose the Reply"
+  },
+  "description": {
+    "en": "Choose a natural response using ভাত, ডাল, মাছ, চা."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH06_S01_L04_ex01",
+      "type": "conversation",
+      "scenario": {
+        "en": "At a table"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "en": "A points to tea."
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose the food word."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "চা"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভাত"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ডাল"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Choose চা."
+      }
+    },
+    {
+      "id": "CH06_S01_L04_ex02",
+      "type": "conversation",
+      "scenario": {
+        "en": "At a table"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "en": "A points to rice."
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose the food word."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ভাত"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ডাল"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মাছ"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Choose ভাত."
+      }
+    },
+    {
+      "id": "CH06_S01_L04_ex03",
+      "type": "conversation",
+      "scenario": {
+        "en": "At a table"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "en": "A points to fish."
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose the food word."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "মাছ"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভাত"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ডাল"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Choose মাছ."
+      }
+    },
+    {
+      "id": "CH06_S01_L04_ex04",
+      "type": "conversation",
+      "scenario": {
+        "en": "At a table"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "en": "A points to dal."
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose the food word."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ডাল"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভাত"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মাছ"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Choose ডাল."
+      }
+    },
+    {
+      "id": "CH06_S01_L04_ex05",
+      "type": "conversation",
+      "scenario": {
+        "en": "Simple preference"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "en": "চা ভালো লাগে।"
+          }
+        }
+      ],
+      "question": {
+        "en": "What is A talking about?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "চা"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "নমস্কার"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "The food word is চা."
+      }
+    },
+    {
+      "id": "CH06_S01_L04_ex06",
+      "type": "conversation",
+      "scenario": {
+        "en": "Simple preference"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "en": "মাছ ভালো লাগে।"
+          }
+        }
+      ],
+      "question": {
+        "en": "What is A talking about?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "মাছ"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "নমস্কার"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "The food word is মাছ."
+      }
+    },
+    {
+      "id": "CH06_S01_L04_ex07",
+      "type": "conversation",
+      "scenario": {
+        "en": "Simple preference"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "en": "ডাল ভালো লাগে।"
+          }
+        }
+      ],
+      "question": {
+        "en": "What is A talking about?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ডাল"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "নমস্কার"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "The food word is ডাল."
+      }
+    },
+    {
+      "id": "CH06_S01_L04_ex08",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the Bengali phrase."
+      },
+      "words": [
+        "ভালো",
+        "চা",
+        "লাগে"
+      ],
+      "correctOrder": [
+        "চা",
+        "ভালো",
+        "লাগে"
+      ],
+      "hint": {
+        "en": "Build: চা ভালো লাগে."
+      }
+    },
+    {
+      "id": "CH06_S01_L04_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which is the safest reply to “চা?” if you want tea?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "হ্যাঁ, চা।"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "না, মাছ।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "দুঃখিত।"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "হ্যাঁ is a known yes word."
+      }
+    }
+  ]
+}

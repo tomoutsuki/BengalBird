@@ -1,0 +1,298 @@
+{
+  "lesson_id": "CH05_S05_L06",
+  "title": {
+    "en": "Family Profile: Mini Exchange"
+  },
+  "description": {
+    "en": "Complete short exchanges with family profile cards."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH05_S05_L06_ex01",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Listen to a tiny family profile exchange."
+      },
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "নমস্কার।",
+          "romanized": "nomoskar",
+          "en": "Hello."
+        },
+        {
+          "type": "line",
+          "speaker": "B",
+          "bengali": "নমস্কার। আমার নাম রাহুল।",
+          "romanized": "nomoskar. amar nam Rahul",
+          "en": "Hello. My name is Rahul."
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "What should A say next?"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "ভালো লাগলো।",
+                "romanized": "bhalo laglo",
+                "en": "Nice to meet you."
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "কত দাম?",
+                "romanized": "koto dam?",
+                "en": "How much?"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CH05_S05_L06_ex02",
+      "type": "conversation",
+      "scenario": {
+        "en": "Someone tells you a family detail."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "bengali": "আমার বোন আছে।",
+          "romanized": "amar bon ache",
+          "en": "I have a sister."
+        }
+      ],
+      "question": {
+        "en": "What did they say?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "They have a sister.",
+            "romanized": "they have a sister",
+            "en": "They have a sister."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "They want tea.",
+            "romanized": "they want tea",
+            "en": "They want tea."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "They ask your name.",
+            "romanized": "they ask your name",
+            "en": "They ask your name."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S05_L06_ex03",
+      "type": "reading",
+      "passage": {
+        "en": "A: আপনার নাম কী?\nB: আমার নাম রিয়া।\nA: ভালো লাগলো।"
+      },
+      "question": {
+        "en": "Which line gives a name?"
+      },
+      "options": [
+        {
+          "en": "আমার নাম রিয়া।"
+        },
+        {
+          "en": "আপনার নাম কী?"
+        },
+        {
+          "en": "ভালো লাগলো।"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L06_ex04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the best next line: A: আমার নাম মায়া। B: ___"
+      },
+      "options": [
+        {
+          "en": "ভালো লাগলো।"
+        },
+        {
+          "en": "একটু কম?"
+        },
+        {
+          "en": "কোথায়?"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L06_ex05",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s05_l06_mini_exchange_mother.mp3",
+      "question": {
+        "en": "What family word did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "মা"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভাই"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "নাম"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S05_L06_ex06",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: I have a brother."
+      },
+      "words": [
+        "আমার",
+        "আছে",
+        "ভাই"
+      ],
+      "correctOrder": [
+        "আমার",
+        "ভাই",
+        "আছে"
+      ],
+      "wordsRomanized": [
+        "amar",
+        "ache",
+        "bhai"
+      ]
+    },
+    {
+      "id": "CH05_S05_L06_ex07",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which is polite/formal for “your name?”"
+      },
+      "options": [
+        {
+          "en": "আপনার নাম কী?"
+        },
+        {
+          "en": "তোমার নাম কী?"
+        },
+        {
+          "en": "তুই নাম কী?"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L06_ex08",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which is friendly, not for strangers?"
+      },
+      "options": [
+        {
+          "en": "তোমার নাম কী?"
+        },
+        {
+          "en": "আপনার নাম কী?"
+        },
+        {
+          "en": "ধন্যবাদ"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L06_ex09",
+      "type": "reading",
+      "passage": {
+        "en": "আমার নাম তানভীর।\nআমার ভাই আছে।"
+      },
+      "question": {
+        "en": "What is true?"
+      },
+      "options": [
+        {
+          "en": "Tanvir has a brother."
+        },
+        {
+          "en": "Tanvir has a sister."
+        },
+        {
+          "en": "Tanvir asks a price."
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S05_L06_ex10",
+      "type": "conversation",
+      "scenario": {
+        "en": "A family-card game."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "bengali": "আমার মা আছে।",
+          "romanized": "amar ma ache",
+          "en": "I have a mother."
+        }
+      ],
+      "question": {
+        "en": "Choose the matching reply."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "মা — mother",
+            "romanized": "ma — mother",
+            "en": "mother"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "বাজার — market",
+            "romanized": "bajar — market",
+            "en": "market"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "চা — tea",
+            "romanized": "cha — tea",
+            "en": "tea"
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

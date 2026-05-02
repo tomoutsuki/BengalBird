@@ -1,0 +1,265 @@
+{
+  "lesson_id": "CH01_S02_L05",
+  "title": {
+    "en": "Yes, Okay, Thanks: Build the Chunk"
+  },
+  "description": {
+    "en": "Build short chunks without typing or decoding."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH01_S02_L05_E01",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build ঠিক আছে."
+      },
+      "words": [
+        "ঠিক",
+        "আছে"
+      ],
+      "correctOrder": [
+        "ঠিক",
+        "আছে"
+      ],
+      "wordsRomanized": [
+        "ṭhik",
+        "ache"
+      ]
+    },
+    {
+      "id": "CH01_S02_L05_E02",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Tap the whole word for yes."
+      },
+      "words": [
+        "হ্যাঁ"
+      ],
+      "correctOrder": [
+        "হ্যাঁ"
+      ],
+      "wordsRomanized": [
+        "hyã"
+      ]
+    },
+    {
+      "id": "CH01_S02_L05_E03",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Tap the whole word for no."
+      },
+      "words": [
+        "না"
+      ],
+      "correctOrder": [
+        "না"
+      ],
+      "wordsRomanized": [
+        "na"
+      ]
+    },
+    {
+      "id": "CH01_S02_L05_E04",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Tap the whole word for okay / I see."
+      },
+      "words": [
+        "আচ্ছা"
+      ],
+      "correctOrder": [
+        "আচ্ছা"
+      ],
+      "wordsRomanized": [
+        "achchha"
+      ]
+    },
+    {
+      "id": "CH01_S02_L05_E05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which chunk means “okay / all right”?"
+      },
+      "options": [
+        {
+          "en": "ঠিক আছে"
+        },
+        {
+          "en": "হ্যাঁ"
+        },
+        {
+          "en": "না"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH01_S02_L05_E06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which chunk means “yes”?"
+      },
+      "options": [
+        {
+          "en": "হ্যাঁ"
+        },
+        {
+          "en": "না"
+        },
+        {
+          "en": "আচ্ছা"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH01_S02_L05_E07",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch01_s02_thik_ache.mp3",
+      "question": {
+        "en": "Which chunk did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "yes",
+            "bengali": "হ্যাঁ",
+            "romanized": "hyã"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "no",
+            "bengali": "না",
+            "romanized": "na"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "okay / all right",
+            "bengali": "ঠিক আছে",
+            "romanized": "ṭhik ache"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "okay / I see",
+            "bengali": "আচ্ছা",
+            "romanized": "achchha"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S02_L05_E08",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch01_s02_achchha.mp3",
+      "question": {
+        "en": "Which chunk did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "yes",
+            "bengali": "হ্যাঁ",
+            "romanized": "hyã"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "no",
+            "bengali": "না",
+            "romanized": "na"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "okay / all right",
+            "bengali": "ঠিক আছে",
+            "romanized": "ṭhik ache"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "okay / I see",
+            "bengali": "আচ্ছা",
+            "romanized": "achchha"
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "CH01_S02_L05_E09",
+      "type": "reading",
+      "passage": {
+        "en": "ঠিক আছে"
+      },
+      "question": {
+        "en": "Read as one chunk. What does it mean?"
+      },
+      "options": [
+        {
+          "en": "okay / all right"
+        },
+        {
+          "en": "no"
+        },
+        {
+          "en": "thank you"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH01_S02_L05_E10",
+      "type": "conversation",
+      "scenario": {
+        "en": "Tiny reply builder."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "bengali": "এখানে?"
+        }
+      ],
+      "question": {
+        "en": "Choose the built chunk that fits."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ঠিক আছে",
+            "romanized": "ṭhik ache",
+            "meaning": "okay / all right"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "meaning": "thank you"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "না",
+            "romanized": "na",
+            "meaning": "no"
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

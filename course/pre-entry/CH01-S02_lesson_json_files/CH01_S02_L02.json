@@ -1,0 +1,317 @@
+{
+  "lesson_id": "CH01_S02_L02",
+  "title": {
+    "en": "Yes, Okay, Thanks: Tap the Meaning"
+  },
+  "description": {
+    "en": "Match each short Bengali word or chunk to its meaning."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH01_S02_L02_E01",
+      "type": "grammar-select",
+      "question": {
+        "en": "Tap the meaning of হ্যাঁ."
+      },
+      "options": [
+        {
+          "en": "yes"
+        },
+        {
+          "en": "thank you"
+        },
+        {
+          "en": "hello"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH01_S02_L02_E02",
+      "type": "grammar-select",
+      "question": {
+        "en": "Tap the meaning of না."
+      },
+      "options": [
+        {
+          "en": "yes"
+        },
+        {
+          "en": "no"
+        },
+        {
+          "en": "thank you"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH01_S02_L02_E03",
+      "type": "grammar-select",
+      "question": {
+        "en": "Tap the meaning of ঠিক আছে."
+      },
+      "options": [
+        {
+          "en": "okay / all right"
+        },
+        {
+          "en": "thank you"
+        },
+        {
+          "en": "hello"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH01_S02_L02_E04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Tap the meaning of আচ্ছা."
+      },
+      "options": [
+        {
+          "en": "yes"
+        },
+        {
+          "en": "okay / I see"
+        },
+        {
+          "en": "thank you"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH01_S02_L02_E05",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch01_s02_hya.mp3",
+      "question": {
+        "en": "Tap the Bengali you heard."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "yes",
+            "bengali": "হ্যাঁ",
+            "romanized": "hyã"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "no",
+            "bengali": "না",
+            "romanized": "na"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "okay / all right",
+            "bengali": "ঠিক আছে",
+            "romanized": "ṭhik ache"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "okay / I see",
+            "bengali": "আচ্ছা",
+            "romanized": "achchha"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S02_L02_E06",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch01_s02_na.mp3",
+      "question": {
+        "en": "Tap the Bengali you heard."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "yes",
+            "bengali": "হ্যাঁ",
+            "romanized": "hyã"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "no",
+            "bengali": "না",
+            "romanized": "na"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "okay / all right",
+            "bengali": "ঠিক আছে",
+            "romanized": "ṭhik ache"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "okay / I see",
+            "bengali": "আচ্ছা",
+            "romanized": "achchha"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S02_L02_E07",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch01_s02_thik_ache.mp3",
+      "question": {
+        "en": "Tap the Bengali you heard."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "yes",
+            "bengali": "হ্যাঁ",
+            "romanized": "hyã"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "no",
+            "bengali": "না",
+            "romanized": "na"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "okay / all right",
+            "bengali": "ঠিক আছে",
+            "romanized": "ṭhik ache"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "okay / I see",
+            "bengali": "আচ্ছা",
+            "romanized": "achchha"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S02_L02_E08",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch01_s02_achchha.mp3",
+      "question": {
+        "en": "Tap the Bengali you heard."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "yes",
+            "bengali": "হ্যাঁ",
+            "romanized": "hyã"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "no",
+            "bengali": "না",
+            "romanized": "na"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "okay / all right",
+            "bengali": "ঠিক আছে",
+            "romanized": "ṭhik ache"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "okay / I see",
+            "bengali": "আচ্ছা",
+            "romanized": "achchha"
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "CH01_S02_L02_E09",
+      "type": "figure_choice",
+      "question": {
+        "en": "Which picture means okay?"
+      },
+      "options": [
+        {
+          "image": "assets/illustrations/yes_nod.png",
+          "label": {
+            "en": "Yes",
+            "bengali": "হ্যাঁ"
+          }
+        },
+        {
+          "image": "assets/illustrations/no_shake_head.png",
+          "label": {
+            "en": "No",
+            "bengali": "না"
+          }
+        },
+        {
+          "image": "assets/illustrations/okay_thumb.png",
+          "label": {
+            "en": "Okay",
+            "bengali": "ঠিক আছে"
+          }
+        },
+        {
+          "image": "assets/illustrations/achchha_i_see.png",
+          "label": {
+            "en": "I see / okay",
+            "bengali": "আচ্ছা"
+          }
+        }
+      ],
+      "correctIndex": 2,
+      "bengali": "ঠিক আছে"
+    },
+    {
+      "id": "CH01_S02_L02_E10",
+      "type": "reading",
+      "passage": {
+        "en": "ধন্যবাদ"
+      },
+      "question": {
+        "en": "Review: what does this mean?"
+      },
+      "options": [
+        {
+          "en": "thank you"
+        },
+        {
+          "en": "yes"
+        },
+        {
+          "en": "no"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

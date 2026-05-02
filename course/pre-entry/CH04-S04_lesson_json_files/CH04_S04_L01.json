@@ -1,0 +1,266 @@
+{
+  "lesson_id": "CH04_S04_L01",
+  "title": {
+    "en": "The Risky “তুই”: First Listen"
+  },
+  "description": {
+    "en": "Recognize তুই, আছিস by sound."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH04_S04_L01_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s04/tui.mp3",
+      "question": {
+        "en": "Which word did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তুই",
+            "romanized": "tui",
+            "en": "you — very intimate/risky"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তুমি",
+            "romanized": "tumi",
+            "en": "you — friendly"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আপনি",
+            "romanized": "apni",
+            "en": "you — polite"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S04_L01_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s04/achish.mp3",
+      "question": {
+        "en": "Which word did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আছিস",
+            "romanized": "achish",
+            "en": "are — risky/intimate form"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আছো",
+            "romanized": "acho",
+            "en": "are — friendly"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আছেন",
+            "romanized": "achen",
+            "en": "are — polite"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S04_L01_ex03",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which form is safest with a stranger?"
+      },
+      "options": [
+        {
+          "en": "আপনি"
+        },
+        {
+          "en": "তুমি"
+        },
+        {
+          "en": "তুই"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH04_S04_L01_ex04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which form can sound rude if you are not very close?"
+      },
+      "options": [
+        {
+          "en": "আপনি"
+        },
+        {
+          "en": "তুমি"
+        },
+        {
+          "en": "তুই"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "CH04_S04_L01_ex05",
+      "type": "reading",
+      "passage": {
+        "en": "তুই = very close / risky “you”"
+      },
+      "question": {
+        "en": "What should you remember?"
+      },
+      "options": [
+        {
+          "en": "Use it with everyone"
+        },
+        {
+          "en": "Recognize it, but be careful"
+        },
+        {
+          "en": "It means thank you"
+        }
+      ]
+    },
+    {
+      "id": "CH04_S04_L01_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Match আছিস."
+      },
+      "options": [
+        {
+          "en": "risky/intimate “are”"
+        },
+        {
+          "en": "polite hello"
+        },
+        {
+          "en": "my name"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH04_S04_L01_ex07",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s04/tumi.mp3",
+      "question": {
+        "en": "Which one is the friendly but safer word?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তুমি",
+            "romanized": "tumi",
+            "en": "you — friendly"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তুই",
+            "romanized": "tui",
+            "en": "you — very intimate/risky"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "সে",
+            "romanized": "she",
+            "en": "he/she"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S04_L01_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "আপনি / তুমি / তুই"
+      },
+      "question": {
+        "en": "Which one is the polite default?"
+      },
+      "options": [
+        {
+          "en": "আপনি"
+        },
+        {
+          "en": "তুমি"
+        },
+        {
+          "en": "তুই"
+        }
+      ]
+    },
+    {
+      "id": "CH04_S04_L01_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the meaning of তুই."
+      },
+      "options": [
+        {
+          "en": "I"
+        },
+        {
+          "en": "you — very close/risky"
+        },
+        {
+          "en": "they"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH04_S04_L01_ex10",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s04/tui_kemon_achish.mp3",
+      "question": {
+        "en": "What kind of speech did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তুই কেমন আছিস?",
+            "romanized": "tui kemon achish?",
+            "en": "very close/risky"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনি কেমন আছেন?",
+            "romanized": "apni kemon achen?",
+            "en": "polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আমার নাম কী?",
+            "romanized": "amar nam ki?",
+            "en": "my name?"
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

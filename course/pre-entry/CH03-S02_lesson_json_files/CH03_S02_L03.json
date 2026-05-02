@@ -1,0 +1,316 @@
+{
+  "lesson_id": "CH03_S02_L03",
+  "title": {
+    "en": "Your Name?: Hear It in Context"
+  },
+  "description": {
+    "en": "Notice আপনার নাম কী? in a tiny context."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "ch03_s02_l03_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch03_s02_apnar_nam_ki.mp3",
+      "question": {
+        "en": "What does this question mean?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "What is your name?"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "My name is…"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "How are you?"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch03_s02_l03_ex02",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the image for “What is your name?”"
+      },
+      "bengali": "আপনার নাম কী?",
+      "options": [
+        {
+          "image": "assets/illustrations/name_question.png",
+          "label": {
+            "en": "asking a name"
+          }
+        },
+        {
+          "image": "assets/illustrations/name_badge.png",
+          "label": {
+            "en": "saying my name"
+          }
+        },
+        {
+          "image": "assets/illustrations/thank_you_hands.png",
+          "label": {
+            "en": "saying thanks"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ch03_s02_l03_ex03",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which Bengali question means “What is your name?”"
+      },
+      "options": [
+        {
+          "en": "আপনার নাম কী?"
+        },
+        {
+          "en": "আমার নাম…"
+        },
+        {
+          "en": "ভালো আছি"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ch03_s02_l03_ex04",
+      "type": "reading",
+      "passage": {
+        "en": "আপনার নাম কী?\napnar nam ki?\nWhat is your name?"
+      },
+      "question": {
+        "en": "What is this question asking?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "A person’s name"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "If they are okay"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "If they want tea"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Treat কী as a whole question word for now."
+      }
+    },
+    {
+      "id": "ch03_s02_l03_ex05",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch03_s01_amar_nam_riya.mp3",
+      "question": {
+        "en": "You hear the answer. What did the person say?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "My name is Riya."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "What is your name?"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Not bad."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch03_s02_l03_ex06",
+      "type": "conversation",
+      "scenario": {
+        "en": "A tiny context: greeting, then name question."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "en": "নমস্কার।"
+          }
+        },
+        {
+          "speaker": "B",
+          "text": {
+            "en": "নমস্কার।"
+          }
+        },
+        {
+          "speaker": "A",
+          "text": {
+            "en": "আপনার নাম কী?"
+          }
+        }
+      ],
+      "question": {
+        "en": "What is A asking?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "নাম",
+            "en": "a name",
+            "romanized": "nam"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "ভালো",
+            "en": "fine",
+            "romanized": "bhalo"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "না",
+            "en": "no",
+            "romanized": "na"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch03_s02_l03_ex07",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: “What is your name?”"
+      },
+      "words": [
+        "কী?",
+        "নাম",
+        "আপনার"
+      ],
+      "wordsRomanized": [
+        "ki?",
+        "nam",
+        "apnar"
+      ],
+      "correctOrder": [
+        "আপনার",
+        "নাম",
+        "কী?"
+      ]
+    },
+    {
+      "id": "ch03_s02_l03_ex08",
+      "type": "grammar-select",
+      "question": {
+        "en": "Pick the natural romanization."
+      },
+      "options": [
+        {
+          "en": "apnar nam ki?"
+        },
+        {
+          "en": "amar nam…"
+        },
+        {
+          "en": "bhalo achi"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ch03_s02_l03_ex09",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Listen to a tiny formal name exchange."
+      },
+      "audio": "assets/audio/listening/ch03_s02_your_name_scene.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "নমস্কার।",
+          "romanized": "nomoshkar",
+          "translation": {
+            "en": "Hello."
+          }
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "Choose the polite name question."
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "আপনার নাম কী?",
+                "romanized": "apnar nam ki?",
+                "en": "What is your name?"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "আমার নাম রাহিম।",
+                "romanized": "amar nam Rahim",
+                "en": "My name is Rahim."
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "bengali": "না।",
+                "romanized": "na",
+                "en": "No."
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch03_s02_l03_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which answer fits “আপনার নাম কী?”"
+      },
+      "options": [
+        {
+          "en": "আমার নাম রিয়া।"
+        },
+        {
+          "en": "ভালো আছি।"
+        },
+        {
+          "en": "ধন্যবাদ।"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

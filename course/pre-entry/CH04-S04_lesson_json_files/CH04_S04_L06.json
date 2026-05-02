@@ -1,0 +1,304 @@
+{
+  "lesson_id": "CH04_S04_L06",
+  "title": {
+    "en": "The Risky “তুই”: Mini Exchange"
+  },
+  "description": {
+    "en": "Complete short exchanges with safe-form choices."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH04_S04_L06_ex01",
+      "type": "conversation",
+      "scenario": {
+        "en": "A friend uses a risky/intimate form with another close friend."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "তুই কেমন আছিস?",
+            "romanized": "tui kemon achish?"
+          }
+        }
+      ],
+      "question": {
+        "en": "What is the safe beginner takeaway?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "It is very close/risky speech.",
+            "en": "Recognize the risk."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "It is the polite default.",
+            "en": "Incorrect."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "It means thank you.",
+            "en": "Incorrect."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S04_L06_ex02",
+      "type": "conversation",
+      "scenario": {
+        "en": "You meet a teacher."
+      },
+      "dialogue": [
+        {
+          "speaker": "Teacher",
+          "text": {
+            "bengali": "নমস্কার।",
+            "romanized": "nomoshkar.",
+            "en": "Hello."
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose the best response."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "নমস্কার। আপনি কেমন আছেন?",
+            "romanized": "nomoshkar. apni kemon achen?",
+            "en": "Polite"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "তুই কেমন আছিস?",
+            "romanized": "tui kemon achish?",
+            "en": "Too risky"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তুই",
+            "romanized": "tui",
+            "en": "Too risky"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S04_L06_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s04/achish_question.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আছিস?",
+            "romanized": "achish?",
+            "en": "risky/intimate are?"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আছেন?",
+            "romanized": "achen?",
+            "en": "polite are?"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আছি",
+            "romanized": "achi",
+            "en": "I am"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S04_L06_ex04",
+      "type": "grammar-select",
+      "question": {
+        "en": "A new person asks: আপনি কেমন আছেন? Choose a natural reply."
+      },
+      "options": [
+        {
+          "en": "ভালো আছি।"
+        },
+        {
+          "en": "তুই আছিস।"
+        },
+        {
+          "en": "তারা।"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH04_S04_L06_ex05",
+      "type": "reading",
+      "passage": {
+        "en": "তুমি = friendly\nআপনি = polite\nতুই = very close / risky"
+      },
+      "question": {
+        "en": "Which one is risky?"
+      },
+      "options": [
+        {
+          "en": "তুই"
+        },
+        {
+          "en": "আপনি"
+        },
+        {
+          "en": "তুমি"
+        }
+      ]
+    },
+    {
+      "id": "CH04_S04_L06_ex06",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build a safe friendly question."
+      },
+      "words": [
+        "কেমন?",
+        "তুমি"
+      ],
+      "correctOrder": [
+        "তুমি",
+        "কেমন?"
+      ],
+      "wordsRomanized": [
+        "kemon?",
+        "tumi"
+      ]
+    },
+    {
+      "id": "CH04_S04_L06_ex07",
+      "type": "grammar-select",
+      "question": {
+        "en": "In unclear contexts, avoid..."
+      },
+      "options": [
+        {
+          "en": "তুই"
+        },
+        {
+          "en": "আপনি"
+        },
+        {
+          "en": "নমস্কার"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH04_S04_L06_ex08",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Choose the safe response."
+      },
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "নমস্কার।",
+          "audio": "assets/audio/listening/ch04_s04/line_nomoshkar.mp3"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "How do you respond politely?"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "নমস্কার। আপনি কেমন আছেন?",
+                "romanized": "nomoshkar. apni kemon achen?",
+                "en": "polite"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "তুই কেমন আছিস?",
+                "romanized": "tui kemon achish?",
+                "en": "risky"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CH04_S04_L06_ex09",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s04/tui_kemon_achish.mp3",
+      "question": {
+        "en": "Which label fits the line?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "খুব ঘনিষ্ঠ / ঝুঁকিপূর্ণ",
+            "romanized": "khub ghonishtho / jhuki-purno",
+            "en": "very close / risky"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "ভদ্র",
+            "romanized": "bhodro",
+            "en": "polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "খাবার",
+            "romanized": "khabar",
+            "en": "food"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH04_S04_L06_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which sentence should not be a beginner default?"
+      },
+      "options": [
+        {
+          "en": "তুই কেমন আছিস?"
+        },
+        {
+          "en": "আপনি কেমন আছেন?"
+        },
+        {
+          "en": "আমি ভালো আছি"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

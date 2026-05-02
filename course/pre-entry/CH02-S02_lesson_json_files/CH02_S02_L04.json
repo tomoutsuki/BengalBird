@@ -1,0 +1,342 @@
+{
+  "lesson_id": "CH02_S02_L04",
+  "title": {
+    "en": "Casual How Are You?: Choose the Reply"
+  },
+  "description": {
+    "en": "Practice friendly Bengali 'how are you?' forms while noticing when formal speech is safer."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "ch02_s02_l04_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch02_s02_formal_friend_contrast.mp3",
+      "question": {
+        "en": "You hear a friend speaking. Choose the friendly question."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "কেমন আছো?",
+            "romanized": "kemon acho?",
+            "meaning": {
+              "en": "How are you? (friendly)"
+            }
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "কেমন আছেন?",
+            "romanized": "kemon achhen?",
+            "meaning": {
+              "en": "How are you? (polite)"
+            }
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "meaning": {
+              "en": "Thank you"
+            }
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch02_s02_l04_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch02_s02_tumi_kemon.mp3",
+      "question": {
+        "en": "Tap the friendly question."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তুমি কেমন?",
+            "romanized": "tumi kemon?",
+            "meaning": {
+              "en": "How about you? / How are you? (friendly)"
+            }
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "নমস্কার",
+            "romanized": "nomoshkar",
+            "meaning": {
+              "en": "Hello"
+            }
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ভালো আছি",
+            "romanized": "bhalo achhi",
+            "meaning": {
+              "en": "I’m fine"
+            }
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch02_s02_l04_ex03",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which one is friendly, not formal?"
+      },
+      "options": [
+        {
+          "en": "কেমন আছো?"
+        },
+        {
+          "en": "কেমন আছেন?"
+        },
+        {
+          "en": "ধন্যবাদ"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ch02_s02_l04_ex04",
+      "type": "figure_choice",
+      "question": {
+        "en": "Choose the friend-chat scene for কেমন আছো?."
+      },
+      "bengali": "কেমন আছো? / kemon acho?",
+      "options": [
+        {
+          "image": "assets/illustrations/friend_chat.png",
+          "label": {
+            "en": "two friends chatting"
+          }
+        },
+        {
+          "image": "assets/illustrations/polite_greeting.png",
+          "label": {
+            "en": "speaking to an elder/stranger"
+          }
+        },
+        {
+          "image": "assets/illustrations/smiling_response.png",
+          "label": {
+            "en": "saying I’m fine"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ch02_s02_l04_ex05",
+      "type": "reading",
+      "passage": {
+        "en": "Friend A: কেমন আছো?\nFriend B: ভালো আছি।"
+      },
+      "question": {
+        "en": "What is Friend A asking?"
+      },
+      "options": [
+        {
+          "en": "How are you?"
+        },
+        {
+          "en": "Thank you."
+        },
+        {
+          "en": "Hello."
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Friendly context only."
+      }
+    },
+    {
+      "id": "ch02_s02_l04_ex06",
+      "type": "conversation",
+      "scenario": {
+        "en": "A friend says hello and asks about you."
+      },
+      "dialogue": [
+        {
+          "speaker": "Friend",
+          "text": {
+            "bengali": "কেমন আছো?",
+            "romanized": "kemon acho?",
+            "meaning": {
+              "en": "How are you? (friendly)"
+            }
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose a natural reply."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ভালো আছি",
+            "romanized": "bhalo achhi",
+            "meaning": {
+              "en": "I’m fine"
+            }
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "কেমন আছেন?",
+            "romanized": "kemon achhen?",
+            "meaning": {
+              "en": "How are you? (polite)"
+            }
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "না",
+            "romanized": "na",
+            "meaning": {
+              "en": "No"
+            }
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch02_s02_l04_ex07",
+      "type": "grammar-select",
+      "question": {
+        "en": "You are talking to a new adult. Which question is safer?"
+      },
+      "options": [
+        {
+          "en": "কেমন আছেন?"
+        },
+        {
+          "en": "কেমন আছো?"
+        },
+        {
+          "en": "তুমি কেমন?"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ch02_s02_l04_ex08",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build “কেমন আছো?”"
+      },
+      "words": [
+        "আছো?",
+        "কেমন"
+      ],
+      "correctOrder": [
+        "কেমন",
+        "আছো?"
+      ],
+      "wordsRomanized": [
+        "acho?",
+        "kemon"
+      ]
+    },
+    {
+      "id": "ch02_s02_l04_ex09",
+      "type": "reading",
+      "passage": {
+        "en": "কেমন আছো? = friendly\nকেমন আছেন? = polite/formal"
+      },
+      "question": {
+        "en": "Which phrase is best for a friend?"
+      },
+      "options": [
+        {
+          "en": "কেমন আছো?"
+        },
+        {
+          "en": "কেমন আছেন?"
+        },
+        {
+          "en": "মাফ করবেন"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Notice the whole-word contrast; no spelling breakdown yet."
+      }
+    },
+    {
+      "id": "ch02_s02_l04_ex10",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Listen to a tiny friend exchange."
+      },
+      "audio": "assets/audio/listening/ch02_s02_friend_scene.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "হ্যালো।",
+          "romanized": "hyalo"
+        },
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "কেমন আছো?",
+          "romanized": "kemon acho?"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "How should B reply?"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "ভালো আছি",
+                "romanized": "bhalo achhi",
+                "meaning": {
+                  "en": "I’m fine"
+                }
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "ধন্যবাদ",
+                "romanized": "dhonnobad",
+                "meaning": {
+                  "en": "Thank you"
+                }
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "bengali": "মাফ করবেন",
+                "romanized": "maf korben",
+                "meaning": {
+                  "en": "Excuse me"
+                }
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "lesson_id": "CH05_S04_L05",
+  "title": {
+    "en": "Bangladesh & West Bengal Terms: Build the Chunk"
+  },
+  "description": {
+    "en": "Build the key chunk for bangladesh & west bengal terms."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH05_S04_L05_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s04_l05_abba.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আব্বা — father/dad in some families"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আম্মা — mother/mom"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "দাদা — older brother in some contexts"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "বাবা — father"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "আব্বা is a family/context word, often heard in Bangladesh and Muslim Bengali families."
+      }
+    },
+    {
+      "id": "CH05_S04_L05_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s04_l05_amma.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "আম্মা — mother/mom in some families"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আব্বা — father/dad"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "দিদি — older sister"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মা — mother"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "আম্মা is a family/context word, often heard in Bangladesh and Muslim Bengali families."
+      }
+    },
+    {
+      "id": "CH05_S04_L05_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s04_l05_dada.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "দাদা — older brother in some contexts"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "দিদি — older sister"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আব্বা — father/dad"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "বাবা — father"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "দাদা can vary by family and region; here it is practiced as older brother."
+      }
+    },
+    {
+      "id": "CH05_S04_L05_ex04",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s04_l05_didi.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "দিদি — older sister"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "দাদা — older brother"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আম্মা — mother/mom"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মা — mother"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "দিদি is a common respectful/family word for older sister."
+      }
+    },
+    {
+      "id": "CH05_S04_L05_ex05",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: my dad/father"
+      },
+      "words": [
+        "আব্বা",
+        "আমার"
+      ],
+      "correctOrder": [
+        "আমার",
+        "আব্বা"
+      ],
+      "wordsRomanized": [
+        "abba",
+        "amar"
+      ]
+    },
+    {
+      "id": "CH05_S04_L05_ex06",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: my mom/mother"
+      },
+      "words": [
+        "আম্মা",
+        "আমার"
+      ],
+      "correctOrder": [
+        "আমার",
+        "আম্মা"
+      ],
+      "wordsRomanized": [
+        "amma",
+        "amar"
+      ]
+    },
+    {
+      "id": "CH05_S04_L05_ex07",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: my older brother"
+      },
+      "words": [
+        "দাদা",
+        "আমার"
+      ],
+      "correctOrder": [
+        "আমার",
+        "দাদা"
+      ],
+      "wordsRomanized": [
+        "dada",
+        "amar"
+      ]
+    },
+    {
+      "id": "CH05_S04_L05_ex08",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: my older sister"
+      },
+      "words": [
+        "দিদি",
+        "আমার"
+      ],
+      "correctOrder": [
+        "আমার",
+        "দিদি"
+      ],
+      "wordsRomanized": [
+        "didi",
+        "amar"
+      ]
+    },
+    {
+      "id": "CH05_S04_L05_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which pair matches father/mother style words?"
+      },
+      "options": [
+        {
+          "en": "আব্বা / আম্মা"
+        },
+        {
+          "en": "দাদা / দিদি"
+        },
+        {
+          "en": "হ্যাঁ / না"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S04_L05_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which pair matches older sibling style words here?"
+      },
+      "options": [
+        {
+          "en": "দাদা / দিদি"
+        },
+        {
+          "en": "আব্বা / আম্মা"
+        },
+        {
+          "en": "চা / পানি"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

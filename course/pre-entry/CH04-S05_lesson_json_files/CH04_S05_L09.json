@@ -1,0 +1,339 @@
+{
+  "lesson_id": "CH04_S05_L09",
+  "title": {
+    "en": "Pronoun Review: Read the Shape"
+  },
+  "description": {
+    "en": "Recognize the Bengali written shape for this section."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH04_S05_L09_ex01",
+      "type": "reading",
+      "passage": {
+        "en": "আমি"
+      },
+      "question": {
+        "en": "Recognize the word shape."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I / me"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "they"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "my"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Treat the whole word as a shape for now."
+      }
+    },
+    {
+      "id": "CH04_S05_L09_ex02",
+      "type": "reading",
+      "passage": {
+        "en": "আপনি"
+      },
+      "question": {
+        "en": "Recognize the word shape."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "you — polite"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "they"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "my"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Treat the whole word as a shape for now."
+      }
+    },
+    {
+      "id": "CH04_S05_L09_ex03",
+      "type": "reading",
+      "passage": {
+        "en": "তুমি"
+      },
+      "question": {
+        "en": "Recognize the word shape."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "you — friendly"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "they"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "my"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Treat the whole word as a shape for now."
+      }
+    },
+    {
+      "id": "CH04_S05_L09_ex04",
+      "type": "reading",
+      "passage": {
+        "en": "সে"
+      },
+      "question": {
+        "en": "Recognize the word shape."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "he / she"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "they"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "my"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Treat the whole word as a shape for now."
+      }
+    },
+    {
+      "id": "CH04_S05_L09_ex05",
+      "type": "reading",
+      "passage": {
+        "en": "আমরা"
+      },
+      "question": {
+        "en": "Recognize the word shape."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "we"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "they"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "my"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Treat the whole word as a shape for now."
+      }
+    },
+    {
+      "id": "CH04_S05_L09_ex06",
+      "type": "reading",
+      "passage": {
+        "en": "তারা"
+      },
+      "question": {
+        "en": "Recognize the word shape."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "they"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "they"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "my"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Treat the whole word as a shape for now."
+      }
+    },
+    {
+      "id": "CH04_S05_L09_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "আমার"
+      },
+      "question": {
+        "en": "Recognize the word shape."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "my"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "they"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "my"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Treat the whole word as a shape for now."
+      }
+    },
+    {
+      "id": "CH04_S05_L09_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "আপনার"
+      },
+      "question": {
+        "en": "Recognize the word shape."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "your — polite"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "they"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "my"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Treat the whole word as a shape for now."
+      }
+    },
+    {
+      "id": "CH04_S05_L09_ex09",
+      "type": "reading",
+      "passage": {
+        "en": "তোমার"
+      },
+      "question": {
+        "en": "Recognize the word shape."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "your — friendly"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "they"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "my"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Treat the whole word as a shape for now."
+      }
+    },
+    {
+      "id": "CH04_S05_L09_ex10",
+      "type": "reading",
+      "passage": {
+        "en": "তুই"
+      },
+      "question": {
+        "en": "What is the safe course action for this shape?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Recognize it as risky/intimate; do not practice using it freely."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Use it in polite introductions."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "It means “we”."
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

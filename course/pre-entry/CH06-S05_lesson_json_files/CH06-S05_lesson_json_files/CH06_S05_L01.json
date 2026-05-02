@@ -1,0 +1,291 @@
+{
+  "lesson_id": "CH06_S05_L01",
+  "title": {
+    "en": "Café Mini-Scene: First Listen"
+  },
+  "description": {
+    "en": "Recognize চা দিন—ঠিক আছে by sound."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH06_S05_L01_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s05_cha_din.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "চা দিন",
+            "romanized": "cha din",
+            "en": "Tea, please."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "পানি দিন",
+            "romanized": "pani din",
+            "en": "Water, please."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "en": "Thank you."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L01_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s05_thik_ache.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ঠিক আছে",
+            "romanized": "thik ache",
+            "en": "Okay."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আচ্ছা",
+            "romanized": "achchha",
+            "en": "Okay / I see."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "না",
+            "romanized": "na",
+            "en": "No."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L01_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s05_cha_din_thik_ache.mp3",
+      "question": {
+        "en": "What is this mini-scene about?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Someone asks for tea, and the reply is okay."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Someone says goodbye."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Someone asks a name."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L01_ex04",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the café scene."
+      },
+      "bengali": "চা দিন",
+      "options": [
+        {
+          "image": "assets/illustrations/tea_cup.png",
+          "label": {
+            "en": "tea"
+          }
+        },
+        {
+          "image": "assets/illustrations/rice_bowl.png",
+          "label": {
+            "en": "rice"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass.png",
+          "label": {
+            "en": "water"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S05_L01_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which phrase means “Okay”?"
+      },
+      "options": [
+        {
+          "en": "ধন্যবাদ — thank you"
+        },
+        {
+          "en": "ঠিক আছে — okay"
+        },
+        {
+          "en": "মাফ করবেন — excuse me"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH06_S05_L01_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which phrase asks for tea politely?"
+      },
+      "options": [
+        {
+          "en": "চা দিন"
+        },
+        {
+          "en": "না"
+        },
+        {
+          "en": "হ্যালো"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S05_L01_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "চা দিন।\nঠিক আছে।"
+      },
+      "question": {
+        "en": "What happens?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "A tea request is accepted."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "A name is asked."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Someone says no."
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Read the two known chunks as whole phrases."
+      }
+    },
+    {
+      "id": "CH06_S05_L01_ex08",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the natural café response to “চা দিন।”"
+      },
+      "options": [
+        {
+          "en": "ঠিক আছে।"
+        },
+        {
+          "en": "আমার নাম…"
+        },
+        {
+          "en": "না, ধন্যবাদ।"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S05_L01_ex09",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s05_pani_din.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "পানি দিন",
+            "romanized": "pani din",
+            "en": "Water, please."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "চা দিন",
+            "romanized": "cha din",
+            "en": "Tea, please."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ভাত",
+            "romanized": "bhat",
+            "en": "rice"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L01_ex10",
+      "type": "reading",
+      "passage": {
+        "en": "মাফ করবেন। চা দিন।"
+      },
+      "question": {
+        "en": "What is the speaker doing?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Politely asking for tea"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Saying their name"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Saying they are fine"
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "lesson_id": "CH05_S01_L05",
+  "title": {
+    "en": "Close Family: Build the Chunk"
+  },
+  "description": {
+    "en": "Build the key chunk for close family."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH05_S01_L05_ex01",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the Bengali phrase."
+      },
+      "words": [
+        "মা",
+        "আমার"
+      ],
+      "wordsRomanized": [
+        "ma",
+        "amar"
+      ],
+      "correctOrder": [
+        "আমার",
+        "মা"
+      ]
+    },
+    {
+      "id": "CH05_S01_L05_ex02",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the Bengali phrase."
+      },
+      "words": [
+        "বাবা",
+        "আমার"
+      ],
+      "wordsRomanized": [
+        "baba",
+        "amar"
+      ],
+      "correctOrder": [
+        "আমার",
+        "বাবা"
+      ]
+    },
+    {
+      "id": "CH05_S01_L05_ex03",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the Bengali phrase."
+      },
+      "words": [
+        "ভাই",
+        "আমার"
+      ],
+      "wordsRomanized": [
+        "bhai",
+        "amar"
+      ],
+      "correctOrder": [
+        "আমার",
+        "ভাই"
+      ]
+    },
+    {
+      "id": "CH05_S01_L05_ex04",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the Bengali phrase."
+      },
+      "words": [
+        "বোন",
+        "আমার"
+      ],
+      "wordsRomanized": [
+        "bon",
+        "amar"
+      ],
+      "correctOrder": [
+        "আমার",
+        "বোন"
+      ]
+    },
+    {
+      "id": "CH05_S01_L05_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which Bengali phrase means “my mother”?"
+      },
+      "options": [
+        {
+          "en": "আমার মা"
+        },
+        {
+          "en": "আমার বাবা"
+        },
+        {
+          "en": "আমার ভাই"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S01_L05_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which Bengali phrase means “my sister”?"
+      },
+      "options": [
+        {
+          "en": "আমার বোন"
+        },
+        {
+          "en": "আমার ভাই"
+        },
+        {
+          "en": "আমার মা"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S01_L05_ex07",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s01/ma.mp3",
+      "question": {
+        "en": "Hear the family word, then build the chunk with আমার."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "মা",
+            "romanized": "ma",
+            "en": "mother / mom"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "বাবা",
+            "romanized": "baba",
+            "en": "father / dad"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "বোন",
+            "romanized": "bon",
+            "en": "sister"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S01_L05_ex08",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s01/bhai.mp3",
+      "question": {
+        "en": "Hear the family word, then build the chunk with আমার."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ভাই",
+            "romanized": "bhai",
+            "en": "brother"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "মা",
+            "romanized": "ma",
+            "en": "mother / mom"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "বোন",
+            "romanized": "bon",
+            "en": "sister"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S01_L05_ex09",
+      "type": "reading",
+      "passage": {
+        "en": "আমার মা"
+      },
+      "question": {
+        "en": "Tap the family word inside the phrase."
+      },
+      "options": [
+        {
+          "en": "আমার"
+        },
+        {
+          "en": "মা"
+        },
+        {
+          "en": "বাবা"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH05_S01_L05_ex10",
+      "type": "reading",
+      "passage": {
+        "en": "আমার বাবা"
+      },
+      "question": {
+        "en": "Tap the family word inside the phrase."
+      },
+      "options": [
+        {
+          "en": "বাবা"
+        },
+        {
+          "en": "ভাই"
+        },
+        {
+          "en": "আমার"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S01_L05_ex11",
+      "type": "conversation",
+      "scenario": {
+        "en": "A learner points to a family photo."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "আমার ভাই",
+            "romanized": "amar bhai",
+            "en": "my brother"
+          }
+        }
+      ],
+      "question": {
+        "en": "Which family word did A use?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ভাই",
+            "romanized": "bhai",
+            "en": "brother"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "বোন",
+            "romanized": "bon",
+            "en": "sister"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "বাবা",
+            "romanized": "baba",
+            "en": "father / dad"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S01_L05_ex12",
+      "type": "conversation",
+      "scenario": {
+        "en": "A learner points to a family photo."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "আমার বোন",
+            "romanized": "amar bon",
+            "en": "my sister"
+          }
+        }
+      ],
+      "question": {
+        "en": "Which family word did A use?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "মা",
+            "romanized": "ma",
+            "en": "mother / mom"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "বোন",
+            "romanized": "bon",
+            "en": "sister"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "ভাই",
+            "romanized": "bhai",
+            "en": "brother"
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "lesson_id": "CH02_S04_L07",
+  "title": {
+    "en": "Hello Exchange: Review Mix"
+  },
+  "description": {
+    "en": "Recycle hello exchange with earlier course language."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "ch02_s04_l07_ex01",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Listen to a tiny hello exchange."
+      },
+      "audio": "assets/audio/listening/ch02_s04_hello_exchange.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "নমস্কার।",
+          "romanized": "nomoshkar"
+        },
+        {
+          "type": "line",
+          "speaker": "B",
+          "bengali": "নমস্কার।",
+          "romanized": "nomoshkar"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "What should A ask politely?"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "কেমন আছেন?",
+                "romanized": "kemon achen?",
+                "en": "How are you?"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "ধন্যবাদ",
+                "romanized": "dhonnobad",
+                "en": "Thank you"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch02_s04_l07_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch02_s04_checkin_mix.mp3",
+      "question": {
+        "en": "Which phrase asks “How are you?”"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "কেমন আছেন?"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভালো আছি"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মোটামুটি"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch02_s04_l07_ex03",
+      "type": "reading",
+      "passage": {
+        "en": "A: কেমন আছেন?\nB: মোটামুটি।"
+      },
+      "question": {
+        "en": "What does B say?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "So-so"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "I’m fine"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Hello"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch02_s04_l07_ex04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which response means “not bad”?"
+      },
+      "options": [
+        {
+          "en": "খারাপ না"
+        },
+        {
+          "en": "ভালো আছি"
+        },
+        {
+          "en": "কেমন আছেন?"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ch02_s04_l07_ex05",
+      "type": "conversation",
+      "scenario": {
+        "en": "A polite check-in."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "কেমন আছেন?",
+            "romanized": "kemon achen?"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose another natural answer."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "মোটামুটি",
+            "romanized": "motamuti",
+            "en": "So-so"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "কেমন আছেন?",
+            "romanized": "kemon achen?",
+            "en": "How are you?"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "নমস্কার",
+            "romanized": "nomoshkar",
+            "en": "Hello"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch02_s04_l07_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which is the safest polite question for a new adult?"
+      },
+      "options": [
+        {
+          "en": "কেমন আছেন?"
+        },
+        {
+          "en": "কেমন আছো?"
+        },
+        {
+          "en": "তুমি কেমন?"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ch02_s04_l07_ex07",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch02_s04_hello_exchange_alt.mp3",
+      "question": {
+        "en": "What exchange did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "নমস্কার। কেমন আছেন?"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "হ্যাঁ। ঠিক আছে।"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "মাফ করবেন। দুঃখিত।"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch02_s04_l07_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "নমস্কার। কেমন আছেন?"
+      },
+      "question": {
+        "en": "Tap the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Hello. How are you?"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Thank you. Okay."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Excuse me. Sorry."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch02_s04_l07_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the Bengali for “I’m fine.”"
+      },
+      "options": [
+        {
+          "en": "ভালো আছি"
+        },
+        {
+          "en": "কেমন আছেন?"
+        },
+        {
+          "en": "নমস্কার"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ch02_s04_l07_ex10",
+      "type": "reading",
+      "passage": {
+        "en": "A: নমস্কার। কেমন আছেন?\nB: খারাপ না।"
+      },
+      "question": {
+        "en": "B’s answer is…"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Not bad"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "How are you?"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Hello"
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

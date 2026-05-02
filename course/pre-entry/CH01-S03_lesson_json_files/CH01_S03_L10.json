@@ -1,0 +1,470 @@
+{
+  "lesson_id": "CH01_S03_L10",
+  "title": {
+    "en": "Polite First: Check"
+  },
+  "description": {
+    "en": "Pass a short mixed check for polite first."
+  },
+  "est_time_mins": 5,
+  "exercises": [
+    {
+      "id": "CH01_S03_L10_E01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch01_s03_maf_korben.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "excuse me / pardon me",
+            "bengali": "মাফ করবেন",
+            "romanized": "maf korben"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "sorry",
+            "bengali": "দুঃখিত",
+            "romanized": "dukkhito"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "hello / respectful greeting",
+            "bengali": "নমস্কার",
+            "romanized": "nomoskar"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "thank you",
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S03_L10_E02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch01_s03_dukkhito.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "excuse me / pardon me",
+            "bengali": "মাফ করবেন",
+            "romanized": "maf korben"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "sorry",
+            "bengali": "দুঃখিত",
+            "romanized": "dukkhito"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "hello / respectful greeting",
+            "bengali": "নমস্কার",
+            "romanized": "nomoskar"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "thank you",
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S03_L10_E03",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose “excuse me / pardon me.”"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "excuse me / pardon me",
+            "bengali": "মাফ করবেন",
+            "romanized": "maf korben"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "sorry",
+            "bengali": "দুঃখিত",
+            "romanized": "dukkhito"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "hello / respectful greeting",
+            "bengali": "নমস্কার",
+            "romanized": "nomoskar"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "thank you",
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad"
+          },
+          "correct": false
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH01_S03_L10_E04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose “sorry.”"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "excuse me / pardon me",
+            "bengali": "মাফ করবেন",
+            "romanized": "maf korben"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "sorry",
+            "bengali": "দুঃখিত",
+            "romanized": "dukkhito"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "hello / respectful greeting",
+            "bengali": "নমস্কার",
+            "romanized": "nomoskar"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "thank you",
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad"
+          },
+          "correct": false
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH01_S03_L10_E05",
+      "type": "conversation",
+      "scenario": {
+        "en": "You need someone’s attention politely."
+      },
+      "dialogue": [],
+      "question": {
+        "en": "Choose the safest phrase."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "excuse me / pardon me",
+            "bengali": "মাফ করবেন",
+            "romanized": "maf korben"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "sorry",
+            "bengali": "দুঃখিত",
+            "romanized": "dukkhito"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "hello / respectful greeting",
+            "bengali": "নমস্কার",
+            "romanized": "nomoskar"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "thank you",
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S03_L10_E06",
+      "type": "conversation",
+      "scenario": {
+        "en": "You apologize for a small mistake."
+      },
+      "dialogue": [],
+      "question": {
+        "en": "Choose the safest phrase."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "excuse me / pardon me",
+            "bengali": "মাফ করবেন",
+            "romanized": "maf korben"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "sorry",
+            "bengali": "দুঃখিত",
+            "romanized": "dukkhito"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "hello / respectful greeting",
+            "bengali": "নমস্কার",
+            "romanized": "nomoskar"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "thank you",
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S03_L10_E07",
+      "type": "reading",
+      "passage": {
+        "en": "Hello. Excuse me.",
+        "bengali": "নমস্কার। মাফ করবেন।"
+      },
+      "question": {
+        "en": "Choose “excuse me.”"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "excuse me / pardon me",
+            "bengali": "মাফ করবেন",
+            "romanized": "maf korben"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "sorry",
+            "bengali": "দুঃখিত",
+            "romanized": "dukkhito"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "hello / respectful greeting",
+            "bengali": "নমস্কার",
+            "romanized": "nomoskar"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "thank you",
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S03_L10_E08",
+      "type": "reading",
+      "passage": {
+        "en": "Sorry. Okay.",
+        "bengali": "দুঃখিত। ঠিক আছে।"
+      },
+      "question": {
+        "en": "Choose “sorry.”"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "excuse me / pardon me",
+            "bengali": "মাফ করবেন",
+            "romanized": "maf korben"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "sorry",
+            "bengali": "দুঃখিত",
+            "romanized": "dukkhito"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "hello / respectful greeting",
+            "bengali": "নমস্কার",
+            "romanized": "nomoskar"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "thank you",
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH01_S03_L10_E09",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Mixed polite checkpoint."
+      },
+      "audio": "assets/audio/listening/ch01_s03_l10_e09.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "মাফ করবেন।"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "What did A say?"
+          },
+          "options": [
+            {
+              "text": {
+                "en": "excuse me / pardon me",
+                "bengali": "মাফ করবেন",
+                "romanized": "maf korben"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "en": "sorry",
+                "bengali": "দুঃখিত",
+                "romanized": "dukkhito"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "en": "hello / respectful greeting",
+                "bengali": "নমস্কার",
+                "romanized": "nomoskar"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "en": "thank you",
+                "bengali": "ধন্যবাদ",
+                "romanized": "dhonnobad"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CH01_S03_L10_E10",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Mixed apology checkpoint."
+      },
+      "audio": "assets/audio/listening/ch01_s03_l10_e10.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "দুঃখিত।"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "What did A say?"
+          },
+          "options": [
+            {
+              "text": {
+                "en": "excuse me / pardon me",
+                "bengali": "মাফ করবেন",
+                "romanized": "maf korben"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "en": "sorry",
+                "bengali": "দুঃখিত",
+                "romanized": "dukkhito"
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "en": "hello / respectful greeting",
+                "bengali": "নমস্কার",
+                "romanized": "nomoskar"
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "en": "thank you",
+                "bengali": "ধন্যবাদ",
+                "romanized": "dhonnobad"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

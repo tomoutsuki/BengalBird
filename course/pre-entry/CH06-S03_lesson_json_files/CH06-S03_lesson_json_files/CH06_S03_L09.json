@@ -1,0 +1,282 @@
+{
+  "lesson_id": "CH06_S03_L09",
+  "title": {
+    "en": "I Want This: Read the Shape"
+  },
+  "description": {
+    "en": "Recognize the Bengali written shape for this section."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH06_S03_L09_ex01",
+      "type": "reading",
+      "passage": {
+        "en": "এটা চাই"
+      },
+      "question": {
+        "en": "What does this whole shape mean?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I want this."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "thank you"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "how are you?"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Read the whole word/phrase shape; do not decode every letter yet."
+      }
+    },
+    {
+      "id": "CH06_S03_L09_ex02",
+      "type": "reading",
+      "passage": {
+        "en": "এটা"
+      },
+      "question": {
+        "en": "What does this whole shape mean?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "this"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "thank you"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "how are you?"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Read the whole word/phrase shape; do not decode every letter yet."
+      }
+    },
+    {
+      "id": "CH06_S03_L09_ex03",
+      "type": "reading",
+      "passage": {
+        "en": "চাই"
+      },
+      "question": {
+        "en": "What does this whole shape mean?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "want"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "thank you"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "how are you?"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Read the whole word/phrase shape; do not decode every letter yet."
+      }
+    },
+    {
+      "id": "CH06_S03_L09_ex04",
+      "type": "reading",
+      "passage": {
+        "en": "চা চাই"
+      },
+      "question": {
+        "en": "What does this whole shape mean?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I want tea."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "thank you"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "how are you?"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Read the whole word/phrase shape; do not decode every letter yet."
+      }
+    },
+    {
+      "id": "CH06_S03_L09_ex05",
+      "type": "reading",
+      "passage": {
+        "en": "পানি চাই"
+      },
+      "question": {
+        "en": "What does this whole shape mean?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I want water."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "thank you"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "how are you?"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Read the whole word/phrase shape; do not decode every letter yet."
+      }
+    },
+    {
+      "id": "CH06_S03_L09_ex06",
+      "type": "reading",
+      "passage": {
+        "en": "ভাত চাই"
+      },
+      "question": {
+        "en": "What does this whole shape mean?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I want rice."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "thank you"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "how are you?"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Read the whole word/phrase shape; do not decode every letter yet."
+      }
+    },
+    {
+      "id": "CH06_S03_L09_ex07",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the Bengali phrase."
+      },
+      "words": [
+        "চাই",
+        "এটা"
+      ],
+      "correctOrder": [
+        "এটা",
+        "চাই"
+      ],
+      "hint": {
+        "en": "Build the whole phrase."
+      }
+    },
+    {
+      "id": "CH06_S03_L09_ex08",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the Bengali phrase."
+      },
+      "words": [
+        "চা",
+        "চাই"
+      ],
+      "correctOrder": [
+        "চা",
+        "চাই"
+      ],
+      "hint": {
+        "en": "Build: চা চাই."
+      }
+    },
+    {
+      "id": "CH06_S03_L09_ex09",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the Bengali phrase."
+      },
+      "words": [
+        "পানি",
+        "চাই"
+      ],
+      "correctOrder": [
+        "পানি",
+        "চাই"
+      ],
+      "hint": {
+        "en": "Build: পানি চাই."
+      }
+    },
+    {
+      "id": "CH06_S03_L09_ex10",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the Bengali phrase."
+      },
+      "words": [
+        "ভাত",
+        "চাই"
+      ],
+      "correctOrder": [
+        "ভাত",
+        "চাই"
+      ],
+      "hint": {
+        "en": "Build: ভাত চাই."
+      }
+    }
+  ]
+}

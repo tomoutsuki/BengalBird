@@ -1,0 +1,293 @@
+{
+  "lesson_id": "CH06_S05_L07",
+  "title": {
+    "en": "Café Mini-Scene: Review Mix"
+  },
+  "description": {
+    "en": "Recycle café mini-scene with earlier course language."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH06_S05_L07_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s05_nomoskar.mp3",
+      "question": {
+        "en": "Review: what did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "নমস্কার",
+            "romanized": "nomoskar",
+            "en": "Hello."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "চা দিন",
+            "romanized": "cha din",
+            "en": "Tea, please."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "পানি",
+            "romanized": "pani",
+            "en": "water"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L07_ex02",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s05_dhonnobad.mp3",
+      "question": {
+        "en": "Review: what did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ধন্যবাদ",
+            "romanized": "dhonnobad",
+            "en": "Thank you."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "ঠিক আছে",
+            "romanized": "thik ache",
+            "en": "Okay."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "চা",
+            "romanized": "cha",
+            "en": "tea"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L07_ex03",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which one means “No”?"
+      },
+      "options": [
+        {
+          "en": "না"
+        },
+        {
+          "en": "হ্যাঁ"
+        },
+        {
+          "en": "ঠিক আছে"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S05_L07_ex04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which one means “Yes”?"
+      },
+      "options": [
+        {
+          "en": "হ্যাঁ"
+        },
+        {
+          "en": "না"
+        },
+        {
+          "en": "মাফ করবেন"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S05_L07_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which one is “Excuse me”?"
+      },
+      "options": [
+        {
+          "en": "মাফ করবেন"
+        },
+        {
+          "en": "ভালো আছি"
+        },
+        {
+          "en": "চা"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S05_L07_ex06",
+      "type": "figure_choice",
+      "question": {
+        "en": "Review food: choose “চা”."
+      },
+      "bengali": "চা",
+      "options": [
+        {
+          "image": "assets/illustrations/tea_cup.png",
+          "label": {
+            "en": "tea"
+          }
+        },
+        {
+          "image": "assets/illustrations/water_glass.png",
+          "label": {
+            "en": "water"
+          }
+        },
+        {
+          "image": "assets/illustrations/dal_bowl.png",
+          "label": {
+            "en": "dal"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S05_L07_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "মাফ করবেন। চা দিন। ঠিক আছে। ধন্যবাদ।"
+      },
+      "question": {
+        "en": "What kind of exchange is this?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "A polite café exchange"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "A name exchange"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "A family profile"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L07_ex08",
+      "type": "conversation",
+      "scenario": {
+        "en": "Review mix."
+      },
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": {
+            "bengali": "চা দিন।"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose the natural reply."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ঠিক আছে।",
+            "romanized": "thik ache",
+            "en": "Okay."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "না, বাবা।",
+            "romanized": "na, baba",
+            "en": "No, father."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আপনি নাম।",
+            "romanized": "apni nam",
+            "en": "You name."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L07_ex09",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s05_pani_din.mp3",
+      "question": {
+        "en": "Review: What request did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "পানি দিন",
+            "romanized": "pani din",
+            "en": "Water, please."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "চা দিন",
+            "romanized": "cha din",
+            "en": "Tea, please."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ভাত দিন",
+            "romanized": "bhat din",
+            "en": "Rice, please."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L07_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the safest polite café opener."
+      },
+      "options": [
+        {
+          "en": "মাফ করবেন"
+        },
+        {
+          "en": "তুই"
+        },
+        {
+          "en": "আছিস"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

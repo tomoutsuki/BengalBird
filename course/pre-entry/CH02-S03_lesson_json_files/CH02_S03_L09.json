@@ -1,0 +1,238 @@
+{
+  "lesson_id": "CH02_S03_L09",
+  "title": {
+    "en": "Fine, So-so, Not Bad: Read the Shape"
+  },
+  "description": {
+    "en": "Recognize the Bengali written shape for this section."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH02_S03_L09_E01",
+      "type": "reading",
+      "passage": {
+        "en": "মোটামুটি"
+      },
+      "question": {
+        "en": "Read the shape. Choose the meaning."
+      },
+      "options": [
+        {
+          "en": "So-so"
+        },
+        {
+          "en": "Not bad"
+        },
+        {
+          "en": "I’m fine"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Recognize the whole word shape."
+      }
+    },
+    {
+      "id": "CH02_S03_L09_E02",
+      "type": "reading",
+      "passage": {
+        "en": "খারাপ না"
+      },
+      "question": {
+        "en": "Read the shape. Choose the meaning."
+      },
+      "options": [
+        {
+          "en": "Not bad"
+        },
+        {
+          "en": "So-so"
+        },
+        {
+          "en": "Hello"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Recognize the whole phrase shape."
+      }
+    },
+    {
+      "id": "CH02_S03_L09_E03",
+      "type": "reading",
+      "passage": {
+        "en": "ভালো আছি"
+      },
+      "question": {
+        "en": "Review the shape. Choose the meaning."
+      },
+      "options": [
+        {
+          "en": "I’m fine"
+        },
+        {
+          "en": "Not bad"
+        },
+        {
+          "en": "Thank you"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH02_S03_L09_E04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which Bengali shape says “So-so”?"
+      },
+      "options": [
+        {
+          "en": "মোটামুটি"
+        },
+        {
+          "en": "খারাপ না"
+        },
+        {
+          "en": "ভালো আছি"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH02_S03_L09_E05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which Bengali shape says “Not bad”?"
+      },
+      "options": [
+        {
+          "en": "খারাপ না"
+        },
+        {
+          "en": "মোটামুটি"
+        },
+        {
+          "en": "কেমন আছেন?"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH02_S03_L09_E06",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch02_s03_motamuti.mp3",
+      "question": {
+        "en": "Listen, then choose the matching Bengali."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "মোটামুটি"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "খারাপ না"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ভালো আছি"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH02_S03_L09_E07",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch02_s03_kharap_na.mp3",
+      "question": {
+        "en": "Listen, then choose the matching Bengali."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "খারাপ না"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "মোটামুটি"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "কেমন আছেন?"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH02_S03_L09_E08",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Put the phrase in order."
+      },
+      "words": [
+        "না",
+        "খারাপ"
+      ],
+      "correctOrder": [
+        "খারাপ",
+        "না"
+      ],
+      "wordsRomanized": [
+        "na",
+        "kharap"
+      ]
+    },
+    {
+      "id": "CH02_S03_L09_E09",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Put the phrase in order."
+      },
+      "words": [
+        "আছি",
+        "ভালো"
+      ],
+      "correctOrder": [
+        "ভালো",
+        "আছি"
+      ],
+      "wordsRomanized": [
+        "achi",
+        "bhalo"
+      ]
+    },
+    {
+      "id": "CH02_S03_L09_E10",
+      "type": "reading",
+      "passage": {
+        "en": "কেমন আছেন? — খারাপ না।"
+      },
+      "question": {
+        "en": "What does the reply mean?"
+      },
+      "options": [
+        {
+          "en": "Not bad"
+        },
+        {
+          "en": "No"
+        },
+        {
+          "en": "Sorry"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

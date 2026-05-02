@@ -1,0 +1,353 @@
+{
+  "lesson_id": "CH06_S02_L06",
+  "title": {
+    "en": "Water: Mini Exchange"
+  },
+  "description": {
+    "en": "Recognize water words in Bengali: পানি and জল, with regional context."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH06_S02_L06_ex01",
+      "type": "conversation",
+      "scenario": {
+        "en": "At a tea stall in Bangladesh."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "মাফ করবেন।",
+            "romanized": "maf korben.",
+            "en": "Excuse me."
+          }
+        }
+      ],
+      "question": {
+        "en": "Ask for water using the Bangladesh-common word."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "পানি দিন।",
+            "romanized": "pani din.",
+            "en": "Please give water."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "চা দিন।",
+            "romanized": "cha din.",
+            "en": "Please give tea."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "জল।",
+            "romanized": "jol.",
+            "en": "Water."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L06_ex02",
+      "type": "conversation",
+      "scenario": {
+        "en": "At a café in West Bengal."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "মাফ করবেন।",
+            "romanized": "maf korben.",
+            "en": "Excuse me."
+          }
+        }
+      ],
+      "question": {
+        "en": "Ask for water using the West Bengal-common word."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "জল দিন।",
+            "romanized": "jol din.",
+            "en": "Please give water."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "ভাত দিন।",
+            "romanized": "bhat din.",
+            "en": "Please give rice."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "না।",
+            "romanized": "na.",
+            "en": "No."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L06_ex03",
+      "type": "conversation",
+      "scenario": {
+        "en": "Someone gives you water."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "পানি।",
+            "romanized": "pani.",
+            "en": "Water."
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose a natural reply."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ধন্যবাদ।",
+            "romanized": "dhonnobad.",
+            "en": "Thank you."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "মাছ।",
+            "romanized": "mach.",
+            "en": "Fish."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "নমস্কার।",
+            "romanized": "nomoskar.",
+            "en": "Hello."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L06_ex04",
+      "type": "conversation",
+      "scenario": {
+        "en": "Someone gives you water."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "bengali": "জল।",
+            "romanized": "jol.",
+            "en": "Water."
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose a natural reply."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ধন্যবাদ।",
+            "romanized": "dhonnobad.",
+            "en": "Thank you."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "চা।",
+            "romanized": "cha.",
+            "en": "Tea."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আমার নাম।",
+            "romanized": "amar nam.",
+            "en": "My name."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L06_ex05",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s02_mini_pani_thanks.mp3",
+      "question": {
+        "en": "What happens?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Someone asks for water and says thanks."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Someone says their name."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Someone asks for fish."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L06_ex06",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s02_mini_jol_ok.mp3",
+      "question": {
+        "en": "What word for water do you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "জল",
+            "romanized": "jol",
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "পানি",
+            "romanized": "pani",
+            "en": "water"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "চা",
+            "romanized": "cha",
+            "en": "tea"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L06_ex07",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: পানি দিন"
+      },
+      "words": [
+        "দিন",
+        "পানি"
+      ],
+      "correctOrder": [
+        "পানি",
+        "দিন"
+      ],
+      "wordsRomanized": [
+        "din",
+        "pani"
+      ]
+    },
+    {
+      "id": "CH06_S02_L06_ex08",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: ধন্যবাদ"
+      },
+      "words": [
+        "ধন্যবাদ"
+      ],
+      "correctOrder": [
+        "ধন্যবাদ"
+      ],
+      "wordsRomanized": [
+        "dhonnobad"
+      ]
+    },
+    {
+      "id": "CH06_S02_L06_ex09",
+      "type": "reading",
+      "passage": {
+        "en": "A: পানি দিন।\nB: ঠিক আছে।"
+      },
+      "question": {
+        "en": "What does A ask for?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "tea"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "rice"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S02_L06_ex10",
+      "type": "reading",
+      "passage": {
+        "en": "A: জল দিন।\nB: ঠিক আছে।"
+      },
+      "question": {
+        "en": "What does A ask for?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "water"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "dal"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "fish"
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

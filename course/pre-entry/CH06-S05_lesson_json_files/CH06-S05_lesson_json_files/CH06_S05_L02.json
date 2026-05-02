@@ -1,0 +1,261 @@
+{
+  "lesson_id": "CH06_S05_L02",
+  "title": {
+    "en": "Café Mini-Scene: Tap the Meaning"
+  },
+  "description": {
+    "en": "Match চা দিন—ঠিক আছে to meaning without production."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH06_S05_L02_ex01",
+      "type": "grammar-select",
+      "question": {
+        "en": "Tap the meaning of “চা দিন।”"
+      },
+      "options": [
+        {
+          "en": "Tea, please."
+        },
+        {
+          "en": "Water, please."
+        },
+        {
+          "en": "Thank you."
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S05_L02_ex02",
+      "type": "grammar-select",
+      "question": {
+        "en": "Tap the meaning of “ঠিক আছে।”"
+      },
+      "options": [
+        {
+          "en": "No."
+        },
+        {
+          "en": "Okay."
+        },
+        {
+          "en": "Excuse me."
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH06_S05_L02_ex03",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s05_cha_din.mp3",
+      "question": {
+        "en": "What meaning fits the audio?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Tea, please."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "My name is…"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "How are you?"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L02_ex04",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s05_thik_ache.mp3",
+      "question": {
+        "en": "What meaning fits the audio?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Okay."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Sorry."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Rice."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L02_ex05",
+      "type": "figure_choice",
+      "question": {
+        "en": "Choose the image for “চা”."
+      },
+      "bengali": "চা",
+      "options": [
+        {
+          "image": "assets/illustrations/water_glass.png",
+          "label": {
+            "en": "water"
+          }
+        },
+        {
+          "image": "assets/illustrations/tea_cup.png",
+          "label": {
+            "en": "tea"
+          }
+        },
+        {
+          "image": "assets/illustrations/fish_plate.png",
+          "label": {
+            "en": "fish"
+          }
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH06_S05_L02_ex06",
+      "type": "reading",
+      "passage": {
+        "en": "চা দিন।"
+      },
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Tea, please."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Okay."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "No, thanks."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L02_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "ঠিক আছে।"
+      },
+      "question": {
+        "en": "Choose the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Okay."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Water, please."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Hello."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L02_ex08",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which pair matches the café mini-scene?"
+      },
+      "options": [
+        {
+          "en": "চা দিন → ঠিক আছে"
+        },
+        {
+          "en": "আমার নাম → না"
+        },
+        {
+          "en": "বাবা → হ্যালো"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S05_L02_ex09",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s05_cha_din_thik_ache.mp3",
+      "question": {
+        "en": "Which two meanings did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Tea, please → okay"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Sorry → no"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Hello → thank you"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L02_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "In a café, “চা দিন” is a…"
+      },
+      "options": [
+        {
+          "en": "polite request"
+        },
+        {
+          "en": "family word"
+        },
+        {
+          "en": "name question"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

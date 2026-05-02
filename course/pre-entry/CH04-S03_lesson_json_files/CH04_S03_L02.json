@@ -1,0 +1,331 @@
+{
+  "lesson_id": "CH04_S03_L02",
+  "title": {
+    "en": "My / Your: Tap the Meaning"
+  },
+  "description": {
+    "en": "Match আমার, আপনার, তোমার to meaning without production."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "ch04_s03_l02_ex01",
+      "type": "grammar-select",
+      "question": {
+        "en": "Match আমার."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার",
+            "romanized": "amar",
+            "en": "my"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your polite"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your friendly"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l02_ex02",
+      "type": "grammar-select",
+      "question": {
+        "en": "Match আপনার."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your (polite)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমার",
+            "romanized": "amar",
+            "en": "my"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your (friendly)"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l02_ex03",
+      "type": "grammar-select",
+      "question": {
+        "en": "Match তোমার."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your (friendly)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your (polite)"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আমার",
+            "romanized": "amar",
+            "en": "my"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l02_ex04",
+      "type": "figure_choice",
+      "question": {
+        "en": "Which card means “your name” for a teacher or adult?"
+      },
+      "options": [
+        {
+          "image": "assets/illustrations/pronoun_speaker_name.png",
+          "label": {
+            "en": "আমার নাম"
+          }
+        },
+        {
+          "image": "assets/illustrations/pronoun_polite_listener_name.png",
+          "label": {
+            "en": "আপনার নাম"
+          }
+        },
+        {
+          "image": "assets/illustrations/pronoun_friend_listener_name.png",
+          "label": {
+            "en": "তোমার নাম"
+          }
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "ch04_s03_l02_ex05",
+      "type": "figure_choice",
+      "question": {
+        "en": "Which card means “your name” for a friend?"
+      },
+      "options": [
+        {
+          "image": "assets/illustrations/pronoun_polite_listener_name.png",
+          "label": {
+            "en": "আপনার নাম"
+          }
+        },
+        {
+          "image": "assets/illustrations/pronoun_friend_listener_name.png",
+          "label": {
+            "en": "তোমার নাম"
+          }
+        },
+        {
+          "image": "assets/illustrations/pronoun_speaker_name.png",
+          "label": {
+            "en": "আমার নাম"
+          }
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "ch04_s03_l02_ex06",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s03_l02_ex06.mp3",
+      "question": {
+        "en": "What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনার নাম",
+            "romanized": "apnar nam",
+            "en": "your name (polite)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমার নাম",
+            "romanized": "amar nam",
+            "en": "my name"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তোমার নাম",
+            "romanized": "tomar nam",
+            "en": "your name (friendly)"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l02_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "তোমার নাম?"
+      },
+      "question": {
+        "en": "Who is this best for?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "a friend"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "a stranger"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "a shopkeeper you just met"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Friendly, not for strangers."
+      }
+    },
+    {
+      "id": "ch04_s03_l02_ex08",
+      "type": "reading",
+      "passage": {
+        "en": "আপনার নাম?"
+      },
+      "question": {
+        "en": "Who is this safest for?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "an adult or stranger"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "only a close friend"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "a pet"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l02_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose the safest “your” with someone new."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your (polite)"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমার",
+            "romanized": "amar",
+            "en": "my"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your (friendly)"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch04_s03_l02_ex10",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch04_s03_l02_ex10.mp3",
+      "question": {
+        "en": "Pick the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "তোমার",
+            "romanized": "tomar",
+            "en": "your — friendly"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "আমার",
+            "romanized": "amar",
+            "en": "my"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আপনার",
+            "romanized": "apnar",
+            "en": "your — polite"
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

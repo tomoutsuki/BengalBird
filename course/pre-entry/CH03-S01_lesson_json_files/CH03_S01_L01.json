@@ -1,0 +1,310 @@
+{
+  "lesson_id": "CH03_S01_L01",
+  "title": {
+    "en": "My Name Is…: First Listen"
+  },
+  "description": {
+    "en": "Recognize আমার নাম… by sound."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "ch03_s01_l01_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch03_s01_amar_nam.mp3",
+      "question": {
+        "en": "What does this phrase mean?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "My name is…"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "How are you?"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Thank you"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch03_s01_l01_ex02",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the image for “my name is…”"
+      },
+      "bengali": "আমার নাম…",
+      "options": [
+        {
+          "image": "assets/illustrations/name_badge.png",
+          "label": {
+            "en": "name badge"
+          }
+        },
+        {
+          "image": "assets/illustrations/greeting_wave.png",
+          "label": {
+            "en": "hello"
+          }
+        },
+        {
+          "image": "assets/illustrations/thank_you_hands.png",
+          "label": {
+            "en": "thank you"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ch03_s01_l01_ex03",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which Bengali chunk means “my name is…”?"
+      },
+      "options": [
+        {
+          "en": "আমার নাম…"
+        },
+        {
+          "en": "ভালো আছি"
+        },
+        {
+          "en": "ধন্যবাদ"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ch03_s01_l01_ex04",
+      "type": "reading",
+      "passage": {
+        "en": "আমার নাম…\namar nam…\nMy name is…"
+      },
+      "question": {
+        "en": "What is this chunk used for?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Saying your name"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Saying no"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Saying thanks"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Learn this as one useful chunk for now."
+      }
+    },
+    {
+      "id": "ch03_s01_l01_ex05",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch03_s01_amar_nam_riya.mp3",
+      "question": {
+        "en": "What did the speaker start to say?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "My name is Riya."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "I am fine."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "Excuse me."
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch03_s01_l01_ex06",
+      "type": "conversation",
+      "scenario": {
+        "en": "You are meeting someone politely."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "en": "নমস্কার।"
+          }
+        },
+        {
+          "speaker": "B",
+          "text": {
+            "en": "নমস্কার।"
+          }
+        }
+      ],
+      "question": {
+        "en": "How can B start giving their name?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "আমার নাম রিয়া।",
+            "en": "My name is Riya.",
+            "romanized": "amar nam Riya"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "ধন্যবাদ।",
+            "en": "Thank you.",
+            "romanized": "dhonnobad"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "না।",
+            "en": "No.",
+            "romanized": "na"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ch03_s01_l01_ex07",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: “My name is Riya.”"
+      },
+      "words": [
+        "রিয়া।",
+        "নাম",
+        "আমার"
+      ],
+      "wordsRomanized": [
+        "Riya.",
+        "nam",
+        "amar"
+      ],
+      "correctOrder": [
+        "আমার",
+        "নাম",
+        "রিয়া।"
+      ]
+    },
+    {
+      "id": "ch03_s01_l01_ex08",
+      "type": "grammar-select",
+      "question": {
+        "en": "Pick the natural romanization."
+      },
+      "options": [
+        {
+          "en": "amar nam…"
+        },
+        {
+          "en": "kemon achen?"
+        },
+        {
+          "en": "bhalo achi"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ch03_s01_l01_ex09",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Listen to a tiny name exchange."
+      },
+      "audio": "assets/audio/listening/ch03_s01_name_scene.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "নমস্কার।",
+          "romanized": "nomoshkar",
+          "translation": {
+            "en": "Hello."
+          }
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "Choose the next line."
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "আমার নাম রাহিম।",
+                "romanized": "amar nam Rahim",
+                "en": "My name is Rahim."
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "না।",
+                "romanized": "na",
+                "en": "No."
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "bengali": "খারাপ না।",
+                "romanized": "kharap na",
+                "en": "Not bad."
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch03_s01_l01_ex10",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which earlier phrase pairs naturally before giving a name?"
+      },
+      "options": [
+        {
+          "en": "নমস্কার।"
+        },
+        {
+          "en": "দুঃখিত।"
+        },
+        {
+          "en": "না।"
+        }
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

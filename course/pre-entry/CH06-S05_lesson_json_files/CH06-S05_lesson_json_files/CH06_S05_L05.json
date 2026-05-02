@@ -1,0 +1,248 @@
+{
+  "lesson_id": "CH06_S05_L05",
+  "title": {
+    "en": "Café Mini-Scene: Build the Chunk"
+  },
+  "description": {
+    "en": "Build the key chunk for café mini-scene."
+  },
+  "est_time_mins": 4,
+  "exercises": [
+    {
+      "id": "CH06_S05_L05_ex01",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: “Tea, please.”"
+      },
+      "words": [
+        "দিন",
+        "চা"
+      ],
+      "correctOrder": [
+        "চা",
+        "দিন"
+      ],
+      "wordsRomanized": [
+        "din",
+        "cha"
+      ]
+    },
+    {
+      "id": "CH06_S05_L05_ex02",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: “Water, please.”"
+      },
+      "words": [
+        "দিন",
+        "পানি"
+      ],
+      "correctOrder": [
+        "পানি",
+        "দিন"
+      ],
+      "wordsRomanized": [
+        "din",
+        "pani"
+      ]
+    },
+    {
+      "id": "CH06_S05_L05_ex03",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build: “Okay.”"
+      },
+      "words": [
+        "আছে",
+        "ঠিক"
+      ],
+      "correctOrder": [
+        "ঠিক",
+        "আছে"
+      ],
+      "wordsRomanized": [
+        "ache",
+        "thik"
+      ]
+    },
+    {
+      "id": "CH06_S05_L05_ex04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which chunk is a request?"
+      },
+      "options": [
+        {
+          "en": "চা দিন"
+        },
+        {
+          "en": "ঠিক আছে"
+        },
+        {
+          "en": "ধন্যবাদ"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S05_L05_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which chunk is a response?"
+      },
+      "options": [
+        {
+          "en": "ঠিক আছে"
+        },
+        {
+          "en": "চা দিন"
+        },
+        {
+          "en": "পানি"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S05_L05_ex06",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch06_s05_cha_din_thik_ache.mp3",
+      "question": {
+        "en": "Put the scene in order."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "চা দিন → ঠিক আছে"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ঠিক আছে → চা দিন"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "না → ধন্যবাদ"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L05_ex07",
+      "type": "reading",
+      "passage": {
+        "en": "চা দিন। ঠিক আছে।"
+      },
+      "question": {
+        "en": "Choose the correct order."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Request → response"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Name → greeting"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "No → sorry"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH06_S05_L05_ex08",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the polite opener."
+      },
+      "words": [
+        "করবেন",
+        "মাফ"
+      ],
+      "correctOrder": [
+        "মাফ",
+        "করবেন"
+      ],
+      "wordsRomanized": [
+        "korben",
+        "maf"
+      ]
+    },
+    {
+      "id": "CH06_S05_L05_ex09",
+      "type": "grammar-select",
+      "question": {
+        "en": "Complete: মাফ করবেন, _____."
+      },
+      "options": [
+        {
+          "en": "চা দিন"
+        },
+        {
+          "en": "আমার নাম"
+        },
+        {
+          "en": "সে"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH06_S05_L05_ex10",
+      "type": "conversation",
+      "scenario": {
+        "en": "Build then use it."
+      },
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": {
+            "bengali": "চা দিন।",
+            "romanized": "cha din"
+          }
+        }
+      ],
+      "question": {
+        "en": "What comes next?"
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "ঠিক আছে।",
+            "romanized": "thik ache",
+            "en": "Okay."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "হ্যালো।",
+            "romanized": "hello",
+            "en": "Hello."
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আমার নাম।",
+            "romanized": "amar nam",
+            "en": "My name."
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

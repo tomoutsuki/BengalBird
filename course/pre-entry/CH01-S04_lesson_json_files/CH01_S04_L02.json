@@ -1,0 +1,428 @@
+{
+  "lesson_id": "CH01_S04_L02",
+  "title": {
+    "en": "Review: Tap the Meaning"
+  },
+  "description": {
+    "en": "Match all Chapter 1 chunks to meaning without production."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "ch01_s04_l02_ex01",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which means “hello”?"
+      },
+      "options": [
+        {
+          "bengali": "দুঃখিত",
+          "romanized": "dukkhito",
+          "meaning": {
+            "en": "sorry"
+          }
+        },
+        {
+          "bengali": "না",
+          "romanized": "na",
+          "meaning": {
+            "en": "no"
+          }
+        },
+        {
+          "bengali": "নমস্কার",
+          "romanized": "nomoshkar",
+          "meaning": {
+            "en": "hello / polite greeting"
+          }
+        },
+        {
+          "bengali": "ধন্যবাদ",
+          "romanized": "dhonnobad",
+          "meaning": {
+            "en": "thank you"
+          }
+        }
+      ],
+      "correctIndex": 2,
+      "hint": {
+        "en": "Choose the natural whole phrase."
+      }
+    },
+    {
+      "id": "ch01_s04_l02_ex02",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which means “thank you”?"
+      },
+      "options": [
+        {
+          "bengali": "হ্যালো",
+          "romanized": "hyalo",
+          "meaning": {
+            "en": "hello / phone hello"
+          }
+        },
+        {
+          "bengali": "ধন্যবাদ",
+          "romanized": "dhonnobad",
+          "meaning": {
+            "en": "thank you"
+          }
+        },
+        {
+          "bengali": "মাফ করবেন",
+          "romanized": "maf korben",
+          "meaning": {
+            "en": "excuse me / pardon me"
+          }
+        },
+        {
+          "bengali": "হ্যাঁ",
+          "romanized": "hya",
+          "meaning": {
+            "en": "yes"
+          }
+        }
+      ],
+      "correctIndex": 1,
+      "hint": {
+        "en": "Choose the natural whole phrase."
+      }
+    },
+    {
+      "id": "ch01_s04_l02_ex03",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which means “no”?"
+      },
+      "options": [
+        {
+          "bengali": "ঠিক আছে",
+          "romanized": "thik ache",
+          "meaning": {
+            "en": "okay / all right"
+          }
+        },
+        {
+          "bengali": "হ্যাঁ",
+          "romanized": "hya",
+          "meaning": {
+            "en": "yes"
+          }
+        },
+        {
+          "bengali": "আচ্ছা",
+          "romanized": "achchha",
+          "meaning": {
+            "en": "okay / I see"
+          }
+        },
+        {
+          "bengali": "না",
+          "romanized": "na",
+          "meaning": {
+            "en": "no"
+          }
+        }
+      ],
+      "correctIndex": 3,
+      "hint": {
+        "en": "Choose the natural whole phrase."
+      }
+    },
+    {
+      "id": "ch01_s04_l02_ex04",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which means “okay / all right”?"
+      },
+      "options": [
+        {
+          "bengali": "দুঃখিত",
+          "romanized": "dukkhito",
+          "meaning": {
+            "en": "sorry"
+          }
+        },
+        {
+          "bengali": "ধন্যবাদ",
+          "romanized": "dhonnobad",
+          "meaning": {
+            "en": "thank you"
+          }
+        },
+        {
+          "bengali": "না",
+          "romanized": "na",
+          "meaning": {
+            "en": "no"
+          }
+        },
+        {
+          "bengali": "ঠিক আছে",
+          "romanized": "thik ache",
+          "meaning": {
+            "en": "okay / all right"
+          }
+        }
+      ],
+      "correctIndex": 3,
+      "hint": {
+        "en": "Choose the natural whole phrase."
+      }
+    },
+    {
+      "id": "ch01_s04_l02_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which means “excuse me”?"
+      },
+      "options": [
+        {
+          "bengali": "নমস্কার",
+          "romanized": "nomoshkar",
+          "meaning": {
+            "en": "hello / polite greeting"
+          }
+        },
+        {
+          "bengali": "আচ্ছা",
+          "romanized": "achchha",
+          "meaning": {
+            "en": "okay / I see"
+          }
+        },
+        {
+          "bengali": "মাফ করবেন",
+          "romanized": "maf korben",
+          "meaning": {
+            "en": "excuse me / pardon me"
+          }
+        },
+        {
+          "bengali": "দুঃখিত",
+          "romanized": "dukkhito",
+          "meaning": {
+            "en": "sorry"
+          }
+        }
+      ],
+      "correctIndex": 2,
+      "hint": {
+        "en": "Choose the natural whole phrase."
+      }
+    },
+    {
+      "id": "ch01_s04_l02_ex06",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the image that matches the Bengali phrase."
+      },
+      "bengali": "হ্যালো",
+      "options": [
+        {
+          "image": "assets/illustrations/thank_you_hands.png",
+          "label": {
+            "en": "thank you"
+          }
+        },
+        {
+          "image": "assets/illustrations/greeting_wave.png",
+          "label": {
+            "en": "hello / polite greeting"
+          }
+        },
+        {
+          "image": "assets/illustrations/sorry_bow.png",
+          "label": {
+            "en": "sorry"
+          }
+        },
+        {
+          "image": "assets/illustrations/phone_hello.png",
+          "label": {
+            "en": "hello / phone hello"
+          }
+        }
+      ],
+      "correctIndex": 3,
+      "hint": {
+        "en": "হ্যালো = hello / phone hello"
+      }
+    },
+    {
+      "id": "ch01_s04_l02_ex07",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the image that matches the Bengali phrase."
+      },
+      "bengali": "আচ্ছা",
+      "options": [
+        {
+          "image": "assets/illustrations/okay_nod.png",
+          "label": {
+            "en": "okay / I see"
+          }
+        },
+        {
+          "image": "assets/illustrations/yes_check.png",
+          "label": {
+            "en": "yes"
+          }
+        },
+        {
+          "image": "assets/illustrations/greeting_wave.png",
+          "label": {
+            "en": "hello / polite greeting"
+          }
+        },
+        {
+          "image": "assets/illustrations/excuse_me.png",
+          "label": {
+            "en": "excuse me / pardon me"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "আচ্ছা = okay / I see"
+      }
+    },
+    {
+      "id": "ch01_s04_l02_ex08",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the image that matches the Bengali phrase."
+      },
+      "bengali": "দুঃখিত",
+      "options": [
+        {
+          "image": "assets/illustrations/no_cross.png",
+          "label": {
+            "en": "no"
+          }
+        },
+        {
+          "image": "assets/illustrations/sorry_bow.png",
+          "label": {
+            "en": "sorry"
+          }
+        },
+        {
+          "image": "assets/illustrations/excuse_me.png",
+          "label": {
+            "en": "excuse me / pardon me"
+          }
+        },
+        {
+          "image": "assets/illustrations/phone_hello.png",
+          "label": {
+            "en": "hello / phone hello"
+          }
+        }
+      ],
+      "correctIndex": 1,
+      "hint": {
+        "en": "দুঃখিত = sorry"
+      }
+    },
+    {
+      "id": "ch01_s04_l02_ex09",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch01_thik_ache.mp3",
+      "question": {
+        "en": "Tap the meaning you hear."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "নমস্কার",
+            "romanized": "nomoshkar",
+            "meaning": {
+              "en": "hello / polite greeting"
+            }
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "ঠিক আছে",
+            "romanized": "thik ache",
+            "meaning": {
+              "en": "okay / all right"
+            }
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "মাফ করবেন",
+            "romanized": "maf korben",
+            "meaning": {
+              "en": "excuse me / pardon me"
+            }
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "আচ্ছা",
+            "romanized": "achchha",
+            "meaning": {
+              "en": "okay / I see"
+            }
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Listen for the whole phrase. No spelling needed yet."
+      }
+    },
+    {
+      "id": "ch01_s04_l02_ex10",
+      "type": "reading",
+      "passage": {
+        "en": "মাফ করবেন"
+      },
+      "question": {
+        "en": "What does this polite phrase mean?"
+      },
+      "options": [
+        {
+          "bengali": "হ্যাঁ",
+          "romanized": "hya",
+          "meaning": {
+            "en": "yes"
+          }
+        },
+        {
+          "bengali": "না",
+          "romanized": "na",
+          "meaning": {
+            "en": "no"
+          }
+        },
+        {
+          "bengali": "দুঃখিত",
+          "romanized": "dukkhito",
+          "meaning": {
+            "en": "sorry"
+          }
+        },
+        {
+          "bengali": "মাফ করবেন",
+          "romanized": "maf korben",
+          "meaning": {
+            "en": "excuse me / pardon me"
+          }
+        }
+      ],
+      "correctIndex": 3,
+      "hint": {
+        "en": "Read the whole word shape."
+      }
+    }
+  ]
+}

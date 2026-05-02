@@ -1,0 +1,402 @@
+{
+  "lesson_id": "CH05_S01_L02",
+  "title": {
+    "en": "Close Family: Tap the Meaning"
+  },
+  "description": {
+    "en": "Match মা, বাবা, ভাই, বোন to meaning without production."
+  },
+  "est_time_mins": 3,
+  "exercises": [
+    {
+      "id": "CH05_S01_L02_ex01",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the family member."
+      },
+      "bengali": "মা",
+      "options": [
+        {
+          "image": "assets/illustrations/family_mother.png",
+          "label": {
+            "bengali": "মা",
+            "romanized": "ma",
+            "en": "mother / mom"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_father.png",
+          "label": {
+            "bengali": "বাবা",
+            "romanized": "baba",
+            "en": "father / dad"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_brother.png",
+          "label": {
+            "bengali": "ভাই",
+            "romanized": "bhai",
+            "en": "brother"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_sister.png",
+          "label": {
+            "bengali": "বোন",
+            "romanized": "bon",
+            "en": "sister"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S01_L02_ex02",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the family member."
+      },
+      "bengali": "বাবা",
+      "options": [
+        {
+          "image": "assets/illustrations/family_father.png",
+          "label": {
+            "bengali": "বাবা",
+            "romanized": "baba",
+            "en": "father / dad"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_mother.png",
+          "label": {
+            "bengali": "মা",
+            "romanized": "ma",
+            "en": "mother / mom"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_brother.png",
+          "label": {
+            "bengali": "ভাই",
+            "romanized": "bhai",
+            "en": "brother"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_sister.png",
+          "label": {
+            "bengali": "বোন",
+            "romanized": "bon",
+            "en": "sister"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S01_L02_ex03",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the family member."
+      },
+      "bengali": "ভাই",
+      "options": [
+        {
+          "image": "assets/illustrations/family_brother.png",
+          "label": {
+            "bengali": "ভাই",
+            "romanized": "bhai",
+            "en": "brother"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_mother.png",
+          "label": {
+            "bengali": "মা",
+            "romanized": "ma",
+            "en": "mother / mom"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_father.png",
+          "label": {
+            "bengali": "বাবা",
+            "romanized": "baba",
+            "en": "father / dad"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_sister.png",
+          "label": {
+            "bengali": "বোন",
+            "romanized": "bon",
+            "en": "sister"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S01_L02_ex04",
+      "type": "figure_choice",
+      "question": {
+        "en": "Tap the family member."
+      },
+      "bengali": "বোন",
+      "options": [
+        {
+          "image": "assets/illustrations/family_sister.png",
+          "label": {
+            "bengali": "বোন",
+            "romanized": "bon",
+            "en": "sister"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_mother.png",
+          "label": {
+            "bengali": "মা",
+            "romanized": "ma",
+            "en": "mother / mom"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_father.png",
+          "label": {
+            "bengali": "বাবা",
+            "romanized": "baba",
+            "en": "father / dad"
+          }
+        },
+        {
+          "image": "assets/illustrations/family_brother.png",
+          "label": {
+            "bengali": "ভাই",
+            "romanized": "bhai",
+            "en": "brother"
+          }
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S01_L02_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose “father / dad”."
+      },
+      "options": [
+        {
+          "bengali": "মা",
+          "romanized": "ma",
+          "en": "mother / mom"
+        },
+        {
+          "bengali": "বাবা",
+          "romanized": "baba",
+          "en": "father / dad"
+        },
+        {
+          "bengali": "বোন",
+          "romanized": "bon",
+          "en": "sister"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH05_S01_L02_ex06",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose “mother / mom”."
+      },
+      "options": [
+        {
+          "bengali": "বাবা",
+          "romanized": "baba",
+          "en": "father / dad"
+        },
+        {
+          "bengali": "ভাই",
+          "romanized": "bhai",
+          "en": "brother"
+        },
+        {
+          "bengali": "মা",
+          "romanized": "ma",
+          "en": "mother / mom"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "CH05_S01_L02_ex07",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose “brother”."
+      },
+      "options": [
+        {
+          "bengali": "ভাই",
+          "romanized": "bhai",
+          "en": "brother"
+        },
+        {
+          "bengali": "বোন",
+          "romanized": "bon",
+          "en": "sister"
+        },
+        {
+          "bengali": "মা",
+          "romanized": "ma",
+          "en": "mother / mom"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH05_S01_L02_ex08",
+      "type": "grammar-select",
+      "question": {
+        "en": "Choose “sister”."
+      },
+      "options": [
+        {
+          "bengali": "বাবা",
+          "romanized": "baba",
+          "en": "father / dad"
+        },
+        {
+          "bengali": "বোন",
+          "romanized": "bon",
+          "en": "sister"
+        },
+        {
+          "bengali": "ভাই",
+          "romanized": "bhai",
+          "en": "brother"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "CH05_S01_L02_ex09",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s01/ma.mp3",
+      "question": {
+        "en": "You hear “ma.” Tap the Bengali word."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "মা",
+            "romanized": "ma",
+            "en": "mother / mom"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "বাবা",
+            "romanized": "baba",
+            "en": "father / dad"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "বোন",
+            "romanized": "bon",
+            "en": "sister"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S01_L02_ex10",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch05_s01/bon.mp3",
+      "question": {
+        "en": "You hear “bon.” Tap the Bengali word."
+      },
+      "options": [
+        {
+          "text": {
+            "bengali": "বোন",
+            "romanized": "bon",
+            "en": "sister"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "bengali": "ভাই",
+            "romanized": "bhai",
+            "en": "brother"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "bengali": "মা",
+            "romanized": "ma",
+            "en": "mother / mom"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH05_S01_L02_ex11",
+      "type": "reading",
+      "passage": {
+        "en": "আমার মা"
+      },
+      "question": {
+        "en": "What does this include?"
+      },
+      "options": [
+        {
+          "en": "my mother"
+        },
+        {
+          "en": "my brother"
+        },
+        {
+          "en": "my father"
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "আমার = my"
+      }
+    },
+    {
+      "id": "CH05_S01_L02_ex12",
+      "type": "reading",
+      "passage": {
+        "en": "আমার বাবা"
+      },
+      "question": {
+        "en": "What does this include?"
+      },
+      "options": [
+        {
+          "en": "my sister"
+        },
+        {
+          "en": "my father"
+        },
+        {
+          "en": "my brother"
+        }
+      ],
+      "correctIndex": 1,
+      "hint": {
+        "en": "আমার = my"
+      }
+    }
+  ]
+}

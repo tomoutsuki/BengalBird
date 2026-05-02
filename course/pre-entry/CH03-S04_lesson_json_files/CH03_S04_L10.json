@@ -1,0 +1,330 @@
+{
+  "lesson_id": "CH03_S04_L10",
+  "title": {
+    "en": "Nice to Meet You: Check"
+  },
+  "description": {
+    "en": "Pass a short mixed check for nice to meet you."
+  },
+  "est_time_mins": 5,
+  "exercises": [
+    {
+      "id": "CH03_S04_L10_ex01",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch03_s04_l10_bhalo_laglo.mp3",
+      "question": {
+        "en": "Listen. What did you hear?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ভালো লাগলো"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "ভালো আছি"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "ধন্যবাদ"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH03_S04_L10_ex02",
+      "type": "grammar-select",
+      "question": {
+        "en": "What does ভালো লাগলো mean in a meeting?"
+      },
+      "options": [
+        {
+          "en": "Nice to meet you."
+        },
+        {
+          "en": "What is your name?"
+        },
+        {
+          "en": "I am fine."
+        }
+      ],
+      "correctIndex": 0,
+      "hint": {
+        "en": "Use it as a friendly chunk after meeting someone."
+      }
+    },
+    {
+      "id": "CH03_S04_L10_ex03",
+      "type": "reading",
+      "passage": {
+        "en": "ভালো লাগলো"
+      },
+      "question": {
+        "en": "Tap the meaning."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Nice to meet you."
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "Hello"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "No"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Read the whole shape as one phrase: bhalo laglo."
+      }
+    },
+    {
+      "id": "CH03_S04_L10_ex04",
+      "type": "conversation",
+      "scenario": {
+        "en": "You just heard someone’s name."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "en": "আমার নাম মায়া।"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose a warm short reply."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ভালো লাগলো"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "না"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "কেমন আছেন?"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH03_S04_L10_ex05",
+      "type": "grammar-select",
+      "question": {
+        "en": "Which phrase fits after a first introduction?"
+      },
+      "options": [
+        {
+          "en": "ভালো লাগলো"
+        },
+        {
+          "en": "কী?"
+        },
+        {
+          "en": "না"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "CH03_S04_L10_ex06",
+      "type": "listening",
+      "audio": "assets/audio/listening/ch03_s04_l10_intro_scene.mp3",
+      "question": {
+        "en": "Listen to the mini scene. What comes next?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ভালো লাগলো"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "খারাপ না"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "তুমি কেমন?"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH03_S04_L10_ex07",
+      "type": "grammar-sort",
+      "question": {
+        "en": "Build the phrase: “Nice to meet you.”"
+      },
+      "words": [
+        "লাগলো",
+        "ভালো"
+      ],
+      "wordsRomanized": [
+        "laglo",
+        "bhalo"
+      ],
+      "correctOrder": [
+        "ভালো",
+        "লাগলো"
+      ]
+    },
+    {
+      "id": "CH03_S04_L10_ex08",
+      "type": "conversation",
+      "scenario": {
+        "en": "Formal-safe first meeting."
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "text": {
+            "en": "নমস্কার।"
+          }
+        },
+        {
+          "speaker": "B",
+          "text": {
+            "en": "আমার নাম রাহুল।"
+          }
+        }
+      ],
+      "question": {
+        "en": "Choose the best friendly closing chunk."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ভালো লাগলো"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "আচ্ছা"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "না"
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "CH03_S04_L10_ex09",
+      "type": "reading",
+      "passage": {
+        "en": "নমস্কার। আমার নাম মায়া। ভালো লাগলো।"
+      },
+      "question": {
+        "en": "Which part means “Nice to meet you”?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "ভালো লাগলো"
+          },
+          "correct": true
+        },
+        {
+          "text": {
+            "en": "নমস্কার"
+          },
+          "correct": false
+        },
+        {
+          "text": {
+            "en": "আমার নাম মায়া"
+          },
+          "correct": false
+        }
+      ],
+      "hint": {
+        "en": "Do not decode every letter yet. Spot the whole phrase."
+      }
+    },
+    {
+      "id": "CH03_S04_L10_ex10",
+      "type": "conversation_listening",
+      "scenario": {
+        "en": "Final mixed check: a tiny first-meeting exchange."
+      },
+      "audio": "assets/audio/listening/ch03_s04_l10_tiny_exchange.mp3",
+      "lines": [
+        {
+          "type": "line",
+          "speaker": "A",
+          "bengali": "নমস্কার।",
+          "romanized": "nomoshkar"
+        },
+        {
+          "type": "line",
+          "speaker": "B",
+          "bengali": "আমার নাম মায়া।",
+          "romanized": "amar nam Maya"
+        },
+        {
+          "type": "choice",
+          "question": {
+            "en": "How do you respond?"
+          },
+          "options": [
+            {
+              "text": {
+                "bengali": "ভালো লাগলো",
+                "romanized": "bhalo laglo",
+                "en": "Nice to meet you."
+              },
+              "correct": true
+            },
+            {
+              "text": {
+                "bengali": "না",
+                "romanized": "na",
+                "en": "No."
+              },
+              "correct": false
+            },
+            {
+              "text": {
+                "bengali": "কেমন আছো?",
+                "romanized": "kemon acho?",
+                "en": "How are you? (friendly)"
+              },
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
